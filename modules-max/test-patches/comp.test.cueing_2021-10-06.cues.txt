@@ -1,0 +1,48 @@
+- cue "test-1"
+- description "something other than what's there"
+/comp_dclock/clocksource 0 ramp 6000
+/comp_dclock/data/active 1
+/comp_dclock/data/bypass 0
+/comp_dclock/rate/bpm 300.000000 ramp 6000
+/comp_dclock/rate/report-interval 10
+/comp_dclock/running 0
+/comp_eucl/rotate -12 ramp 6000
+/comp_eucl/steps 16 ramp 6000
+/comp_eucl/trigs 8 ramp 6000
+/comp_loop/data/active 1
+/comp_loop/steps 12 ramp 6000
+
+- cue "init"
+- description "something about this cue"
+/comp_dclock/clocksource 0 ramp 7000
+/comp_dclock/data/active 1
+/comp_dclock/data/bypass 0
+/comp_dclock/rate/bpm 300.000000 ramp 7000
+/comp_dclock/rate/report-interval 10
+/comp_dclock/running 0
+/comp_eucl/rotate -12 ramp 7000
+/comp_eucl/steps 16 ramp 7000
+/comp_eucl/trigs 8 ramp 7000
+/comp_loop/data/active 1
+/comp_loop/steps 12 ramp 7000
+
+- cue "vronsky"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_dclock/clocksource 0
+/comp_dclock/data/active 1
+/comp_dclock/data/bypass 0
+/comp_dclock/rate/bpm 67.000000
+/comp_dclock/rate/report-interval 10
+/comp_dclock/running 0
+# 
+/comp_eucl/rotate -12
+/comp_eucl/steps 26
+/comp_eucl/trigs 6
+# 
+/comp_loop/data/active 1
+/comp_loop/steps 64
+# 
+# ###########################################
+

@@ -1,0 +1,28 @@
+
+- preset "140bpm_16n"
+- description "something about this preset"
+# ###########################################
+# 
+clocksource 0.000000
+data/active 1
+data/bypass 0
+rate/bpm 140.000000
+rate/report-interval 13
+running 0
+transport-name clock1
+# 
+# ###########################################
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+clocksource 0.000000
+data/active 1
+data/bypass 0
+rate/bpm 120.000000
+rate/report-interval 13
+running 0
+transport-name #1
+# 
+# ###########################################
