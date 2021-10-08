@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 51.0, 79.0, 936.0, 676.0 ],
+		"rect" : [ 745.0, 146.0, 936.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,111 +44,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 557.825237000000016, 300.626210000000015, 61.0, 22.0 ],
+					"patching_rect" : [ 418.825237000000016, 252.626210000000015, 61.0, 22.0 ],
 					"text" : "comp.cue"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.825237154960632, 358.567956626415253, 79.0, 22.0 ],
-					"text" : "wclose, open"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-150",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.849507868289948, 286.04854279756546, 75.0, 22.0 ],
-					"text" : "filter/remove"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-146",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.825237154960632, 316.820384383201599, 48.0, 22.0 ],
-					"text" : "explore"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-137",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 93.169894993305206, 256.626210451126099, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-135",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "explore", "bang" ],
-					"patching_rect" : [ 93.169894993305206, 286.04854279756546, 75.0, 22.0 ],
-					"text" : "t b explore b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-133",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.169894993305206, 316.820384383201599, 237.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"text" : "filter/remove, filter/set comp part comp, filter/set view part (view) mode exclude"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-131",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 93.25727367401123, 392.548538684844971, 59.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"precision" : 6
-					}
-,
-					"text" : "coll comp"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-130",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 93.25727367401123, 358.567956626415253, 212.0, 22.0 ],
-					"text" : "j.namespace @address / @format coll"
 				}
 
 			}
@@ -164,7 +61,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -329,7 +226,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -503,7 +400,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 406.796116411685944, 204.8543661236763, 50.0, 22.0 ],
-					"text" : "10"
+					"text" : "13"
 				}
 
 			}
@@ -519,7 +416,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -793,69 +690,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-131", 0 ],
-					"source" : [ "obj-130", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"source" : [ "obj-133", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"source" : [ "obj-135", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-133", 0 ],
-					"source" : [ "obj-135", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-135", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-135", 0 ],
-					"source" : [ "obj-137", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"source" : [ "obj-146", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"source" : [ "obj-150", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-131", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"source" : [ "obj-34", 1 ]
 				}
@@ -900,7 +734,9 @@
 		"parameters" : 		{
 			"obj-22::obj-3::obj-27" : [ "live.text", "live.text", 0 ],
 			"obj-22::obj-3::obj-30" : [ "live.text[1]", "live.text", 0 ],
+			"obj-28::obj-3::obj-25" : [ "live.button[5]", "live.button", 0 ],
 			"obj-28::obj-3::obj-32" : [ "live.button[2]", "live.button", 0 ],
+			"obj-28::obj-3::obj-8" : [ "live.button[3]", "live.button", 0 ],
 			"obj-29::obj-3::obj-76" : [ "matrixctrl[1]", "matrixctrl", 0 ],
 			"obj-29::obj-8::obj-24" : [ "live.button[1]", "live.button", 0 ],
 			"obj-29::obj-8::obj-25" : [ "live.button[20]", "live.button", 0 ],
@@ -915,99 +751,99 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "comp.dclock.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules-max/modules/jamoma/clock",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/clock",
 				"patcherrelativepath" : "../modules/jamoma/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.dclock.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules-max/modules-max/modules/jamoma/clock",
-				"patcherrelativepath" : "../modules-max/modules/jamoma/clock",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/clock",
+				"patcherrelativepath" : "../modules/jamoma/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.dclock.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules-max/modules-max/modules/jamoma/clock",
-				"patcherrelativepath" : "../modules-max/modules/jamoma/clock",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/clock",
+				"patcherrelativepath" : "../modules/jamoma/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.stopbutton.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/playbar-icons",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/playbar-icons",
+				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/Jamoma/media/playbar-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.playbutton.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/playbar-icons",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/playbar-icons",
+				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/Jamoma/media/playbar-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.pausebutton.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/playbar-icons",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/playbar-icons",
+				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/Jamoma/media/playbar-icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.loop.module.maxpat",
-				"bootpath" : "~/.Trash/modules/jamoma/loop",
-				"patcherrelativepath" : "../../../../.Trash/modules/jamoma/loop",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/loop",
+				"patcherrelativepath" : "../modules/jamoma/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.loop.view.maxpat",
-				"bootpath" : "~/.Trash/modules/jamoma/loop",
-				"patcherrelativepath" : "../../../../.Trash/modules/jamoma/loop",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/loop",
+				"patcherrelativepath" : "../modules/jamoma/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.loop.model.maxpat",
-				"bootpath" : "~/.Trash/modules/jamoma/loop",
-				"patcherrelativepath" : "../../../../.Trash/modules/jamoma/loop",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/loop",
+				"patcherrelativepath" : "../modules/jamoma/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.eucl.module.maxpat",
-				"bootpath" : "~/.Trash/modules/jamoma/eucl",
-				"patcherrelativepath" : "../../../../.Trash/modules/jamoma/eucl",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/eucl",
+				"patcherrelativepath" : "../modules/jamoma/eucl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.eucl.model.maxpat",
-				"bootpath" : "~/.Trash/modules/jamoma/eucl",
-				"patcherrelativepath" : "../../../../.Trash/modules/jamoma/eucl",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/eucl",
+				"patcherrelativepath" : "../modules/jamoma/eucl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "event_distribute_pm.maxpat",
-				"bootpath" : "~/Projects/comp-system/other-patches",
-				"patcherrelativepath" : "../../other-patches",
+				"bootpath" : "~/Dropbox/Projects/Max/StepbyStep_Patches/08_To_Play_Or_Not_Play_2",
+				"patcherrelativepath" : "../../../StepbyStep_Patches/08_To_Play_Or_Not_Play_2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.eucl.view.maxpat",
-				"bootpath" : "~/.Trash/modules/jamoma/eucl",
-				"patcherrelativepath" : "../../../../.Trash/modules/jamoma/eucl",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/eucl",
+				"patcherrelativepath" : "../modules/jamoma/eucl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.cue.maxpat",
-				"bootpath" : "~/.Trash/modules/jamoma",
-				"patcherrelativepath" : "../../../../.Trash/modules/jamoma",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules",
+				"patcherrelativepath" : "../modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}

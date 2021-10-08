@@ -1,0 +1,10 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+trigs 4
+steps 16
+rotate 0
+# 
+# ###########################################
