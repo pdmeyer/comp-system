@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 506.0, 121.0, 758.0, 385.0 ],
+		"rect" : [ 506.0, 121.0, 845.0, 521.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,6 +107,7 @@
 						"style" : "",
 						"subpatcher_template" : "dark-bg",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -114,7 +115,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 86.354361000000011, 80.0, 29.5, 22.0 ],
+									"patching_rect" : [ 86.354361000000011, 108.0, 29.5, 22.0 ],
 									"text" : "+ 1"
 								}
 
@@ -125,7 +126,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 68.854360999999898, 319.5, 48.000000000000028, 20.0 ],
+									"patching_rect" : [ 68.854360999999898, 347.5, 48.000000000000028, 20.0 ],
 									"text" : "to j.cue"
 								}
 
@@ -137,7 +138,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 118.854360999999926, 319.5, 59.000000000000028, 47.0 ],
+									"patching_rect" : [ 118.854360999999926, 347.5, 59.000000000000028, 47.0 ],
 									"text" : "trigger notification (for ui)"
 								}
 
@@ -150,7 +151,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 178.208722000000023, 181.5, 128.0, 37.0 ],
+									"patching_rect" : [ 187.208722000000023, 209.5, 128.0, 37.0 ],
 									"text" : "zlclear: don't send the same cue twice"
 								}
 
@@ -198,7 +199,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 147.708722000000023, 97.5, 189.0, 51.0 ],
+									"patching_rect" : [ 147.708722000000023, 131.0, 189.0, 51.0 ],
 									"text" : "if trigger mode = 1, wait until a trigger is received to send recall message"
 								}
 
@@ -210,7 +211,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "zlclear" ],
-									"patching_rect" : [ 86.354361000000011, 189.0, 88.0, 22.0 ],
+									"patching_rect" : [ 86.354361000000011, 217.0, 95.0, 22.0 ],
 									"text" : "t l b zlclear"
 								}
 
@@ -222,7 +223,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 47.854361000000011, 112.0, 22.0, 22.0 ],
+									"patching_rect" : [ 47.854361000000011, 140.0, 22.0, 22.0 ],
 									"text" : "t b"
 								}
 
@@ -234,7 +235,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 86.354361000000011, 156.0, 53.999999999999972, 22.0 ],
+									"patching_rect" : [ 86.354361000000011, 184.0, 53.999999999999972, 22.0 ],
 									"text" : "zl.reg"
 								}
 
@@ -246,7 +247,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 86.354361000000011, 112.0, 53.999999999999972, 22.0 ],
+									"patching_rect" : [ 86.354361000000011, 145.5, 53.999999999999972, 22.0 ],
 									"text" : "gate 2 1"
 								}
 
@@ -258,7 +259,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 121.354360999999983, 80.0, 54.0, 22.0 ],
+									"patching_rect" : [ 121.354360999999983, 108.0, 54.0, 22.0 ],
 									"text" : "recall $1"
 								}
 
@@ -310,7 +311,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 120.854361000000011, 284.5, 30.0, 30.0 ]
+									"patching_rect" : [ 124.354361000000011, 312.5, 30.0, 30.0 ]
 								}
 
 							}
@@ -322,7 +323,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 86.354361000000011, 284.5, 30.0, 30.0 ]
+									"patching_rect" : [ 86.354361000000011, 312.5, 30.0, 30.0 ]
 								}
 
 							}
@@ -372,7 +373,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-49", 0 ],
-									"midpoints" : [ 164.854361000000011, 221.0, 72.354361000000011, 221.0, 72.354361000000011, 147.0, 95.854361000000011, 147.0 ],
+									"midpoints" : [ 171.854361000000011, 249.0, 72.354361000000011, 249.0, 72.354361000000011, 175.0, 95.854361000000011, 175.0 ],
 									"source" : [ "obj-54", 2 ]
 								}
 
@@ -567,13 +568,38 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 61.0, 756.0, 89.0, 22.0 ],
+									"text" : "set ramp $1 $2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 61.0, 729.520415466298459, 434.0, 22.0 ],
+									"text" : "j.message ramp @type generic \"<preset name> ramp set ramp value for preset\""
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 110.0, 311.408166186519395, 376.0, 22.0 ],
+									"patching_rect" : [ 115.0, 311.408166186519395, 376.0, 22.0 ],
 									"text" : "j.parameter filename @type string @description \"name of file read in\""
 								}
 
@@ -599,7 +625,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 19.0, 767.0, 30.0, 30.0 ]
+									"patching_rect" : [ 16.0, 806.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -993,6 +1019,20 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"source" : [ "obj-78", 0 ]
 								}
@@ -1354,7 +1394,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 124.0, 66.0, 22.0 ],
+									"patching_rect" : [ 50.0, 159.0, 66.0, 22.0 ],
 									"text" : "route bang"
 								}
 

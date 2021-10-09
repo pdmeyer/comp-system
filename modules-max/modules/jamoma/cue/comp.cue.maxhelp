@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 136.0, 145.0, 617.0, 480.0 ],
+		"rect" : [ 136.0, 145.0, 727.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 276.0, 191.0, 150.0, 70.0 ],
+					"patching_rect" : [ 316.0, 111.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -73,7 +73,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 276.0, 111.0, 300.0, 70.0 ],
+					"patching_rect" : [ 316.0, 39.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -94,7 +94,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 142.0, 150.0, 70.0 ],
+					"patching_rect" : [ 3.0, 111.0, 311.0, 82.000000178813934 ],
 					"viewvisibility" : 1
 				}
 
@@ -128,7 +128,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 292.0, 97.0, 22.0 ],
+					"patching_rect" : [ 447.0, 187.999999821186066, 97.0, 22.0 ],
 					"text" : "comp.cue.model"
 				}
 
@@ -175,13 +175,6 @@
 				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/cue",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cue-storage.js",
-				"bootpath" : "~/Dropbox/Projects/Max/comp-system/js",
-				"patcherrelativepath" : "../../../../js",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
