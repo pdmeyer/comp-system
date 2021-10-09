@@ -1,0 +1,125 @@
+- cue "one"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_cue/active-cue none
+# 
+/comp_cue.1/active-cue none
+/comp_cue.1/recall-mode 0
+# 
+/comp_dclock/clocksource 0
+/comp_dclock/data/active 1
+/comp_dclock/data/bypass 0
+/comp_dclock/rate/bpm 120.000000
+/comp_dclock/rate/report-interval 13
+/comp_dclock/running 0
+# 
+/comp_eucl/rotate 0
+/comp_eucl/steps 16
+/comp_eucl/trigs 1
+# 
+/comp_loop/data/active 1
+/comp_loop/steps 16
+# 
+# ###########################################
+
+- cue "mister"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_cue/active-cue none
+# 
+/comp_cue.1/active-cue none
+/comp_cue.1/recall-mode 0
+# 
+/comp_dclock/clocksource 0
+/comp_dclock/data/active 1
+/comp_dclock/data/bypass 0
+/comp_dclock/rate/bpm 120.000000
+/comp_dclock/rate/report-interval 13
+/comp_dclock/running 0
+# 
+/comp_eucl/rotate 0
+/comp_eucl/steps 16
+/comp_eucl/trigs 1
+# 
+/comp_loop/data/active 1
+/comp_loop/steps 16
+# 
+# ###########################################
+
+- cue "another"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_cue/active-cue none
+# 
+/comp_cue.1/active-cue none
+/comp_cue.1/recall-mode 0
+# 
+/comp_dclock/clocksource 0
+/comp_dclock/data/active 1
+/comp_dclock/data/bypass 0
+/comp_dclock/rate/bpm 120.000000
+/comp_dclock/rate/report-interval 13
+/comp_dclock/running 0
+# 
+/comp_eucl/rotate 0
+/comp_eucl/steps 16
+/comp_eucl/trigs 1
+# 
+/comp_loop/data/active 1
+/comp_loop/steps 16
+# 
+# ###########################################
+
+- cue "hihihi"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_cue/active-cue none
+# 
+/comp_cue.1/active-cue none
+/comp_cue.1/recall-mode 0
+# 
+/comp_dclock/clocksource 0
+/comp_dclock/data/active 1
+/comp_dclock/data/bypass 0
+/comp_dclock/rate/bpm 120.000000
+/comp_dclock/rate/report-interval 13
+/comp_dclock/running 0
+# 
+/comp_eucl/rotate 0
+/comp_eucl/steps 16
+/comp_eucl/trigs 1
+# 
+/comp_loop/data/active 1
+/comp_loop/steps 16
+# 
+# ###########################################
+
+- cue "asdf"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_cue/active-cue none
+# 
+/comp_cue.1/active-cue none
+/comp_cue.1/recall-mode 0
+# 
+/comp_dclock/clocksource 0
+/comp_dclock/data/active 1
+/comp_dclock/data/bypass 0
+/comp_dclock/rate/bpm 120.000000
+/comp_dclock/rate/report-interval 13
+/comp_dclock/running 0
+# 
+/comp_eucl/rotate 0
+/comp_eucl/steps 16
+/comp_eucl/trigs 1
+# 
+/comp_loop/data/active 1
+/comp_loop/steps 16
+# 
+# ###########################################
+

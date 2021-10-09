@@ -72,7 +72,8 @@ var commands = {
     "readOrWrite" : "write",
     "dialogActions" : 2,
     "updateNamesRequired" : 0,
-    "nameSelectionRequired": 0
+    "nameSelectionRequired": 1,
+    "nameSelection" : null
   },
   "writeagain" : {
     "messageType" : "bang",
@@ -97,6 +98,7 @@ function command(cmd) {
     temp.nameSelection = cmd_.nameSelection;
     sendDialog(cmd, label)
   } else if (type == "filepath") {
+    temp.cmd = cmd;
     temp.type = 0;
     temp.updatesel = [update,select];
     temp.nameSelection = cmd_.nameSelection;
@@ -144,11 +146,14 @@ function sendFileDialog(type) {
 
 //response returned by opendialog and dialog
 function recDialog(str) {
-  var msg;
   if(!temp.type) {
     jsend(str)
   } else {
     jsend(selectedCue, str)
+  }
+  if(temp.cmd == "write") {
+    address("read");
+    jsend(str); 
   }
   if(temp.updatesel[1] && temp.nameSelection == "newname") {
     temp.nameSelection = "symbol "+str;
@@ -177,7 +182,14 @@ function updateAndSelect(update, select) {
   // var select = a[1];
   // post("update "+update+" select "+select+"\n")
   if(update) updateNames();
-  if(select) selectCue(temp.nameSelection);
+  if(select) {
+    if(temp.nameSelection) {
+      selectCue(temp.nameSelection);
+    } else {
+      selectCue("symbol", selectedCue);
+    }
+  }
+  temp = {}
 }
 
 //update cue names umenu
@@ -187,8 +199,9 @@ function updateNames() {
 };
 
 //send a cue to the umenu to be selected
-function selectCue(item) {
-  outlet(o.indexOf("umenu"), item);
+function selectCue() { 
+  var a = arrayfromargs(arguments);
+  outlet(o.indexOf("umenu"), a);
 };
 
 
