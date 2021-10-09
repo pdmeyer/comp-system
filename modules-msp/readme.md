@@ -1,0 +1,1 @@
+deprecated modules handling everything in the audio domain. switched to a standard max object approach becuase it's easier to implement and i don't need sample accurate timing and becuause "scheduler in audio interrupt" exists
