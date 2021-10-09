@@ -1,6 +1,6 @@
 autowatch = 1;
 inlets = 1;
-outlets = 4;
+outlets = 5;
 
 /* OUTLETS
 0 : j.send
@@ -8,6 +8,8 @@ outlets = 4;
 2 : opendialog (filepath)
 3 : cues umenu
 */
+
+var o = ["jsend", "dialog", "opendialog", "savedialog", "umenu"]
 
 var selectedCue;
 var temp = {};
@@ -24,7 +26,7 @@ var temp = {};
 var commands = {
   "newcue" : {
     "messageType" : "new-name",
-    "dialogLabel" : "name of new cue",
+    "dialogLabel" : "name of new cue ",
     "updateNamesRequired" : 1,
     "nameSelectionRequired": 1,
     "nameSelection" : "newname"
@@ -36,7 +38,7 @@ var commands = {
   },
   "rename" : {
     "messageType" : "selected+new",
-    "dialogLabel" : "new name for cue "+selectedCue,
+    "dialogLabel" : "new name for cue ",
     "updateNamesRequired" : 1,
     "nameSelectionRequired": 0,
     "nameSelection" : "newname"
@@ -49,12 +51,13 @@ var commands = {
   },
   "description" : {
     "messageType" : "selected+new",
-    "dialogLabel" : "updated description for cue "+selectedCue,
+    "dialogLabel" : "updated description for cue ",
     "updateNamesRequired" : 0,
     "nameSelectionRequired": 0,
   },
   "read" : {
     "messageType" : "filepath",
+    "readOrWrite" : "read",
     "updateNamesRequired" : 1,
     "nameSelectionRequired": 1,
     "nameSelection" : 0
@@ -66,6 +69,7 @@ var commands = {
   },
   "write" : {
     "messageType" : "filepath",
+    "readOrWrite" : "write",
     "dialogActions" : 2,
     "updateNamesRequired" : 0,
     "nameSelectionRequired": 0
@@ -96,9 +100,9 @@ function command(cmd) {
     temp.type = 0;
     temp.updatesel = [update,select];
     temp.nameSelection = cmd_.nameSelection;
-    sendOpenDialog(cmd)
+    sendFileDialog(cmd_.readOrWrite)
   } else if (type == "bang") {
-    sendBang(cmd);
+    jsend("bang")
     updateAndSelect(update, select);
   } else if (type == "selected-cue") {
     sendSelectedCue(cmd, update, select);
@@ -107,30 +111,35 @@ function command(cmd) {
     temp.type = 1;
     temp.updatesel = [update, select];
     temp.nameSelection = cmd_.nameSelection;
-    sendDialog(cmd, label)
+    sendDialog(label)
   }
 };
 
 //set the address j.send should send subsequent messages to
 function address(cmd) {
-  outlet(0, "address", cmd)
+  outlet(o.indexOf("jsend"), "address", cmd)
 };
 
 //send a message to j.send
 function jsend() {
   var a = arrayfromargs(arguments);
-  outlet(0,a)
+  outlet(o.indexOf("jsend"), a)
 };
 
 //get user text entry for "new-name" and "selected+new" message types
-function sendDialog(cmd, label) {
-  outlet(1, "label", label);
-  outlet(1, "bang")
+function sendDialog(label) {
+  var out = o.indexOf("dialog");
+  var msg = label.concat(selectedCue);
+  outlet(out, "label", msg);
+  outlet(out, "bang")
 }
 
 //get a filepath for "read" and "write" message types
-function sendOpenDialog() {
-  outlet(2, "bang")
+function sendFileDialog(type) {
+  var out;
+  if(type == "read") out = o.indexOf("opendialog")
+  else out = o.indexOf("savedialog");
+  outlet(out, "bang")
 }
 
 //response returned by opendialog and dialog
@@ -158,12 +167,6 @@ function sendSelectedCue(cmd,update,select) {
   updateAndSelect(update,select);
 }
 
-
-//for message type "bang"
-function sendBang(cmd, update, select) {
-  jsend("bang");
-}
-
 /*
 for all message types, check to see if a cue names update 
 and a cue focus selection are required
@@ -179,13 +182,13 @@ function updateAndSelect(update, select) {
 
 //update cue names umenu
 function updateNames() {
-  address("update-cue-names");
-  sendBang("update-cue-names")
+  address("updatenames");
+  jsend("bang");
 };
 
 //send a cue to the umenu to be selected
 function selectCue(item) {
-  outlet(3, item);
+  outlet(o.indexOf("umenu"), item);
 };
 
 
