@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 745.0, 146.0, 936.0, 676.0 ],
+		"rect" : [ 949.0, 193.0, 936.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "manage system states",
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 418.825237000000016, 252.626210000000015, 61.0, 22.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 415.796116411685944, 251.626210000000015, 61.0, 22.0 ],
 					"text" : "comp.cue"
 				}
 
@@ -610,7 +612,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
-					"items" : [ "comp_dclock", ",", "comp_dclock(view)", ",", "comp_dclock(view)/model", ",", "comp_dclock(view)/ui", ",", "comp_dclock/clocksource", ",", "comp_dclock/data", ",", "comp_dclock/data/active", ",", "comp_dclock/data/bypass", ",", "comp_dclock/data/in.1", ",", "comp_dclock/data/out.beats", ",", "comp_dclock/data/out.ticks", ",", "comp_dclock/model", ",", "comp_dclock/pause", ",", "comp_dclock/pos", ",", "comp_dclock/pos/bars", ",", "comp_dclock/pos/jump", ",", "comp_dclock/pos/ticks", ",", "comp_dclock/preset", ",", "comp_dclock/rate", ",", "comp_dclock/rate/bpm", ",", "comp_dclock/rate/report-interval", ",", "comp_dclock/running", ",", "comp_dclock/start", ",", "comp_dclock/stop", ",", "comp_eucl", ",", "comp_eucl(view)", ",", "comp_eucl(view)/model", ",", "comp_eucl(view)/ui", ",", "comp_eucl/model", ",", "comp_eucl/pos", ",", "comp_eucl/pos/input", ",", "comp_eucl/pos/step", ",", "comp_eucl/pos/trig", ",", "comp_eucl/preset", ",", "comp_eucl/rotate", ",", "comp_eucl/step_togs", ",", "comp_eucl/steps", ",", "comp_eucl/trigs", ",", "comp_loop", ",", "comp_loop(view)", ",", "comp_loop(view)/model", ",", "comp_loop(view)/ui", ",", "comp_loop/data", ",", "comp_loop/data/active", ",", "comp_loop/data/in.1", ",", "comp_loop/model", ",", "comp_loop/pos", ",", "comp_loop/pos/input", ",", "comp_loop/pos/loops", ",", "comp_loop/pos/output", ",", "comp_loop/preset", ",", "comp_loop/reset", ",", "comp_loop/steps" ],
+					"items" : [ "comp_cue", ",", "comp_cue/active-cue", ",", "comp_cue/cue-names", ",", "comp_cue/description", ",", "comp_cue/edit", ",", "comp_cue/editcue", ",", "comp_cue/model", ",", "comp_cue/newcue", ",", "comp_cue/preset", ",", "comp_cue/read", ",", "comp_cue/readagain", ",", "comp_cue/rename", ",", "comp_cue/update", ",", "comp_cue/update-cue-names", ",", "comp_cue/write", ",", "comp_cue/writeagain", ",", "comp_dclock", ",", "comp_dclock(view)", ",", "comp_dclock(view)/model", ",", "comp_dclock(view)/ui", ",", "comp_dclock/clocksource", ",", "comp_dclock/data", ",", "comp_dclock/data/active", ",", "comp_dclock/data/bypass", ",", "comp_dclock/data/in.1", ",", "comp_dclock/data/out.beats", ",", "comp_dclock/data/out.ticks", ",", "comp_dclock/model", ",", "comp_dclock/pause", ",", "comp_dclock/pos", ",", "comp_dclock/pos/bars", ",", "comp_dclock/pos/jump", ",", "comp_dclock/pos/ticks", ",", "comp_dclock/preset", ",", "comp_dclock/rate", ",", "comp_dclock/rate/bpm", ",", "comp_dclock/rate/report-interval", ",", "comp_dclock/running", ",", "comp_dclock/start", ",", "comp_dclock/stop", ",", "comp_eucl", ",", "comp_eucl(view)", ",", "comp_eucl(view)/model", ",", "comp_eucl(view)/ui", ",", "comp_eucl/model", ",", "comp_eucl/pos", ",", "comp_eucl/pos/input", ",", "comp_eucl/pos/step", ",", "comp_eucl/pos/trig", ",", "comp_eucl/preset", ",", "comp_eucl/rotate", ",", "comp_eucl/step_togs", ",", "comp_eucl/steps", ",", "comp_eucl/trigs", ",", "comp_loop", ",", "comp_loop(view)", ",", "comp_loop(view)/model", ",", "comp_loop(view)/ui", ",", "comp_loop/data", ",", "comp_loop/data/active", ",", "comp_loop/data/in.1", ",", "comp_loop/model", ",", "comp_loop/pos", ",", "comp_loop/pos/input", ",", "comp_loop/pos/loops", ",", "comp_loop/pos/output", ",", "comp_loop/preset", ",", "comp_loop/reset", ",", "comp_loop/steps" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -842,8 +844,8 @@
 			}
 , 			{
 				"name" : "comp.cue.maxpat",
-				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules",
-				"patcherrelativepath" : "../modules",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/cue",
+				"patcherrelativepath" : "../modules/jamoma/cue",
 				"type" : "JSON",
 				"implicit" : 1
 			}
