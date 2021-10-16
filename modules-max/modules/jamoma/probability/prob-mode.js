@@ -3,6 +3,7 @@ inlets = 1;
 outlets = 1;
 
 var probMode = [];
+var probabilities = [];
 
 function probs() {
     var a = arrayfromargs(arguments); //merged array of percentage and interval-based gate arrays
@@ -25,9 +26,15 @@ function probs() {
 
     //now that the rest are sorted out, handle the conditionals
     for (var k = 0; k < c.length; k++) {
+        var d = probabilities;
+        d.forEach(function(item) {
+            if(item >= 0.5) item = 1 //if item > 0.5, the preceding step being true will make this step true
+            else item = 0 // if item < 0.5, then the prededing step being true will make this step false    
+        })
         if(c[k] == 2) {
             var ix  = (k-1) % c.length; //get ix (using mod in the even that the first step is a conditional)
-            c[k] = c[ix]
+            if(d[k]) c[k] = c[ix];
+            else c[k] = 1 - c[ix];
         }
     }
     outlet(0,c);

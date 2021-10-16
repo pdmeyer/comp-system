@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 875.0, 632.0 ],
+		"rect" : [ 140.0, 104.0, 875.0, 632.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "dark-bg",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 335.0, 363.5, 163.0, 22.0 ],
+					"text" : "prepend setprop probabilities"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
@@ -149,6 +161,7 @@
 						"style" : "",
 						"subpatcher_template" : "dark-bg",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-45",
@@ -269,8 +282,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 89.0, 48.0, 83.0, 22.0 ],
-									"text" : "vexpr $f1 * 28"
+									"patching_rect" : [ 89.0, 48.0, 105.0, 22.0 ],
+									"text" : "vexpr (1.-$f1) * 28"
 								}
 
 							}
@@ -290,7 +303,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 28,
+										"count" : 29,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ "1/1" ]
@@ -401,7 +414,11 @@
 											}
 , 											{
 												"key" : 27,
-												"value" : [ 78 ]
+												"value" : [ "7/8" ]
+											}
+, 											{
+												"key" : 28,
+												"value" : [ "8/8" ]
 											}
  ]
 									}
@@ -574,7 +591,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.333333333333314, 268.0, 139.0, 51.0 ],
-					"presentation_linecount" : 2,
 					"text" : "reset probabilities each time the loop restarts",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1072,7 +1088,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 387.5, 242.5, 307.0, 49.0 ],
+					"patching_rect" : [ 311.333333333333371, 269.0, 307.0, 49.0 ],
 					"text" : "j.parameter probabilities @type array @range 0. 1. @clipmode both @description \"array of floats indicating the probability value for each step\""
 				}
 
@@ -1455,6 +1471,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 1 ],
+					"order" : 1,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
 					"order" : 0,
 					"source" : [ "obj-42", 0 ]
 				}
@@ -1463,7 +1487,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -1479,6 +1503,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -1552,8 +1583,8 @@
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
