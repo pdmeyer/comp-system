@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 136.0, 145.0, 727.0, 901.0 ],
+		"rect" : [ 136.0, 145.0, 684.0, 514.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -94,7 +94,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 111.0, 311.0, 82.000000178813934 ],
+					"patching_rect" : [ 3.0, 111.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -175,6 +175,13 @@
 				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/cue",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cue-storage.js",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/cue",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

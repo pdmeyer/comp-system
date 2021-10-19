@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 239.0, 777.0, 482.0 ],
+		"rect" : [ 34.0, 239.0, 613.0, 791.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,21 @@
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 11.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 260.0, 7.0, 67.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 233.0, 4.0, 68.0, 19.0 ],
+					"text" : "cue storage",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-44",
 					"maxclass" : "newobj",
@@ -237,13 +252,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 10.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.5, 66.0, 150.0, 20.0 ],
+					"patching_rect" : [ 340.5, 66.0, 142.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.0, 48.0, 110.0, 20.0 ]
+					"presentation_rect" : [ 148.0, 48.0, 111.0, 18.0 ]
 				}
 
 			}
@@ -739,7 +755,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 312.25, 98.0, 22.0, 22.0 ]
+					"patching_rect" : [ 296.5, 88.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -987,13 +1003,14 @@
 					"annotation" : "name of file read in",
 					"fontsize" : 10.0,
 					"id" : "obj-258",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 459.333333333333258, 289.747395833333485, 142.0, 18.0 ],
+					"patching_rect" : [ 459.333333333333258, 289.747395833333485, 142.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 148.0, 25.0, 153.0, 18.0 ],
-					"text" : "testcues-4_2021-10-8"
+					"text" : "comp.test.2021-10-19.cues.txt"
 				}
 
 			}
@@ -1069,7 +1086,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1326,7 +1342,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 296.5, 126.333333333333371, 116.0, 22.0 ],
+					"patching_rect" : [ 296.5, 116.333333333333371, 116.0, 22.0 ],
 					"text" : "j.receive cue-names"
 				}
 
@@ -1335,7 +1351,7 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-224",
-					"items" : [ "-select", "cue-", ",", "four", ",", "one-hundred", ",", "lockwood", ",", "ninety-seven", ",", "anything-else" ],
+					"items" : [ "-select", "cue-" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1443,7 +1459,7 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-185",
-					"items" : [ "--select", "action--", ",", "Store", "new", "cue", ",", "Update", "existing", "cue", ",", "Rename", "cue", ",", "Edit", "cue", ",", "Edit", "description", ",", "--------------", ",", "Read...", ",", "Read", "Again", ",", "Save", ",", "Save", "As..." ],
+					"items" : [ "--Cue", "Actions--", ",", "Store", "new", "cue", ",", "Update", "existing", "cue", ",", "Rename", "cue", ",", "Edit", "cue", ",", "Edit", "description", ",", "--File", "Actions--", ",", "Open...", ",", "Refresh", ",", "Save", ",", "Save", "As..." ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1536,7 +1552,7 @@
 					"patching_rect" : [ 27.0, 7.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 4.0, 300.0, 70.0 ],
-					"text" : "/comp_cue.1"
+					"text" : "/comp_cue.2"
 				}
 
 			}
@@ -1785,8 +1801,8 @@
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
