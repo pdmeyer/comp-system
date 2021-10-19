@@ -40,15 +40,16 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontsize" : 11.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 177.0, 151.0, 19.0 ],
+					"patching_rect" : [ 118.0, 9.0, 36.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 109.5, 6.0, 42.0, 19.0 ],
-					"text" : "output",
+					"presentation_rect" : [ 116.0, 6.0, 35.0, 19.0 ],
+					"text" : "input",
 					"textjustification" : 2
 				}
 
@@ -60,7 +61,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 286.5, 178.0, 70.0, 18.0 ],
+					"patching_rect" : [ 299.5, 178.0, 70.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.5, 30.0, 68.0, 18.0 ],
 					"text" : "midi device"
@@ -73,9 +74,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 184.5, 112.0, 76.0, 22.0 ],
-					"text" : "t b b"
+					"outlettype" : [ "controllers", "bang" ],
+					"patching_rect" : [ 197.5, 112.0, 81.0, 22.0 ],
+					"text" : "t controllers b"
 				}
 
 			}
@@ -89,7 +90,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 184.5, 86.0, 38.79296875, 19.171875 ],
+					"patching_rect" : [ 197.5, 86.0, 38.79296875, 19.171875 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 109.5, 50.4140625, 38.79296875, 19.171875 ],
 					"rounded" : 4.0,
@@ -101,24 +102,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.5, 142.0, 69.0, 22.0 ],
-					"text" : "j.send scan"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-61",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 184.5, 205.0, 116.0, 22.0 ],
+					"patching_rect" : [ 197.5, 205.0, 116.0, 22.0 ],
 					"text" : "j.remote midi-device"
 				}
 
@@ -134,7 +123,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 184.5, 177.0, 100.0, 20.0 ],
+					"patching_rect" : [ 197.5, 177.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.5, 50.0, 100.0, 20.0 ]
 				}
@@ -147,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 227.5, 86.0, 30.0, 22.0 ],
+					"patching_rect" : [ 240.5, 86.0, 30.0, 22.0 ],
 					"text" : "j.init"
 				}
 
@@ -159,7 +148,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.5, 142.0, 50.0, 22.0 ],
+					"patching_rect" : [ 197.5, 142.0, 50.0, 22.0 ],
 					"text" : "midiinfo"
 				}
 
@@ -186,19 +175,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 63.0, 137.0, 97.0, 22.0 ],
-					"text" : "j.remote channel"
+					"patching_rect" : [ 63.0, 137.0, 124.0, 22.0 ],
+					"text" : "j.remote channel-filter"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "midi channel'",
+					"annotation" : "midi channel to accept messages from. 0 = all channels'",
 					"fontsize" : 10.0,
 					"id" : "obj-14",
 					"maxclass" : "number",
-					"maximum" : 16,
-					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -257,7 +244,7 @@
 					"patching_rect" : [ 6.0, 9.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 6.0, 150.0, 70.0 ],
-					"text" : "/com..out"
+					"text" : "/com..n.1"
 				}
 
 			}
@@ -300,8 +287,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-56", 0 ]
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-56", 1 ]
 				}
 
 			}
@@ -315,7 +302,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
-					"midpoints" : [ 194.0, 233.0, 179.0, 233.0, 179.0, 171.0, 194.0, 171.0 ],
+					"midpoints" : [ 207.0, 233.0, 192.0, 233.0, 192.0, 171.0, 207.0, 171.0 ],
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -331,13 +318,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"source" : [ "obj-64", 1 ]
 				}
 
 			}

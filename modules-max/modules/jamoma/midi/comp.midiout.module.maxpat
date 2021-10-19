@@ -54,9 +54,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 7.0, 150.0, 70.0 ],
+					"patching_rect" : [ -4.0, -6.0, 164.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, -3.0, 164.0, 85.0 ],
+					"presentation_rect" : [ -2.0, -3.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -77,7 +77,7 @@
 				"box" : 				{
 					"comment" : "midi ch",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -102,7 +102,7 @@
 				"box" : 				{
 					"comment" : "pitchbend (0-127)",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -127,7 +127,7 @@
 				"box" : 				{
 					"comment" : "aftertouch ",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -151,7 +151,7 @@
 				"box" : 				{
 					"comment" : "program change",
 					"id" : "obj-20",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -176,7 +176,7 @@
 				"box" : 				{
 					"comment" : "poly key pressure",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -200,7 +200,7 @@
 				"box" : 				{
 					"comment" : "cc (controller number, value)",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -224,7 +224,7 @@
 				"box" : 				{
 					"comment" : "note velocity pair",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -235,6 +235,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "send midi somewhere",
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 7,
@@ -294,55 +295,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "comp.midiout.model.maxpat",
-				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules-max/modules/jamoma/midi",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comp.midiout.view.maxpat",
-				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules-max/modules/jamoma/midi",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

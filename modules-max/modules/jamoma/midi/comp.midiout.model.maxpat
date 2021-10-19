@@ -91,7 +91,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 17.5, 221.5, 56.0, 22.0 ],
+									"patching_rect" : [ 15.5, 234.5, 56.0, 22.0 ],
 									"text" : "zl.lookup"
 								}
 
@@ -103,7 +103,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 17.5, 162.5, 56.0, 22.0 ],
+									"patching_rect" : [ 15.5, 175.5, 56.0, 22.0 ],
 									"text" : "t i b"
 								}
 
@@ -115,7 +115,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 54.5, 191.5, 63.0, 22.0 ],
+									"patching_rect" : [ 52.5, 206.5, 63.0, 22.0 ],
 									"text" : "zl.reg"
 								}
 
@@ -127,7 +127,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 98.5, 49.5, 32.0, 22.0 ],
+									"patching_rect" : [ 96.5, 88.5, 32.0, 22.0 ],
 									"text" : "t b b"
 								}
 
@@ -139,7 +139,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 98.5, 162.5, 51.0, 22.0 ],
+									"patching_rect" : [ 96.5, 175.5, 51.0, 22.0 ],
 									"text" : "zl.group"
 								}
 
@@ -151,7 +151,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 111.5, 129.5, 79.0, 22.0 ],
+									"patching_rect" : [ 109.5, 142.5, 79.0, 22.0 ],
 									"text" : "route append"
 								}
 
@@ -163,7 +163,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 111.5, 102.5, 50.0, 22.0 ],
+									"patching_rect" : [ 109.5, 115.5, 50.0, 22.0 ],
 									"text" : "midiinfo"
 								}
 
@@ -172,12 +172,12 @@
 								"box" : 								{
 									"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 									"id" : "obj-18",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 17.5, 49.5, 161.0, 49.0 ],
+									"patching_rect" : [ 15.5, 7.5, 233.0, 35.0 ],
 									"text" : "j.parameter midi-device @type generic @description \"midi output device\""
 								}
 
@@ -191,7 +191,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 98.5, 12.0, 30.0, 30.0 ],
+									"patching_rect" : [ 96.5, 51.0, 30.0, 30.0 ],
 									"varname" : "u546011183"
 								}
 
@@ -204,7 +204,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.5, 268.5, 30.0, 30.0 ],
+									"patching_rect" : [ 15.5, 273.5, 30.0, 30.0 ],
 									"varname" : "u871011185"
 								}
 
