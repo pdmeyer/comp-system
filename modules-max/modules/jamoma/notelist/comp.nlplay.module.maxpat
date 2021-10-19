@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -46,7 +46,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 225.0, 30.0, 30.0 ]
+					"patching_rect" : [ 11.0, 189.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -67,7 +67,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 9.0, 300.0, 70.0 ],
+					"patching_rect" : [ 0.0, 1.0, 307.0, 78.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 2.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
@@ -83,7 +83,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 149.0, 30.0, 30.0 ]
+					"patching_rect" : [ 165.0, 113.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 140.0, 30.0, 30.0 ]
+					"patching_rect" : [ 11.0, 104.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -108,7 +108,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 28.0, 188.0, 173.0, 22.0 ],
+					"patching_rect" : [ 11.0, 152.0, 173.0, 22.0 ],
 					"text" : "comp.nlplay.model #1 #2"
 				}
 

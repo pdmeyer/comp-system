@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,14 +40,51 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 470.25, 247.0, 141.0, 22.0 ],
+					"text" : "j.remote allow-duplicates"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "is the coll listening for items to store?",
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 470.25, 222.0, 47.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 145.0, 25.0, 47.0, 20.0 ],
+					"rounded" : 4.0,
+					"text" : "Dupl.",
+					"textcolor" : [ 0.545098039215686, 0.545098039215686, 0.545098039215686, 1.0 ],
+					"texton" : "Dupl.",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usebgoncolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-67",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 263.0, 50.0, 49.0 ],
-					"text" : "set Next: 11"
+					"patching_rect" : [ 269.0, 263.0, 50.0, 35.0 ],
+					"text" : "set Next: 1"
 				}
 
 			}
@@ -73,7 +110,7 @@
 					"patching_rect" : [ 182.0, 267.0, 68.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 48.0, 58.0, 18.0 ],
-					"text" : "Next: 11"
+					"text" : "Next: 1"
 				}
 
 			}
@@ -152,7 +189,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 470.25, 287.0, 47.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 106.0, 26.0, 37.0, 20.0 ],
+					"presentation_rect" : [ 106.0, 25.0, 37.0, 20.0 ],
 					"rounded" : 4.0,
 					"text" : "Reorg",
 					"texton" : "Reorg",
@@ -270,7 +307,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 419.0, 38.0, 35.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.0, 25.0, 36.0, 20.0 ]
+					"presentation_rect" : [ 259.0, 24.0, 36.0, 20.0 ]
 				}
 
 			}
@@ -388,7 +425,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 526.0, 38.0, 68.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 196.0, 27.0, 62.0, 18.0 ],
+					"presentation_rect" : [ 196.0, 26.0, 62.0, 18.0 ],
 					"text" : "Modify row: ",
 					"textjustification" : 2
 				}
@@ -408,7 +445,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 158.5, 109.0, 49.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 26.0, 49.0, 20.0 ]
+					"presentation_rect" : [ 55.0, 25.0, 49.0, 20.0 ]
 				}
 
 			}
@@ -429,6 +466,7 @@
 					"annotation" : "is the coll listening for items to store?",
 					"bgcolor" : [ 0.035294117647059, 0.274509803921569, 0.003921568627451, 1.0 ],
 					"bgoncolor" : [ 0.50195974111557, 0.0, 0.008130922913551, 1.0 ],
+					"fontsize" : 10.0,
 					"id" : "obj-7",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -438,7 +476,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 101.0, 109.0, 47.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 26.0, 47.0, 20.0 ],
+					"presentation_rect" : [ 6.0, 25.0, 47.0, 20.0 ],
 					"rounded" : 4.0,
 					"text" : "Listen",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -496,12 +534,19 @@
 					"patching_rect" : [ 19.0, 322.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 1.0, 300.0, 70.0 ],
-					"text" : "/device1"
+					"text" : "/nlp1"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-12", 0 ]
@@ -561,6 +606,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 479.75, 279.0, 458.75, 279.0, 458.75, 211.0, 479.75, 211.0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
