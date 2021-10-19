@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 751.0, 218.0, 640.0, 480.0 ],
+		"rect" : [ 34.0, 218.0, 1357.0, 828.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 174.0, 104.0, 150.0, 114.0 ],
+					"text" : "--inlet messages--\n\nstart = starts clock\nstop = stops clock \nint = 0/1 stops/starts clock \nbpm  = set bpm\nmult = beat multiplier\nreset = reset to 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "none",
 					"bgmode" : 0,
 					"border" : 0,
@@ -56,7 +68,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -2.0, 0.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, -2.0, 310.0, 82.0 ],
+					"presentation_rect" : [ -2.0, -2.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -75,7 +87,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "messages in",
 					"id" : "obj-3",
 					"index" : 1,
 					"maxclass" : "inlet",
@@ -93,7 +105,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 140.0, 121.0, 22.0 ],
 					"text" : "comp.clock.model #1"
 				}

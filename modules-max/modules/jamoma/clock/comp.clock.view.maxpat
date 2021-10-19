@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -305,8 +305,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 224.0, 132.0, 179.0, 22.0 ],
-					"text" : "j.remote rate/interval @unit bpm"
+					"patching_rect" : [ 224.0, 132.0, 164.0, 22.0 ],
+					"text" : "j.remote rate/bpm @unit bpm"
 				}
 
 			}

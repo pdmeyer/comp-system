@@ -4,15 +4,15 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 39.0, 79.0, 658.0, 469.0 ],
+		"rect" : [ 34.0, 79.0, 663.0, 967.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -67,7 +67,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -3.0, -4.0, 300.0, 70.0 ],
+					"patching_rect" : [ -3.0, -5.0, 313.0, 88.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -3.0, -5.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
