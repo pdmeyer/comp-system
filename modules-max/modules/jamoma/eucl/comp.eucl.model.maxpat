@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,30 +47,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 165.833333333333258, 295.0, 29.5, 22.0 ],
 					"text" : "- 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 383.0, 50.0, 22.0 ],
-					"text" : "7"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 411.0, 50.0, 22.0 ],
-					"text" : "1"
 				}
 
 			}
@@ -263,7 +239,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 165.833333333333258, 411.0, 34.0, 22.0 ],
+					"patching_rect" : [ 165.833333333333258, 393.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -275,7 +251,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 165.833333333333258, 468.0, 97.833333333333258, 22.0 ],
+					"patching_rect" : [ 165.833333333333258, 453.0, 97.833333333333258, 22.0 ],
 					"text" : "counter"
 				}
 
@@ -340,7 +316,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -425,26 +401,26 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-21",
-									"linecount" : 16,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 217.5, 50.0, 35.0 ],
-									"text" : "1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0"
+									"text" : "1 0 0 0 1 0 0 0 0"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-20",
-									"linecount" : 16,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 135.0, 270.0, 50.0, 35.0 ],
-									"text" : "1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0"
+									"text" : "1 0 0 0 1 0 0 0 0"
 								}
 
 							}
@@ -692,7 +668,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"color" : [ 0.741176470588235, 1.0, 0.741176470588235, 1.0 ],
-					"columns" : 64,
+					"columns" : 9,
 					"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
 					"horizontalmargin" : 0,
 					"id" : "obj-76",
@@ -740,7 +716,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 165.833333333333258, 327.0, 75.083333333333371, 22.0 ],
+					"patching_rect" : [ 165.833333333333258, 340.5, 75.083333333333371, 22.0 ],
 					"text" : "zl.lookup"
 				}
 
@@ -801,16 +777,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
-					"order" : 0,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-139", 0 ],
-					"order" : 1,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -889,14 +856,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 1 ],
-					"order" : 0,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-55", 1 ]
 				}
@@ -905,7 +864,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -913,7 +872,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-55", 0 ]
 				}
 

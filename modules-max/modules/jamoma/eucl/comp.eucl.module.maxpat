@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "trig index",
 					"id" : "obj-10",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -52,7 +52,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "step index",
 					"id" : "obj-9",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -78,9 +78,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1.0, 1.0, 308.0, 82.0 ],
+					"patching_rect" : [ -1.0, 1.0, 312.0, 83.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.0, -2.0, 309.0, 82.0 ],
+					"presentation_rect" : [ -3.0, -2.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
