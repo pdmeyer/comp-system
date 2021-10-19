@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 101.0, 140.0, 834.0, 626.0 ],
+		"rect" : [ 450.0, 331.0, 834.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -63,7 +63,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -209,7 +209,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 109.0, 168.0, 55.0, 22.0 ],
+					"patching_rect" : [ 131.0, 168.0, 55.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -393,7 +393,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 95.0, 70.0, 371.0, 22.0 ],
+					"patching_rect" : [ 117.0, 75.0, 371.0, 22.0 ],
 					"text" : "j.message reset @type none @description \"return loop counter to 0\""
 				}
 
@@ -453,7 +453,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 95.0, 216.0, 32.0, 22.0 ],
+					"patching_rect" : [ 117.0, 216.0, 32.0, 22.0 ],
 					"text" : "t b 0"
 				}
 
@@ -501,7 +501,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 95.0, 142.0, 33.0, 22.0 ],
+					"patching_rect" : [ 117.0, 142.0, 33.0, 22.0 ],
 					"text" : "sel s"
 				}
 
@@ -580,7 +580,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -795,7 +795,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 95.0, 249.0, 85.0, 22.0 ],
+					"patching_rect" : [ 117.0, 249.0, 85.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -814,7 +814,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 39.0, 279.0, 75.0, 22.0 ],
+					"patching_rect" : [ 39.0, 279.0, 97.0, 22.0 ],
 					"text" : "+ 0."
 				}
 
@@ -929,7 +929,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 1 ],
-					"midpoints" : [ 48.5, 336.0, 230.25, 336.0, 230.25, 233.0, 137.5, 233.0 ],
+					"midpoints" : [ 48.5, 336.0, 230.25, 336.0, 230.25, 233.0, 159.5, 233.0 ],
 					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
