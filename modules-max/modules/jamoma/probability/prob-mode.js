@@ -1,9 +1,33 @@
 autowatch = 1;
 inlets = 1;
-outlets = 1;
+outlets = 2;
 
 var probMode = [];
 var probabilities = [];
+var intervals = [[1,1],[1,2],[2,2],[1,3],[2,3],[3,3],[1,4],[2,4],[3,4],[4,4],[1,5],[2,5],[3,5],
+[4,5],[5,5],[1,6],[2,6],[3,6],[4,6],[5,6],[6,6],[1,8],[2,8],[3,8],[4,8],[5,8],[6,8],[7,8],[8,8]];
+
+function calc(loop) {
+    var gates = [];
+    var r = Math.random();
+    probMode.forEach(function(item, ix) { //3 = %, 2 = n:n, 1 = cond
+        var p = probabilities[ix];
+        outlet(1,p);
+        if(item == 3) {
+            gates.push(p > r);
+        } else if (item == 2) {
+            var inter = intervals[Math.floor((1-p) * 28)];
+            post(inter[0]-1+" "+loop % inter[1]+"\n");
+            gates.push(inter[0]-1 != loop % inter[1]);
+        } else if(item == 1) gates.push(3);
+    });
+    gates.forEach(function(item, ix){
+        if(item == 3) {
+            gates.push(Math.abs(gates[ix-1] - (probabilities[ix] >= 0.5)))
+        }
+    });
+    outlet(0, gates);
+}
 
 function probs() {
     var a = arrayfromargs(arguments); //merged array of percentage and interval-based gate arrays

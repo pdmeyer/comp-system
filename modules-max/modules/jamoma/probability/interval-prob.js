@@ -5,8 +5,8 @@ outlets = 1;
 var intervals = [];
 
 function loop(ix) {
-    let a = intervals;
-    let c = []
+    var a = intervals;
+    var c = []
     for (var i = 0; i < a.length; i+2) {
         var gate = a[i] == a[i+1]%ix
         c.push(gate)
