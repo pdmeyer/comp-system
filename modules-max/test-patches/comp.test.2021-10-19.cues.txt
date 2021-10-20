@@ -1,0 +1,104 @@
+- cue "state-1"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_cue/active-cue state-1
+/comp_cue/filename "Macintosh HD:/Users/philipmeyer/Dropbox/Projects/Max/comp-system/modules-max/test-patches/blank.cues.txt"
+/comp_cue/recall-type 0
+# 
+/comp_dclock/clocksource 1
+/comp_dclock/data/active 1
+/comp_dclock/data/bypass 0
+/comp_dclock/rate/bpm 100.000000
+/comp_dclock/rate/report-interval 13
+/comp_dclock/running 0
+# 
+/comp_eucl/rotate 0
+/comp_eucl/steps 16
+/comp_eucl/trigs 9
+# 
+/comp_loop/data/active 1
+/comp_loop/steps 11
+# 
+/comp_loop.1/data/active 1
+/comp_loop.1/steps 16
+# 
+/comp_midiin/channel-filter 0
+/comp_midiin/midi-device 19
+# 
+/comp_midiout/channel 4
+/comp_midiout/midi-device 20
+# 
+/comp_prob/input-mode step
+# 
+/comp_prob/loop/data/active 1
+/comp_prob/loop/steps 16
+/comp_prob/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/comp_prob/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/comp_retrig/count 1
+/comp_retrig/data/active 1
+/comp_retrig/data/bypass 0
+/comp_retrig/mod-vel 0
+/comp_retrig/rate 0.100000
+/comp_retrig/velocity 0
+# 
+# ###########################################
+
+- cue "state-2"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_cue/active-cue state-1
+/comp_cue/filename "Macintosh HD:/Users/philipmeyer/Dropbox/Projects/Max/comp-system/modules-max/test-patches/blank.cues.txt"
+/comp_cue/recall-type 0
+# 
+/comp_dclock/clocksource 1
+/comp_dclock/data/active 1
+/comp_dclock/data/bypass 0
+/comp_dclock/rate/bpm 100.000000
+/comp_dclock/rate/report-interval 13
+/comp_dclock/running 0
+# 
+/comp_eucl/rotate 0
+/comp_eucl/steps 16
+/comp_eucl/trigs 9
+# 
+/comp_eucl.1/rotate 62
+/comp_eucl.1/steps 16
+/comp_eucl.1/trigs 1
+# 
+/comp_loop/data/active 1
+/comp_loop/steps 11
+# 
+/comp_loop.1/data/active 1
+/comp_loop.1/steps 16
+# 
+/comp_loop.2/data/active 1
+/comp_loop.2/steps 16
+# 
+/comp_midiin/channel-filter 0
+/comp_midiin/midi-device 19
+# 
+/comp_midiout/channel 4
+/comp_midiout/midi-device 20
+# 
+/comp_midiout.1/channel 1
+/comp_midiout.1/midi-device 0.000000
+# 
+/comp_prob/input-mode step
+# 
+/comp_prob/loop/data/active 1
+/comp_prob/loop/steps 16
+/comp_prob/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/comp_prob/probabilities 1.000000 1.000000 1.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/comp_retrig/count 1
+/comp_retrig/data/active 1
+/comp_retrig/data/bypass 0
+/comp_retrig/mod-vel 0
+/comp_retrig/rate 0.100000
+/comp_retrig/velocity 0
+# 
+# ###########################################
+
