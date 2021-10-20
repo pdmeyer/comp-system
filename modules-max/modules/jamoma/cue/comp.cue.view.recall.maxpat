@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 604.0, 220.0, 805.0, 480.0 ],
+		"rect" : [ 610.0, 355.0, 805.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 161.0, 140.0, 19.0 ],
+					"patching_rect" : [ 300.0, 186.777777777777828, 102.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 233.0, 4.0, 68.0, 19.0 ],
 					"text" : "cue recall",
@@ -72,7 +72,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 401.5, 155.0, 29.5, 22.0 ],
+									"patching_rect" : [ 93.5, 146.0, 29.5, 22.0 ],
 									"text" : "i"
 								}
 
@@ -119,7 +119,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 401.5, 100.0, 29.5, 22.0 ],
+									"patching_rect" : [ 93.5, 91.0, 29.5, 22.0 ],
 									"text" : "t b i"
 								}
 
@@ -131,7 +131,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 401.5, 126.0, 61.0, 22.0 ],
+									"patching_rect" : [ 93.5, 117.0, 61.0, 22.0 ],
 									"text" : "delay 250"
 								}
 
@@ -170,7 +170,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 401.5, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 93.5, 31.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -511,7 +511,7 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-224",
-					"items" : [ "-select", "cue-", ",", "four", ",", "one-hundred", ",", "lockwood", ",", "ninety-seven", ",", "anything-else" ],
+					"items" : [ "-select", "cue-", ",", "state-1", ",", "state-2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -571,7 +571,7 @@
 					"patching_rect" : [ 19.0, 16.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 3.0, 300.0, 70.0 ],
-					"text" : "/comp_cue.1"
+					"text" : "/comp_cue"
 				}
 
 			}

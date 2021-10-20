@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 60.854361000000011, 156.944444444444343, 106.999999640048969, 49.0 ],
+					"patching_rect" : [ 60.854361000000011, 156.944444444444343, 107.0, 49.0 ],
 					"text" : "j.message show-namespace-filter @type none"
 				}
 
@@ -600,8 +600,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 115.0, 311.408166186519395, 376.0, 22.0 ],
-									"text" : "j.parameter filename @type string @description \"name of file read in\""
+									"patching_rect" : [ 115.0, 311.408166186519395, 353.0, 22.0 ],
+									"text" : "j.return filename @type string @description \"name of file read in\""
 								}
 
 							}

@@ -48,7 +48,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 260.0, 7.0, 67.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 233.0, 4.0, 68.0, 19.0 ],
+					"presentation_rect" : [ 230.0, 4.0, 68.0, 19.0 ],
 					"text" : "cue storage",
 					"textjustification" : 2
 				}
@@ -259,7 +259,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 340.5, 66.0, 142.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.0, 48.0, 111.0, 18.0 ]
+					"presentation_rect" : [ 145.0, 48.0, 111.0, 18.0 ]
 				}
 
 			}
@@ -312,7 +312,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 23.0, 210.333333333333371, 51.0146484375, 19.171875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.0, 48.0, 51.0146484375, 19.171875 ],
+					"presentation_rect" : [ 91.0, 48.0, 51.0146484375, 19.171875 ],
 					"rounded" : 4.0,
 					"text" : "Refresh",
 					"texton" : "Open",
@@ -1009,7 +1009,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 459.333333333333258, 289.747395833333485, 142.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.0, 25.0, 153.0, 18.0 ],
+					"presentation_rect" : [ 145.0, 25.0, 153.0, 18.0 ],
 					"text" : "comp.test.2021-10-19.cues.txt"
 				}
 
@@ -1359,7 +1359,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 296.5, 199.333333333333371, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 48.0, 83.0, 20.0 ]
+					"presentation_rect" : [ 6.0, 48.0, 83.0, 20.0 ]
 				}
 
 			}
@@ -1467,7 +1467,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 180.5, 126.333333333333371, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 25.0, 136.0146484375, 20.0 ]
+					"presentation_rect" : [ 6.0, 25.0, 136.0146484375, 20.0 ]
 				}
 
 			}
@@ -1496,7 +1496,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 113.0, 199.333333333333371, 40.462890625, 19.171875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.537109375, 48.0, 40.462890625, 19.171875 ],
+					"presentation_rect" : [ 257.537109375, 48.0, 40.462890625, 19.171875 ],
 					"rounded" : 4.0,
 					"text" : "Open",
 					"texton" : "Open",
@@ -1551,8 +1551,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.0, 7.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 4.0, 300.0, 70.0 ],
-					"text" : "/comp_cue.2"
+					"presentation_rect" : [ 2.0, 4.0, 300.0, 70.0 ],
+					"text" : "/comp_cue"
 				}
 
 			}
@@ -1801,8 +1801,8 @@
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
