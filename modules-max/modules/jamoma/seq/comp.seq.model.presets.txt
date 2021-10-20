@@ -1,0 +1,13 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+data/active 1
+data/bypass 0
+loop-length 8
+scale/high 0.000000
+scale/low 0.000000
+values/raw 0.692661
+# 
+# ###########################################
