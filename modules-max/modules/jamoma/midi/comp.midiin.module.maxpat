@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 289.0, 364.0, 640.0, 480.0 ],
+		"rect" : [ 34.0, 79.0, 835.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -219,7 +219,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -3.083333333333286, -4.0, 162.0, 78.0 ],
+					"patching_rect" : [ -3.083333333333286, -4.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -2.0, -3.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
@@ -234,8 +234,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "int" ],
-					"patching_rect" : [ 6.999999999999886, 98.0, 300.000000000000227, 22.0 ],
-					"text" : "comp.midiin.model"
+					"patching_rect" : [ 6.999999999999886, 98.0, 300.000000000000625, 22.0 ],
+					"text" : "comp.midiin.model #1"
 				}
 
 			}
