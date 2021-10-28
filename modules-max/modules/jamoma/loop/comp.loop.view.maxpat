@@ -40,6 +40,34 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 46.0, 25.5, 37.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 47.0, 23.5, 43.0, 18.0 ],
+					"text" : "position",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 258.0, 17.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -58,7 +86,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 258.5, 18.0, 15.0, 15.0 ],
+					"patching_rect" : [ 258.5, 47.0, 15.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 118.0, 4.0, 17.0, 17.0 ],
 					"rounded" : 56.0,
@@ -186,7 +214,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[2]",
+							"parameter_longname" : "live.button[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -362,7 +390,7 @@
 					"patching_rect" : [ 9.0, 228.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 3.0, 150.0, 70.0 ],
-					"text" : "/com..p.1"
+					"text" : "/com..p.2"
 				}
 
 			}
@@ -470,13 +498,20 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
  ],
 		"styles" : [ 			{
 				"name" : "defaultM4L",
 				"default" : 				{
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 577.0, 79.0, 640.0, 480.0 ],
+		"rect" : [ 352.0, 79.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
-					"outlettype" : [ "int", "", "", "" ],
+					"outlettype" : [ "int", "int", "int", "" ],
 					"patching_rect" : [ 12.0, 140.0, 124.0, 22.0 ],
 					"text" : "comp.loop.model"
 				}
@@ -116,7 +116,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2.0, 1.0, 162.0, 80.0 ],
+					"patching_rect" : [ 2.0, 1.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -2.0, -2.0, 150.0, 70.0 ],
 					"viewvisibility" : 1

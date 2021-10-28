@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"patching_rect" : [ 310.0, 468.0, 29.5, 22.0 ],
+					"text" : "t i b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 239.0, 495.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-63",
 					"linecount" : 3,
@@ -263,7 +287,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 510.0, 150.0, 20.0 ],
+					"patching_rect" : [ 165.0, 555.0, 150.0, 20.0 ],
 					"text" : "number of steps"
 				}
 
@@ -276,7 +300,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 478.0, 30.0, 30.0 ]
+					"patching_rect" : [ 239.0, 523.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -298,7 +322,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 510.0, 150.0, 20.0 ],
+					"patching_rect" : [ 36.0, 555.0, 150.0, 20.0 ],
 					"text" : "current loop position"
 				}
 
@@ -325,7 +349,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 588.0, 490.0, 30.0, 30.0 ]
+					"patching_rect" : [ 588.0, 535.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -366,7 +390,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 360.0, 445.0, 224.0, 35.0 ],
+					"patching_rect" : [ 362.0, 441.0, 224.0, 35.0 ],
 					"text" : "j.return pos/loops @type integer @description \"number of started loops\""
 				}
 
@@ -429,7 +453,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 305.0, 510.0, 150.0, 20.0 ],
+					"patching_rect" : [ 305.0, 555.0, 150.0, 20.0 ],
 					"text" : "count of completed loops"
 				}
 
@@ -442,7 +466,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 478.0, 30.0, 30.0 ]
+					"patching_rect" : [ 310.0, 523.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -564,7 +588,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 478.0, 30.0, 30.0 ]
+					"patching_rect" : [ 39.0, 523.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -834,7 +858,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -915,6 +939,27 @@
 					"destination" : [ "obj-48", 0 ],
 					"order" : 1,
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-28", 1 ]
 				}
 
 			}
@@ -1026,7 +1071,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-27", 0 ],
 					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
