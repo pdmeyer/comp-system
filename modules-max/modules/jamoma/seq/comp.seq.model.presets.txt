@@ -6,8 +6,8 @@
 data/active 1
 data/bypass 0
 loop-length 8
-scale/high 0.000000
+scale/high 127.000000
 scale/low 0.000000
-values/raw 0.692661
+values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
 # 
 # ###########################################

@@ -40,9 +40,9 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "output value ",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -56,21 +56,21 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 86.0, 158.0, 73.0, 20.0 ],
-					"text" : "steps"
+					"patching_rect" : [ 115.5, 158.0, 73.0, 20.0 ],
+					"text" : "loop steps"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "loop length in steps",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 86.0, 180.0, 30.0, 30.0 ]
+					"patching_rect" : [ 118.0, 180.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -87,9 +87,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "current step",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -106,8 +106,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 218.0, 97.0, 22.0 ],
-					"text" : "comp.seq.model"
+					"patching_rect" : [ 8.0, 218.0, 129.0, 22.0 ],
+					"text" : "comp.seq.model #1"
 				}
 
 			}
@@ -156,55 +156,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "comp.seq.view.maxpat",
-				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/seq",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comp.seq.model.maxpat",
-				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules-max/modules/jamoma/seq",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
