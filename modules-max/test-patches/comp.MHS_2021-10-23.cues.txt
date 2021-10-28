@@ -1,0 +1,617 @@
+- cue "seq"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_clock/data/active 1
+/comp_clock/data/bypass 0
+/comp_clock/rate/bpm 500.000000
+/comp_clock/rate/mult 4.000000
+/comp_clock/started 1
+# 
+/comp_cue/active-cue seq-1
+/comp_cue/active-namespace comp-params
+/comp_cue/recall-type 0
+# 
+/comp_eucl/data/active 1
+/comp_eucl/data/bypass 0
+/comp_eucl/rotate 0
+/comp_eucl/steps 8
+/comp_eucl/trigs 3
+# 
+/comp_eucl.1/data/active 1
+/comp_eucl.1/data/bypass 0
+/comp_eucl.1/rotate 0
+/comp_eucl.1/steps 8
+/comp_eucl.1/trigs 3
+# 
+/comp_eucl.2/data/active 1
+/comp_eucl.2/data/bypass 0
+/comp_eucl.2/rotate 0
+/comp_eucl.2/trigs 3
+/comp_eucl.2/steps 8
+# 
+/comp_gate/control 1
+/comp_gate/data/active 1
+/comp_gate/data/bypass 0
+/comp_gate/offset 0
+# 
+/comp_loop/data/active 0
+/comp_loop/steps 48
+# 
+/comp_loop.1/data/active 0
+/comp_loop.1/steps 8
+# 
+/comp_loop.2/data/active 0
+/comp_loop.2/steps 8
+# 
+/comp_loop.3/data/active 1
+/comp_loop.3/steps 8
+# 
+/comp_loop.4/data/active 1
+/comp_loop.4/steps 48
+# 
+/comp_makenote.1/data/active 1
+/comp_makenote.1/data/bypass 0
+/comp_makenote.1/duration 100
+/comp_makenote.1/pitch 57
+/comp_makenote.1/trigger-on-bang-only 1
+/comp_makenote.1/velocity 100
+/comp_makenote.1/send-note-off 1
+# 
+/comp_makenote.2/data/active 1
+/comp_makenote.2/data/bypass 0
+/comp_makenote.2/duration 100
+/comp_makenote.2/pitch 58
+/comp_makenote.2/trigger-on-bang-only 0
+/comp_makenote.2/velocity 87
+/comp_makenote.2/send-note-off 1
+# 
+/comp_makenote/data/active 1
+/comp_makenote/data/bypass 0
+/comp_makenote/pitch 65
+/comp_makenote/duration 100
+/comp_makenote/velocity 125
+/comp_makenote/trigger-on-bang-only 0
+/comp_makenote/send-note-off 0
+# 
+/comp_makenote.3/data/active 1
+/comp_makenote.3/data/bypass 0
+/comp_makenote.3/send-note-off 1
+/comp_makenote.3/pitch 65
+/comp_makenote.3/duration 100
+/comp_makenote.3/velocity 125
+/comp_makenote.3/trigger-on-bang-only 0
+# 
+/comp_makenote.4/data/active 1
+/comp_makenote.4/data/bypass 0
+/comp_makenote.4/send-note-off 1
+/comp_makenote.4/pitch 57
+/comp_makenote.4/duration 50
+/comp_makenote.4/velocity 57
+/comp_makenote.4/trigger-on-bang-only 0
+# 
+/comp_midiout/channel 4
+/comp_midiout/midi-device 4
+# 
+/comp_midiout.2/channel 4
+/comp_midiout.2/midi-device 4
+# 
+/comp_midiout.3/channel 4
+/comp_midiout.3/midi-device 4
+# 
+/comp_retrig/count 4
+/comp_retrig/data/active 1
+/comp_retrig/data/bypass 0
+/comp_retrig/mod-vel 1
+/comp_retrig/rate 1.000000
+/comp_retrig/velocity 1
+# 
+/comp_rot/data/active 1
+/comp_rot/data/bypass 0
+/comp_rot/loop-length 8
+/comp_rot/rotate 484
+# 
+/comp_rot.1/data/active 1
+/comp_rot.1/data/bypass 0
+/comp_rot.1/loop-length 8
+/comp_rot.1/rotate 484
+# 
+/comp_rot.2/data/active 1
+/comp_rot.2/data/bypass 0
+/comp_rot.2/rotate 415
+/comp_rot.2/loop-length 8
+# 
+# ###########################################
+
+- cue "seq-1"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_clock/data/active 1
+/comp_clock/data/bypass 0
+/comp_clock/rate/bpm 500.000000
+/comp_clock/rate/mult 4.000000
+/comp_clock/started 1
+# 
+/comp_cue/active-cue seq-1
+/comp_cue/active-namespace comp-params
+/comp_cue/recall-type 0
+# 
+/comp_eucl/data/active 1
+/comp_eucl/data/bypass 0
+/comp_eucl/rotate 0
+/comp_eucl/steps 8
+/comp_eucl/trigs 3
+# 
+/comp_eucl.1/data/active 1
+/comp_eucl.1/data/bypass 0
+/comp_eucl.1/rotate 0
+/comp_eucl.1/steps 8
+/comp_eucl.1/trigs 3
+# 
+/comp_eucl.2/data/active 1
+/comp_eucl.2/data/bypass 0
+/comp_eucl.2/rotate 0
+/comp_eucl.2/trigs 1
+/comp_eucl.2/steps 8
+# 
+/comp_loop/data/active 1
+/comp_loop/steps 48
+# 
+/comp_loop.1/data/active 1
+/comp_loop.1/steps 8
+# 
+/comp_loop.2/data/active 0
+/comp_loop.2/steps 8
+# 
+/comp_loop.3/data/active 1
+/comp_loop.3/steps 8
+# 
+/comp_loop.4/data/active 1
+/comp_loop.4/steps 48
+# 
+/comp_makenote.1/data/active 1
+/comp_makenote.1/data/bypass 0
+/comp_makenote.1/duration 100
+/comp_makenote.1/pitch 57
+/comp_makenote.1/trigger-on-bang-only 1
+/comp_makenote.1/velocity 100
+/comp_makenote.1/send-note-off 1
+# 
+/comp_makenote.2/data/active 1
+/comp_makenote.2/data/bypass 0
+/comp_makenote.2/duration 100
+/comp_makenote.2/pitch 54
+/comp_makenote.2/trigger-on-bang-only 0
+/comp_makenote.2/velocity 83
+/comp_makenote.2/send-note-off 1
+# 
+/comp_makenote/data/active 0
+/comp_makenote/data/bypass 0
+/comp_makenote/pitch 127
+/comp_makenote/duration 100
+/comp_makenote/velocity 127
+/comp_makenote/trigger-on-bang-only 0
+/comp_makenote/send-note-off 0
+# 
+/comp_midiout/channel 1
+/comp_midiout/midi-device 0.000000
+# 
+/comp_midiout.2/channel 4
+/comp_midiout.2/midi-device 4
+# 
+/comp_midiout.3/channel 4
+/comp_midiout.3/midi-device 4
+# 
+/comp_prob/input-mode step
+# 
+/comp_prob/loop/data/active 1
+/comp_prob/loop/steps 16
+/comp_prob/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/comp_prob/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/comp_prob/rand-type 1
+# 
+/comp_retrig/count 4
+/comp_retrig/data/active 1
+/comp_retrig/data/bypass 0
+/comp_retrig/mod-vel 0
+/comp_retrig/rate 1.000000
+/comp_retrig/velocity 100
+# 
+/comp_rot/data/active 1
+/comp_rot/data/bypass 0
+/comp_rot/loop-length 8
+/comp_rot/rotate 453
+# 
+/comp_rot.1/data/active 1
+/comp_rot.1/data/bypass 0
+/comp_rot.1/loop-length 8
+/comp_rot.1/rotate 453
+# 
+/comp_rot.2/data/active 1
+/comp_rot.2/data/bypass 0
+/comp_rot.2/rotate 223
+/comp_rot.2/loop-length 8
+# 
+/comp_rot.3/data/active 1
+/comp_rot.3/data/bypass 0
+/comp_rot.3/rotate 223
+/comp_rot.3/loop-length 8
+# 
+# ###########################################
+
+- cue "conditional"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_clock/data/active 1
+/comp_clock/data/bypass 0
+/comp_clock/rate/bpm 500.000000
+/comp_clock/rate/mult 4.000000
+/comp_clock/started 1
+# 
+/comp_cue/active-cue seq-1
+/comp_cue/active-namespace comp-params
+/comp_cue/recall-type 0
+# 
+/comp_eucl/data/active 1
+/comp_eucl/data/bypass 0
+/comp_eucl/rotate 0
+/comp_eucl/steps 8
+/comp_eucl/trigs 3
+# 
+/comp_eucl.1/data/active 1
+/comp_eucl.1/data/bypass 0
+/comp_eucl.1/rotate 0
+/comp_eucl.1/steps 8
+/comp_eucl.1/trigs 3
+# 
+/comp_eucl.2/data/active 1
+/comp_eucl.2/data/bypass 0
+/comp_eucl.2/rotate 0
+/comp_eucl.2/trigs 3
+/comp_eucl.2/steps 8
+# 
+/comp_gate/control 1
+/comp_gate/data/active 1
+/comp_gate/data/bypass 0
+/comp_gate/offset 0
+# 
+/comp_loop/data/active 1
+/comp_loop/steps 48
+# 
+/comp_loop.1/data/active 1
+/comp_loop.1/steps 8
+# 
+/comp_loop.2/data/active 0
+/comp_loop.2/steps 8
+# 
+/comp_loop.3/data/active 0
+/comp_loop.3/steps 8
+# 
+/comp_loop.4/data/active 0
+/comp_loop.4/steps 48
+# 
+/comp_makenote.1/data/active 1
+/comp_makenote.1/data/bypass 0
+/comp_makenote.1/duration 100
+/comp_makenote.1/pitch 57
+/comp_makenote.1/trigger-on-bang-only 1
+/comp_makenote.1/velocity 100
+/comp_makenote.1/send-note-off 1
+# 
+/comp_makenote.2/data/active 1
+/comp_makenote.2/data/bypass 0
+/comp_makenote.2/duration 100
+/comp_makenote.2/pitch 61
+/comp_makenote.2/trigger-on-bang-only 0
+/comp_makenote.2/velocity 89
+/comp_makenote.2/send-note-off 1
+# 
+/comp_makenote/data/active 1
+/comp_makenote/data/bypass 0
+/comp_makenote/pitch 50
+/comp_makenote/duration 100
+/comp_makenote/velocity 118
+/comp_makenote/trigger-on-bang-only 0
+/comp_makenote/send-note-off 0
+# 
+/comp_makenote.3/data/active 1
+/comp_makenote.3/data/bypass 0
+/comp_makenote.3/send-note-off 1
+/comp_makenote.3/pitch 50
+/comp_makenote.3/duration 100
+/comp_makenote.3/velocity 118
+/comp_makenote.3/trigger-on-bang-only 0
+# 
+/comp_makenote.4/data/active 1
+/comp_makenote.4/data/bypass 0
+/comp_makenote.4/send-note-off 1
+/comp_makenote.4/pitch 57
+/comp_makenote.4/duration 50
+/comp_makenote.4/velocity 57
+/comp_makenote.4/trigger-on-bang-only 0
+# 
+/comp_midiout/channel 4
+/comp_midiout/midi-device 4
+# 
+/comp_midiout.2/channel 4
+/comp_midiout.2/midi-device 4
+# 
+/comp_midiout.3/channel 4
+/comp_midiout.3/midi-device 4
+# 
+/comp_retrig/count 4
+/comp_retrig/data/active 1
+/comp_retrig/data/bypass 0
+/comp_retrig/mod-vel 1
+/comp_retrig/rate 1.000000
+/comp_retrig/velocity 1
+# 
+/comp_rot/data/active 1
+/comp_rot/data/bypass 0
+/comp_rot/loop-length 8
+/comp_rot/rotate 481
+# 
+/comp_rot.1/data/active 1
+/comp_rot.1/data/bypass 0
+/comp_rot.1/loop-length 8
+/comp_rot.1/rotate 481
+# 
+/comp_rot.2/data/active 1
+/comp_rot.2/data/bypass 0
+/comp_rot.2/rotate 411
+/comp_rot.2/loop-length 8
+# 
+# ###########################################
+
+- cue "clock+loop"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_clock/data/active 1
+/comp_clock/data/bypass 0
+/comp_clock/rate/bpm 500.000000
+/comp_clock/rate/mult 4.000000
+/comp_clock/started 1
+# 
+/comp_cue/active-cue seq-1
+/comp_cue/active-namespace comp-params
+/comp_cue/recall-type 0
+# 
+/comp_eucl/data/active 1
+/comp_eucl/data/bypass 0
+/comp_eucl/rotate 0
+/comp_eucl/steps 8
+/comp_eucl/trigs 3
+# 
+/comp_eucl.1/data/active 1
+/comp_eucl.1/data/bypass 0
+/comp_eucl.1/rotate 0
+/comp_eucl.1/steps 8
+/comp_eucl.1/trigs 3
+# 
+/comp_eucl.2/data/active 1
+/comp_eucl.2/data/bypass 0
+/comp_eucl.2/rotate 0
+/comp_eucl.2/trigs 3
+/comp_eucl.2/steps 8
+# 
+/comp_gate/control 1
+/comp_gate/data/active 1
+/comp_gate/data/bypass 0
+/comp_gate/offset 0
+# 
+/comp_loop/data/active 0
+/comp_loop/steps 48
+# 
+/comp_loop.1/data/active 0
+/comp_loop.1/steps 8
+# 
+/comp_loop.2/data/active 1
+/comp_loop.2/steps 8
+# 
+/comp_loop.3/data/active 0
+/comp_loop.3/steps 8
+# 
+/comp_loop.4/data/active 0
+/comp_loop.4/steps 48
+# 
+/comp_makenote.1/data/active 1
+/comp_makenote.1/data/bypass 0
+/comp_makenote.1/duration 100
+/comp_makenote.1/pitch 57
+/comp_makenote.1/trigger-on-bang-only 1
+/comp_makenote.1/velocity 100
+/comp_makenote.1/send-note-off 1
+# 
+/comp_makenote.2/data/active 1
+/comp_makenote.2/data/bypass 0
+/comp_makenote.2/duration 100
+/comp_makenote.2/pitch 61
+/comp_makenote.2/trigger-on-bang-only 0
+/comp_makenote.2/velocity 111
+/comp_makenote.2/send-note-off 1
+# 
+/comp_makenote/data/active 1
+/comp_makenote/data/bypass 0
+/comp_makenote/pitch 65
+/comp_makenote/duration 100
+/comp_makenote/velocity 125
+/comp_makenote/trigger-on-bang-only 0
+/comp_makenote/send-note-off 0
+# 
+/comp_makenote.3/data/active 1
+/comp_makenote.3/data/bypass 0
+/comp_makenote.3/send-note-off 1
+/comp_makenote.3/pitch 65
+/comp_makenote.3/duration 100
+/comp_makenote.3/velocity 125
+/comp_makenote.3/trigger-on-bang-only 0
+# 
+/comp_makenote.4/data/active 1
+/comp_makenote.4/data/bypass 0
+/comp_makenote.4/send-note-off 1
+/comp_makenote.4/pitch 57
+/comp_makenote.4/duration 50
+/comp_makenote.4/velocity 57
+/comp_makenote.4/trigger-on-bang-only 0
+# 
+/comp_midiout/channel 4
+/comp_midiout/midi-device 4
+# 
+/comp_midiout.2/channel 4
+/comp_midiout.2/midi-device 4
+# 
+/comp_midiout.3/channel 4
+/comp_midiout.3/midi-device 4
+# 
+/comp_retrig/count 4
+/comp_retrig/data/active 1
+/comp_retrig/data/bypass 0
+/comp_retrig/mod-vel 1
+/comp_retrig/rate 1.000000
+/comp_retrig/velocity 1
+# 
+/comp_rot/data/active 1
+/comp_rot/data/bypass 0
+/comp_rot/loop-length 8
+/comp_rot/rotate 486
+# 
+/comp_rot.1/data/active 1
+/comp_rot.1/data/bypass 0
+/comp_rot.1/loop-length 8
+/comp_rot.1/rotate 486
+# 
+/comp_rot.2/data/active 1
+/comp_rot.2/data/bypass 0
+/comp_rot.2/rotate 415
+/comp_rot.2/loop-length 8
+# 
+# ###########################################
+
+- cue "init"
+- description "something about this cue"
+# ###########################################
+# 
+/comp_clock/data/active 1
+/comp_clock/data/bypass 0
+/comp_clock/rate/bpm 500.000000
+/comp_clock/rate/mult 4.000000
+/comp_clock/started 0
+# 
+/comp_cue/active-cue seq-1
+/comp_cue/active-namespace comp-params
+/comp_cue/recall-type 0
+# 
+/comp_eucl/data/active 1
+/comp_eucl/data/bypass 0
+/comp_eucl/rotate 0
+/comp_eucl/steps 8
+/comp_eucl/trigs 3
+# 
+/comp_eucl.1/data/active 1
+/comp_eucl.1/data/bypass 0
+/comp_eucl.1/rotate 0
+/comp_eucl.1/steps 8
+/comp_eucl.1/trigs 3
+# 
+/comp_eucl.2/data/active 1
+/comp_eucl.2/data/bypass 0
+/comp_eucl.2/rotate 0
+/comp_eucl.2/trigs 3
+/comp_eucl.2/steps 8
+# 
+/comp_gate/control 1
+/comp_gate/data/active 1
+/comp_gate/data/bypass 0
+/comp_gate/offset 0
+# 
+/comp_loop/data/active 0
+/comp_loop/steps 48
+# 
+/comp_loop.1/data/active 0
+/comp_loop.1/steps 8
+# 
+/comp_loop.2/data/active 1
+/comp_loop.2/steps 8
+# 
+/comp_loop.3/data/active 0
+/comp_loop.3/steps 8
+# 
+/comp_loop.4/data/active 0
+/comp_loop.4/steps 48
+# 
+/comp_makenote.1/data/active 1
+/comp_makenote.1/data/bypass 0
+/comp_makenote.1/duration 100
+/comp_makenote.1/pitch 57
+/comp_makenote.1/trigger-on-bang-only 1
+/comp_makenote.1/velocity 100
+/comp_makenote.1/send-note-off 1
+# 
+/comp_makenote.2/data/active 1
+/comp_makenote.2/data/bypass 0
+/comp_makenote.2/duration 100
+/comp_makenote.2/pitch 61
+/comp_makenote.2/trigger-on-bang-only 0
+/comp_makenote.2/velocity 111
+/comp_makenote.2/send-note-off 1
+# 
+/comp_makenote/data/active 1
+/comp_makenote/data/bypass 0
+/comp_makenote/pitch 65
+/comp_makenote/duration 100
+/comp_makenote/velocity 125
+/comp_makenote/trigger-on-bang-only 0
+/comp_makenote/send-note-off 0
+# 
+/comp_makenote.3/data/active 1
+/comp_makenote.3/data/bypass 0
+/comp_makenote.3/send-note-off 1
+/comp_makenote.3/pitch 65
+/comp_makenote.3/duration 100
+/comp_makenote.3/velocity 125
+/comp_makenote.3/trigger-on-bang-only 0
+# 
+/comp_makenote.4/data/active 1
+/comp_makenote.4/data/bypass 0
+/comp_makenote.4/send-note-off 1
+/comp_makenote.4/pitch 57
+/comp_makenote.4/duration 50
+/comp_makenote.4/velocity 57
+/comp_makenote.4/trigger-on-bang-only 0
+# 
+/comp_midiout/channel 4
+/comp_midiout/midi-device 4
+# 
+/comp_midiout.2/channel 4
+/comp_midiout.2/midi-device 4
+# 
+/comp_midiout.3/channel 4
+/comp_midiout.3/midi-device 4
+# 
+/comp_retrig/count 4
+/comp_retrig/data/active 1
+/comp_retrig/data/bypass 0
+/comp_retrig/mod-vel 1
+/comp_retrig/rate 1.000000
+/comp_retrig/velocity 1
+# 
+/comp_rot/data/active 1
+/comp_rot/data/bypass 0
+/comp_rot/loop-length 8
+/comp_rot/rotate 486
+# 
+/comp_rot.1/data/active 1
+/comp_rot.1/data/bypass 0
+/comp_rot.1/loop-length 8
+/comp_rot.1/rotate 486
+# 
+/comp_rot.2/data/active 1
+/comp_rot.2/data/bypass 0
+/comp_rot.2/rotate 415
+/comp_rot.2/loop-length 8
+# 
+# ###########################################
+
