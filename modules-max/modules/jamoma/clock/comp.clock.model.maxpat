@@ -127,8 +127,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 326.666666666666629, 213.0, 276.916666666666742, 49.0 ],
-					"text" : "j.parameter rate/mult @type decimal @dataspace none @range 0.01 100. @description \"create subdivisions of the base bpm\""
+					"patching_rect" : [ 326.666666666666629, 213.0, 310.916666666666742, 49.0 ],
+					"text" : "j.parameter rate/mult @type decimal @dataspace none @range 0.01 100. @description \"create subdivisions of the base bpm\" @default 4."
 				}
 
 			}
@@ -155,8 +155,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.583333333333343, 162.0, 363.0, 35.0 ],
-					"text" : "j.parameter rate/bpm @type decimal @dataspace time @range 5. 300. @unit ms @description \"clock speed in beats per minute\""
+					"patching_rect" : [ 240.583333333333343, 162.0, 397.0, 35.0 ],
+					"text" : "j.parameter rate/bpm @type decimal @dataspace time @range 5. 300. @unit ms @description \"clock speed in beats per minute\" @default 140."
 				}
 
 			}
