@@ -1,0 +1,5 @@
+#ignore audio files
+implementations/test-patches/comp.MHS_2021-10-23 Project/Samples
+
+#ignore DS_Store
+.DS_Store
