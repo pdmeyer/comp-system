@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 34.0, 79.0, 916.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,9 +40,34 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 609.5, 549.0, 87.0, 22.0 ],
+					"text" : "j.out sequence"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "sequence",
+					"id" : "obj-27",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 609.5, 586.5, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "number of steps",
 					"id" : "obj-29",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -80,7 +105,7 @@
 				"box" : 				{
 					"comment" : "number of trigs",
 					"id" : "obj-22",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -194,11 +219,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 623.5, 583.5, 30.0, 30.0 ]
+					"patching_rect" : [ 690.5, 586.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -210,7 +235,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 623.5, 540.5, 281.0, 22.0 ],
+					"patching_rect" : [ 690.5, 543.5, 281.0, 22.0 ],
 					"text" : "j.model @description \"generate euclidean patterns\""
 				}
 
@@ -224,7 +249,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 609.5, 357.0, 199.0, 49.0 ],
+					"patching_rect" : [ 628.5, 357.0, 199.0, 49.0 ],
 					"text" : "j.return step_togs @type array @description \"array of boolean values indicating lit and unlit trigs\""
 				}
 
@@ -247,7 +272,7 @@
 				"box" : 				{
 					"comment" : "number of trigs to create",
 					"id" : "obj-24",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -351,7 +376,7 @@
 				"box" : 				{
 					"comment" : "number of steps to rotate",
 					"id" : "obj-4",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -400,7 +425,7 @@
 				"box" : 				{
 					"comment" : "trig index",
 					"id" : "obj-130",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -456,7 +481,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -721,7 +746,7 @@
 				"box" : 				{
 					"comment" : "step index",
 					"id" : "obj-58",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -783,11 +808,11 @@
 				"box" : 				{
 					"comment" : "number of steps in sequence",
 					"id" : "obj-10",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 464.5, 20.0, 30.0, 30.0 ]
 				}
 
@@ -840,11 +865,11 @@
 				"box" : 				{
 					"comment" : "incoming step id",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.416666666666629, 27.0, 30.0, 30.0 ]
 				}
 
@@ -1064,6 +1089,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -1103,6 +1135,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"midpoints" : [ 619.0, 346.75, 156.416666666666629, 346.75 ],
+					"order" : 2,
+					"source" : [ "obj-63", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
 					"order" : 1,
 					"source" : [ "obj-63", 1 ]
 				}
@@ -1169,12 +1209,50 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-76" : [ "matrixctrl[1]", "matrixctrl", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "event_distribute_pm.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/eucl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "defaultM4L",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",

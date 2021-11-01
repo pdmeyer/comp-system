@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 425.0, 165.0, 834.0, 626.0 ],
+		"rect" : [ 111.0, 79.0, 834.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "sig. loop interval",
+					"comment" : "to j.model",
 					"id" : "obj-12",
 					"index" : 3,
 					"maxclass" : "inlet",
@@ -100,7 +100,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -544,7 +544,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "sig. loop interval",
+					"comment" : "loop length in steps",
 					"id" : "obj-2",
 					"index" : 2,
 					"maxclass" : "inlet",
@@ -592,7 +592,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
