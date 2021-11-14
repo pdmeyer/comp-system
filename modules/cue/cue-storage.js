@@ -29,24 +29,28 @@ var commands = {
     "dialogLabel" : "name of new cue ",
     "updateNamesRequired" : 1,
     "nameSelectionRequired": 1,
-    "nameSelection" : "newname"
+    "nameSelection" : "newname",
+    "saveAfter" : 1
   },
   "update" : {
     "messageType" : "selected-cue",
     "nameSelectionRequired": 0,
-    "updateNamesRequired" : 0
+    "updateNamesRequired" : 0,
+    "saveAfter" : 1
   },
   "rename" : {
     "messageType" : "selected+new",
     "dialogLabel" : "new name for cue ",
     "updateNamesRequired" : 1,
     "nameSelectionRequired": 0,
-    "nameSelection" : "newname"
+    "nameSelection" : "newname",
+    "saveAfter" : 1
   },
   "editcue" : {
     "messageType" : "selected-cue",
     "updateNamesRequired" : 0,
-    "nameSelectionRequired": 0
+    "nameSelectionRequired": 0,
+    "saveAfter" : 1
     
   },
   "description" : {
@@ -54,6 +58,7 @@ var commands = {
     "dialogLabel" : "updated description for cue ",
     "updateNamesRequired" : 0,
     "nameSelectionRequired": 0,
+    "saveAfter" : 1
   },
   "read" : {
     "messageType" : "filepath",

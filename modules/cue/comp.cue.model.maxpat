@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -99,7 +99,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -557,7 +557,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1166,7 +1166,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1339,13 +1339,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 848.0, 118.0, 640.0, 480.0 ],
+						"rect" : [ 606.0, 118.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1374,6 +1374,18 @@
 						"subpatcher_template" : "dark-bg",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 113.5, 146.0, 41.0, 22.0 ],
+									"text" : "zl.sort"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-12",
 									"maxclass" : "message",
@@ -1418,7 +1430,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 66.5, 180.333333333333371, 440.0, 22.0 ],
+									"patching_rect" : [ 70.5, 322.333333333333371, 440.0, 22.0 ],
 									"text" : "j.return cue-names @type generic \"list of names of cues in the current cuelist file\""
 								}
 
@@ -1484,6 +1496,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-160", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"order" : 1,
 									"source" : [ "obj-89", 0 ]
@@ -1507,7 +1526,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-160", 0 ],
+									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-9", 1 ]
 								}
 
@@ -1589,7 +1608,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

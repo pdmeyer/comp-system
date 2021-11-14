@@ -1,0 +1,2803 @@
+- cue "1--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue none
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 4
+/e1/steps 9
+/e1/rotate 0
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 0
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 35
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 64
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 39
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 38
+# 
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+# 
+/nd5/channel 1
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.167539 0.198953 0.209424 0.219895 0.198953 0.188482 0.251309 0.230366
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 11
+/note2/output-type 0
+/note2/scale/high 60.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.324607 0.303665 0.303665 0.303665 0.314136 0.324607 0.324607 0.324607 0.324607 0.345550 0.680628
+# 
+/note3/data/active 1
+/note3/data/bypass 0
+/note3/loop-length 8
+/note3/output-type 0
+/note3/scale/high 127.000000
+/note3/scale/low 0.000000
+/note3/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 0.863095 1.000000 1.000000 1.000000 0.815476 1.000000 0.827381 1.000000 0.827381
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 4
+/r1/rotate 341
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 4
+/r2/rotate 341
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 341
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 0.200000
+/rt1/velocity 1
+# 
+/rt2/count 4
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.544503 0.670157 0.680628 0.680628 0.586387 0.408377 0.261780 0.219895 0.219895
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.356021 0.429319 0.408377 0.439791 0.471204 0.335079 0.303665 0.240838 0.261780 0.314136 0.492147
+# 
+/vel3/data/active 1
+/vel3/data/bypass 0
+/vel3/loop-length 8
+/vel3/output-type 0
+/vel3/scale/high 127.000000
+/vel3/scale/low 0.000000
+/vel3/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "2--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue none
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 4
+/e1/steps 9
+/e1/rotate 0
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 0
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 2
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 31
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 86
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 39
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 38
+# 
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+# 
+/nd5/channel 1
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.167539 0.198953 0.303665 0.219895 0.198953 0.188482 0.251309 0.230366
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 11
+/note2/output-type 0
+/note2/scale/high 60.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.188482 0.565445 0.722513 0.638743 0.471204 0.293194 0.272251 0.460733 0.565445 0.837696 0.984293
+# 
+/note3/data/active 1
+/note3/data/bypass 0
+/note3/loop-length 8
+/note3/output-type 0
+/note3/scale/high 127.000000
+/note3/scale/low 0.000000
+/note3/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 0.863095 1.000000 1.000000 1.000000 0.815476 1.000000 0.827381 1.000000 0.827381
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 4
+/r1/rotate 458
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 4
+/r2/rotate 458
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 458
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 0.200000
+/rt1/velocity 1
+# 
+/rt2/count 4
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 0.500000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.544503 0.670157 0.680628 0.680628 0.586387 0.408377 0.261780 0.219895 0.219895
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.408377 0.712042 0.628272 0.858639 0.890052 0.691099 0.617801 0.188482 0.136126 0.188482 0.261780
+# 
+/vel3/data/active 1
+/vel3/data/bypass 0
+/vel3/loop-length 8
+/vel3/output-type 0
+/vel3/scale/high 127.000000
+/vel3/scale/low 0.000000
+/vel3/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "3--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue 3--102bpm
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 2
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 0
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 33
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 86
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 41
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 43
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 33
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 86
+# 
+/nd16/bank 6
+/nd16/channel 16
+/nd16/data/active 1
+/nd16/data/bypass 0
+/nd16/midi-device "Steinberg UR44"
+/nd16/sendCCforPgm 1
+# 
+/nd4/bank 1
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+/nd4/sendCCforPgm 0
+# 
+/nd5/bank 1
+/nd5/channel 1
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+/nd5/sendCCforPgm 0
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.167539 0.198953 0.303665 0.219895 0.198953 0.188482 0.251309 0.230366
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 11
+/note2/output-type 0
+/note2/scale/high 60.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.219895 0.240838 0.272251 0.303665 0.345550 0.387435 0.387435 0.387435 0.261780 0.104712 0.157068
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 0.863095 1.000000 1.000000 1.000000 0.815476 1.000000 0.827381 1.000000 0.827381
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 42
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 42
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 42
+# 
+/rack/bank 1
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+/rack/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 0.200000
+/rt1/velocity 1
+# 
+/rt2/count 4
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 0.500000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.544503 0.670157 0.680628 0.680628 0.586387 0.408377 0.261780 0.219895 0.219895
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.596859 0.575916 0.429319 0.282723 0.219895 0.282723 0.345550 0.492147 0.544503 0.575916 0.523560
+# 
+# ###########################################
+
+- cue "4--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue none
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 3
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 4
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 2
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 31
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 64
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 39
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 38
+# 
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+# 
+/nd5/channel 2
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.167539 0.198953 0.303665 0.219895 0.198953 0.188482 0.251309 0.230366
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 11
+/note2/output-type 0
+/note2/scale/high 127.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.691099 0.617801 0.722513 0.649215 0.638743 0.743455 0.806283 0.858639 0.900524 0.879581 0.848168
+# 
+/note3/data/active 1
+/note3/data/bypass 0
+/note3/loop-length 8
+/note3/output-type 0
+/note3/scale/high 127.000000
+/note3/scale/low 0.000000
+/note3/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 0.863095 1.000000 1.000000 1.000000 0.815476 1.000000 0.827381 1.000000 0.827381
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 5
+/r1/rotate 552
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 5
+/r2/rotate 552
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 552
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 0.200000
+/rt1/velocity 1
+# 
+/rt2/count 4
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 0.500000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.544503 0.670157 0.680628 0.680628 0.586387 0.408377 0.261780 0.219895 0.219895
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.848168 0.701571 0.670157 0.691099 0.701571 0.607330 0.575916 0.680628 0.785340 0.827225 0.827225
+# 
+/vel3/data/active 1
+/vel3/data/bypass 0
+/vel3/loop-length 8
+/vel3/output-type 0
+/vel3/scale/high 127.000000
+/vel3/scale/low 0.000000
+/vel3/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "5--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue 5--102bpm
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 3
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 4
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 2
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 31
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 25
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 67
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 61
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 31
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 25
+# 
+/nd16/bank 6
+/nd16/channel 16
+/nd16/data/active 1
+/nd16/data/bypass 0
+/nd16/midi-device "Steinberg UR44"
+/nd16/sendCCforPgm 1
+# 
+/nd4/bank 1
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+/nd4/sendCCforPgm 0
+# 
+/nd5/bank 1
+/nd5/channel 3
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+/nd5/sendCCforPgm 0
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.167539 0.198953 0.303665 0.219895 0.198953 0.188482 0.251309 0.230366
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 11
+/note2/output-type 0
+/note2/scale/high 76.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.743455 0.617801 0.722513 0.649215 0.638743 0.743455 0.806283 0.858639 0.900524 0.879581 0.848168
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.601190 1.000000 1.000000 1.000000 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 58
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 58
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 58
+# 
+/rack/bank 1
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+/rack/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 0.200000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.544503 0.785340 0.251309 0.869110 0.230366 0.272251 0.712042 0.188482 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.586387 0.178010 0.460733 0.209424 0.565445 0.251309 0.481675 0.513089 0.251309 0.575916 0.282723
+# 
+# ###########################################
+
+- cue "6--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue none
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 3
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 4
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 32
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 23
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 50
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 31
+# 
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+# 
+/nd5/channel 3
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.167539 0.198953 0.303665 0.219895 0.198953 0.188482 0.251309 0.230366
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 5
+/note2/output-type 0
+/note2/scale/high 100.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.816754 0.293194 0.293194 0.293194 0.293194
+# 
+/note3/data/active 1
+/note3/data/bypass 0
+/note3/loop-length 8
+/note3/output-type 0
+/note3/scale/high 127.000000
+/note3/scale/low 0.000000
+/note3/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.601190 1.000000 1.000000 1.000000 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 815
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 815
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 815
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 0.200000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.544503 0.785340 0.251309 0.869110 0.230366 0.272251 0.712042 0.188482 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.429319 0.178010 0.492147 0.188482 0.513089 0.188482 0.554974 0.554974 0.251309 0.460733 0.282723
+# 
+/vel3/data/active 1
+/vel3/data/bypass 0
+/vel3/loop-length 8
+/vel3/output-type 0
+/vel3/scale/high 127.000000
+/vel3/scale/low 0.000000
+/vel3/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "7--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue none
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 7
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 6
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 2
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 33
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 14
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 50
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 18
+# 
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+# 
+/nd5/channel 3
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.157068 0.198953 0.303665 0.219895 0.198953 0.345550 0.052356 0.376963
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 5
+/note2/output-type 0
+/note2/scale/high 100.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.816754 0.293194 0.293194 0.293194 0.460733
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.601190 1.000000 1.000000 1.000000 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 1600
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 1600
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 1600
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 0.500000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.230366 0.691099 0.251309 0.586387 0.125654 0.157068 0.712042 0.188482 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.471204 0.104712 0.450262 0.125654 0.544503 0.125654 0.439791 0.450262 0.146597 0.534031 0.157068
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 33
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 14
+# 
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+# 
+# ###########################################
+
+- cue "8--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue none
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 13
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 13
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 2
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 32
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 16
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 50
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 18
+# 
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+# 
+/nd5/channel 3
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.157068 0.198953 0.303665 0.219895 0.198953 0.345550 0.052356 0.376963
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 5
+/note2/output-type 0
+/note2/scale/high 100.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.670157 0.293194 0.293194 0.293194 0.293194
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.601190 1.000000 1.000000 1.000000 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 1662
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 1662
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 1662
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.230366 0.691099 0.251309 0.586387 0.125654 0.157068 0.712042 0.188482 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.471204 0.104712 0.450262 0.125654 0.544503 0.125654 0.439791 0.450262 0.146597 0.534031 0.157068
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 32
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 16
+# 
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+# 
+# ###########################################
+
+- cue "9--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue 9--102bpm
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 13
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 13
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 33
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 74
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 76
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 59
+# 
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+# 
+/nd5/channel 3
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.157068 0.198953 0.303665 0.219895 0.198953 0.345550 0.052356 0.376963
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 5
+/note2/output-type 0
+/note2/scale/high 100.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.670157 0.293194 0.293194 0.293194 0.293194
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.601190 1.000000 1.000000 1.000000 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 73
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 73
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 73
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.230366 0.691099 0.251309 0.586387 0.125654 0.157068 0.712042 0.188482 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.471204 0.104712 0.450262 0.125654 0.314136 0.125654 0.261780 0.240838 0.146597 0.575916 0.157068
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 33
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 74
+# 
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+# 
+# ###########################################
+
+- cue "10--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue none
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 13
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 13
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 32
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 23
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 50
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 43
+# 
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+# 
+/nd5/channel 3
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.157068 0.198953 0.303665 0.219895 0.198953 0.345550 0.052356 0.376963
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 5
+/note2/output-type 0
+/note2/scale/high 100.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.670157 0.293194 0.293194 0.293194 0.293194
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.601190 1.000000 1.000000 1.000000 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 2792
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 2792
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 2792
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.230366 0.691099 0.251309 0.586387 0.125654 0.157068 0.712042 0.188482 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.485166 0.104712 0.513089 0.125654 0.617801 0.108202 0.561955 0.143106 0.345550 0.547993 0.157068
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 32
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 23
+# 
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+# 
+/seq1/data/active 1
+/seq1/data/bypass 0
+/seq1/loop-length 8
+/seq1/output-type 0
+/seq1/scale/high 127.000000
+/seq1/scale/low 0.000000
+/seq1/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/seq2/data/active 1
+/seq2/data/bypass 0
+/seq2/loop-length 8
+/seq2/output-type 0
+/seq2/scale/high 127.000000
+/seq2/scale/low 0.000000
+/seq2/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/seq3/data/active 1
+/seq3/data/bypass 0
+/seq3/loop-length 8
+/seq3/output-type 0
+/seq3/scale/high 127.000000
+/seq3/scale/low 0.000000
+/seq3/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/seq4/data/active 1
+/seq4/data/bypass 0
+/seq4/loop-length 8
+/seq4/output-type 0
+/seq4/scale/high 127.000000
+/seq4/scale/low 0.000000
+/seq4/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+# ###########################################
+
+- cue "0--init"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 0
+# 
+/comp_cue/active-cue 1--102bpm
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 4
+/e1/steps 9
+/e1/rotate 0
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 0
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 32
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 86
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 40
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 39
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 32
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 86
+# 
+/nd16/bank 6
+/nd16/channel 16
+/nd16/data/active 1
+/nd16/data/bypass 0
+/nd16/midi-device "Steinberg UR44"
+/nd16/sendCCforPgm 1
+# 
+/nd4/bank 1
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+/nd4/sendCCforPgm 0
+# 
+/nd5/bank 1
+/nd5/channel 1
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+/nd5/sendCCforPgm 0
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.167539 0.198953 0.209424 0.219895 0.198953 0.188482 0.251309 0.230366
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 11
+/note2/output-type 0
+/note2/scale/high 60.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.324607 0.303665 0.303665 0.303665 0.314136 0.324607 0.324607 0.324607 0.324607 0.345550 0.680628
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 0.863095 1.000000 1.000000 1.000000 0.815476 1.000000 0.827381 1.000000 0.827381
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 6
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 6
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 6
+# 
+/rack/bank 1
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+/rack/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 0.200000
+/rt1/velocity 1
+# 
+/rt2/count 4
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+/sendCCforPgm 0
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.544503 0.670157 0.680628 0.680628 0.586387 0.408377 0.261780 0.219895 0.219895
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.356021 0.429319 0.408377 0.439791 0.471204 0.335079 0.303665 0.240838 0.261780 0.314136 0.492147
+# 
+# ###########################################
+
+- cue "11-102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue 11-102bpm
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 13
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 13
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 31
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 19
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 76
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 19
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 31
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 19
+# 
+/nd16/bank 6
+/nd16/channel 16
+/nd16/data/active 1
+/nd16/data/bypass 0
+/nd16/midi-device "Steinberg UR44"
+/nd16/sendCCforPgm 1
+# 
+/nd4/bank 1
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+/nd4/sendCCforPgm 0
+# 
+/nd5/bank 1
+/nd5/channel 2
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+/nd5/sendCCforPgm 0
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.157068 0.198953 0.303665 0.219895 0.198953 0.345550 0.052356 0.376963
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 5
+/note2/output-type 0
+/note2/scale/high 100.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.670157 0.293194 0.293194 0.293194 0.293194
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.601190 1.000000 1.000000 1.000000 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 256
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 256
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 256
+# 
+/rack/bank 1
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+/rack/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.230366 0.691099 0.251309 0.586387 0.125654 0.157068 0.712042 0.188482 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.485166 0.104712 0.513089 0.125654 0.617801 0.108202 0.561955 0.143106 0.345550 0.547993 0.157068
+# 
+/rt2-rate/data/active 1
+/rt2-rate/data/bypass 0
+/rt2-rate/loop-length 11
+/rt2-rate/output-type 0
+/rt2-rate/scale/high 5.000000
+/rt2-rate/scale/low 0.000000
+/rt2-rate/values/raw 0.272251 0.429319 0.282723 0.408377 0.460733 0.460733 0.680628 0.460733 0.429319 0.879581 0.460733
+# 
+# ###########################################
+
+- cue "12-102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue 10--102bpm
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 13
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 13
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 31
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 29
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 72
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 1
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 31
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 29
+# 
+/nd16/bank 6
+/nd16/channel 16
+/nd16/data/active 1
+/nd16/data/bypass 0
+/nd16/midi-device "Steinberg UR44"
+/nd16/sendCCforPgm 1
+# 
+/nd4/bank 1
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+/nd4/sendCCforPgm 0
+# 
+/nd5/bank 1
+/nd5/channel 2
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+/nd5/sendCCforPgm 0
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.157068 0.198953 0.303665 0.219895 0.198953 0.345550 0.052356 0.376963
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 5
+/note2/output-type 0
+/note2/scale/high 100.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.607330 0.492147 0.492147 0.607330 0.439791
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.601190 1.000000 1.000000 0.279762 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 250
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 250
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 250
+# 
+/rack/bank 1
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+/rack/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.230366 0.691099 0.251309 0.586387 0.125654 0.157068 0.712042 0.188482 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.314136 0.104712 0.345550 0.125654 0.335079 0.108202 0.397906 0.143106 0.345550 0.366492 0.157068
+# 
+/rt2-rate/data/active 1
+/rt2-rate/data/bypass 0
+/rt2-rate/loop-length 11
+/rt2-rate/output-type 0
+/rt2-rate/scale/high 5.000000
+/rt2-rate/scale/low 0.000000
+/rt2-rate/values/raw 0.272251 0.429319 0.282723 0.408377 0.460733 0.460733 0.680628 0.460733 0.429319 0.879581 0.460733
+# 
+# ###########################################
+
+- cue "13-102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue 12-102bpm
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 13
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 23
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 33
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 90
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 72
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 19
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 33
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 90
+# 
+/nd16/bank 6
+/nd16/channel 16
+/nd16/data/active 1
+/nd16/data/bypass 0
+/nd16/midi-device "Steinberg UR44"
+/nd16/sendCCforPgm 1
+# 
+/nd4/bank 1
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+/nd4/sendCCforPgm 0
+# 
+/nd5/bank 1
+/nd5/channel 2
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+/nd5/sendCCforPgm 0
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.157068 0.198953 0.303665 0.219895 0.198953 0.345550 0.052356 0.376963
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 5
+/note2/output-type 0
+/note2/scale/high 100.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.607330 0.492147 0.492147 0.607330 0.439791
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 0.255952 1.000000 1.000000 1.000000 1.000000 0.601190 1.000000 1.000000 0.279762 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 305
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 305
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 305
+# 
+/rack/bank 1
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+/rack/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 1.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.230366 0.691099 0.251309 0.586387 0.125654 0.157068 0.712042 0.188482 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.356021 0.104712 0.376963 0.157068 0.345550 0.108202 0.397906 0.143106 0.387435 0.366492 0.157068
+# 
+/rt2-rate/data/active 1
+/rt2-rate/data/bypass 0
+/rt2-rate/loop-length 11
+/rt2-rate/output-type 0
+/rt2-rate/scale/high 5.000000
+/rt2-rate/scale/low 0.000000
+/rt2-rate/values/raw 0.272251 0.429319 0.282723 0.356021 1.000000 0.460733 0.680628 0.460733 0.429319 0.879581 0.460733
+# 
+# ###########################################
+
+- cue "14-102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue 13-102bpm
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 5
+/e1/steps 9
+/e1/rotate 13
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 23
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 31
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/velocity 19
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 71
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/velocity 1
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 31
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/velocity 19
+# 
+/nd16/bank 6
+/nd16/channel 16
+/nd16/data/active 1
+/nd16/data/bypass 0
+/nd16/midi-device "Steinberg UR44"
+/nd16/sendCCforPgm 1
+# 
+/nd4/bank 1
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+/nd4/sendCCforPgm 0
+# 
+/nd5/bank 1
+/nd5/channel 2
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+/nd5/sendCCforPgm 0
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.136126 0.157068 0.198953 0.303665 0.219895 0.198953 0.345550 0.052356 0.376963
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 5
+/note2/output-type 0
+/note2/scale/high 100.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.460733 0.387435 0.586387 0.314136 0.418848
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 0.732143 1.000000 1.000000 1.000000 1.000000 0.589286 1.000000 1.000000 0.660714 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 369
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 369
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 369
+# 
+/rack/bank 1
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+/rack/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 2.000000
+/rt2/velocity 1
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.230366 0.691099 0.251309 0.586387 0.125654 0.157068 0.712042 0.188482 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.345550 0.293194 0.408377 0.303665 0.439791 0.324607 0.397906 0.345550 0.387435 0.366492 0.345550
+# 
+/rt2-rate/data/active 1
+/rt2-rate/data/bypass 0
+/rt2-rate/loop-length 11
+/rt2-rate/output-type 0
+/rt2-rate/scale/high 5.000000
+/rt2-rate/scale/low 0.000000
+/rt2-rate/values/raw 0.272251 0.429319 0.282723 0.356021 1.000000 0.460733 0.680628 0.460733 0.429319 0.879581 0.460733
+# 
+# ###########################################
+
+- cue "15--102bpm"
+- description "something about this cue"
+# ###########################################
+# 
+/c1/data/active 1
+/c1/data/bypass 0
+/c1/rate/bpm 588.235291
+/c1/rate/mult 4.000000
+/c1/started 1
+# 
+/comp_cue/active-cue 14-102bpm
+/comp_cue/active-namespace none
+/comp_cue/recall-type 0
+# 
+/e1/trigs 9
+/e1/steps 9
+/e1/rotate 13
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 8
+/e2/steps 11
+/e2/rotate 23
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/g1/control 1
+/g1/data/active 1
+/g1/data/bypass 0
+/g1/offset 0
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/l1/data/active 1
+/l1/steps 9
+# 
+/l2/data/active 1
+/l2/steps 11
+# 
+/l3/data/active 1
+/l3/steps 16
+# 
+/mn1/data/active 1
+/mn1/data/bypass 0
+/mn1/duration 100
+/mn1/pitch 46
+/mn1/pitch+ 12
+/mn1/send-note-off 1
+/mn1/trigger-on-bang-only 0
+/mn1/vel+ 0
+/mn1/velocity 86
+# 
+/mn2/data/active 1
+/mn2/data/bypass 0
+/mn2/duration 100
+/mn2/pitch 51
+/mn2/pitch+ 0
+/mn2/send-note-off 1
+/mn2/trigger-on-bang-only 0
+/mn2/vel+ 0
+/mn2/velocity 38
+# 
+/mn3/data/active 1
+/mn3/data/bypass 0
+/mn3/duration 100
+/mn3/pitch 55
+/mn3/pitch+ 21
+/mn3/send-note-off 1
+/mn3/trigger-on-bang-only 0
+/mn3/vel+ 10
+/mn3/velocity 96
+# 
+/nd16/bank 6
+/nd16/channel 16
+/nd16/data/active 1
+/nd16/data/bypass 0
+/nd16/midi-device "Steinberg UR44"
+/nd16/sendCCforPgm 1
+# 
+/nd4/bank 1
+/nd4/channel 4
+/nd4/data/active 1
+/nd4/data/bypass 0
+/nd4/midi-device "Steinberg UR44"
+/nd4/sendCCforPgm 0
+# 
+/nd5/bank 1
+/nd5/channel 2
+/nd5/data/active 1
+/nd5/data/bypass 0
+/nd5/midi-device "Steinberg UR44"
+/nd5/sendCCforPgm 0
+# 
+/note1/data/active 1
+/note1/data/bypass 0
+/note1/loop-length 9
+/note1/output-type 0
+/note1/scale/high 40.000000
+/note1/scale/low 30.000000
+/note1/values/raw 0.376963 0.178010 0.324607 0.230366 0.492147 0.240838 0.157068 0.251309 0.178010
+# 
+/note2/data/active 1
+/note2/data/bypass 0
+/note2/loop-length 5
+/note2/output-type 0
+/note2/scale/high 100.000000
+/note2/scale/low 30.000000
+/note2/values/raw 0.460733 0.387435 0.586387 0.314136 0.418848
+# 
+/p1/input-mode 0
+# 
+/p1/loop/data/active 1
+/p1/loop/steps 9
+/p1/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p1/probabilities 0.946429 0.291667 0.755952 0.434524 0.541667 0.922619 0.565476 0.541667 0.815476
+/p1/rand-type 0
+# 
+/p2/input-mode 1
+# 
+/p2/loop/data/active 1
+/p2/loop/steps 11
+/p2/prob-mode 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000 3.000000
+/p2/probabilities 1.000000 0.732143 1.000000 1.000000 1.000000 1.000000 0.589286 1.000000 1.000000 0.660714 1.000000
+/p2/rand-type 0
+# 
+/r1/data/active 1
+/r1/data/bypass 0
+/r1/loop-length 9
+/r1/rotate 238
+# 
+/r2/data/active 1
+/r2/data/bypass 0
+/r2/loop-length 9
+/r2/rotate 238
+# 
+/r3/data/active 1
+/r3/data/bypass 0
+/r3/loop-length 9
+/r3/rotate 238
+# 
+/rack/bank 1
+/rack/channel 1
+/rack/data/active 1
+/rack/data/bypass 0
+/rack/midi-device "from Max 1"
+/rack/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 1
+# 
+/rt2/count 8
+/rt2/data/active 1
+/rt2/data/bypass 0
+/rt2/mod-vel 1
+/rt2/rate 1.000000
+/rt2/velocity 1
+# 
+/rt2-rate/data/active 1
+/rt2-rate/data/bypass 0
+/rt2-rate/loop-length 11
+/rt2-rate/output-type 0
+/rt2-rate/scale/high 5.000000
+/rt2-rate/scale/low 0.000000
+/rt2-rate/values/raw 0.272251 0.429319 0.282723 0.356021 1.000000 0.460733 0.680628 0.460733 0.429319 0.879581 0.460733
+# 
+/vel1/data/active 1
+/vel1/data/bypass 0
+/vel1/loop-length 9
+/vel1/output-type 0
+/vel1/scale/high 127.000000
+/vel1/scale/low 0.000000
+/vel1/values/raw 0.492147 0.691099 0.575916 0.712042 0.680628 0.397906 0.712042 0.638743 0.534031
+# 
+/vel2/data/active 1
+/vel2/data/bypass 0
+/vel2/loop-length 11
+/vel2/output-type 0
+/vel2/scale/high 127.000000
+/vel2/scale/low 0.000000
+/vel2/values/raw 0.345550 0.293194 0.408377 0.303665 0.439791 0.324607 0.397906 0.345550 0.387435 0.366492 0.345550
+# 
+# ###########################################
+

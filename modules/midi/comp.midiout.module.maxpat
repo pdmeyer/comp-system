@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 289.0, 364.0, 640.0, 480.0 ],
+		"rect" : [ 206.0, 141.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 127.0, 69.0, 130.0, 22.0 ],
+					"text" : "j.send */scan-midi-outs"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "none",
 					"bgmode" : 0,
 					"border" : 0,
@@ -51,9 +63,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "comp.midiout.view.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ -4.0, -6.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -2.0, -3.0, 150.0, 70.0 ],
@@ -248,6 +260,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 3 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -294,6 +313,44 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"styles" : [ 			{
+				"name" : "active",
+				"umenu" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.5,
+						"autogradient" : 0.0
+					}
+
+				}
+,
+				"parentstyle" : "default",
+				"multi" : 1
+			}
+, 			{
+				"name" : "inactive",
+				"umenu" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.2, 0.2, 0.2, 0.5 ],
+						"color1" : [ 0.301961, 0.301961, 0.301961, 0.64 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.5,
+						"autogradient" : 0.0
+					}
+,
+					"textcolor_inverse" : [ 0.754813551902771, 0.763825654983521, 0.76302182674408, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 1
 			}
  ]
 	}

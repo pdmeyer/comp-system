@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 834.0, 92.0, 765.0, 650.0 ],
+		"rect" : [ 481.0, 92.0, 765.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -377,7 +377,6 @@
 , 			{
 				"name" : "inactive",
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.754813551902771, 0.763825654983521, 0.76302182674408, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.2, 0.2, 0.2, 0.5 ],
@@ -387,7 +386,8 @@
 						"proportion" : 0.5,
 						"autogradient" : 0.0
 					}
-
+,
+					"textcolor_inverse" : [ 0.754813551902771, 0.763825654983521, 0.76302182674408, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

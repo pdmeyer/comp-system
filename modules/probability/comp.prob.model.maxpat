@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 900.0, 80.0, 986.0, 966.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -149,7 +149,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -388,7 +388,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 19.0, 184.0, 79.0, 22.0 ],
+					"patching_rect" : [ 19.0, 174.5, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -450,7 +450,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -540,7 +540,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 10.0, 9.0, 30.0, 30.0 ]
 								}
 
@@ -653,7 +653,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 79.0, 17.5, 30.0, 30.0 ]
 				}
 
@@ -800,9 +800,9 @@
 					"annotation" : "Create looping musical bars from an incrementing clock signal",
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 4,
-					"outlettype" : [ "int", "int", "int", "" ],
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 19.0, 212.0, 159.0, 22.0 ],
 					"text" : "comp.loop.model loop"
 				}
