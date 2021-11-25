@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 219.0, 79.0, 677.0, 687.0 ],
+		"rect" : [ 503.0, 79.0, 677.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "dark-bg",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 238.0, 684.0, 153.0, 22.0 ],
+					"text" : "1 1 1 1 1 1 0 0 0 0 0 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
@@ -495,7 +507,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 177.0, 77.5, 498.0, 22.0 ],
-					"text" : "j.parameter listen @type boolean @description \"if true, listen for incoming gates\" @default 1"
+					"text" : "j.parameter listen @type boolean @description \"if true, listen for incoming gates\" @default 0"
 				}
 
 			}
@@ -589,7 +601,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 4,
-					"outlettype" : [ "int", "int", "int", "" ],
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 34.0, 296.0, 188.0, 22.0 ],
 					"text" : "comp.loop.model loop"
 				}
@@ -932,7 +944,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"midpoints" : [ 130.166666666666686, 639.75, 267.462961494922638, 639.75 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -941,7 +953,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"midpoints" : [ 130.166666666666686, 638.5, 93.5, 638.5, 93.5, 163.0, 112.5, 163.0 ],
-					"order" : 2,
+					"order" : 3,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -949,7 +969,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-9", 0 ]
 				}
 

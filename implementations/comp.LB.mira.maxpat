@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 313.0, 82.0, 543.0, 687.0 ],
+		"rect" : [ 313.0, 82.0, 827.0, 674.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1276,6 +1276,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-222",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1815,7 +1816,6 @@
 						"style" : "",
 						"subpatcher_template" : "dark-bg",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -2332,7 +2332,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "dial[4]",
-							"parameter_mmax" : 12.0,
+							"parameter_mmax" : 11.0,
 							"parameter_shortname" : "dial[4]",
 							"parameter_type" : 0
 						}
@@ -3591,7 +3591,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 446.269223093986511, 322.5, 66.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "start pos",
 					"textjustification" : 2
 				}
@@ -3683,7 +3682,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-80",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3725,7 +3723,8 @@
 					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 1.0 ],
 					"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"id" : "obj-71",
-					"knobcolor" : [ 0.647, 0.647, 0.647, 1.0 ],
+					"ignoreclick" : 1,
+					"knobcolor" : [ 1.0, 0.71, 0.196, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -4013,7 +4012,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 95.5, 157.0, 22.0 ],
+					"patching_rect" : [ 243.519223093986511, 95.0, 157.0, 22.0 ],
 					"text" : "j.send comp_cue/active-cue"
 				}
 
@@ -4022,16 +4021,16 @@
 				"box" : 				{
 					"fontsize" : 20.0,
 					"id" : "obj-13",
-					"items" : [ "0 -- init", ",", "1--pgm39-beautiful", ",", "2--pgm32", ",", "3--pgm40_min", ",", "5--pgm43_breakdown", ",", "4--pgm40-active", ",", "5--pgm44_jazz", ",", "6--pgm28_intro", ",", "7--pgm28_wVox", ",", "8--pgm28_3", ",", "9--pgm45-after28", ",", "10--pgm46-after45", ",", "11--pgm46", ",", "13--pgm46_bline", ",", "14--pgm46_pingpong", ",", "15--pgm32", ",", "16--pgm47", ",", "1.1--pgm39-beautiful_2", ",", "1.2--pgm39-beautiful_3" ],
+					"items" : [ "0 -- init", ",", "1--pgm39-beautiful", ",", "1.1--pgm49-beautiful_2", ",", "1.2--pgm49-beautiful_3", ",", "10--pgm46-after45", ",", "11--pgm46", ",", "13--pgm46_bline", ",", "14--pgm46_pingpong", ",", "15--pgm32", ",", "16--pgm47", ",", "2--pgm32", ",", "3--pgm40_min", ",", "4--pgm40-active", ",", "5--pgm43_breakdown", ",", "5--pgm44_jazz", ",", "6--pgm28_intro", ",", "7--pgm28_wVox", ",", "8--pgm28_3", ",", "9--pgm45-after28" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 9.75, 86.5, 132.769223093986511, 31.0 ],
+					"patching_rect" : [ 9.75, 86.5, 231.769223093986511, 31.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "0 -- init", "1--pgm39-beautiful", "2--pgm32", "3--pgm40_min", "5--pgm43_breakdown", "4--pgm40-active", "5--pgm44_jazz", "6--pgm28_intro", "7--pgm28_wVox", "8--pgm28_3", "9--pgm45-after28", "10--pgm46-after45", "11--pgm46", "13--pgm46_bline", "14--pgm46_pingpong", "15--pgm32", "16--pgm47", "1.1--pgm39-beautiful_2", "1.2--pgm39-beautiful_3" ],
+							"parameter_enum" : [ "0 -- init", "1--pgm39-beautiful", "1.1--pgm49-beautiful_2", "1.2--pgm49-beautiful_3", "10--pgm46-after45", "11--pgm46", "13--pgm46_bline", "14--pgm46_pingpong", "15--pgm32", "16--pgm47", "2--pgm32", "3--pgm40_min", "4--pgm40-active", "5--pgm43_breakdown", "5--pgm44_jazz", "6--pgm28_intro", "7--pgm28_wVox", "8--pgm28_3", "9--pgm45-after28" ],
 							"parameter_longname" : "umenu",
 							"parameter_mmax" : 18,
 							"parameter_shortname" : "umenu",
