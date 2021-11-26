@@ -1,0 +1,19 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+basis noise.simplex
+clock/frequency 2.000000
+data/active 1
+data/bypass 0
+distorted/inner none
+distorted/outer none
+fractal/basis none
+fractal/detail 0.000000
+fractal/lacunarity 0.000000
+gradient/filter none
+scale 0.200000
+voronoi/distance none
+# 
+# ###########################################
