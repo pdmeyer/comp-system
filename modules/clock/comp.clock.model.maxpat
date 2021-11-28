@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 192.5, 162.0, 29.5, 22.0 ],
+					"patching_rect" : [ 158.000000000000028, 109.5, 29.5, 22.0 ],
 					"text" : "!= 0"
 				}
 
@@ -58,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 58.333333333333343, 649.0, 41.0, 22.0 ],
+					"patching_rect" : [ 21.333333333333343, 496.0, 41.0, 22.0 ],
 					"text" : "j.out 1"
 				}
 
@@ -71,7 +71,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 58.333333333333343, 75.0, 34.0, 22.0 ],
+					"patching_rect" : [ 21.333333333333343, 45.0, 34.0, 22.0 ],
 					"text" : "j.in 1"
 				}
 
@@ -85,7 +85,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 294.083333333333371, 498.0, 460.0, 35.0 ],
+					"patching_rect" : [ 254.083333333333371, 338.0, 460.0, 35.0 ],
 					"text" : "j.return rate/metro_interval @type decimal @dataspace time @unit ms @description \"actual metro time interval - result of bpm and mult parameters\""
 				}
 
@@ -94,12 +94,11 @@
 				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-9",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 89.833333333333343, 498.0, 189.000000000000028, 49.0 ],
+					"patching_rect" : [ 52.833333333333343, 390.0, 502.0, 22.0 ],
 					"text" : "j.message pos/override @type integer @description \"set clock position to a specific value\""
 				}
 
@@ -113,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 78.0, 603.0, 218.0, 35.0 ],
+					"patching_rect" : [ 36.0, 445.0, 218.0, 35.0 ],
 					"text" : "j.return pos/position @type integer @description \"value of clock output\""
 				}
 
@@ -122,12 +121,12 @@
 				"box" : 				{
 					"color" : [ 0.066, 0.502, 0.007, 1.0 ],
 					"id" : "obj-14",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 326.666666666666629, 213.0, 310.916666666666742, 49.0 ],
+					"patching_rect" : [ 294.666666666666742, 180.0, 387.916666666666742, 35.0 ],
 					"text" : "j.parameter rate/mult @type decimal @dataspace none @range 0.01 100. @description \"create subdivisions of the base bpm\" @default 4."
 				}
 
@@ -136,12 +135,12 @@
 				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-12",
-					"linecount" : 6,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 58.333333333333343, 350.0, 121.0, 89.0 ],
+					"patching_rect" : [ 21.333333333333329, 180.0, 268.25, 35.0 ],
 					"text" : "j.parameter started @type boolean @description \"whether or not the clock is started or stopped\""
 				}
 
@@ -155,7 +154,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.583333333333343, 162.0, 397.0, 35.0 ],
+					"patching_rect" : [ 226.333333333333371, 138.5, 397.0, 35.0 ],
 					"text" : "j.parameter rate/bpm @type decimal @dataspace time @range 5. 300. @unit ms @description \"clock speed in beats per minute\" @default 140."
 				}
 
@@ -169,7 +168,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.333333333333343, 34.0, 30.0, 30.0 ]
+					"patching_rect" : [ 21.333333333333343, 13.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -182,7 +181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 411.583333333333485, 359.5, 308.0, 35.0 ],
+					"patching_rect" : [ 412.583333333333485, 32.0, 227.0, 35.0 ],
 					"text" : "j.message reset @type none @description \"return clock counter to 0\""
 				}
 
@@ -196,8 +195,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 143.166666666666686, 268.0, 238.0, 35.0 ],
-					"text" : "j.message stop @type none @ description \"stop clock\""
+					"patching_rect" : [ 241.583333333333258, 32.0, 160.000000000000057, 35.0 ],
+					"text" : "j.message stop @type none @description \"stop clock\""
 				}
 
 			}
@@ -210,7 +209,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 78.0, 213.0, 185.0, 35.0 ],
+					"patching_rect" : [ 62.958333333333314, 32.0, 164.0, 35.0 ],
 					"text" : "j.message start @type none @description \"start clock\""
 				}
 
@@ -223,7 +222,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.583333333333371, 681.0, 30.0, 30.0 ]
+					"patching_rect" : [ 306.583333333333371, 528.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -236,7 +235,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 343.583333333333371, 623.0, 182.0, 49.0 ],
+					"patching_rect" : [ 306.583333333333371, 469.0, 182.0, 49.0 ],
 					"text" : "j.model @description \"Generate an auto-incrementing clock signal\""
 				}
 
@@ -248,7 +247,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 393.75, 420.5, 22.0, 22.0 ],
+					"patching_rect" : [ 363.000000000000114, 109.5, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -260,7 +259,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 326.583333333333371, 331.0, 78.0, 22.0 ],
+					"patching_rect" : [ 294.666666666666742, 222.0, 78.0, 22.0 ],
 					"text" : "route int float"
 				}
 
@@ -272,7 +271,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 125.416666666666686, 312.0, 22.0, 22.0 ],
+					"patching_rect" : [ 89.666666666666686, 109.5, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -284,7 +283,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 58.333333333333343, 312.0, 22.0, 22.0 ],
+					"patching_rect" : [ 21.333333333333343, 109.5, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -296,7 +295,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 58.333333333333343, 125.0, 421.5, 22.0 ],
+					"patching_rect" : [ 21.333333333333343, 75.0, 429.000000000000057, 22.0 ],
 					"text" : "route start stop int bpm mult reset"
 				}
 
@@ -308,7 +307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 326.583333333333371, 366.0, 29.5, 22.0 ],
+					"patching_rect" : [ 294.666666666666742, 252.0, 29.5, 22.0 ],
 					"text" : "t b f"
 				}
 
@@ -320,7 +319,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 240.583333333333343, 420.5, 29.5, 22.0 ],
+					"patching_rect" : [ 226.333333333333371, 295.5, 29.5, 22.0 ],
 					"text" : "/ 1."
 				}
 
@@ -332,7 +331,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 58.333333333333343, 566.5, 61.0, 22.0 ],
+					"patching_rect" : [ 21.333333333333343, 415.5, 61.0, 22.0 ],
 					"text" : "counter"
 				}
 
@@ -344,7 +343,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 58.333333333333343, 466.0, 118.0, 22.0 ],
+					"patching_rect" : [ 21.083333333333371, 338.0, 224.25, 22.0 ],
 					"text" : "metro 500"
 				}
 
@@ -356,7 +355,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.583333333333343, 390.0, 114.0, 33.0 ],
+					"patching_rect" : [ 257.833333333333371, 290.0, 114.0, 33.0 ],
 					"text" : "bpm to ms interval between beats"
 				}
 
@@ -369,7 +368,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 58.333333333333343, 681.0, 30.0, 30.0 ]
+					"patching_rect" : [ 21.333333333333343, 528.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -486,6 +485,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
+					"midpoints" : [ 72.458333333333314, 104.25, 30.833333333333343, 104.25 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -549,6 +549,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
+					"midpoints" : [ 251.083333333333258, 103.25, 99.166666666666686, 103.25 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -570,7 +571,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 2 ],
-					"midpoints" : [ 403.25, 552.25, 88.833333333333343, 552.25 ],
+					"midpoints" : [ 372.500000000000114, 381.25, 51.833333333333343, 381.25 ],
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -578,6 +579,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
+					"midpoints" : [ 422.083333333333485, 104.25, 372.500000000000114, 104.25 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
