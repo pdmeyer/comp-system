@@ -46,86 +46,53 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-2",
+					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "comp.createmodule.view.maxpat",
+					"name" : "comp.create.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, -1.0, 160.0, 80.0 ],
+					"patching_rect" : [ -6.0, 1.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-1",
+					"comment" : "",
+					"id" : "obj-4",
+					"index" : 1,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2.0, 136.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 98.0, 167.0, 22.0 ],
-					"text" : "comp.createmodule.model #1"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2.0, 92.0, 147.0, 22.0 ],
+					"text" : "comp.create.model #1"
 				}
 
 			}
  ],
-		"lines" : [  ],
-		"dependency_cache" : [ 			{
-				"name" : "comp.createmodule.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "findmodules.js",
-				"bootpath" : "~/Projects/comp-system/utilities",
-				"patcherrelativepath" : "../utilities",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "createmodule.js",
-				"bootpath" : "~/Projects/comp-system/utilities",
-				"patcherrelativepath" : "../utilities",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comp.createmodule.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{

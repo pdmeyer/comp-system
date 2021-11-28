@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 179.0, 105.0, 763.0, 661.0 ],
+		"rect" : [ 179.0, 105.0, 574.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,87 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 282.944444444444457, 166.0, 120.0, 22.0 ],
+					"text" : "combine mn .module"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 11.5, 40.0, 51.0, 22.0 ],
+					"text" : "scan $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 11.5, 13.0, 206.0, 22.0 ],
+					"text" : "j.parameter modules-dir @type string"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 10,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 11.5, 207.0, 368.0, 22.0 ],
+					"text" : "pack script newdefault name 0 0 bpatcher @name mn @args name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"index" : 1,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 11.5, 252.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 61.5, 252.0, 47.0, 22.0 ],
+					"text" : "j.model"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 57.0, 194.0, 22.0 ],
+					"patching_rect" : [ 11.5, 97.0, 194.0, 22.0 ],
 					"text" : "j.return modules-list @type generic"
 				}
 
@@ -59,7 +133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 49.0, 114.0, 211.0, 22.0 ],
+					"patching_rect" : [ 282.944444444444457, 135.0, 211.0, 22.0 ],
 					"text" : "j.message module-name @type string"
 				}
 
@@ -72,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 77.5, 151.0, 203.0, 22.0 ],
+					"patching_rect" : [ 11.5, 135.0, 203.0, 22.0 ],
 					"text" : "j.message object-name @type string"
 				}
 
@@ -84,37 +158,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 77.5, 180.0, 29.5, 22.0 ],
+					"patching_rect" : [ 11.5, 166.0, 96.555555555555557, 22.0 ],
 					"text" : "t b l"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 217.0, 167.0, 22.0 ],
-					"text" : "pack create module name 0 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 252.0, 105.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "createmodule.js",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js createmodule.js"
 				}
 
 			}
@@ -125,7 +170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
-					"patching_rect" : [ 112.0, 180.0, 71.0, 22.0 ],
+					"patching_rect" : [ 132.611111111111171, 166.0, 86.999999999999915, 22.0 ],
 					"text" : "mousestate"
 				}
 
@@ -137,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 27.0, 97.0, 22.0 ],
+					"patching_rect" : [ 11.5, 69.0, 97.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "findmodules.js",
 						"parameter_enable" : 0
@@ -150,6 +195,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -157,22 +209,31 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 2 ],
+					"destination" : [ "obj-12", 9 ],
+					"order" : 0,
 					"source" : [ "obj-29", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-12", 2 ],
+					"order" : 1,
+					"source" : [ "obj-29", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -185,50 +246,40 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 1 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 4 ],
+					"destination" : [ "obj-12", 7 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 4 ],
 					"source" : [ "obj-6", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 3 ],
+					"destination" : [ "obj-12", 3 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "findmodules.js",
-				"bootpath" : "~/Projects/comp-system/utilities",
-				"patcherrelativepath" : "../utilities",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "createmodule.js",
-				"bootpath" : "~/Projects/comp-system/utilities",
-				"patcherrelativepath" : "../utilities",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
