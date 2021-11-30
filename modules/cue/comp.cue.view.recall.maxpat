@@ -464,7 +464,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.5, 162.0, 94.0, 22.0 ],
+					"patching_rect" : [ 138.0, 162.0, 94.0, 22.0 ],
 					"text" : "prepend symbol"
 				}
 
@@ -487,8 +487,8 @@
 					"id" : "obj-276",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 96.5, 138.0, 102.0, 22.0 ],
 					"text" : "handle-cue-menu"
 				}
