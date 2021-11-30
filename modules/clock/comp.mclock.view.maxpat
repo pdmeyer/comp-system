@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 599.0, 85.0, 655.0, 560.0 ],
+		"rect" : [ 301.0, 79.0, 655.0, 560.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -400,7 +400,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-74",
@@ -1019,7 +1018,7 @@
 					"patching_rect" : [ 341.0, 210.0, 70.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.0, 27.5, 54.0, 18.0 ],
-					"text" : "37:6"
+					"text" : "632:7"
 				}
 
 			}
@@ -1256,8 +1255,8 @@
 					"format" : 6,
 					"id" : "obj-17",
 					"maxclass" : "flonum",
-					"maximum" : 100,
-					"minimum" : 0,
+					"maximum" : 100.0,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1289,8 +1288,8 @@
 					"format" : 6,
 					"id" : "obj-14",
 					"maxclass" : "flonum",
-					"maximum" : 300,
-					"minimum" : 5,
+					"maximum" : 300.0,
+					"minimum" : 5.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1334,7 +1333,7 @@
 					"presentation_rect" : [ 6.0, 26.9140625, 29.33984375, 19.171875 ],
 					"rounded" : 4.0,
 					"text" : "Off",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.545098039215686, 0.545098039215686, 0.545098039215686, 1.0 ],
 					"texton" : "On",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usebgoncolor" : 1

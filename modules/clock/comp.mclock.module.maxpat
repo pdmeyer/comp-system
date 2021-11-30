@@ -163,7 +163,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 309.0, 123.0 ],
+					"patching_rect" : [ -1.0, -3.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
