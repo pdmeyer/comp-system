@@ -344,7 +344,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 471.0, 82.0, 327.0, 480.0 ],
+						"rect" : [ 471.0, 82.0, 234.0, 417.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -402,7 +402,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+										"rect" : [ 59.0, 104.0, 285.0, 403.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -449,7 +449,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 12.0, 224.0, 72.0, 22.0 ],
+													"patching_rect" : [ 12.5, 222.0, 71.0, 22.0 ],
 													"text" : "zl.reg"
 												}
 
@@ -461,7 +461,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 12.0, 306.0, 51.0, 22.0 ],
+													"patching_rect" : [ 50.0, 313.0, 51.0, 22.0 ],
 													"text" : "zl.group"
 												}
 
@@ -473,7 +473,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 12.0, 280.0, 43.0, 22.0 ],
+													"patching_rect" : [ 12.5, 278.0, 43.0, 22.0 ],
 													"text" : "zl.sum"
 												}
 
@@ -485,7 +485,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 12.0, 252.0, 94.5, 22.0 ],
+													"patching_rect" : [ 12.5, 250.0, 94.5, 22.0 ],
 													"text" : "zl.slice"
 												}
 
@@ -497,7 +497,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 12.5, 137.0, 71.5, 22.0 ],
+													"patching_rect" : [ 12.5, 138.0, 71.5, 22.0 ],
 													"text" : "t l l"
 												}
 
@@ -571,7 +571,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 12.0, 344.0, 30.0, 30.0 ]
+													"patching_rect" : [ 50.0, 346.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -791,7 +791,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 187.0, 176.0, 22.0 ],
+									"patching_rect" : [ 15.0, 189.0, 176.0, 22.0 ],
 									"text" : "vexpr $f1 > $f2 @scalarmode 1"
 								}
 
