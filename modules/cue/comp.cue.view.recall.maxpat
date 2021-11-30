@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 610.0, 355.0, 805.0, 480.0 ],
+		"rect" : [ 140.0, 197.0, 805.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -66,7 +66,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -527,7 +527,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -539,7 +539,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -562,6 +562,22 @@
 			}
 , 			{
 				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.78824586036494, 0.830847, 0.66044244145976, 1.0 ],
+					"id" : "obj-1",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 23.0, 38.0, 49.0, 41.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 23.0, 299.0, 50.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-11",
 					"maxclass" : "j.ui",
@@ -571,7 +587,7 @@
 					"patching_rect" : [ 19.0, 16.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 3.0, 300.0, 70.0 ],
-					"text" : "/comp_cue"
+					"text" : "/no_model_address"
 				}
 
 			}
@@ -698,11 +714,49 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-34" : [ "live.button", "live.button", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "handle-cue-menu.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/cue",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

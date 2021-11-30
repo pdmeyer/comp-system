@@ -38,6 +38,12 @@ var commands = {
     "updateNamesRequired" : 0,
     "saveAfter" : 1
   },
+  "refresh" : {
+    "messageType" : "selected-cue",
+    "nameSelectionRequired": 0,
+    "updateNamesRequired" : 0,
+    "saveAfter" : 1
+  },
   "rename" : {
     "messageType" : "selected+new",
     "dialogLabel" : "new name for cue ",
@@ -182,10 +188,6 @@ for all message types, check to see if a cue names update
 and a cue focus selection are required
 */
 function updateAndSelect(update, select) {
-  // var a = arrayfromargs(arguments)s
-  // var update = a[0];
-  // var select = a[1];
-  // post("update "+update+" select "+select+"\n")
   if(update) updateNames();
   if(select) {
     if(temp.nameSelection) {
@@ -208,5 +210,3 @@ function selectCue() {
   var a = arrayfromargs(arguments);
   outlet(o.indexOf("umenu"), a);
 };
-
-
