@@ -40,18 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-258",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 724.0, 654.0, 50.0, 22.0 ],
-					"text" : "78:0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-254",
 					"maxclass" : "newobj",
@@ -689,7 +677,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 364.5, 346.5, 152.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "<< array of clock divisions"
 								}
 
@@ -701,7 +688,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 114.285714285714278, 240.0, 141.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "<< highest prime divisor"
 								}
 
@@ -2198,15 +2184,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
-					"order" : 1,
-					"source" : [ "obj-102", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-258", 1 ],
-					"order" : 0,
 					"source" : [ "obj-102", 0 ]
 				}
 
