@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 362.0, 323.0, 706.0, 384.0 ],
+		"rect" : [ 227.0, 278.0, 706.0, 384.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "to model",
 					"id" : "obj-7",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -494,7 +494,7 @@
 				"box" : 				{
 					"comment" : "(anything) trigger input",
 					"id" : "obj-51",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -563,7 +563,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 379.0, 79.0, 730.0, 857.0 ],
+						"rect" : [ 277.0, 79.0, 730.0, 857.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -591,7 +591,21 @@
 						"style" : "",
 						"subpatcher_template" : "dark-bg",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 61.0, 210.556124639889532, 618.0, 22.0 ],
+									"text" : "j.message refresh @type string @description \"update the cue with the provided name, excluding any new objects\""
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-7",
 									"maxclass" : "message",
@@ -745,7 +759,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 61.0, 249.482145413204449, 62.0, 22.0 ],
+									"patching_rect" : [ 61.0, 247.556124639889532, 62.0, 22.0 ],
 									"text" : "update $1"
 								}
 
@@ -794,7 +808,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 61.0, 95.852041546629849, 542.0, 22.0 ],
+									"patching_rect" : [ 61.0, 79.852041546629849, 542.0, 22.0 ],
 									"text" : "j.message rename @type generic @description \"update the designated cue with the provided name\""
 								}
 
@@ -911,8 +925,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 61.0, 223.556124639889532, 474.0, 22.0 ],
-									"text" : "j.message update @type string @description \"update the cue with the provided name\""
+									"patching_rect" : [ 146.0, 133.556124639889532, 610.0, 22.0 ],
+									"text" : "j.message update @type string @description \"update the cue with the provided name, including any new objects\""
 								}
 
 							}
@@ -1065,8 +1079,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
+									"destination" : [ "obj-16", 0 ],
 									"source" : [ "obj-79", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -1133,7 +1154,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2053,6 +2074,36 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "j.cue.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.namespace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.init.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
