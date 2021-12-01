@@ -74,7 +74,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 120.5, 101.452831999999944, 18.499999999999986, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 58.0, 23.452831999999944, 20.0, 20.0 ]
+					"presentation_rect" : [ 62.0, 23.452831999999944, 20.0, 20.0 ]
 				}
 
 			}
@@ -87,7 +87,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 362.754729568958282, 184.452831999999944, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 193.0, 45.452831999999944, 45.0, 18.0 ],
+					"presentation_rect" : [ 201.0, 46.452831999999944, 45.0, 18.0 ],
 					"text" : "out high",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
@@ -103,7 +103,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 362.754729568958282, 108.452831999999944, 53.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 193.0, 23.452831999999944, 45.0, 18.0 ],
+					"presentation_rect" : [ 201.0, 24.452831999999944, 45.0, 18.0 ],
 					"text" : "out low",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
@@ -112,6 +112,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"fontsize" : 10.0,
 					"format" : 6,
 					"id" : "obj-73",
@@ -129,6 +130,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"fontsize" : 10.0,
 					"format" : 6,
 					"id" : "obj-72",
@@ -146,6 +148,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"id" : "obj-32",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -169,7 +172,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 66.0, 101.452831999999944, 51.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 23.452831999999944, 51.0, 20.0 ]
+					"presentation_rect" : [ 9.0, 23.452831999999944, 51.0, 20.0 ]
 				}
 
 			}
@@ -184,7 +187,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 82.0, 241.08544069528574, 237.924538433551788, 67.858482539653778 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 83.830191135406494, 23.452831999999944, 103.169808864593506, 42.0 ],
+					"presentation_rect" : [ 87.830191135406494, 23.452831999999944, 108.169808864593506, 42.0 ],
 					"setminmax" : [ -0.5, 1.5 ],
 					"size" : 6280,
 					"slidercolor" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ]
@@ -200,7 +203,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 247.754729568958282, 158.452831999999944, 40.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 46.452831999999944, 35.0, 18.0 ],
+					"presentation_rect" : [ 7.0, 46.452831999999944, 33.0, 18.0 ],
 					"text" : "steps",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
@@ -209,6 +212,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"fontsize" : 10.0,
 					"id" : "obj-8",
 					"maxclass" : "number",
@@ -218,7 +222,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 218.754729568958282, 106.452831999999944, 49.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.0, 45.452831999999944, 36.0, 20.0 ]
+					"presentation_rect" : [ 41.0, 45.452831999999944, 41.0, 20.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -252,7 +257,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -264,7 +269,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -296,7 +301,7 @@
 					"patching_rect" : [ 7.754729568958282, 12.452831999999944, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 300.0, 70.0 ],
-					"text" : "/no_model_address"
+					"text" : "/f1"
 				}
 
 			}
@@ -400,7 +405,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
+									"outlettype" : [ "int" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -1327,24 +1332,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "ease.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{

@@ -764,8 +764,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 40.5, 215.0, 185.0, 22.0 ],
-					"text" : "j.parameter function @type string"
+					"patching_rect" : [ 40.5, 215.0, 262.0, 22.0 ],
+					"text" : "j.parameter function @type string @default sine"
 				}
 
 			}
