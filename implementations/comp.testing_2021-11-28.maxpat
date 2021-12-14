@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 98.0, 79.0, 954.0, 673.0 ],
+		"rect" : [ 98.0, 359.0, 954.0, 673.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,71 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 653.0, 432.0, 253.0, 86.0 ],
+					"setminmax" : [ -0.5, 1.5 ],
+					"size" : 1000
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 653.0, 385.0, 73.0, 22.0 ],
+					"text" : "select $1 $2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 653.0, 358.0, 93.0, 22.0 ],
+					"text" : "join @triggers 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "f1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-20",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "comp.func.module.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 653.0, 261.0, 300.0, 70.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.666666666666686, 493.0, 50.0, 22.0 ],
+					"patching_rect" : [ 378.666666666666686, 479.0, 50.0, 22.0 ],
 					"text" : "100"
 				}
 
@@ -57,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.333333333333343, 493.0, 57.0, 22.0 ],
+					"patching_rect" : [ 177.333333333333343, 479.0, 57.0, 22.0 ],
 					"text" : "120."
 				}
 
@@ -69,8 +128,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 21.0, 493.0, 62.0, 22.0 ],
-					"text" : "120 57"
+					"patching_rect" : [ 21.0, 479.0, 62.0, 22.0 ],
+					"text" : "114 85"
 				}
 
 			}
@@ -125,7 +184,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 623.0, 252.0, 25.0, 22.0 ],
+					"patching_rect" : [ 623.0, 237.0, 25.0, 22.0 ],
 					"text" : "67"
 				}
 
@@ -146,7 +205,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 629.0, 125.0, 302.0, 111.0 ],
+					"patching_rect" : [ 629.0, 125.0, 302.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -265,7 +324,7 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 21.0, 17.0, 306.0, 72.0 ],
+					"patching_rect" : [ 21.0, 17.0, 305.0, 72.0 ],
 					"varname" : "mc1",
 					"viewvisibility" : 1
 				}
@@ -295,6 +354,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 1 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"order" : 1,
 					"source" : [ "obj-21", 3 ]
@@ -304,6 +377,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-21", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"order" : 0,
 					"source" : [ "obj-21", 7 ]
 				}
 
@@ -320,6 +402,20 @@
 					"destination" : [ "obj-58", 0 ],
 					"order" : 0,
 					"source" : [ "obj-21", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -515,15 +611,15 @@
 			}
 , 			{
 				"name" : "comp.anote.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/comp.anote",
-				"patcherrelativepath" : "../modules/comp.anote",
+				"bootpath" : "~/Projects/comp-system/modules/anote",
+				"patcherrelativepath" : "../modules/anote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.anote.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/comp.anote",
-				"patcherrelativepath" : "../modules/comp.anote",
+				"bootpath" : "~/Projects/comp-system/modules/anote",
+				"patcherrelativepath" : "../modules/anote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -538,6 +634,27 @@
 				"name" : "comp.anote.view.maxpat",
 				"bootpath" : "~/Projects/comp-system/modules/comp.anote",
 				"patcherrelativepath" : "../modules/comp.anote",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comp.func.module.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/function",
+				"patcherrelativepath" : "../modules/function",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comp.func.model.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/function",
+				"patcherrelativepath" : "../modules/function",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comp.func.view.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/function",
+				"patcherrelativepath" : "../modules/function",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -591,6 +708,10 @@
 			}
 , 			{
 				"name" : "j.init.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ease.mxo",
 				"type" : "iLaX"
 			}
  ],
