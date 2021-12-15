@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 307.999999999999886, 247.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-44",
 					"maxclass" : "newobj",
@@ -70,7 +82,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 299.999999999999886, 29.0, 46.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "xbend"
 				}
 
@@ -80,7 +91,7 @@
 					"comment" : "14-bit pitchbend (0-16383)",
 					"cool" : 1,
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -408,7 +419,7 @@
 				"box" : 				{
 					"comment" : "midi ch",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -433,7 +444,7 @@
 				"box" : 				{
 					"comment" : "pitchbend (0-127)",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -458,7 +469,7 @@
 				"box" : 				{
 					"comment" : "aftertouch ",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -482,7 +493,7 @@
 				"box" : 				{
 					"comment" : "program change",
 					"id" : "obj-20",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -530,7 +541,7 @@
 				"box" : 				{
 					"comment" : "poly key pressure",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -554,7 +565,7 @@
 				"box" : 				{
 					"comment" : "cc (controller number, value)",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -578,7 +589,7 @@
 				"box" : 				{
 					"comment" : "note velocity pair",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -847,8 +858,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -866,36 +884,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "pgm-cc-msg.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/midi",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
