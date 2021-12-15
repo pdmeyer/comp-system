@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 159.0, 1082.0, 887.0 ],
+		"rect" : [ 34.0, 87.0, 1212.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 2.0, 300.0, 70.0 ],
+					"patching_rect" : [ -1.0, -1.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -131,7 +131,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 145.0, 147.0, 22.0 ],
+					"patching_rect" : [ 12.0, 145.0, 157.0, 22.0 ],
 					"text" : "comp.makenote.model #1"
 				}
 
