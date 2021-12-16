@@ -1,8 +1,8 @@
 # th.scala
 
-A set of abstractions that allow you to explore alternative and microtonal tunings with MaxMSP. Import scala (.scl) files, display them on a custom keyslider (instead of the piano kslider) and convert note-numbers to frequencies in the data or signal domain.
+Explore alternative and microtonal tuning systems with this small package of abstractions for Max
 
-## IF YOU MAKE USE OF MY CODE ON A REGULAR BASIS
+## Support this project
 
 **Consider to [name a fair price](http://gumroad.com/tmhglnd)**
 
@@ -12,7 +12,9 @@ A set of abstractions that allow you to explore alternative and microtonal tunin
 
 ## About
 
-![](media/screenshot2.png)
+A set of abstractions that allow you to explore alternative and microtonal tunings with MaxMSP. Import scala (.scl) files, display them on a custom keyslider (instead of the piano kslider) and convert note-numbers to frequencies in the data or signal domain.
+
+![](media/screenshot3.png)
 
 ## Contains
 
@@ -28,9 +30,17 @@ Convert a number from scala scale-format to the corresponding frequency based on
 
 Similar as the `[th.stof]` object, except it works in the signal domain.
 
-- **th.sslider.js**
+- **th.sslider**
 
 A custom *jsui* file that shows a kslider-like object to allow for playing with the custom tuning files. The keys are displayed side-by-side (no black keys), and their width denote the relative interval. A light-gray key denotes the octaves. The sslider works with velocity as well and in `mode 2` it behaves as touchscreen (generating note-off). Unsupported yet is polyphonic mode.
+
+- **th.ftomb**
+
+Convert a frequency value to a MIDI note number combined with a pitch-bend value for use with microtuning and alternative tunings. Combine this object with the th.scala and th.stof. Choose between hires (-1 to 1) or lores (0 - 127). Useful when wanting to connect to ohter midi-devices that except pitch-bending via the `[noteout]` and `[bendout]` objects or `[midiformat @hires 1]` and `[midiout]`
+
+- **th.ftomb~**
+
+Convert a frequency signal to a MIDI note signal combined with a pitch-bend signal for use with microtuning and alternative tunings. Combine this object with the th.scala and th.stof. Choose between hires (-1 to 1) or lores (0 - 127).
 
 ## Install
 
