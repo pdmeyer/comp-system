@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 34.0, 87.0, 807.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,25 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-25",
+					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 18.666666666666686, 398.0, 33.5, 22.0 ],
-					"text" : "t b i"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 103.0, 416.0, 104.0, 22.0 ],
+					"text" : "prepend setGates"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "newobj",
+					"id" : "obj-17",
+					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 33.166666666666686, 426.0, 29.5, 22.0 ],
-					"text" : "+ 1"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 79.666666666666657, 266.0, 78.0, 22.0 ],
+					"text" : "setLength $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 18.666666666666686, 456.0, 55.833333333333314, 22.0 ],
+					"text" : "t b i"
 				}
 
 			}
@@ -67,10 +79,10 @@
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 33.166666666666686, 491.0, 42.0, 22.0 ],
-					"text" : "gate 2"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5.666666666666686, 522.0, 32.0, 22.0 ],
+					"text" : "gate"
 				}
 
 			}
@@ -81,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 18.666666666666686, 453.5, 194.166666666666629, 22.0 ],
+					"patching_rect" : [ 18.666666666666686, 484.5, 125.166666666666629, 22.0 ],
 					"text" : "zl.reg"
 				}
 
@@ -90,11 +102,11 @@
 				"box" : 				{
 					"comment" : "if false",
 					"id" : "obj-6",
-					"index" : 2,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 541.5, 30.0, 30.0 ]
+					"patching_rect" : [ 5.666666666666686, 553.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -106,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.0, 301.0, 149.0, 22.0 ],
+					"patching_rect" : [ 285.0, 302.0, 149.0, 22.0 ],
 					"text" : "prepend setprop randType"
 				}
 
@@ -120,7 +132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 230.0, 265.0, 456.0, 35.0 ],
+					"patching_rect" : [ 285.0, 266.0, 456.0, 35.0 ],
 					"text" : "j.parameter rand-type @type integer @description \"for % steps... 0 = random number per bar, 1 = random numer per step\" @default note @default 1"
 				}
 
@@ -132,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 19.0, 339.0, 29.5, 22.0 ],
+					"patching_rect" : [ 19.0, 240.0, 29.5, 22.0 ],
 					"text" : "- 1"
 				}
 
@@ -388,7 +400,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 19.0, 174.5, 79.0, 22.0 ],
+					"patching_rect" : [ 19.0, 182.5, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -407,7 +419,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.333333333333329, 301.0, 47.0, 22.0 ],
+					"patching_rect" : [ 140.333333333333314, 240.0, 47.0, 22.0 ],
 					"text" : "calc $1"
 				}
 
@@ -421,7 +433,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.0, 17.5, 30.0, 30.0 ]
+					"patching_rect" : [ 110.0, 17.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -540,7 +552,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 10.0, 9.0, 30.0, 30.0 ]
 								}
 
@@ -631,7 +643,7 @@
 						"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 79.0, 150.5, 133.833333333333314, 22.0 ],
+					"patching_rect" : [ 79.0, 152.0, 64.833333333333314, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -653,7 +665,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 17.5, 30.0, 30.0 ]
 				}
 
@@ -666,8 +678,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.0, 159.0, 163.0, 22.0 ],
-					"text" : "prepend setprop probabilities"
+					"patching_rect" : [ 254.0, 176.0, 86.0, 22.0 ],
+					"text" : "prepend probs"
 				}
 
 			}
@@ -676,9 +688,9 @@
 					"id" : "obj-40",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.333333333333314, 339.0, 91.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 79.666666666666657, 338.0, 91.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "prob-mode.js",
 						"parameter_enable" : 0
@@ -696,7 +708,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.0, 231.0, 153.0, 22.0 ],
+					"patching_rect" : [ 270.0, 239.0, 153.0, 22.0 ],
 					"text" : "prepend setprop probMode"
 				}
 
@@ -710,7 +722,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 230.0, 194.0, 459.0, 35.0 ],
+					"patching_rect" : [ 270.0, 202.0, 459.0, 35.0 ],
 					"text" : "j.parameter prob-mode @type array @description \"per step probability mode. options: 1 = percentage, 2 = loop-interval,  3 = conditional\" @default note @default 0"
 				}
 
@@ -724,7 +736,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 19.0, 67.0, 489.0, 49.0 ],
+					"patching_rect" : [ 19.0, 64.0, 489.0, 49.0 ],
 					"text" : "j.parameter input-mode @type boolean @description \"0 = 'step' means the patch will look for an integer step value to advance the sequencer, 1 = 'note' means that the sequencer will be advanced by incoming midinotes\" @default 1"
 				}
 
@@ -733,13 +745,12 @@
 				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-10",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 139.666666999999961, 371.0, 202.0, 49.0 ],
-					"text" : "j.return gates @type array @range 0. 1. @clipmode both @description \"array of 0s and ones\""
+					"patching_rect" : [ 103.0, 386.0, 529.0, 22.0 ],
+					"text" : "j.parameter gates @type array @range 0. 1. @clipmode both @description \"array of 0s and ones\""
 				}
 
 			}
@@ -747,11 +758,11 @@
 				"box" : 				{
 					"comment" : "if true",
 					"id" : "obj-8",
-					"index" : 1,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.666666666666686, 541.5, 30.0, 30.0 ]
+					"patching_rect" : [ 55.5, 553.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -762,7 +773,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 18.666666666666686, 371.0, 112.666666666666629, 22.0 ],
+					"patching_rect" : [ 18.666666666666686, 386.0, 79.999999999999972, 22.0 ],
 					"text" : "zl.lookup"
 				}
 
@@ -776,8 +787,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 230.0, 122.0, 456.0, 35.0 ],
-					"text" : "j.parameter probabilities @type array @range 0. 1. @clipmode both @description \"array of floats indicating the probability value for each step\""
+					"patching_rect" : [ 254.0, 139.0, 526.0, 35.0 ],
+					"text" : "j.parameter probabilities @type array @range 0. 1. @clipmode both @description \"array of floats indicating the probability value for each step\" @priority -1"
 				}
 
 			}
@@ -785,12 +796,12 @@
 				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-22",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 218.0, 426.5, 168.0, 49.0 ],
+					"patching_rect" : [ 150.0, 471.5, 263.0, 35.0 ],
 					"text" : "j.model @description \"Create looping musical bars from an incrementing clock signal\""
 				}
 
@@ -803,7 +814,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 19.0, 212.0, 159.0, 22.0 ],
+					"patching_rect" : [ 19.0, 212.0, 201.0, 22.0 ],
 					"text" : "comp.loop.model loop"
 				}
 
@@ -831,8 +842,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"midpoints" : [ 112.5, 445.0, 11.833333333333329, 445.0, 11.833333333333329, 327.0, 89.166666666666657, 327.0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-16", 1 ]
 				}
 
 			}
@@ -847,6 +880,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -880,20 +920,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-23", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
@@ -901,7 +927,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-23", 0 ],
+					"order" : 1,
+					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 0,
 					"source" : [ "obj-25", 1 ]
 				}
 
@@ -916,6 +951,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
+					"midpoints" : [ 294.5, 332.0, 89.166666666666657, 332.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -923,7 +959,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"midpoints" : [ 239.5, 332.0, 121.833333333333314, 332.0 ],
+					"midpoints" : [ 279.5, 332.0, 89.166666666666657, 332.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -945,6 +981,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"midpoints" : [ 161.166666666666657, 367.0, 234.666666666666629, 367.0, 234.666666666666629, 127.0, 263.5, 127.0 ],
+					"source" : [ "obj-40", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-64", 1 ],
 					"order" : 1,
 					"source" : [ "obj-40", 0 ]
@@ -961,7 +1005,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"midpoints" : [ 239.5, 332.75, 121.833333333333314, 332.75 ],
+					"midpoints" : [ 263.5, 332.75, 89.166666666666657, 332.75 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
