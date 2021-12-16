@@ -275,7 +275,7 @@
 					"annotation" : "send midi somewhere",
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 8,
+					"numinlets" : 7,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 205.0, 271.0, 22.0 ],
 					"text" : "comp.midiout.model #1"
@@ -308,13 +308,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 5 ],
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 7 ],
-					"source" : [ "obj-27", 0 ]
 				}
 
 			}
