@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 857.0, 679.0 ],
+		"rect" : [ 34.0, 87.0, 722.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-61",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 204.0, 38.5, 109.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "velocities can be sent to 2nd inlet"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 107.0, 47.0, 22.0 ],
+					"patching_rect" : [ 130.0, 107.0, 61.0, 22.0 ],
 					"text" : "join"
 				}
 
@@ -71,7 +84,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.0, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 172.0, 40.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -106,7 +119,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.666666666666686, 274.5, 84.0, 20.0 ],
+					"patching_rect" : [ 397.777777777777771, 295.5, 84.0, 20.0 ],
 					"text" : "dest. velocity"
 				}
 
@@ -460,12 +473,12 @@
 				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-37",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 141.700000000000045, 647.0, 135.0, 62.0 ],
+					"patching_rect" : [ 284.06666666666672, 617.0, 251.0, 35.0 ],
 					"text" : "j.return output @type generic @description \"note-velocity pairs sent to the output\""
 				}
 
@@ -479,7 +492,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 284.06666666666672, 638.0, 249.066666666666691, 35.0 ],
+					"patching_rect" : [ 284.06666666666672, 576.5, 251.0, 35.0 ],
 					"text" : "j.return retrig-vel @type integer @description \"realtime velocity of retrigged notes\""
 				}
 
@@ -493,7 +506,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 537.5, 339.0, 175.0, 62.0 ],
+					"patching_rect" : [ 512.5, 339.0, 175.0, 62.0 ],
 					"text" : "j.return metro-interval @type decimal @dataspace time @unit ms @description \"clock interval times rate\""
 				}
 
@@ -507,7 +520,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 537.5, 253.0, 175.0, 62.0 ],
+					"patching_rect" : [ 512.5, 253.5, 175.0, 62.0 ],
 					"text" : "j.return clock-interval @type decimal @dataspae time @unit ms @description \"interval between clock events\""
 				}
 
@@ -516,13 +529,13 @@
 				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-18",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 428.0, 100.5, 208.0, 35.0 ],
-					"text" : "j.return clock @type integer @description \"incoming clock signal\""
+					"patching_rect" : [ 390.416666666666742, 97.5, 150.0, 49.0 ],
+					"text" : "j.return clock/signal @type integer @description \"incoming clock signal\""
 				}
 
 			}
@@ -535,20 +548,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 284.033333333333303, 678.0, 195.0, 35.0 ],
+					"patching_rect" : [ 284.06666666666672, 658.5, 195.0, 35.0 ],
 					"text" : "j.model @description \"generate note retriggers with velocity ramp\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-116",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 537.5, 425.0, 128.0, 47.0 ],
-					"text" : "set the destination value and the number of events for bline"
 				}
 
 			}
@@ -571,7 +572,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 316.666666666666742, 550.5, 104.0, 74.0 ],
+					"patching_rect" : [ 316.666666666666742, 485.5, 104.0, 74.0 ],
 					"text" : "very convenient alternate line object. generates ramping velocity values"
 				}
 
@@ -583,7 +584,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.599999999999994, 395.0, 71.0, 60.0 ],
+					"patching_rect" : [ 21.599999999999994, 395.0, 75.0, 60.0 ],
 					"text" : "when all retrigs have occured, stop metro",
 					"textjustification" : 2
 				}
@@ -596,7 +597,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 550.5, 164.0, 80.0, 74.0 ],
+					"patching_rect" : [ 503.0, 167.0, 80.0, 74.0 ],
 					"text" : "get interval of clock events to set metro interval"
 				}
 
@@ -658,7 +659,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.833333333333343, 719.0, 30.0, 30.0 ]
+					"patching_rect" : [ 43.833333333333343, 689.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -717,7 +718,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 284.06666666666672, 550.5, 34.0, 22.0 ],
+					"patching_rect" : [ 284.06666666666672, 515.5, 34.0, 22.0 ],
 					"text" : "bline"
 				}
 
@@ -728,7 +729,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 537.5, 317.0, 150.0, 20.0 ],
+					"patching_rect" : [ 512.5, 317.0, 150.0, 20.0 ],
 					"text" : "interval in ms"
 				}
 
@@ -800,7 +801,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 119.099999999999994, 302.0, 61.0, 22.0 ],
+					"patching_rect" : [ 119.5, 303.0, 61.0, 22.0 ],
 					"text" : "change 0."
 				}
 
@@ -836,7 +837,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 119.099999999999994, 274.5, 29.5, 22.0 ],
+					"patching_rect" : [ 119.5, 274.5, 29.5, 22.0 ],
 					"text" : "* 1."
 				}
 
@@ -848,7 +849,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 130.0, 164.0, 211.0, 22.0 ],
+					"patching_rect" : [ 130.0, 163.0, 211.0, 22.0 ],
 					"text" : "route rate count mod-vel mod-type vel"
 				}
 
@@ -872,7 +873,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 511.0, 164.0, 35.0, 22.0 ],
+					"patching_rect" : [ 470.416666666666799, 167.0, 35.0, 22.0 ],
 					"text" : "b"
 				}
 
@@ -884,7 +885,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 511.0, 190.0, 35.0, 22.0 ],
+					"patching_rect" : [ 470.416666666666799, 193.0, 35.0, 22.0 ],
 					"text" : "timer"
 				}
 
@@ -896,8 +897,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 5.0, 109.0, 33.0 ],
-					"text" : "events to retrigger (note, vel)"
+					"patching_rect" : [ 90.5, 5.0, 109.0, 33.0 ],
+					"text" : "events to retrigger (note, optional vel)"
 				}
 
 			}
@@ -907,7 +908,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 503.0, 18.0, 78.0, 20.0 ],
+					"patching_rect" : [ 462.416666666666799, 18.0, 78.0, 20.0 ],
 					"text" : "clock input"
 				}
 
@@ -921,7 +922,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 511.0, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 470.416666666666799, 40.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1201,7 +1202,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 407.277777777777771, 537.25, 293.56666666666672, 537.25 ],
+					"midpoints" : [ 407.277777777777771, 476.25, 293.56666666666672, 476.25 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1238,7 +1239,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 456.166666666666686, 538.25, 293.56666666666672, 538.25 ],
+					"midpoints" : [ 456.166666666666686, 476.25, 293.56666666666672, 476.25 ],
 					"source" : [ "obj-54", 1 ]
 				}
 
@@ -1268,7 +1269,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"midpoints" : [ 53.333333333333343, 544.25, 151.200000000000045, 544.25 ],
 					"order" : 0,
 					"source" : [ "obj-59", 0 ]
 				}
@@ -1300,7 +1300,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 520.5, 257.5, 128.599999999999994, 257.5 ],
+					"midpoints" : [ 479.916666666666799, 257.5, 129.0, 257.5 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
@@ -1364,8 +1364,8 @@
 , 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1393,14 +1393,8 @@
 , 			{
 				"name" : "jfc-style",
 				"default" : 				{
-					"stripecolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
-					"fontsize" : [ 11.0 ],
-					"selectioncolor" : [ 0.219607843137255, 0.996078431372549, 0.345098039215686, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"editing_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"locked_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"color" : [ 0.317647058823529, 0.305882352941176, 0.996078431372549, 1.0 ],
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.737254901960784, 0.737254901960784, 0.737254901960784, 1.0 ],
@@ -1411,7 +1405,13 @@
 						"autogradient" : 0.0
 					}
 ,
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ]
+					"selectioncolor" : [ 0.219607843137255, 0.996078431372549, 0.345098039215686, 1.0 ],
+					"editing_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"color" : [ 0.317647058823529, 0.305882352941176, 0.996078431372549, 1.0 ],
+					"locked_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+					"stripecolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
