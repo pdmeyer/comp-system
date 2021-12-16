@@ -1,0 +1,1 @@
+transposes midi data using scala files. uses abstractions by Timo Hoogland: https://github.com/tmhglnd/th.scala
