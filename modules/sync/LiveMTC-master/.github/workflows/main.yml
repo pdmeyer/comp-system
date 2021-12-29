@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '14'
+        registry-url: 'https://npm.pkg.github.com'
+
+    - name: Check
+      run: npx @showsync/amxd-tools check --source MTC\ project/ --dependency MTC\ project/ --all
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.BUILD_READ_PACKAGES }}
+
+    - name: Freeze
+      run: npx @showsync/amxd-tools freeze --source MTC\ project/ --dependency MTC\ project/ --target dist/
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.BUILD_READ_PACKAGES }}
+        
+    - name: add url file to artifact folder
+      run: cp _LiveMTC-Manual.url dist/_LiveMTC-Manual.url
+      
+    - uses: actions/upload-artifact@v2
+      with:
+        name: dist
+        path: dist/
+
