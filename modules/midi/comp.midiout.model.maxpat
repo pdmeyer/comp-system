@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -49,8 +49,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -94,8 +94,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -610,7 +610,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 25.0, 501.0, 79.0, 22.0 ],
+					"patching_rect" : [ 24.999999999999886, 521.0, 79.0, 22.0 ],
 					"text" : "route append"
 				}
 
@@ -622,7 +622,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 530.0, 51.0, 22.0 ],
+					"patching_rect" : [ 11.999999999999886, 550.0, 51.0, 22.0 ],
 					"text" : "zl.group"
 				}
 
@@ -634,7 +634,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 12.0, 447.0, 32.0, 22.0 ],
+					"patching_rect" : [ 11.999999999999886, 467.0, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -647,7 +647,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 562.0, 197.0, 22.0 ],
+					"patching_rect" : [ 11.999999999999886, 582.0, 197.0, 22.0 ],
 					"text" : "j.return midi-devices @type generic"
 				}
 
@@ -660,7 +660,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 416.0, 213.0, 22.0 ],
+					"patching_rect" : [ 11.999999999999886, 436.0, 213.0, 22.0 ],
 					"text" : "j.message scan-midi-outs @type none"
 				}
 
@@ -672,7 +672,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 477.0, 50.0, 22.0 ],
+					"patching_rect" : [ 24.999999999999886, 497.0, 50.0, 22.0 ],
 					"text" : "midiinfo"
 				}
 
@@ -801,7 +801,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 70.499999999999886, 383.0, 249.0, 22.0 ],
+					"patching_rect" : [ 135.499999999999886, 371.0, 249.0, 22.0 ],
 					"text" : "j.model @description \"send midi somewhere\""
 				}
 
@@ -923,7 +923,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.999999999999886, 383.0, 47.0, 22.0 ],
+					"patching_rect" : [ 11.999999999999886, 392.0, 47.0, 22.0 ],
 					"text" : "midiout"
 				}
 

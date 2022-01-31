@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 6,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -48,7 +48,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 46.0, 25.5, 37.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.0, 23.5, 43.0, 18.0 ],
+					"presentation_rect" : [ 44.0, 20.5, 43.0, 18.0 ],
 					"text" : "position",
 					"textjustification" : 2
 				}
@@ -88,7 +88,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 258.5, 47.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 118.0, 4.0, 17.0, 17.0 ],
+					"presentation_rect" : [ 115.0, 1.0, 17.0, 17.0 ],
 					"rounded" : 56.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -138,7 +138,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 415.0, 182.0, 43.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 112.0, 23.5, 32.0, 18.0 ],
+					"presentation_rect" : [ 109.0, 20.5, 32.0, 18.0 ],
 					"text" : "loops",
 					"textjustification" : 2
 				}
@@ -156,7 +156,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 420.0, 158.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 112.0, 44.25, 38.0, 20.0 ]
+					"presentation_rect" : [ 109.0, 41.25, 38.0, 20.0 ]
 				}
 
 			}
@@ -184,7 +184,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 258.0, 160.0, 49.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.0, 44.25, 43.0, 20.0 ]
+					"presentation_rect" : [ 44.0, 41.25, 43.0, 20.0 ]
 				}
 
 			}
@@ -212,6 +212,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 202.0, 162.5, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "live.button[2]",
@@ -235,7 +239,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.0, 22.0, 37.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 23.5, 35.0, 18.0 ],
+					"presentation_rect" : [ 5.0, 20.5, 35.0, 18.0 ],
 					"text" : "steps",
 					"textjustification" : 2
 				}
@@ -304,7 +308,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 56.0, 18.0, 47.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 44.25, 15.0, 20.0 ],
+					"presentation_rect" : [ 89.0, 41.25, 15.0, 20.0 ],
 					"rounded" : 4.0,
 					"text" : "R",
 					"texton" : "R",
@@ -337,7 +341,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 138.0, 47.0, 49.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 44.25, 33.0, 20.0 ]
+					"presentation_rect" : [ 5.0, 41.25, 33.0, 20.0 ]
 				}
 
 			}
@@ -388,8 +392,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.0, 228.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 3.0, 150.0, 70.0 ],
-					"text" : "/l3"
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+					"text" : "/l1"
 				}
 
 			}
@@ -508,8 +512,8 @@
 		"styles" : [ 			{
 				"name" : "defaultM4L",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,

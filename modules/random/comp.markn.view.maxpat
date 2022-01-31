@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 458.0, 60.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 79.0, 2.0, 17.0, 17.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 458.0, 109.0, 82.0, 22.0 ],
+					"text" : "j.remote learn"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -49,8 +75,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -419,6 +445,10 @@
 					"presentation_rect" : [ 5.5, 58.0, 289.0, 10.0 ],
 					"rows" : 1,
 					"saved_attribute_attributes" : 					{
+						"stepcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_initial" : [ 3, 16, 4, 0, 17, 0, 1001, 2002, 3003, 4003, 5002, 7000, 7002, 7003, 8000, 9000, 10000, 11001, 12002, 13002, 14003, 15003, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 							"parameter_invisible" : 1,
@@ -635,7 +665,7 @@
 			}
 , 			{
 				"box" : 				{
-					"columns" : 8,
+					"columns" : 9,
 					"direction" : 0,
 					"id" : "obj-34",
 					"marker_horizontal" : 0,
@@ -651,6 +681,10 @@
 					"presentation_rect" : [ 5.5, 21.0, 289.0, 13.0 ],
 					"rows" : 1,
 					"saved_attribute_attributes" : 					{
+						"stepcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_initial" : [ 3, 16, 4, 0, 17, 0, 1001, 2002, 3003, 4003, 5002, 7000, 7002, 7003, 8000, 9000, 10000, 11001, 12002, 13002, 14003, 15003, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 							"parameter_invisible" : 1,
@@ -693,7 +727,7 @@
 					"patching_rect" : [ 16.0, 29.5, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/mk2"
+					"text" : "/markov1"
 				}
 
 			}
@@ -918,6 +952,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"midpoints" : [ 383.999999999999943, 242.0, 229.333333333333314, 242.0 ],
 					"source" : [ "obj-79", 1 ]
@@ -931,12 +972,19 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 6,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -79,9 +79,9 @@
 					"annotation" : "Create looping musical bars from an incrementing clock signal",
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 4,
-					"outlettype" : [ "int", "int", "int", "" ],
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 10.666666666666671, 151.0, 126.0, 22.0 ],
 					"text" : "comp.loop.model #1"
 				}
@@ -110,13 +110,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "comp.loop.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2.0, 1.0, 150.0, 70.0 ],
+					"patching_rect" : [ -1.333333333333329, -1.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -2.0, -2.0, 150.0, 70.0 ],
 					"viewvisibility" : 1

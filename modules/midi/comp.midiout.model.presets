@@ -1,0 +1,13 @@
+
+- preset "NDwithPGM"
+- description "something about this preset"
+# ###########################################
+# 
+bank 1
+channel 1
+data/active 1
+data/bypass 0
+midi-device 4
+sendCCforPgm 1
+# 
+# ###########################################

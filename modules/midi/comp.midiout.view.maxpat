@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 216.833333333333343, 258.0, 79.0, 22.0 ],
+					"text" : "setsymbol $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 216.833333333333343, 226.0, 57.0, 22.0 ],
+					"text" : "tosymbol"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -195,7 +219,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 190.247839868068695, 288.0, 81.0, 22.0 ],
+					"patching_rect" : [ 194.0, 341.0, 81.0, 22.0 ],
 					"text" : "j.remote bank"
 				}
 
@@ -213,7 +237,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 190.247839868068695, 258.0, 29.0, 20.0 ],
+					"patching_rect" : [ 194.0, 311.0, 29.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.864255905151367, 50.4140625, 29.0, 20.0 ],
 					"triangle" : 0
@@ -252,7 +276,7 @@
 					"annotation" : "midi output device",
 					"fontsize" : 10.0,
 					"id" : "obj-57",
-					"items" : [ "AU DLS Synth 1", ",", "Network Session 1", ",", "Faderfox EC4", ",", "from Max 1", ",", "from Max 2", ",", "Steinberg UR44", ",", "AU DLS Synth 1", ",", "Network Session 1", ",", "Faderfox EC4", ",", "from Max 1", ",", "from Max 2", ",", "Steinberg UR44", ",", "AU DLS Synth 1", ",", "Network Session 1", ",", "Faderfox EC4", ",", "from Max 1", ",", "from Max 2", ",", "Steinberg UR44", ",", "AU DLS Synth 1", ",", "Network Session 1", ",", "Faderfox EC4", ",", "from Max 1", ",", "from Max 2", ",", "Steinberg UR44", ",", "AU DLS Synth 1", ",", "Network Session 1", ",", "Faderfox EC4", ",", "from Max 1", ",", "from Max 2", ",", "Steinberg UR44", ",", "AU DLS Synth 1", ",", "Network Session 1", ",", "Faderfox EC4", ",", "from Max 1", ",", "from Max 2", ",", "Steinberg UR44", ",", "AU DLS Synth 1", ",", "Network Session 1", ",", "Faderfox EC4", ",", "from Max 1", ",", "from Max 2", ",", "AU DLS Synth 1", ",", "Network Session 1", ",", "Faderfox EC4", ",", "from Max 1", ",", "from Max 2", ",", "AU DLS Synth 1", ",", "Network Session 1", ",", "Faderfox EC4", ",", "from Max 1", ",", "from Max 2", ",", "AU DLS Synth 1", ",", "Network Session 1", ",", "Faderfox EC4", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "LinnStrument MIDI", ",", "Faderfox EC4", ",", "Steinberg UR44 Port1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -357,12 +381,19 @@
 					"patching_rect" : [ 6.0, 9.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 6.0, 150.0, 70.0 ],
-					"text" : "/nd4"
+					"text" : "/chroma"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-14", 0 ]
@@ -374,6 +405,24 @@
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 72.5, 168.0, 55.5, 168.0, 55.5, 101.0, 72.5, 101.0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"midpoints" : [ 226.333333333333343, 287.0, 171.5, 287.0, 171.5, 131.0, 213.0, 131.0 ],
+					"order" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"midpoints" : [ 226.333333333333343, 287.0, 179.0, 287.0, 179.0, 171.0, 194.0, 171.0 ],
+					"order" : 1,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -479,26 +528,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 194.0, 234.0, 171.5, 234.0, 171.5, 131.0, 213.0, 131.0 ],
-					"order" : 0,
-					"source" : [ "obj-61", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
-					"midpoints" : [ 194.0, 233.0, 179.0, 233.0, 179.0, 171.0, 194.0, 171.0 ],
-					"order" : 1,
-					"source" : [ "obj-61", 0 ]
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-61", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 199.747839868068695, 320.0, 183.747839868068695, 320.0, 183.747839868068695, 247.0, 199.747839868068695, 247.0 ],
+					"midpoints" : [ 203.5, 373.0, 187.5, 373.0, 187.5, 300.0, 203.5, 300.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -540,6 +578,7 @@
 , 			{
 				"name" : "inactive",
 				"umenu" : 				{
+					"textcolor_inverse" : [ 0.754813551902771, 0.763825654983521, 0.76302182674408, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.2, 0.2, 0.2, 0.5 ],
@@ -549,8 +588,7 @@
 						"proportion" : 0.5,
 						"autogradient" : 0.0
 					}
-,
-					"textcolor_inverse" : [ 0.754813551902771, 0.763825654983521, 0.76302182674408, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",

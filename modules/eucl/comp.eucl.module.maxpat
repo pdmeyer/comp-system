@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,13 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "sequence",
-					"id" : "obj-27",
+					"comment" : "step value",
+					"id" : "obj-1",
 					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 196.0, 30.0, 30.0 ]
+					"patching_rect" : [ 148.0, 196.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "sequence",
+					"id" : "obj-27",
+					"index" : 6,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 215.0, 196.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -108,6 +120,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-8",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "comp.eucl.view.maxpat",
 					"numinlets" : 1,
@@ -179,8 +192,8 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"numoutlets" : 7,
+					"outlettype" : [ "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 10.0, 152.0, 184.0, 22.0 ],
 					"text" : "comp.eucl.model #1"
 				}
@@ -188,6 +201,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-3", 4 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-3", 1 ]
@@ -204,7 +224,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"source" : [ "obj-3", 4 ]
+					"source" : [ "obj-3", 5 ]
 				}
 
 			}
@@ -254,8 +274,8 @@
 		"styles" : [ 			{
 				"name" : "defaultM4L",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
