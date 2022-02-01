@@ -40,6 +40,64 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 255.285714285714278, 269.0, 50.0, 22.0 ],
+					"text" : "28"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "mc1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-17",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "comp.mclock.module.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 206.0, 85.0, 300.0, 70.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 383.285714285714278, 177.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 286.285714285714278, 205.0, 116.0, 22.0 ],
+					"text" : "comp.every.model 6"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -99,6 +157,35 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"midpoints" : [ 392.785714285714278, 237.0, 440.785714285714278, 237.0, 440.785714285714278, 166.0, 392.785714285714278, 166.0 ],
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 1 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 1 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-17", 2 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-1::obj-4::obj-29" : [ "live.button", "live.button", 0 ],
@@ -135,6 +222,41 @@
 				"bootpath" : "~/Projects/comp-system/modules/clock",
 				"patcherrelativepath" : "../modules/clock",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comp.every.model.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/loop",
+				"patcherrelativepath" : "../modules/loop",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comp.mclock.module.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/clock",
+				"patcherrelativepath" : "../modules/clock",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comp.mclock.view.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/clock",
+				"patcherrelativepath" : "../modules/clock",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comp.mclock.model.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/clock",
+				"patcherrelativepath" : "../modules/clock",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jump-to.js",
+				"bootpath" : "~/Projects/comp-system/modules/clock",
+				"patcherrelativepath" : "../modules/clock",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -183,6 +305,18 @@
 			}
 , 			{
 				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.unit.mxo",
 				"type" : "iLaX"
 			}
  ],
