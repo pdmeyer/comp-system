@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 446.0, 87.0, 546.0, 475.0 ],
+		"rect" : [ 324.0, 87.0, 553.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 221.333332999999982, 351.0, 176.0, 22.0 ],
+					"text" : "vexpr $f1 + $f2 @scalarmode 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 240.833333000000039, 319.0, 249.0, 22.0 ],
+					"text" : "j.parameter offset @type decimal @default 0."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-55",
 					"maxclass" : "newobj",
@@ -487,7 +512,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 49.0, 361.0, 83.0, 22.0 ],
+					"patching_rect" : [ 49.0, 413.0, 83.0, 22.0 ],
 					"text" : "j.return output"
 				}
 
@@ -512,7 +537,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 86.5, 361.0, 47.0, 22.0 ],
+					"patching_rect" : [ 86.5, 413.0, 47.0, 22.0 ],
 					"text" : "j.model"
 				}
 
@@ -547,11 +572,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-39",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 394.0, 30.0, 30.0 ]
+					"patching_rect" : [ 16.0, 446.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -563,7 +588,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 16.0, 361.0, 31.0, 22.0 ],
+					"patching_rect" : [ 16.0, 413.0, 31.0, 22.0 ],
 					"text" : "j.out"
 				}
 
@@ -576,7 +601,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 242.333332999999982, 326.0, 122.0, 22.0 ],
+					"patching_rect" : [ 242.333332999999982, 378.0, 122.0, 22.0 ],
 					"text" : "j.return values/scaled"
 				}
 
@@ -626,7 +651,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 18.0, 326.0, 222.333332999999982, 22.0 ],
+					"patching_rect" : [ 18.0, 378.0, 222.333332999999982, 22.0 ],
 					"text" : "zl.lookup"
 				}
 
@@ -723,7 +748,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -749,7 +774,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -782,6 +807,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 1 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -789,16 +821,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 1 ],
-					"order" : 1,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -807,6 +830,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 1 ],
+					"order" : 1,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"order" : 0,
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -985,7 +1024,29 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
