@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 104.0, 353.0, 187.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 203.0, 30.0, 30.0 ]
+					"patching_rect" : [ 237.0, 122.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 203.0, 30.0, 30.0 ]
+					"patching_rect" : [ 205.0, 122.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 203.0, 30.0, 30.0 ]
+					"patching_rect" : [ 173.0, 122.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 203.0, 30.0, 30.0 ]
+					"patching_rect" : [ 141.0, 122.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -94,7 +94,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 203.0, 30.0, 30.0 ]
+					"patching_rect" : [ 109.0, 122.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 203.0, 30.0, 30.0 ]
+					"patching_rect" : [ 77.0, 122.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -118,7 +118,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 203.0, 30.0, 30.0 ]
+					"patching_rect" : [ 45.0, 122.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -130,7 +130,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 203.0, 30.0, 30.0 ]
+					"patching_rect" : [ 13.0, 122.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -142,7 +142,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 1.0, 169.0, 273.857142857142833, 22.0 ],
+					"patching_rect" : [ 13.0, 88.0, 273.857142857142833, 22.0 ],
 					"text" : "comp.mclock.model #1"
 				}
 
@@ -163,7 +163,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1.0, -3.0, 300.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
