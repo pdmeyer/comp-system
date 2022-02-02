@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 352.666666666666629, 278.0, 310.0, 22.0 ],
+					"patching_rect" : [ 352.666666666666629, 272.0, 310.0, 22.0 ],
 					"text" : "j.parameter constrain-mode @type string @default tones"
 				}
 
@@ -84,7 +84,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 54.0, 11.5, 118.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "bang or step number to generate a note note number"
 				}
 
@@ -160,7 +159,6 @@
 						"style" : "",
 						"subpatcher_template" : "dark-bg",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-93",
@@ -181,7 +179,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 31.0, 447.699999392032623, 171.0, 60.0 ],
-									"presentation_linecount" : 4,
 									"text" : "\"tones\" mode rounds the incoming value to the nearest note within the incoming note's octave"
 								}
 
@@ -435,7 +432,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 153.666666666666657, 277.199999392032623, 61.999989333333332, 35.0 ],
+									"patching_rect" : [ 153.666666666666657, 277.199999392032623, 65.0, 35.0 ],
 									"text" : "expr ($i1 / 12) * 12"
 								}
 
@@ -1850,6 +1847,7 @@
 						"style" : "",
 						"subpatcher_template" : "dark-bg",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-49",
@@ -1906,9 +1904,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 143.0, 102.0, 29.5, 22.0 ],
-									"text" : "t i 1"
+									"outlettype" : [ "", "int" ],
+									"patching_rect" : [ 143.0, 102.0, 31.0, 22.0 ],
+									"text" : "t s 1"
 								}
 
 							}
