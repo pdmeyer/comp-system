@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,38 @@
 		"subpatcher_template" : "dark-bg",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 92.0, 360.452831999999944, 109.0, 22.0 ],
+					"text" : "j.remote invert"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontlink" : 1,
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 92.0, 335.0, 29.33984375, 19.171875 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 87.830191135406494, 23.452831999999944, 29.33984375, 19.171875 ],
+					"text" : "Inv",
+					"texton" : "Inv"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-78",
@@ -185,9 +217,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 82.0, 241.08544069528574, 237.924538433551788, 67.858482539653778 ],
+					"patching_rect" : [ 82.0, 241.08544069528574, 238.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.830191135406494, 23.452831999999944, 108.169808864593506, 42.0 ],
+					"presentation_rect" : [ 87.830191135406494, 23.452831999999944, 108.0, 42.0 ],
 					"setminmax" : [ -0.5, 1.5 ],
 					"size" : 6280,
 					"slidercolor" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ]
@@ -301,7 +333,7 @@
 					"patching_rect" : [ 7.754729568958282, 12.452831999999944, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 300.0, 70.0 ],
-					"text" : "/f1"
+					"text" : "/func1"
 				}
 
 			}
@@ -316,8 +348,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -410,8 +442,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1184,8 +1216,8 @@
 						"styles" : [ 							{
 								"name" : "dark_bg",
 								"default" : 								{
-									"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1212,6 +1244,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"order" : 0,
@@ -1253,6 +1292,14 @@
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 142.5, 195.452831999999944, 60.5, 195.452831999999944, 60.5, 90.452831999999944, 75.5, 90.452831999999944 ],
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 101.5, 392.452831999999944, 79.5, 392.452831999999944, 79.5, 324.0, 101.5, 324.0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -1335,8 +1382,8 @@
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
