@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 448.0, 616.0 ],
+		"rect" : [ 34.0, 87.0, 823.0, 941.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,30 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "seq7" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"hidden" : 1,
-					"id" : "obj-26",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "seq-viewer.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 330.5, 419.0, 308.0, 93.230769872665405 ],
-					"presentation" : 1,
-					"presentation_rect" : [ -3.0, 18.0, 303.0, 93.0 ],
-					"varname" : "seq7-view",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "seq8" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -71,17 +47,43 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"hidden" : 1,
-					"id" : "obj-25",
+					"id" : "obj-12",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "seq-viewer.maxpat",
+					"name" : "seq.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 330.5, 514.230769872665405, 308.0, 93.230769872665405 ],
+					"patching_rect" : [ 313.5, 489.576930105686188, 298.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.0, 18.0, 303.0, 93.0 ],
+					"presentation_rect" : [ 0.0, 21.0, 300.0, 84.0 ],
 					"varname" : "seq8-view",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "seq7" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"hidden" : 1,
+					"id" : "obj-10",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "seq.view.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 313.5, 403.576930105686188, 298.0, 87.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 21.0, 300.0, 84.0 ],
+					"varname" : "seq7-view",
 					"viewvisibility" : 1
 				}
 
@@ -95,16 +97,17 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"hidden" : 1,
-					"id" : "obj-23",
+					"id" : "obj-9",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "seq-viewer.maxpat",
+					"name" : "seq.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 330.5, 314.0, 308.0, 97.230769872665405 ],
+					"patching_rect" : [ 313.5, 318.576930105686188, 298.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.0, 18.0, 303.0, 93.0 ],
+					"presentation_rect" : [ 0.0, 21.0, 300.0, 84.0 ],
 					"varname" : "seq6-view",
 					"viewvisibility" : 1
 				}
@@ -119,16 +122,17 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"hidden" : 1,
-					"id" : "obj-21",
+					"id" : "obj-8",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "seq-viewer.maxpat",
+					"name" : "seq.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 330.5, 216.0, 308.0, 93.230769872665405 ],
+					"patching_rect" : [ 313.5, 229.0, 298.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.0, 18.0, 303.0, 93.0 ],
+					"presentation_rect" : [ 0.0, 21.0, 300.0, 84.0 ],
 					"varname" : "seq5-view",
 					"viewvisibility" : 1
 				}
@@ -143,16 +147,17 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"hidden" : 1,
-					"id" : "obj-19",
+					"id" : "obj-7",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "seq-viewer.maxpat",
+					"name" : "seq.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 13.5, 514.230769872665405, 311.0, 92.0 ],
+					"patching_rect" : [ 13.5, 488.0, 298.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.0, 18.0, 303.0, 93.0 ],
+					"presentation_rect" : [ 0.0, 21.0, 300.0, 84.0 ],
 					"varname" : "seq4-view",
 					"viewvisibility" : 1
 				}
@@ -166,16 +171,18 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-17",
+					"hidden" : 1,
+					"id" : "obj-6",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "seq-viewer.maxpat",
+					"name" : "seq.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 13.5, 419.0, 311.0, 92.0 ],
+					"patching_rect" : [ 13.5, 400.0, 298.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.0, 18.0, 303.0, 93.0 ],
+					"presentation_rect" : [ 0.0, 21.0, 300.0, 84.0 ],
 					"varname" : "seq3-view",
 					"viewvisibility" : 1
 				}
@@ -190,17 +197,42 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"hidden" : 1,
-					"id" : "obj-16",
+					"id" : "obj-4",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "seq-viewer.maxpat",
+					"name" : "seq.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 13.5, 314.0, 311.0, 97.0 ],
+					"patching_rect" : [ 13.5, 314.0, 298.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.0, 18.0, 303.0, 93.0 ],
+					"presentation_rect" : [ 0.0, 21.0, 300.0, 84.0 ],
 					"varname" : "seq2-view",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "seq1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "seq.view.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 13.5, 229.0, 298.0, 83.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 21.0, 300.0, 84.0 ],
+					"varname" : "seq1-view",
 					"viewvisibility" : 1
 				}
 
@@ -224,30 +256,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "seq1" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"hidden" : 1,
-					"id" : "obj-13",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "seq-viewer.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 13.5, 216.0, 311.0, 93.230769872665405 ],
-					"presentation" : 1,
-					"presentation_rect" : [ -3.0, 18.0, 303.0, 93.0 ],
-					"varname" : "seq1-view",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-81",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -257,8 +265,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -579,6 +587,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 154.653836846351624, 1.769226372241974, 139.0, 14.230769038200378 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_longname" : "live.tab",
@@ -679,8 +691,8 @@
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -689,9 +701,9 @@
 , 			{
 				"name" : "defaultM4L",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
