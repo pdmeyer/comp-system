@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 53.5, 95.0, 30.0, 30.0 ]
+					"patching_rect" : [ 56.0, 95.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.0, 95.0, 30.0, 30.0 ]
+					"patching_rect" : [ 105.0, 95.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -84,15 +84,16 @@
 					"enablevscroll" : 0,
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "comp.link.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 2.0, 153.0, 49.0 ],
+					"patching_rect" : [ 0.0, 2.0, 150.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 2.0, 153.0, 49.0 ],
+					"presentation_rect" : [ 0.0, 1.0, 151.0, 47.0 ],
 					"viewvisibility" : 1
 				}
 
