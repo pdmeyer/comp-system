@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 251.0, 100.199999999999989, 53.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 25.0, 43.0, 20.0 ],
+					"presentation_rect" : [ 1.0, 23.0, 43.0, 20.0 ],
 					"text" : "output",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.0, 100.0, 59.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 47.0, 39.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 45.0, 39.0, 20.0 ],
 					"text" : "offset",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
@@ -82,6 +82,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "select which output to route the input to. 0 closes all outputs",
 					"fontsize" : 10.0,
 					"id" : "obj-20",
 					"maxclass" : "number",
@@ -91,7 +92,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 251.0, 124.599999999999994, 49.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.0, 25.0, 49.0, 20.0 ]
+					"presentation_rect" : [ 46.0, 23.0, 49.0, 20.0 ]
 				}
 
 			}
@@ -133,6 +134,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "shift inlet indices to allow multiple comp.gate objects to be used to effectively create a gate with greater than 4 outputs",
 					"fontsize" : 10.0,
 					"id" : "obj-8",
 					"items" : [ 0, ",", 4, ",", 8, ",", 12 ],
@@ -143,7 +145,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 134.0, 124.599999999999994, 37.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.0, 47.0, 49.0, 20.0 ]
+					"presentation_rect" : [ 46.0, 45.0, 49.0, 20.0 ]
 				}
 
 			}
@@ -163,7 +165,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -175,7 +177,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -206,8 +208,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2.0, 2.0, 150.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 3.0, 150.0, 70.0 ],
-					"text" : "/no_..ess"
+					"presentation_rect" : [ 1.0, 1.0, 150.0, 70.0 ],
+					"text" : "/gate2"
 				}
 
 			}
@@ -286,20 +288,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{

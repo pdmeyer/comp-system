@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 1092.0, 662.0 ],
+		"rect" : [ 59.0, 104.0, 557.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "dark-bg",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "dest vel",
+					"id" : "obj-12",
+					"index" : 3,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 87.5, 99.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-35",
@@ -115,7 +128,7 @@
 				"box" : 				{
 					"fontsize" : 8.0,
 					"id" : "obj-11",
-					"items" : [ "--none--", ",", "mc1/clockout/1", ",", "mc1/clockout/2", ",", "mc1/clockout/3", ",", "mc1/clockout/4", ",", "mc1/clockout/5", ",", "mc1/clockout/6", ",", "mc1/clockout/7", ",", "mc1/clockout/8" ],
+					"items" : [ "--none--", ",", "8s1/seq1/output", ",", "8s1/seq1/pos/actual", ",", "8s1/seq1/pos/input", ",", "8s1/seq1/values/scaled", ",", "8s1/seq2/output", ",", "8s1/seq2/pos/actual", ",", "8s1/seq2/pos/input", ",", "8s1/seq2/values/scaled", ",", "8s1/seq3/output", ",", "8s1/seq3/pos/actual", ",", "8s1/seq3/pos/input", ",", "8s1/seq3/values/scaled", ",", "8s1/seq4/output", ",", "8s1/seq4/pos/actual", ",", "8s1/seq4/pos/input", ",", "8s1/seq4/values/scaled", ",", "8s1/seq5/output", ",", "8s1/seq5/pos/actual", ",", "8s1/seq5/pos/input", ",", "8s1/seq5/values/scaled", ",", "8s1/seq6/output", ",", "8s1/seq6/pos/actual", ",", "8s1/seq6/pos/input", ",", "8s1/seq6/values/scaled", ",", "8s1/seq7/output", ",", "8s1/seq7/pos/actual", ",", "8s1/seq7/pos/input", ",", "8s1/seq7/values/scaled", ",", "8s1/seq8/output", ",", "8s1/seq8/pos/actual", ",", "8s1/seq8/pos/input", ",", "8s1/seq8/values/scaled", ",", "e2/comp_loop/pos/input", ",", "e2/comp_loop/pos/loops", ",", "e2/comp_loop/pos/output", ",", "e2/pos/input", ",", "e2/pos/step", ",", "e2/pos/trig", ",", "e2/step_togs", ",", "rt1/clock-interval", ",", "rt1/clock/signal", ",", "rt1/input-notes", ",", "rt1/metro-interval", ",", "rt1/output", ",", "rt1/retrig-vel" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -172,7 +185,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 312.0, 1.0, 175.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set the destination value and the number of events for bline"
 				}
 
@@ -211,7 +223,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.5, 99.0, 30.0, 30.0 ]
+					"patching_rect" : [ 55.5, 99.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -243,11 +255,11 @@
 				"box" : 				{
 					"comment" : "bypass flag",
 					"id" : "obj-1",
-					"index" : 3,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 119.0, 99.0, 30.0, 30.0 ]
 				}
 
@@ -268,7 +280,7 @@
 				"box" : 				{
 					"comment" : "clock",
 					"id" : "obj-5",
-					"index" : 4,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -285,7 +297,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 10.0, 99.0, 30.0, 30.0 ]
 				}
 
@@ -318,7 +330,7 @@
 					"annotation" : "generate note retriggers with velocity ramp",
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 205.0, 166.0, 22.0 ],
@@ -345,6 +357,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 2 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -420,7 +439,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
+					"destination" : [ "obj-2", 3 ],
 					"midpoints" : [ 447.0, 308.5, 192.75, 308.5, 192.75, 194.0, 166.5, 194.0 ],
 					"source" : [ "obj-41", 0 ]
 				}
@@ -435,7 +454,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
+					"destination" : [ "obj-2", 3 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -486,7 +505,6 @@
 , 			{
 				"name" : "inactive",
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.754813551902771, 0.763825654983521, 0.76302182674408, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.2, 0.2, 0.2, 0.5 ],
@@ -496,7 +514,8 @@
 						"proportion" : 0.5,
 						"autogradient" : 0.0
 					}
-
+,
+					"textcolor_inverse" : [ 0.754813551902771, 0.763825654983521, 0.76302182674408, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -505,8 +524,7 @@
 , 			{
 				"name" : "jfc-style",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 11.0 ],
+					"locked_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.737254901960784, 0.737254901960784, 0.737254901960784, 1.0 ],
@@ -517,13 +535,14 @@
 						"autogradient" : 0.0
 					}
 ,
-					"selectioncolor" : [ 0.219607843137255, 0.996078431372549, 0.345098039215686, 1.0 ],
-					"editing_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"color" : [ 0.317647058823529, 0.305882352941176, 0.996078431372549, 1.0 ],
-					"locked_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"stripecolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"color" : [ 0.317647058823529, 0.305882352941176, 0.996078431372549, 1.0 ],
+					"editing_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"fontsize" : [ 11.0 ],
+					"selectioncolor" : [ 0.219607843137255, 0.996078431372549, 0.345098039215686, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

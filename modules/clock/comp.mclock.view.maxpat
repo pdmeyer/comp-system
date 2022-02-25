@@ -1426,8 +1426,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 98.0, 80.0, 87.0, 22.0 ],
-					"text" : "j.remote active"
+					"patching_rect" : [ 98.0, 80.0, 95.0, 22.0 ],
+					"text" : "j.remote running"
 				}
 
 			}
@@ -1725,9 +1725,9 @@
 		"styles" : [ 			{
 				"name" : "defaultM4L",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
