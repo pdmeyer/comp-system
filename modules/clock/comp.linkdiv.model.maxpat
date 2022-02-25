@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 1,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -53,9 +53,10 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "64",
 					"id" : "obj-32",
-					"index" : 0,
+					"ignoreclick" : 1,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -65,9 +66,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "bar bang",
+					"comment" : "48",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -77,9 +78,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "bar bang",
+					"comment" : "32",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -89,9 +90,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "bar bang",
+					"comment" : "16",
 					"id" : "obj-29",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -101,9 +102,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "bar bang",
+					"comment" : "8",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -113,9 +114,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "bar bang",
+					"comment" : "4",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -125,9 +126,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "bar bang",
+					"comment" : "2",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -137,9 +138,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "128",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -149,9 +150,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "bar bang",
+					"comment" : "1",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 9,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -175,7 +176,7 @@
 				"box" : 				{
 					"comment" : "messages from live",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -188,11 +189,11 @@
 				"box" : 				{
 					"comment" : "transport",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 85.166666666666686, 18.0, 30.0, 30.0 ]
 				}
 
@@ -201,11 +202,11 @@
 				"box" : 				{
 					"comment" : "signal",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 27.166666666666686, 18.0, 30.0, 30.0 ]
 				}
 
@@ -221,8 +222,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -263,8 +264,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 114.0, 58.0, 258.0, 22.0 ],
-									"text" : "route current_song_time signture_denominator"
+									"patching_rect" : [ 114.0, 58.0, 265.0, 22.0 ],
+									"text" : "route current_song_time signature_denominator"
 								}
 
 							}
@@ -340,7 +341,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 114.166666666666657, 92.0, 138.333333333333343, 22.0 ],
+									"patching_rect" : [ 114.166666666666657, 92.0, 141.833333333333343, 22.0 ],
 									"text" : "/ 1."
 								}
 
@@ -431,8 +432,8 @@
 						"styles" : [ 							{
 								"name" : "dark_bg",
 								"default" : 								{
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+									"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -468,8 +469,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -534,7 +535,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 150.0, 183.846139788627625, 29.5, 22.0 ],
+									"patching_rect" : [ 150.0, 213.846139788627625, 29.5, 22.0 ],
 									"text" : "!= 0"
 								}
 
@@ -702,7 +703,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 51.0, 146.807697474956512, 99.0, 22.0 ],
+									"patching_rect" : [ 51.0, 151.807697474956512, 99.0, 22.0 ],
 									"text" : "mc.%~"
 								}
 
@@ -739,7 +740,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 51.0, 39.999999442699433, 30.0, 30.0 ]
 								}
 
@@ -919,8 +920,8 @@
 						"styles" : [ 							{
 								"name" : "dark_bg",
 								"default" : 								{
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+									"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1052,17 +1053,11 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
