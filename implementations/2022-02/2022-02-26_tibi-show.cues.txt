@@ -1,0 +1,2137 @@
+- cue "01"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/8s1/seq1/loop-length 9
+/8s1/seq1/data/active 1
+/8s1/seq1/data/bypass 0
+/8s1/seq1/round-to 1.000000
+/8s1/seq1/scale/high 96.000000
+/8s1/seq1/scale/low 36.000000
+/8s1/seq1/values/raw 0.433333 0.677778 0.344444 0.544444 0.433333 0.611111 0.611111 0.700000 0.655556
+# 
+/8s1/seq2/loop-length 8
+/8s1/seq2/data/active 1
+/8s1/seq2/data/bypass 0
+/8s1/seq2/round-to 1.000000
+/8s1/seq2/scale/high 127.000000
+/8s1/seq2/scale/low 0.000000
+/8s1/seq2/values/raw 0.611111 0.655556 0.588889 0.388889 0.322222 0.477778 0.677778 0.811111
+# 
+/8s1/seq3/loop-length 5
+/8s1/seq3/data/active 1
+/8s1/seq3/data/bypass 0
+/8s1/seq3/round-to 1.000000
+/8s1/seq3/scale/high 127.000000
+/8s1/seq3/scale/low 0.000000
+/8s1/seq3/values/raw 0.744444 0.233333 0.677778 0.366667 0.522222
+# 
+/8s1/seq4/loop-length 7
+/8s1/seq4/data/active 1
+/8s1/seq4/data/bypass 0
+/8s1/seq4/round-to 0.500000
+/8s1/seq4/scale/high 4.000000
+/8s1/seq4/scale/low 0.500000
+/8s1/seq4/values/raw 0.433333 0.433333 0.144444 0.988889 0.000000 0.433333 0.433333
+# 
+/8s1/seq5/loop-length 8
+/8s1/seq5/data/active 1
+/8s1/seq5/data/bypass 0
+/8s1/seq5/round-to 1.000000
+/8s1/seq5/scale/high 127.000000
+/8s1/seq5/scale/low 0.000000
+/8s1/seq5/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq6/loop-length 8
+/8s1/seq6/data/active 1
+/8s1/seq6/data/bypass 0
+/8s1/seq6/round-to 1.000000
+/8s1/seq6/scale/high 127.000000
+/8s1/seq6/scale/low 0.000000
+/8s1/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq7/loop-length 8
+/8s1/seq7/data/active 1
+/8s1/seq7/data/bypass 0
+/8s1/seq7/round-to 1.000000
+/8s1/seq7/scale/high 127.000000
+/8s1/seq7/scale/low 0.000000
+/8s1/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq8/loop-length 8
+/8s1/seq8/data/active 1
+/8s1/seq8/data/bypass 0
+/8s1/seq8/round-to 1.000000
+/8s1/seq8/scale/high 127.000000
+/8s1/seq8/scale/low 0.000000
+/8s1/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/an1/notes 36.000000 37.000000 38.000000 39.000000 40.000000 41.000000 43.000000 45.000000 50.000000 51.000000 52.000000 54.000000 56.000000 58.000000 60.000000 61.000000 62.000000 63.000000 64.000000 65.000000 66.000000 67.000000 68.000000 69.000000 70.000000 71.000000 72.000000 73.000000 74.000000 75.000000 76.000000 77.000000 78.000000 79.000000 80.000000 81.000000 82.000000 83.000000 84.000000 86.000000 88.000000 89.000000 91.000000 93.000000 94.000000 95.000000 96.000000
+/an1/data/active 1
+/an1/data/bypass 0
+/an1/mode probability
+/an1/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/an1/root 60
+/an1/scale custom
+# 
+/cues/active-cue none
+/cues/active-namespace none
+/cues/recall-type 0
+# 
+/e1/trigs 11
+/e1/steps 11
+/e1/rotate 0
+# 
+/e1/comp_loop/data/active 1
+/e1/comp_loop/data/bypass 0
+/e1/comp_loop/steps 11
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 9
+/e2/steps 12
+/e2/rotate 0
+# 
+/e2/comp_loop/data/active 1
+/e2/comp_loop/data/bypass 0
+/e2/comp_loop/steps 12
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/mc1/active 1
+/mc1/bpm 90.000000
+/mc1/data/active 1
+/mc1/division 2
+# 
+/out1/bank 1
+/out1/channel 10
+/out1/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/out1/data/active 1
+/out1/midi-device "mio4 Tracker (DIN4)"
+/out1/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 1
+# 
+/rt1/makenote/data/active 1
+/rt1/makenote/data/bypass 0
+/rt1/makenote/duration 1000
+/rt1/makenote/pitch 78
+/rt1/makenote/pitch+ 0
+/rt1/makenote/send-note-off 1
+/rt1/makenote/trigger-on-bang-only 0
+/rt1/makenote/vel+ 0
+/rt1/makenote/velocity 103
+/rt1/mod-vel 1
+/rt1/rate 2.000000
+/rt1/velocity 86
+# 
+# ###########################################
+
+- cue "02"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/8s1/seq1/loop-length 9
+/8s1/seq1/data/active 1
+/8s1/seq1/data/bypass 0
+/8s1/seq1/round-to 1.000000
+/8s1/seq1/scale/high 96.000000
+/8s1/seq1/scale/low 36.000000
+/8s1/seq1/values/raw 0.433333 0.677778 0.211111 0.544444 0.233333 0.611111 0.744444 0.322222 0.722222
+# 
+/8s1/seq2/loop-length 8
+/8s1/seq2/data/active 1
+/8s1/seq2/data/bypass 0
+/8s1/seq2/round-to 1.000000
+/8s1/seq2/scale/high 127.000000
+/8s1/seq2/scale/low 0.000000
+/8s1/seq2/values/raw 0.611111 0.655556 0.588889 0.388889 0.322222 0.477778 0.677778 0.811111
+# 
+/8s1/seq3/loop-length 5
+/8s1/seq3/data/active 1
+/8s1/seq3/data/bypass 0
+/8s1/seq3/round-to 1.000000
+/8s1/seq3/scale/high 127.000000
+/8s1/seq3/scale/low 0.000000
+/8s1/seq3/values/raw 0.144444 0.655556 0.144444 0.300000 0.411111
+# 
+/8s1/seq4/loop-length 7
+/8s1/seq4/data/active 1
+/8s1/seq4/data/bypass 0
+/8s1/seq4/round-to 0.500000
+/8s1/seq4/scale/high 4.000000
+/8s1/seq4/scale/low 0.500000
+/8s1/seq4/values/raw 0.255556 0.833333 0.144444 0.388889 0.100000 0.433333 0.166667
+# 
+/8s1/seq5/loop-length 8
+/8s1/seq5/data/active 1
+/8s1/seq5/data/bypass 0
+/8s1/seq5/round-to 1.000000
+/8s1/seq5/scale/high 127.000000
+/8s1/seq5/scale/low 0.000000
+/8s1/seq5/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq6/loop-length 8
+/8s1/seq6/data/active 1
+/8s1/seq6/data/bypass 0
+/8s1/seq6/round-to 1.000000
+/8s1/seq6/scale/high 127.000000
+/8s1/seq6/scale/low 0.000000
+/8s1/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq7/loop-length 8
+/8s1/seq7/data/active 1
+/8s1/seq7/data/bypass 0
+/8s1/seq7/round-to 1.000000
+/8s1/seq7/scale/high 127.000000
+/8s1/seq7/scale/low 0.000000
+/8s1/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq8/loop-length 8
+/8s1/seq8/data/active 1
+/8s1/seq8/data/bypass 0
+/8s1/seq8/round-to 1.000000
+/8s1/seq8/scale/high 127.000000
+/8s1/seq8/scale/low 0.000000
+/8s1/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/an1/notes 36.000000 37.000000 38.000000 39.000000 40.000000 41.000000 43.000000 45.000000 50.000000 51.000000 52.000000 54.000000 56.000000 58.000000 60.000000 61.000000 62.000000 63.000000 64.000000 65.000000 66.000000 67.000000 68.000000 69.000000 70.000000 71.000000 72.000000 73.000000 74.000000 75.000000 76.000000 77.000000 78.000000 79.000000 80.000000 81.000000 82.000000 83.000000 84.000000 86.000000 88.000000 89.000000 91.000000 93.000000 94.000000 95.000000 96.000000
+/an1/data/active 1
+/an1/data/bypass 0
+/an1/mode probability
+/an1/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/an1/root 60
+/an1/scale custom
+# 
+/cues/active-cue 1
+/cues/active-namespace none
+/cues/recall-type 0
+# 
+/e1/trigs 7
+/e1/steps 11
+/e1/rotate 1227
+# 
+/e1/comp_loop/data/active 1
+/e1/comp_loop/data/bypass 0
+/e1/comp_loop/steps 11
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 4
+/e2/steps 7
+/e2/rotate 1255
+# 
+/e2/comp_loop/data/active 1
+/e2/comp_loop/data/bypass 0
+/e2/comp_loop/steps 7
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/mc1/active 1
+/mc1/bpm 90.000000
+/mc1/data/active 1
+/mc1/division 2
+# 
+/out1/bank 1
+/out1/channel 10
+/out1/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/out1/data/active 1
+/out1/midi-device "mio4 Tracker (DIN4)"
+/out1/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 1
+# 
+/rt1/makenote/data/active 1
+/rt1/makenote/data/bypass 0
+/rt1/makenote/duration 1000
+/rt1/makenote/pitch 66
+/rt1/makenote/pitch+ 0
+/rt1/makenote/send-note-off 1
+/rt1/makenote/trigger-on-bang-only 0
+/rt1/makenote/vel+ 0
+/rt1/makenote/velocity 79
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 83
+# 
+# ###########################################
+
+- cue "03"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/8s1/seq1/loop-length 9
+/8s1/seq1/data/active 1
+/8s1/seq1/data/bypass 0
+/8s1/seq1/round-to 1.000000
+/8s1/seq1/scale/high 96.000000
+/8s1/seq1/scale/low 36.000000
+/8s1/seq1/values/raw 0.677778 0.366667 0.433333 0.677778 0.633333 0.611111 0.611111 0.322222 0.277778
+# 
+/8s1/seq2/loop-length 8
+/8s1/seq2/data/active 1
+/8s1/seq2/data/bypass 0
+/8s1/seq2/round-to 1.000000
+/8s1/seq2/scale/high 127.000000
+/8s1/seq2/scale/low 0.000000
+/8s1/seq2/values/raw 0.766667 0.344444 0.344444 0.566667 0.722222 0.655556 0.633333 0.322222
+# 
+/8s1/seq3/loop-length 5
+/8s1/seq3/data/active 1
+/8s1/seq3/data/bypass 0
+/8s1/seq3/round-to 1.000000
+/8s1/seq3/scale/high 127.000000
+/8s1/seq3/scale/low 0.000000
+/8s1/seq3/values/raw 0.144444 0.655556 0.144444 0.300000 0.411111
+# 
+/8s1/seq4/loop-length 7
+/8s1/seq4/data/active 1
+/8s1/seq4/data/bypass 0
+/8s1/seq4/round-to 0.500000
+/8s1/seq4/scale/high 4.000000
+/8s1/seq4/scale/low 0.500000
+/8s1/seq4/values/raw 0.211111 0.211111 0.211111 0.388889 0.100000 0.433333 0.677778
+# 
+/8s1/seq5/loop-length 8
+/8s1/seq5/data/active 1
+/8s1/seq5/data/bypass 0
+/8s1/seq5/round-to 1.000000
+/8s1/seq5/scale/high 5.000000
+/8s1/seq5/scale/low -5.000000
+/8s1/seq5/values/raw 0.544444 0.611111 0.500000 0.344444 0.366667 0.477778 0.477778 0.455556
+# 
+/8s1/seq6/loop-length 8
+/8s1/seq6/data/active 1
+/8s1/seq6/data/bypass 0
+/8s1/seq6/round-to 1.000000
+/8s1/seq6/scale/high 127.000000
+/8s1/seq6/scale/low 0.000000
+/8s1/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq7/loop-length 8
+/8s1/seq7/data/active 1
+/8s1/seq7/data/bypass 0
+/8s1/seq7/round-to 1.000000
+/8s1/seq7/scale/high 127.000000
+/8s1/seq7/scale/low 0.000000
+/8s1/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq8/loop-length 8
+/8s1/seq8/data/active 1
+/8s1/seq8/data/bypass 0
+/8s1/seq8/round-to 1.000000
+/8s1/seq8/scale/high 127.000000
+/8s1/seq8/scale/low 0.000000
+/8s1/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/an1/notes 36.000000 37.000000 38.000000 39.000000 40.000000 41.000000 43.000000 45.000000 50.000000 51.000000 52.000000 54.000000 56.000000 58.000000 60.000000 61.000000 62.000000 63.000000 64.000000 65.000000 66.000000 67.000000 68.000000 69.000000 70.000000 71.000000 72.000000 73.000000 74.000000 75.000000 76.000000 77.000000 78.000000 79.000000 80.000000 81.000000 82.000000 83.000000 84.000000 86.000000 88.000000 89.000000 91.000000 93.000000 94.000000 95.000000 96.000000
+/an1/data/active 1
+/an1/data/bypass 0
+/an1/mode probability
+/an1/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/an1/root 60
+/an1/scale custom
+# 
+/cues/active-cue 1
+/cues/active-namespace none
+/cues/recall-type 0
+# 
+/e1/trigs 11
+/e1/steps 11
+/e1/rotate 1227
+# 
+/e1/comp_loop/data/active 1
+/e1/comp_loop/data/bypass 0
+/e1/comp_loop/steps 11
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 4
+/e2/steps 7
+/e2/rotate 1623
+# 
+/e2/comp_loop/data/active 1
+/e2/comp_loop/data/bypass 0
+/e2/comp_loop/steps 7
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/mc1/active 1
+/mc1/bpm 90.000000
+/mc1/data/active 1
+/mc1/division 2
+# 
+/out1/bank 1
+/out1/channel 10
+/out1/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/out1/data/active 1
+/out1/midi-device "mio4 Tracker (DIN4)"
+/out1/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 1
+# 
+/rt1/makenote/data/active 1
+/rt1/makenote/data/bypass 0
+/rt1/makenote/duration 1000
+/rt1/makenote/pitch 78
+/rt1/makenote/pitch+ 0
+/rt1/makenote/send-note-off 1
+/rt1/makenote/trigger-on-bang-only 0
+/rt1/makenote/vel+ 0
+/rt1/makenote/velocity 53
+/rt1/mod-vel 1
+/rt1/rate 2.000000
+/rt1/velocity 83
+# 
+# ###########################################
+
+- cue "04----"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/8s1/seq1/loop-length 9
+/8s1/seq1/data/active 1
+/8s1/seq1/data/bypass 0
+/8s1/seq1/round-to 1.000000
+/8s1/seq1/scale/high 96.000000
+/8s1/seq1/scale/low 36.000000
+/8s1/seq1/values/raw 0.677778 0.433333 0.433333 0.677778 0.633333 0.433333 0.433333 0.366667 0.455556
+# 
+/8s1/seq2/loop-length 8
+/8s1/seq2/data/active 1
+/8s1/seq2/data/bypass 0
+/8s1/seq2/round-to 1.000000
+/8s1/seq2/scale/high 127.000000
+/8s1/seq2/scale/low 0.000000
+/8s1/seq2/values/raw 0.766667 0.344444 0.344444 0.566667 0.722222 0.655556 0.633333 0.322222
+# 
+/8s1/seq3/loop-length 5
+/8s1/seq3/data/active 1
+/8s1/seq3/data/bypass 0
+/8s1/seq3/round-to 1.000000
+/8s1/seq3/scale/high 127.000000
+/8s1/seq3/scale/low 0.000000
+/8s1/seq3/values/raw 0.144444 0.655556 0.144444 0.300000 0.411111
+# 
+/8s1/seq4/loop-length 7
+/8s1/seq4/data/active 1
+/8s1/seq4/data/bypass 0
+/8s1/seq4/round-to 0.500000
+/8s1/seq4/scale/high 4.000000
+/8s1/seq4/scale/low 0.500000
+/8s1/seq4/values/raw 0.211111 0.211111 0.211111 0.388889 0.100000 0.433333 0.677778
+# 
+/8s1/seq5/loop-length 8
+/8s1/seq5/data/active 1
+/8s1/seq5/data/bypass 0
+/8s1/seq5/round-to 1.000000
+/8s1/seq5/scale/high 5.000000
+/8s1/seq5/scale/low -5.000000
+/8s1/seq5/values/raw 0.277778 0.388889 0.500000 0.344444 0.366667 0.477778 0.477778 0.455556
+# 
+/8s1/seq6/loop-length 8
+/8s1/seq6/data/active 1
+/8s1/seq6/data/bypass 0
+/8s1/seq6/round-to 1.000000
+/8s1/seq6/scale/high 127.000000
+/8s1/seq6/scale/low 0.000000
+/8s1/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq7/loop-length 8
+/8s1/seq7/data/active 1
+/8s1/seq7/data/bypass 0
+/8s1/seq7/round-to 1.000000
+/8s1/seq7/scale/high 127.000000
+/8s1/seq7/scale/low 0.000000
+/8s1/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq8/loop-length 8
+/8s1/seq8/data/active 1
+/8s1/seq8/data/bypass 0
+/8s1/seq8/round-to 1.000000
+/8s1/seq8/scale/high 127.000000
+/8s1/seq8/scale/low 0.000000
+/8s1/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/an1/notes 36.000000 37.000000 38.000000 39.000000 40.000000 41.000000 43.000000 45.000000 50.000000 51.000000 52.000000 54.000000 56.000000 58.000000 60.000000 61.000000 62.000000 63.000000 64.000000 65.000000 66.000000 67.000000 68.000000 69.000000 70.000000 71.000000 72.000000 73.000000 74.000000 75.000000 76.000000 77.000000 78.000000 79.000000 80.000000 81.000000 82.000000 83.000000 84.000000 86.000000 88.000000 89.000000 91.000000 93.000000 94.000000 95.000000 96.000000
+/an1/data/active 1
+/an1/data/bypass 0
+/an1/mode probability
+/an1/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/an1/root 60
+/an1/scale custom
+# 
+/cues/active-cue 1
+/cues/active-namespace none
+/cues/recall-type 0
+# 
+/e1/trigs 11
+/e1/steps 11
+/e1/rotate 1227
+# 
+/e1/comp_loop/data/active 1
+/e1/comp_loop/data/bypass 0
+/e1/comp_loop/steps 11
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 4
+/e2/steps 7
+/e2/rotate 1765
+# 
+/e2/comp_loop/data/active 1
+/e2/comp_loop/data/bypass 0
+/e2/comp_loop/steps 7
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/mc1/active 1
+/mc1/bpm 90.000000
+/mc1/data/active 1
+/mc1/division 2
+# 
+/out1/bank 1
+/out1/channel 10
+/out1/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/out1/data/active 1
+/out1/midi-device "mio4 Tracker (DIN4)"
+/out1/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+# 
+/rt1/makenote/data/active 1
+/rt1/makenote/data/bypass 0
+/rt1/makenote/duration 1000
+/rt1/makenote/pitch 74
+/rt1/makenote/pitch+ 0
+/rt1/makenote/send-note-off 1
+/rt1/makenote/trigger-on-bang-only 0
+/rt1/makenote/vel+ 0
+/rt1/makenote/velocity 42
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 38
+# 
+# ###########################################
+
+- cue "05"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/8s1/seq1/loop-length 9
+/8s1/seq1/data/active 1
+/8s1/seq1/data/bypass 0
+/8s1/seq1/round-to 1.000000
+/8s1/seq1/scale/high 96.000000
+/8s1/seq1/scale/low 36.000000
+/8s1/seq1/values/raw 0.677778 0.433333 0.433333 0.677778 0.633333 0.433333 0.433333 0.366667 0.455556
+# 
+/8s1/seq2/loop-length 8
+/8s1/seq2/data/active 1
+/8s1/seq2/data/bypass 0
+/8s1/seq2/round-to 1.000000
+/8s1/seq2/scale/high 127.000000
+/8s1/seq2/scale/low 0.000000
+/8s1/seq2/values/raw 0.766667 0.344444 0.344444 0.566667 0.722222 0.655556 0.633333 0.322222
+# 
+/8s1/seq3/loop-length 5
+/8s1/seq3/data/active 1
+/8s1/seq3/data/bypass 0
+/8s1/seq3/round-to 1.000000
+/8s1/seq3/scale/high 127.000000
+/8s1/seq3/scale/low 0.000000
+/8s1/seq3/values/raw 0.144444 0.655556 0.144444 0.300000 0.411111
+# 
+/8s1/seq4/loop-length 7
+/8s1/seq4/data/active 1
+/8s1/seq4/data/bypass 0
+/8s1/seq4/round-to 0.500000
+/8s1/seq4/scale/high 4.000000
+/8s1/seq4/scale/low 0.500000
+/8s1/seq4/values/raw 0.211111 0.211111 0.211111 0.388889 0.100000 0.433333 0.677778
+# 
+/8s1/seq5/loop-length 8
+/8s1/seq5/data/active 1
+/8s1/seq5/data/bypass 0
+/8s1/seq5/round-to 1.000000
+/8s1/seq5/scale/high 5.000000
+/8s1/seq5/scale/low -5.000000
+/8s1/seq5/values/raw 0.277778 0.388889 0.500000 0.344444 0.366667 0.477778 0.477778 0.455556
+# 
+/8s1/seq6/loop-length 8
+/8s1/seq6/data/active 1
+/8s1/seq6/data/bypass 0
+/8s1/seq6/round-to 1.000000
+/8s1/seq6/scale/high 127.000000
+/8s1/seq6/scale/low 0.000000
+/8s1/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq7/loop-length 8
+/8s1/seq7/data/active 1
+/8s1/seq7/data/bypass 0
+/8s1/seq7/round-to 1.000000
+/8s1/seq7/scale/high 127.000000
+/8s1/seq7/scale/low 0.000000
+/8s1/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq8/loop-length 8
+/8s1/seq8/data/active 1
+/8s1/seq8/data/bypass 0
+/8s1/seq8/round-to 1.000000
+/8s1/seq8/scale/high 127.000000
+/8s1/seq8/scale/low 0.000000
+/8s1/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/an1/notes 36.000000 37.000000 38.000000 39.000000 40.000000 41.000000 43.000000 45.000000 50.000000 51.000000 52.000000 54.000000 56.000000 58.000000 60.000000 61.000000 62.000000 63.000000 64.000000 65.000000 66.000000 67.000000 68.000000 69.000000 70.000000 71.000000 72.000000 73.000000 74.000000 75.000000 76.000000 77.000000 78.000000 79.000000 80.000000 81.000000 82.000000 83.000000 84.000000 86.000000 88.000000 89.000000 91.000000 93.000000 94.000000 95.000000 96.000000
+/an1/constrain-mode tones
+/an1/data/active 1
+/an1/data/bypass 0
+/an1/mode probability
+/an1/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/an1/root 60
+/an1/scale custom
+# 
+/cues/active-cue 04----
+/cues/active-namespace none
+/cues/recall-type 0
+# 
+/e1/trigs 11
+/e1/steps 11
+/e1/rotate 1227
+# 
+/e1/comp_loop/data/active 1
+/e1/comp_loop/data/bypass 0
+/e1/comp_loop/steps 11
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 4
+/e2/steps 7
+/e2/rotate 2277
+# 
+/e2/comp_loop/data/active 1
+/e2/comp_loop/data/bypass 0
+/e2/comp_loop/steps 7
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/mc1/active 1
+/mc1/bpm 90.000000
+/mc1/data/active 1
+/mc1/division 2
+# 
+/out1/bank 1
+/out1/channel 10
+/out1/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/out1/data/active 1
+/out1/midi-device "mio4 Tracker (DIN4)"
+/out1/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 1
+# 
+/rt1/makenote/data/active 1
+/rt1/makenote/data/bypass 0
+/rt1/makenote/duration 1000
+/rt1/makenote/pitch 57
+/rt1/makenote/pitch+ 0
+/rt1/makenote/send-note-off 1
+/rt1/makenote/trigger-on-bang-only 0
+/rt1/makenote/vel+ 0
+/rt1/makenote/velocity 82
+/rt1/mod-vel 1
+/rt1/rate 3.000000
+/rt1/velocity 38
+# 
+# 
+/8-chroma/seq1/loop-length 8
+/8-chroma/seq1/data/active 1
+/8-chroma/seq1/data/bypass 0
+/8-chroma/seq1/round-to 1.000000
+/8-chroma/seq1/scale/high 127.000000
+/8-chroma/seq1/scale/low 0.000000
+/8-chroma/seq1/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq2/loop-length 2
+/8-chroma/seq2/data/active 1
+/8-chroma/seq2/data/bypass 0
+/8-chroma/seq2/round-to 1.000000
+/8-chroma/seq2/scale/high 64.000000
+/8-chroma/seq2/scale/low 36.000000
+/8-chroma/seq2/values/raw 0.188889 0.322222
+# 
+/8-chroma/seq3/loop-length 8
+/8-chroma/seq3/data/active 1
+/8-chroma/seq3/data/bypass 0
+/8-chroma/seq3/round-to 1.000000
+/8-chroma/seq3/scale/high 96.000000
+/8-chroma/seq3/scale/low 36.000000
+/8-chroma/seq3/values/raw 0.233333 0.322222 0.255556 0.255556 0.300000 0.344444 0.366667 0.322222
+# 
+/8-chroma/seq4/loop-length 8
+/8-chroma/seq4/data/active 1
+/8-chroma/seq4/data/bypass 0
+/8-chroma/seq4/round-to 1.000000
+/8-chroma/seq4/scale/high 127.000000
+/8-chroma/seq4/scale/low 0.000000
+/8-chroma/seq4/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq5/loop-length 8
+/8-chroma/seq5/data/active 1
+/8-chroma/seq5/data/bypass 0
+/8-chroma/seq5/round-to 1.000000
+/8-chroma/seq5/scale/high 127.000000
+/8-chroma/seq5/scale/low 0.000000
+/8-chroma/seq5/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq6/loop-length 8
+/8-chroma/seq6/data/active 1
+/8-chroma/seq6/data/bypass 0
+/8-chroma/seq6/round-to 1.000000
+/8-chroma/seq6/scale/high 127.000000
+/8-chroma/seq6/scale/low 0.000000
+/8-chroma/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq7/loop-length 8
+/8-chroma/seq7/data/active 1
+/8-chroma/seq7/data/bypass 0
+/8-chroma/seq7/round-to 1.000000
+/8-chroma/seq7/scale/high 127.000000
+/8-chroma/seq7/scale/low 0.000000
+/8-chroma/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq8/loop-length 8
+/8-chroma/seq8/data/active 1
+/8-chroma/seq8/data/bypass 0
+/8-chroma/seq8/round-to 1.000000
+/8-chroma/seq8/scale/high 127.000000
+/8-chroma/seq8/scale/low 0.000000
+/8-chroma/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/a-chroma/notes 62.000000 64.000000 65.000000 69.000000 70.000000
+/a-chroma/constrain-mode tones
+/a-chroma/data/active 1
+/a-chroma/data/bypass 0
+/a-chroma/mode random
+/a-chroma/probabilities 0.548781 0.670732 0.451219 0.329268 0.060976
+/a-chroma/root 62
+/a-chroma/scale hirajoshi
+# 
+/chroma/bank 1
+/chroma/channel 1
+/chroma/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/chroma/data/active 1
+/chroma/midi-device "from Max 1"
+/chroma/sendCCforPgm 0
+# 
+/e-chroma/trigs 2
+/e-chroma/steps 22
+/e-chroma/rotate 0
+# 
+/e-chroma/comp_loop/data/active 1
+/e-chroma/comp_loop/data/bypass 0
+/e-chroma/comp_loop/steps 22
+/e-chroma/data/active 1
+/e-chroma/data/bypass 0
+# 
+/mn-chroma/data/active 1
+/mn-chroma/data/bypass 0
+/mn-chroma/duration 100
+/mn-chroma/pitch 17
+/mn-chroma/pitch+ -24
+/mn-chroma/send-note-off 1
+/mn-chroma/trigger-on-bang-only 0
+/mn-chroma/vel+ 0
+/mn-chroma/velocity 127
+# 
+# ###########################################
+
+- cue "06"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/8s1/seq1/loop-length 9
+/8s1/seq1/data/active 1
+/8s1/seq1/data/bypass 0
+/8s1/seq1/round-to 1.000000
+/8s1/seq1/scale/high 96.000000
+/8s1/seq1/scale/low 36.000000
+/8s1/seq1/values/raw 0.322222 0.411111 0.433333 0.544444 0.433333 0.277778 0.811111 0.411111 0.766667
+# 
+/8s1/seq2/loop-length 8
+/8s1/seq2/data/active 1
+/8s1/seq2/data/bypass 0
+/8s1/seq2/round-to 1.000000
+/8s1/seq2/scale/high 127.000000
+/8s1/seq2/scale/low 0.000000
+/8s1/seq2/values/raw 0.766667 0.344444 0.344444 0.566667 0.722222 0.655556 0.633333 0.322222
+# 
+/8s1/seq3/loop-length 5
+/8s1/seq3/data/active 1
+/8s1/seq3/data/bypass 0
+/8s1/seq3/round-to 1.000000
+/8s1/seq3/scale/high 127.000000
+/8s1/seq3/scale/low 0.000000
+/8s1/seq3/values/raw 0.144444 0.655556 0.144444 0.300000 0.411111
+# 
+/8s1/seq4/loop-length 7
+/8s1/seq4/data/active 1
+/8s1/seq4/data/bypass 0
+/8s1/seq4/round-to 0.500000
+/8s1/seq4/scale/high 4.000000
+/8s1/seq4/scale/low 0.500000
+/8s1/seq4/values/raw 0.211111 0.211111 0.766667 0.388889 0.100000 0.433333 0.677778
+# 
+/8s1/seq5/loop-length 8
+/8s1/seq5/data/active 1
+/8s1/seq5/data/bypass 0
+/8s1/seq5/round-to 1.000000
+/8s1/seq5/scale/high 5.000000
+/8s1/seq5/scale/low -5.000000
+/8s1/seq5/values/raw 0.500000 0.277778 0.522222 0.411111 0.655556 0.544444 0.722222 0.500000
+# 
+/8s1/seq6/loop-length 8
+/8s1/seq6/data/active 1
+/8s1/seq6/data/bypass 0
+/8s1/seq6/round-to 1.000000
+/8s1/seq6/scale/high 127.000000
+/8s1/seq6/scale/low 0.000000
+/8s1/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq7/loop-length 8
+/8s1/seq7/data/active 1
+/8s1/seq7/data/bypass 0
+/8s1/seq7/round-to 1.000000
+/8s1/seq7/scale/high 127.000000
+/8s1/seq7/scale/low 0.000000
+/8s1/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq8/loop-length 8
+/8s1/seq8/data/active 1
+/8s1/seq8/data/bypass 0
+/8s1/seq8/round-to 1.000000
+/8s1/seq8/scale/high 127.000000
+/8s1/seq8/scale/low 0.000000
+/8s1/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/an1/notes 36.000000 37.000000 38.000000 39.000000 40.000000 41.000000 43.000000 45.000000 50.000000 51.000000 52.000000 54.000000 56.000000 58.000000 60.000000 61.000000 62.000000 63.000000 64.000000 65.000000 66.000000 67.000000 68.000000 69.000000 70.000000 71.000000 72.000000 73.000000 74.000000 75.000000 76.000000 77.000000 78.000000 79.000000 80.000000 81.000000 82.000000 83.000000 84.000000 86.000000 88.000000 89.000000 91.000000 93.000000 94.000000 95.000000 96.000000
+/an1/constrain-mode drums
+/an1/data/active 1
+/an1/data/bypass 0
+/an1/mode probability
+/an1/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/an1/root 60
+/an1/scale custom
+# 
+/cues/active-cue 04----
+/cues/active-namespace none
+/cues/recall-type 0
+# 
+/e1/trigs 11
+/e1/steps 11
+/e1/rotate 1227
+# 
+/e1/comp_loop/data/active 1
+/e1/comp_loop/data/bypass 0
+/e1/comp_loop/steps 11
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 4
+/e2/steps 7
+/e2/rotate 2524
+# 
+/e2/comp_loop/data/active 1
+/e2/comp_loop/data/bypass 0
+/e2/comp_loop/steps 7
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/mc1/active 1
+/mc1/bpm 90.000000
+/mc1/data/active 1
+/mc1/division 2
+# 
+/out1/bank 1
+/out1/channel 10
+/out1/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/out1/data/active 1
+/out1/midi-device "mio4 Tracker (DIN4)"
+/out1/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 1
+# 
+/rt1/makenote/data/active 1
+/rt1/makenote/data/bypass 0
+/rt1/makenote/duration 1000
+/rt1/makenote/pitch 64
+/rt1/makenote/pitch+ 0
+/rt1/makenote/send-note-off 1
+/rt1/makenote/trigger-on-bang-only 0
+/rt1/makenote/vel+ 0
+/rt1/makenote/velocity 82
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 38
+# 
+# 
+/8-chroma/seq1/loop-length 8
+/8-chroma/seq1/data/active 1
+/8-chroma/seq1/data/bypass 0
+/8-chroma/seq1/round-to 1.000000
+/8-chroma/seq1/scale/high 127.000000
+/8-chroma/seq1/scale/low 0.000000
+/8-chroma/seq1/values/raw 0.611111 0.588889 0.655556 0.588889 0.655556 0.677778 0.633333 0.744444
+# 
+/8-chroma/seq2/loop-length 2
+/8-chroma/seq2/data/active 1
+/8-chroma/seq2/data/bypass 0
+/8-chroma/seq2/round-to 1.000000
+/8-chroma/seq2/scale/high 64.000000
+/8-chroma/seq2/scale/low 36.000000
+/8-chroma/seq2/values/raw 0.188889 0.322222
+# 
+/8-chroma/seq3/loop-length 8
+/8-chroma/seq3/data/active 1
+/8-chroma/seq3/data/bypass 0
+/8-chroma/seq3/round-to 1.000000
+/8-chroma/seq3/scale/high 96.000000
+/8-chroma/seq3/scale/low 36.000000
+/8-chroma/seq3/values/raw 0.366667 0.366667 0.433333 0.477778 0.366667 0.322222 0.366667 0.322222
+# 
+/8-chroma/seq4/loop-length 8
+/8-chroma/seq4/data/active 1
+/8-chroma/seq4/data/bypass 0
+/8-chroma/seq4/round-to 1.000000
+/8-chroma/seq4/scale/high 127.000000
+/8-chroma/seq4/scale/low 0.000000
+/8-chroma/seq4/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq5/loop-length 8
+/8-chroma/seq5/data/active 1
+/8-chroma/seq5/data/bypass 0
+/8-chroma/seq5/round-to 1.000000
+/8-chroma/seq5/scale/high 127.000000
+/8-chroma/seq5/scale/low 0.000000
+/8-chroma/seq5/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq6/loop-length 8
+/8-chroma/seq6/data/active 1
+/8-chroma/seq6/data/bypass 0
+/8-chroma/seq6/round-to 1.000000
+/8-chroma/seq6/scale/high 127.000000
+/8-chroma/seq6/scale/low 0.000000
+/8-chroma/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq7/loop-length 8
+/8-chroma/seq7/data/active 1
+/8-chroma/seq7/data/bypass 0
+/8-chroma/seq7/round-to 1.000000
+/8-chroma/seq7/scale/high 127.000000
+/8-chroma/seq7/scale/low 0.000000
+/8-chroma/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq8/loop-length 8
+/8-chroma/seq8/data/active 1
+/8-chroma/seq8/data/bypass 0
+/8-chroma/seq8/round-to 1.000000
+/8-chroma/seq8/scale/high 127.000000
+/8-chroma/seq8/scale/low 0.000000
+/8-chroma/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/a-chroma/notes 60.000000 62.000000 63.000000 67.000000 68.000000
+/a-chroma/constrain-mode notes
+/a-chroma/data/active 1
+/a-chroma/data/bypass 0
+/a-chroma/mode probability
+/a-chroma/probabilities 0.548781 0.670732 0.475610 0.304878 0.646341
+/a-chroma/root 60
+/a-chroma/scale hirajoshi
+# 
+/chroma/bank 1
+/chroma/channel 1
+/chroma/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/chroma/data/active 1
+/chroma/midi-device "from Max 1"
+/chroma/sendCCforPgm 0
+# 
+/e-chroma/trigs 2
+/e-chroma/steps 22
+/e-chroma/rotate 0
+# 
+/e-chroma/comp_loop/data/active 1
+/e-chroma/comp_loop/data/bypass 0
+/e-chroma/comp_loop/steps 22
+/e-chroma/data/active 1
+/e-chroma/data/bypass 0
+# 
+/mn-chroma/data/active 1
+/mn-chroma/data/bypass 0
+/mn-chroma/duration 100
+/mn-chroma/pitch 15
+/mn-chroma/pitch+ -24
+/mn-chroma/send-note-off 1
+/mn-chroma/trigger-on-bang-only 0
+/mn-chroma/vel+ 0
+/mn-chroma/velocity 62
+# 
+# ###########################################
+
+- cue "setCueNames"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/8-chroma/seq1/loop-length 8
+/8-chroma/seq1/data/active 1
+/8-chroma/seq1/data/bypass 0
+/8-chroma/seq1/offset 0.000000
+/8-chroma/seq1/round-to 1.000000
+/8-chroma/seq1/scale/high 127.000000
+/8-chroma/seq1/scale/low 0.000000
+/8-chroma/seq1/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq2/loop-length 8
+/8-chroma/seq2/data/active 1
+/8-chroma/seq2/data/bypass 0
+/8-chroma/seq2/offset 0.000000
+/8-chroma/seq2/round-to 1.000000
+/8-chroma/seq2/scale/high 127.000000
+/8-chroma/seq2/scale/low 0.000000
+/8-chroma/seq2/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq3/loop-length 8
+/8-chroma/seq3/data/active 1
+/8-chroma/seq3/data/bypass 0
+/8-chroma/seq3/offset 0.000000
+/8-chroma/seq3/round-to 1.000000
+/8-chroma/seq3/scale/high 127.000000
+/8-chroma/seq3/scale/low 0.000000
+/8-chroma/seq3/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq4/loop-length 8
+/8-chroma/seq4/data/active 1
+/8-chroma/seq4/data/bypass 0
+/8-chroma/seq4/offset 0.000000
+/8-chroma/seq4/round-to 1.000000
+/8-chroma/seq4/scale/high 127.000000
+/8-chroma/seq4/scale/low 0.000000
+/8-chroma/seq4/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq5/loop-length 8
+/8-chroma/seq5/data/active 1
+/8-chroma/seq5/data/bypass 0
+/8-chroma/seq5/offset 0.000000
+/8-chroma/seq5/round-to 1.000000
+/8-chroma/seq5/scale/high 127.000000
+/8-chroma/seq5/scale/low 0.000000
+/8-chroma/seq5/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq6/loop-length 8
+/8-chroma/seq6/data/active 1
+/8-chroma/seq6/data/bypass 0
+/8-chroma/seq6/offset 0.000000
+/8-chroma/seq6/round-to 1.000000
+/8-chroma/seq6/scale/high 127.000000
+/8-chroma/seq6/scale/low 0.000000
+/8-chroma/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq7/loop-length 8
+/8-chroma/seq7/data/active 1
+/8-chroma/seq7/data/bypass 0
+/8-chroma/seq7/offset 0.000000
+/8-chroma/seq7/round-to 1.000000
+/8-chroma/seq7/scale/high 127.000000
+/8-chroma/seq7/scale/low 0.000000
+/8-chroma/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq8/loop-length 8
+/8-chroma/seq8/data/active 1
+/8-chroma/seq8/data/bypass 0
+/8-chroma/seq8/offset 0.000000
+/8-chroma/seq8/round-to 1.000000
+/8-chroma/seq8/scale/high 127.000000
+/8-chroma/seq8/scale/low 0.000000
+/8-chroma/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+# 
+/8s1/seq1/loop-length 9
+/8s1/seq1/data/active 1
+/8s1/seq1/data/bypass 0
+/8s1/seq1/offset 0.000000
+/8s1/seq1/round-to 1.000000
+/8s1/seq1/scale/high 96.000000
+/8s1/seq1/scale/low 36.000000
+/8s1/seq1/values/raw 0.677778 0.433333 0.433333 0.677778 0.633333 0.433333 0.433333 0.366667 0.455556
+# 
+/8s1/seq2/loop-length 8
+/8s1/seq2/data/active 1
+/8s1/seq2/data/bypass 0
+/8s1/seq2/offset 0.000000
+/8s1/seq2/round-to 1.000000
+/8s1/seq2/scale/high 127.000000
+/8s1/seq2/scale/low 0.000000
+/8s1/seq2/values/raw 0.766667 0.344444 0.344444 0.566667 0.722222 0.655556 0.633333 0.322222
+# 
+/8s1/seq3/loop-length 5
+/8s1/seq3/data/active 1
+/8s1/seq3/data/bypass 0
+/8s1/seq3/offset 0.000000
+/8s1/seq3/round-to 1.000000
+/8s1/seq3/scale/high 127.000000
+/8s1/seq3/scale/low 0.000000
+/8s1/seq3/values/raw 0.144444 0.655556 0.144444 0.300000 0.411111
+# 
+/8s1/seq4/loop-length 7
+/8s1/seq4/data/active 1
+/8s1/seq4/data/bypass 0
+/8s1/seq4/offset 0.000000
+/8s1/seq4/round-to 0.500000
+/8s1/seq4/scale/high 4.000000
+/8s1/seq4/scale/low 0.500000
+/8s1/seq4/values/raw 0.211111 0.211111 0.211111 0.388889 0.100000 0.433333 0.677778
+# 
+/8s1/seq5/loop-length 8
+/8s1/seq5/data/active 1
+/8s1/seq5/data/bypass 0
+/8s1/seq5/offset 0.000000
+/8s1/seq5/round-to 1.000000
+/8s1/seq5/scale/high 5.000000
+/8s1/seq5/scale/low -5.000000
+/8s1/seq5/values/raw 0.277778 0.388889 0.500000 0.344444 0.366667 0.477778 0.477778 0.455556
+# 
+/8s1/seq6/loop-length 8
+/8s1/seq6/data/active 1
+/8s1/seq6/data/bypass 0
+/8s1/seq6/offset 0.000000
+/8s1/seq6/round-to 1.000000
+/8s1/seq6/scale/high 127.000000
+/8s1/seq6/scale/low 0.000000
+/8s1/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq7/loop-length 8
+/8s1/seq7/data/active 1
+/8s1/seq7/data/bypass 0
+/8s1/seq7/offset 0.000000
+/8s1/seq7/round-to 1.000000
+/8s1/seq7/scale/high 127.000000
+/8s1/seq7/scale/low 0.000000
+/8s1/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8s1/seq8/loop-length 8
+/8s1/seq8/data/active 1
+/8s1/seq8/data/bypass 0
+/8s1/seq8/offset 0.000000
+/8s1/seq8/round-to 1.000000
+/8s1/seq8/scale/high 127.000000
+/8s1/seq8/scale/low 0.000000
+/8s1/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/a-chroma/notes 0.000000 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000
+/a-chroma/constrain-mode tones
+/a-chroma/data/active 1
+/a-chroma/data/bypass 0
+/a-chroma/mode none
+/a-chroma/probabilities 0.000000
+/a-chroma/root 60
+/a-chroma/scale all
+# 
+/an1/notes 60.000000 61.000000 62.000000 63.000000 64.000000 65.000000 66.000000 67.000000 68.000000 69.000000 70.000000 71.000000
+/an1/constrain-mode tones
+/an1/data/active 1
+/an1/data/bypass 0
+/an1/mode probability
+/an1/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/an1/root 60
+/an1/scale custom
+# 
+/chroma/bank 1
+/chroma/channel 1
+/chroma/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/chroma/data/active 1
+/chroma/midi-device "from Max 1"
+/chroma/sendCCforPgm 0
+# 
+/cues/active-cue setCueNames
+/cues/active-namespace none
+/cues/recall-type 0
+# 
+/e-chroma/trigs 1
+/e-chroma/steps 16
+/e-chroma/rotate 0
+# 
+/e-chroma/comp_loop/data/active 1
+/e-chroma/comp_loop/data/bypass 0
+/e-chroma/comp_loop/steps 16
+/e-chroma/data/active 1
+/e-chroma/data/bypass 0
+# 
+/e1/trigs 11
+/e1/steps 11
+/e1/rotate 1227
+# 
+/e1/comp_loop/data/active 1
+/e1/comp_loop/data/bypass 0
+/e1/comp_loop/steps 11
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 4
+/e2/steps 7
+/e2/rotate 1765
+# 
+/e2/comp_loop/data/active 1
+/e2/comp_loop/data/bypass 0
+/e2/comp_loop/steps 7
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/link1/data/active 1
+/link1/running 0
+/link1/subdivision 1/16
+/link1/tempo 120.000000
+# 
+/mn-chroma/data/active 1
+/mn-chroma/data/bypass 0
+/mn-chroma/duration 100
+/mn-chroma/pitch 60
+/mn-chroma/pitch+ 0
+/mn-chroma/send-note-off 1
+/mn-chroma/trigger-on-bang-only 0
+/mn-chroma/vel+ 0
+/mn-chroma/velocity 100
+# 
+/out1/bank 1
+/out1/channel 10
+/out1/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/out1/data/active 1
+/out1/midi-device "mio4 Tracker (DIN4)"
+/out1/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+# 
+/rt1/makenote/data/active 1
+/rt1/makenote/data/bypass 0
+/rt1/makenote/duration 1000
+/rt1/makenote/pitch 74
+/rt1/makenote/pitch+ 0
+/rt1/makenote/send-note-off 1
+/rt1/makenote/trigger-on-bang-only 0
+/rt1/makenote/vel+ 0
+/rt1/makenote/velocity 42
+/rt1/mod-vel 1
+/rt1/rate 1.000000
+/rt1/velocity 38
+# 
+# ###########################################
+
+- cue "07"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/8-chroma/seq1/loop-length 8
+/8-chroma/seq1/data/active 1
+/8-chroma/seq1/data/bypass 0
+/8-chroma/seq1/offset 0.000000
+/8-chroma/seq1/round-to 1.000000
+/8-chroma/seq1/scale/high 127.000000
+/8-chroma/seq1/scale/low 0.000000
+/8-chroma/seq1/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq2/loop-length 2
+/8-chroma/seq2/data/active 1
+/8-chroma/seq2/data/bypass 0
+/8-chroma/seq2/offset 0.000000
+/8-chroma/seq2/round-to 1.000000
+/8-chroma/seq2/scale/high 64.000000
+/8-chroma/seq2/scale/low 36.000000
+/8-chroma/seq2/values/raw 0.188889 0.322222
+# 
+/8-chroma/seq3/loop-length 8
+/8-chroma/seq3/data/active 1
+/8-chroma/seq3/data/bypass 0
+/8-chroma/seq3/offset 0.000000
+/8-chroma/seq3/round-to 1.000000
+/8-chroma/seq3/scale/high 96.000000
+/8-chroma/seq3/scale/low 36.000000
+/8-chroma/seq3/values/raw 0.233333 0.322222 0.255556 0.255556 0.300000 0.344444 0.366667 0.322222
+# 
+/8-chroma/seq4/loop-length 8
+/8-chroma/seq4/data/active 1
+/8-chroma/seq4/data/bypass 0
+/8-chroma/seq4/offset 0.000000
+/8-chroma/seq4/round-to 1.000000
+/8-chroma/seq4/scale/high 127.000000
+/8-chroma/seq4/scale/low 0.000000
+/8-chroma/seq4/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq5/loop-length 8
+/8-chroma/seq5/data/active 1
+/8-chroma/seq5/data/bypass 0
+/8-chroma/seq5/offset 0.000000
+/8-chroma/seq5/round-to 1.000000
+/8-chroma/seq5/scale/high 127.000000
+/8-chroma/seq5/scale/low 0.000000
+/8-chroma/seq5/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq6/loop-length 8
+/8-chroma/seq6/data/active 1
+/8-chroma/seq6/data/bypass 0
+/8-chroma/seq6/offset 0.000000
+/8-chroma/seq6/round-to 1.000000
+/8-chroma/seq6/scale/high 127.000000
+/8-chroma/seq6/scale/low 0.000000
+/8-chroma/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq7/loop-length 8
+/8-chroma/seq7/data/active 1
+/8-chroma/seq7/data/bypass 0
+/8-chroma/seq7/offset 0.000000
+/8-chroma/seq7/round-to 1.000000
+/8-chroma/seq7/scale/high 127.000000
+/8-chroma/seq7/scale/low 0.000000
+/8-chroma/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq8/loop-length 8
+/8-chroma/seq8/data/active 1
+/8-chroma/seq8/data/bypass 0
+/8-chroma/seq8/offset 0.000000
+/8-chroma/seq8/round-to 1.000000
+/8-chroma/seq8/scale/high 127.000000
+/8-chroma/seq8/scale/low 0.000000
+/8-chroma/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+# 
+/8s1/seq1/loop-length 9
+/8s1/seq1/data/active 1
+/8s1/seq1/data/bypass 0
+/8s1/seq1/offset 0.000000
+/8s1/seq1/round-to 1.000000
+/8s1/seq1/scale/high 96.000000
+/8s1/seq1/scale/low 36.000000
+/8s1/seq1/values/raw 0.677778 0.433333 0.433333 0.677778 0.633333 0.433333 0.433333 0.366667 0.455556
+# 
+/8s1/seq2/loop-length 8
+/8s1/seq2/data/active 1
+/8s1/seq2/data/bypass 0
+/8s1/seq2/offset 0.000000
+/8s1/seq2/round-to 1.000000
+/8s1/seq2/scale/high 127.000000
+/8s1/seq2/scale/low 0.000000
+/8s1/seq2/values/raw 0.505556 0.644444 0.644444 0.644444 0.525397 0.485714 0.644444 0.426190
+# 
+/8s1/seq3/loop-length 5
+/8s1/seq3/data/active 1
+/8s1/seq3/data/bypass 0
+/8s1/seq3/offset 0.000000
+/8s1/seq3/round-to 1.000000
+/8s1/seq3/scale/high 127.000000
+/8s1/seq3/scale/low 0.000000
+/8s1/seq3/values/raw 0.144444 0.644444 0.144444 0.300000 0.411111
+# 
+/8s1/seq4/loop-length 7
+/8s1/seq4/data/active 1
+/8s1/seq4/data/bypass 0
+/8s1/seq4/offset 0.000000
+/8s1/seq4/round-to 0.500000
+/8s1/seq4/scale/high 4.000000
+/8s1/seq4/scale/low 0.500000
+/8s1/seq4/values/raw 0.406349 0.446032 0.211111 0.388889 0.100000 0.433333 0.677778
+# 
+/8s1/seq5/loop-length 8
+/8s1/seq5/data/active 1
+/8s1/seq5/data/bypass 0
+/8s1/seq5/offset 0.000000
+/8s1/seq5/round-to 1.000000
+/8s1/seq5/scale/high 5.000000
+/8s1/seq5/scale/low -5.000000
+/8s1/seq5/values/raw 0.277778 0.388889 0.500000 0.344444 0.366667 0.477778 0.477778 0.455556
+# 
+/8s1/seq6/loop-length 10
+/8s1/seq6/data/active 1
+/8s1/seq6/data/bypass 0
+/8s1/seq6/offset 0.000000
+/8s1/seq6/round-to 1.000000
+/8s1/seq6/scale/high 10.000000
+/8s1/seq6/scale/low 1.000000
+/8s1/seq6/values/raw 0.000000 1.000000 0.168254 1.000000 0.168254 0.961905 0.664286 1.000000 1.000000 1.000000
+# 
+/8s1/seq7/loop-length 8
+/8s1/seq7/data/active 1
+/8s1/seq7/data/bypass 0
+/8s1/seq7/offset 0.000000
+/8s1/seq7/round-to 1.000000
+/8s1/seq7/scale/high 100.000000
+/8s1/seq7/scale/low 0.000000
+/8s1/seq7/values/raw 0.684127 0.723810 0.763492 0.723810 0.763492 0.763492 0.723810 0.803175
+# 
+/8s1/seq8/loop-length 8
+/8s1/seq8/data/active 1
+/8s1/seq8/data/bypass 0
+/8s1/seq8/offset 0.000000
+/8s1/seq8/round-to 1.000000
+/8s1/seq8/scale/high 127.000000
+/8s1/seq8/scale/low 0.000000
+/8s1/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/a-chroma/notes 62.000000 64.000000 65.000000 69.000000 70.000000
+/a-chroma/constrain-mode tones
+/a-chroma/data/active 1
+/a-chroma/data/bypass 0
+/a-chroma/mode random
+/a-chroma/probabilities 0.548781 0.670732 0.451219 0.329268 0.060976
+/a-chroma/root 62
+/a-chroma/scale hirajoshi
+# 
+/an1/notes 36.000000 37.000000 38.000000 39.000000 40.000000 41.000000 43.000000 45.000000 50.000000 51.000000 52.000000 54.000000 56.000000 58.000000 60.000000 61.000000 62.000000 63.000000 64.000000 65.000000 66.000000 67.000000 68.000000 69.000000 70.000000 71.000000 72.000000 73.000000 74.000000 75.000000 76.000000 77.000000 78.000000 79.000000 80.000000 81.000000 82.000000 83.000000 84.000000 86.000000 88.000000 89.000000 91.000000 93.000000 94.000000 95.000000 96.000000
+/an1/constrain-mode tones
+/an1/data/active 1
+/an1/data/bypass 0
+/an1/mode probability
+/an1/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/an1/root 60
+/an1/scale custom
+# 
+/an2/notes 1.000000 2.000000 3.000000 4.000000 5.000000 10.000000
+/an2/constrain-mode drums
+/an2/data/active 1
+/an2/data/bypass 0
+/an2/mode probability
+/an2/probabilities 0.000000 0.549652 0.000000 0.767422 0.000000 1.000000
+/an2/root 60
+/an2/scale custom
+# 
+/chroma/bank 1
+/chroma/channel 1
+/chroma/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/chroma/data/active 1
+/chroma/midi-device "from Max 1"
+/chroma/sendCCforPgm 0
+# 
+/cues/active-cue none
+/cues/active-namespace none
+/cues/recall-type 0
+# 
+/e-chroma/trigs 2
+/e-chroma/steps 22
+/e-chroma/rotate 0
+# 
+/e-chroma/comp_loop/data/active 1
+/e-chroma/comp_loop/data/bypass 0
+/e-chroma/comp_loop/steps 22
+/e-chroma/data/active 1
+/e-chroma/data/bypass 0
+# 
+/e1/trigs 11
+/e1/steps 11
+/e1/rotate 1227
+# 
+/e1/comp_loop/data/active 1
+/e1/comp_loop/data/bypass 0
+/e1/comp_loop/steps 11
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 2
+/e2/steps 7
+/e2/rotate 2277
+# 
+/e2/comp_loop/data/active 1
+/e2/comp_loop/data/bypass 0
+/e2/comp_loop/steps 7
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/func-clock/active 0
+/func-clock/bpm 90.000000
+/func-clock/data/active 1
+/func-clock/division 2
+# 
+# 
+/func1/comp_loop/data/active 1
+/func1/comp_loop/data/bypass 0
+/func1/comp_loop/steps 128
+/func1/data/active 1
+/func1/data/bypass 0
+/func1/function "ease 3"
+/func1/invert 0
+/func1/scale/high 80.000000
+/func1/scale/low 90.000000
+/func1/steps 128
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/link1/data/active 1
+/link1/running 1
+/link1/subdivision 1/16
+/link1/tempo 90.000000
+# 
+/mn-chroma/data/active 1
+/mn-chroma/data/bypass 0
+/mn-chroma/duration 100
+/mn-chroma/pitch 17
+/mn-chroma/pitch+ -24
+/mn-chroma/send-note-off 1
+/mn-chroma/trigger-on-bang-only 0
+/mn-chroma/vel+ 0
+/mn-chroma/velocity 51
+# 
+/out1/bank 1
+/out1/channel 2
+/out1/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/out1/data/active 1
+/out1/midi-device "mio4 Tracker (DIN4)"
+/out1/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+# 
+/rt1/makenote/data/active 1
+/rt1/makenote/data/bypass 0
+/rt1/makenote/duration 72
+/rt1/makenote/pitch 62
+/rt1/makenote/pitch+ 0
+/rt1/makenote/send-note-off 1
+/rt1/makenote/trigger-on-bang-only 0
+/rt1/makenote/vel+ 0
+/rt1/makenote/velocity 82
+/rt1/mod-vel 1
+/rt1/rate 2.000000
+/rt1/velocity 52
+# 
+# ###########################################
+
+- cue "08"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/8-chroma/seq1/loop-length 8
+/8-chroma/seq1/data/active 1
+/8-chroma/seq1/data/bypass 0
+/8-chroma/seq1/offset 0.000000
+/8-chroma/seq1/round-to 1.000000
+/8-chroma/seq1/scale/high 127.000000
+/8-chroma/seq1/scale/low 0.000000
+/8-chroma/seq1/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq2/loop-length 2
+/8-chroma/seq2/data/active 1
+/8-chroma/seq2/data/bypass 0
+/8-chroma/seq2/offset 0.000000
+/8-chroma/seq2/round-to 1.000000
+/8-chroma/seq2/scale/high 64.000000
+/8-chroma/seq2/scale/low 36.000000
+/8-chroma/seq2/values/raw 0.188889 0.322222
+# 
+/8-chroma/seq3/loop-length 8
+/8-chroma/seq3/data/active 1
+/8-chroma/seq3/data/bypass 0
+/8-chroma/seq3/offset 0.000000
+/8-chroma/seq3/round-to 1.000000
+/8-chroma/seq3/scale/high 96.000000
+/8-chroma/seq3/scale/low 36.000000
+/8-chroma/seq3/values/raw 0.233333 0.322222 0.255556 0.255556 0.300000 0.344444 0.366667 0.322222
+# 
+/8-chroma/seq4/loop-length 8
+/8-chroma/seq4/data/active 1
+/8-chroma/seq4/data/bypass 0
+/8-chroma/seq4/offset 0.000000
+/8-chroma/seq4/round-to 1.000000
+/8-chroma/seq4/scale/high 127.000000
+/8-chroma/seq4/scale/low 0.000000
+/8-chroma/seq4/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq5/loop-length 8
+/8-chroma/seq5/data/active 1
+/8-chroma/seq5/data/bypass 0
+/8-chroma/seq5/offset 0.000000
+/8-chroma/seq5/round-to 1.000000
+/8-chroma/seq5/scale/high 127.000000
+/8-chroma/seq5/scale/low 0.000000
+/8-chroma/seq5/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq6/loop-length 8
+/8-chroma/seq6/data/active 1
+/8-chroma/seq6/data/bypass 0
+/8-chroma/seq6/offset 0.000000
+/8-chroma/seq6/round-to 1.000000
+/8-chroma/seq6/scale/high 127.000000
+/8-chroma/seq6/scale/low 0.000000
+/8-chroma/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq7/loop-length 8
+/8-chroma/seq7/data/active 1
+/8-chroma/seq7/data/bypass 0
+/8-chroma/seq7/offset 0.000000
+/8-chroma/seq7/round-to 1.000000
+/8-chroma/seq7/scale/high 127.000000
+/8-chroma/seq7/scale/low 0.000000
+/8-chroma/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq8/loop-length 8
+/8-chroma/seq8/data/active 1
+/8-chroma/seq8/data/bypass 0
+/8-chroma/seq8/offset 0.000000
+/8-chroma/seq8/round-to 1.000000
+/8-chroma/seq8/scale/high 127.000000
+/8-chroma/seq8/scale/low 0.000000
+/8-chroma/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+# 
+/8s1/seq1/loop-length 9
+/8s1/seq1/data/active 1
+/8s1/seq1/data/bypass 0
+/8s1/seq1/offset 0.000000
+/8s1/seq1/round-to 1.000000
+/8s1/seq1/scale/high 96.000000
+/8s1/seq1/scale/low 36.000000
+/8s1/seq1/values/raw 0.677778 0.433333 0.433333 0.677778 0.633333 0.433333 0.433333 0.366667 0.455556
+# 
+/8s1/seq2/loop-length 8
+/8s1/seq2/data/active 1
+/8s1/seq2/data/bypass 0
+/8s1/seq2/offset 0.000000
+/8s1/seq2/round-to 1.000000
+/8s1/seq2/scale/high 127.000000
+/8s1/seq2/scale/low 0.000000
+/8s1/seq2/values/raw 0.505556 0.644444 0.644444 0.644444 0.525397 0.485714 0.644444 0.426190
+# 
+/8s1/seq3/loop-length 5
+/8s1/seq3/data/active 1
+/8s1/seq3/data/bypass 0
+/8s1/seq3/offset 0.000000
+/8s1/seq3/round-to 1.000000
+/8s1/seq3/scale/high 127.000000
+/8s1/seq3/scale/low 0.000000
+/8s1/seq3/values/raw 0.144444 0.644444 0.144444 0.300000 0.411111
+# 
+/8s1/seq4/loop-length 7
+/8s1/seq4/data/active 1
+/8s1/seq4/data/bypass 0
+/8s1/seq4/offset 0.000000
+/8s1/seq4/round-to 0.500000
+/8s1/seq4/scale/high 4.000000
+/8s1/seq4/scale/low 0.500000
+/8s1/seq4/values/raw 0.406349 0.446032 0.211111 0.388889 0.100000 0.433333 0.677778
+# 
+/8s1/seq5/loop-length 8
+/8s1/seq5/data/active 1
+/8s1/seq5/data/bypass 0
+/8s1/seq5/offset 0.000000
+/8s1/seq5/round-to 1.000000
+/8s1/seq5/scale/high 5.000000
+/8s1/seq5/scale/low -5.000000
+/8s1/seq5/values/raw 0.277778 0.388889 0.500000 0.344444 0.366667 0.477778 0.477778 0.455556
+# 
+/8s1/seq6/loop-length 10
+/8s1/seq6/data/active 1
+/8s1/seq6/data/bypass 0
+/8s1/seq6/offset 0.000000
+/8s1/seq6/round-to 1.000000
+/8s1/seq6/scale/high 10.000000
+/8s1/seq6/scale/low 1.000000
+/8s1/seq6/values/raw 0.000000 1.000000 0.168254 1.000000 0.168254 0.961905 0.664286 1.000000 1.000000 1.000000
+# 
+/8s1/seq7/loop-length 8
+/8s1/seq7/data/active 1
+/8s1/seq7/data/bypass 0
+/8s1/seq7/offset 0.000000
+/8s1/seq7/round-to 1.000000
+/8s1/seq7/scale/high 100.000000
+/8s1/seq7/scale/low 0.000000
+/8s1/seq7/values/raw 0.684127 0.723810 0.763492 0.723810 0.763492 0.763492 0.723810 0.803175
+# 
+/8s1/seq8/loop-length 8
+/8s1/seq8/data/active 1
+/8s1/seq8/data/bypass 0
+/8s1/seq8/offset 0.000000
+/8s1/seq8/round-to 1.000000
+/8s1/seq8/scale/high 127.000000
+/8s1/seq8/scale/low 0.000000
+/8s1/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/a-chroma/notes 62.000000 64.000000 65.000000 69.000000 70.000000
+/a-chroma/constrain-mode tones
+/a-chroma/data/active 1
+/a-chroma/data/bypass 0
+/a-chroma/mode random
+/a-chroma/probabilities 0.548781 0.670732 0.451219 0.329268 0.060976
+/a-chroma/root 62
+/a-chroma/scale hirajoshi
+# 
+/an2/notes 1.000000 2.000000 3.000000 4.000000 5.000000 10.000000
+/an2/constrain-mode drums
+/an2/data/active 1
+/an2/data/bypass 0
+/an2/mode probability
+/an2/probabilities 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+/an2/root 60
+/an2/scale custom
+# 
+/chroma/bank 1
+/chroma/channel 1
+/chroma/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/chroma/data/active 1
+/chroma/midi-device "from Max 1"
+/chroma/sendCCforPgm 0
+# 
+/cues/active-cue none
+/cues/active-namespace none
+/cues/recall-type 0
+# 
+/e-chroma/trigs 3
+/e-chroma/steps 22
+/e-chroma/rotate 0
+# 
+/e-chroma/comp_loop/data/active 1
+/e-chroma/comp_loop/data/bypass 0
+/e-chroma/comp_loop/steps 22
+/e-chroma/data/active 1
+/e-chroma/data/bypass 0
+# 
+/e1/trigs 11
+/e1/steps 11
+/e1/rotate 1227
+# 
+/e1/comp_loop/data/active 1
+/e1/comp_loop/data/bypass 0
+/e1/comp_loop/steps 11
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 5
+/e2/steps 7
+/e2/rotate 2277
+# 
+/e2/comp_loop/data/active 1
+/e2/comp_loop/data/bypass 0
+/e2/comp_loop/steps 7
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/func-clock/active 0
+/func-clock/bpm 90.000000
+/func-clock/data/active 1
+/func-clock/division 2
+# 
+# 
+/func1/comp_loop/data/active 1
+/func1/comp_loop/data/bypass 0
+/func1/comp_loop/steps 10000
+/func1/data/active 1
+/func1/data/bypass 0
+/func1/function "ease 2"
+/func1/invert 0
+/func1/scale/high 90.000000
+/func1/scale/low 90.000000
+/func1/steps 10000
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/link1/data/active 1
+/link1/running 1
+/link1/subdivision 1/128
+/link1/tempo 90.000000
+# 
+/mn-chroma/data/active 1
+/mn-chroma/data/bypass 0
+/mn-chroma/duration 100
+/mn-chroma/pitch 17
+/mn-chroma/pitch+ -24
+/mn-chroma/send-note-off 1
+/mn-chroma/trigger-on-bang-only 0
+/mn-chroma/vel+ 0
+/mn-chroma/velocity 51
+# 
+/out1/bank 1
+/out1/channel 10
+/out1/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/out1/data/active 1
+/out1/midi-device "mio4 Tracker (DIN4)"
+/out1/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 0
+# 
+/rt1/makenote/data/active 1
+/rt1/makenote/data/bypass 0
+/rt1/makenote/duration 72
+/rt1/makenote/pitch 60
+/rt1/makenote/pitch+ 0
+/rt1/makenote/send-note-off 1
+/rt1/makenote/trigger-on-bang-only 0
+/rt1/makenote/vel+ 0
+/rt1/makenote/velocity 82
+/rt1/mod-vel 1
+/rt1/rate 2.000000
+/rt1/velocity 82
+# 
+# 
+/retrig-func/comp_loop/data/active 1
+/retrig-func/comp_loop/data/bypass 0
+/retrig-func/comp_loop/steps 1024
+/retrig-func/data/active 1
+/retrig-func/data/bypass 0
+/retrig-func/function "ease 12"
+/retrig-func/invert 1
+/retrig-func/scale/high 16.000000
+/retrig-func/scale/low 2.000000
+/retrig-func/steps 1024
+# 
+/rt-gate/control 0
+/rt-gate/data/active 1
+/rt-gate/data/bypass 0
+/rt-gate/offset 0
+# 
+/rt-mn/data/active 1
+/rt-mn/data/bypass 0
+/rt-mn/duration 20
+/rt-mn/pitch 52
+/rt-mn/pitch+ 0
+/rt-mn/send-note-off 1
+/rt-mn/trigger-on-bang-only 0
+/rt-mn/vel+ 0
+/rt-mn/velocity 60
+# 
+# ###########################################
+
+- cue "09"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/8-chroma/seq1/loop-length 8
+/8-chroma/seq1/data/active 1
+/8-chroma/seq1/data/bypass 0
+/8-chroma/seq1/offset 0.000000
+/8-chroma/seq1/round-to 1.000000
+/8-chroma/seq1/scale/high 127.000000
+/8-chroma/seq1/scale/low 0.000000
+/8-chroma/seq1/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq2/loop-length 2
+/8-chroma/seq2/data/active 1
+/8-chroma/seq2/data/bypass 0
+/8-chroma/seq2/offset 0.000000
+/8-chroma/seq2/round-to 1.000000
+/8-chroma/seq2/scale/high 64.000000
+/8-chroma/seq2/scale/low 36.000000
+/8-chroma/seq2/values/raw 0.188889 0.322222
+# 
+/8-chroma/seq3/loop-length 8
+/8-chroma/seq3/data/active 1
+/8-chroma/seq3/data/bypass 0
+/8-chroma/seq3/offset 0.000000
+/8-chroma/seq3/round-to 1.000000
+/8-chroma/seq3/scale/high 96.000000
+/8-chroma/seq3/scale/low 36.000000
+/8-chroma/seq3/values/raw 0.233333 0.322222 0.255556 0.255556 0.300000 0.344444 0.366667 0.322222
+# 
+/8-chroma/seq4/loop-length 8
+/8-chroma/seq4/data/active 1
+/8-chroma/seq4/data/bypass 0
+/8-chroma/seq4/offset 0.000000
+/8-chroma/seq4/round-to 1.000000
+/8-chroma/seq4/scale/high 127.000000
+/8-chroma/seq4/scale/low 0.000000
+/8-chroma/seq4/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq5/loop-length 8
+/8-chroma/seq5/data/active 1
+/8-chroma/seq5/data/bypass 0
+/8-chroma/seq5/offset 0.000000
+/8-chroma/seq5/round-to 1.000000
+/8-chroma/seq5/scale/high 127.000000
+/8-chroma/seq5/scale/low 0.000000
+/8-chroma/seq5/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq6/loop-length 8
+/8-chroma/seq6/data/active 1
+/8-chroma/seq6/data/bypass 0
+/8-chroma/seq6/offset 0.000000
+/8-chroma/seq6/round-to 1.000000
+/8-chroma/seq6/scale/high 127.000000
+/8-chroma/seq6/scale/low 0.000000
+/8-chroma/seq6/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq7/loop-length 8
+/8-chroma/seq7/data/active 1
+/8-chroma/seq7/data/bypass 0
+/8-chroma/seq7/offset 0.000000
+/8-chroma/seq7/round-to 1.000000
+/8-chroma/seq7/scale/high 127.000000
+/8-chroma/seq7/scale/low 0.000000
+/8-chroma/seq7/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/8-chroma/seq8/loop-length 8
+/8-chroma/seq8/data/active 1
+/8-chroma/seq8/data/bypass 0
+/8-chroma/seq8/offset 0.000000
+/8-chroma/seq8/round-to 1.000000
+/8-chroma/seq8/scale/high 127.000000
+/8-chroma/seq8/scale/low 0.000000
+/8-chroma/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+# 
+/8s1/seq1/loop-length 9
+/8s1/seq1/data/active 1
+/8s1/seq1/data/bypass 0
+/8s1/seq1/offset 0.000000
+/8s1/seq1/round-to 1.000000
+/8s1/seq1/scale/high 96.000000
+/8s1/seq1/scale/low 36.000000
+/8s1/seq1/values/raw 0.677778 0.433333 0.433333 0.677778 0.633333 0.433333 0.433333 0.366667 0.455556
+# 
+/8s1/seq2/loop-length 8
+/8s1/seq2/data/active 1
+/8s1/seq2/data/bypass 0
+/8s1/seq2/offset 0.000000
+/8s1/seq2/round-to 1.000000
+/8s1/seq2/scale/high 127.000000
+/8s1/seq2/scale/low 0.000000
+/8s1/seq2/values/raw 0.505556 0.644444 0.644444 0.644444 0.525397 0.485714 0.644444 0.426190
+# 
+/8s1/seq3/loop-length 5
+/8s1/seq3/data/active 1
+/8s1/seq3/data/bypass 0
+/8s1/seq3/offset 0.000000
+/8s1/seq3/round-to 1.000000
+/8s1/seq3/scale/high 127.000000
+/8s1/seq3/scale/low 0.000000
+/8s1/seq3/values/raw 0.144444 0.644444 0.144444 0.300000 0.411111
+# 
+/8s1/seq4/loop-length 7
+/8s1/seq4/data/active 1
+/8s1/seq4/data/bypass 0
+/8s1/seq4/offset 0.000000
+/8s1/seq4/round-to 0.500000
+/8s1/seq4/scale/high 6.000000
+/8s1/seq4/scale/low 0.500000
+/8s1/seq4/values/raw 1.000000 0.227778 0.227778 0.128571 0.287302 0.604762 1.000000
+# 
+/8s1/seq5/loop-length 8
+/8s1/seq5/data/active 1
+/8s1/seq5/data/bypass 0
+/8s1/seq5/offset 0.000000
+/8s1/seq5/round-to 1.000000
+/8s1/seq5/scale/high 5.000000
+/8s1/seq5/scale/low -5.000000
+/8s1/seq5/values/raw 0.277778 0.388889 0.500000 0.344444 0.366667 0.477778 0.477778 0.455556
+# 
+/8s1/seq6/loop-length 10
+/8s1/seq6/data/active 1
+/8s1/seq6/data/bypass 0
+/8s1/seq6/offset 0.000000
+/8s1/seq6/round-to 1.000000
+/8s1/seq6/scale/high 10.000000
+/8s1/seq6/scale/low 1.000000
+/8s1/seq6/values/raw 0.000000 1.000000 0.168254 1.000000 0.168254 0.961905 0.664286 1.000000 1.000000 1.000000
+# 
+/8s1/seq7/loop-length 8
+/8s1/seq7/data/active 1
+/8s1/seq7/data/bypass 0
+/8s1/seq7/offset 0.000000
+/8s1/seq7/round-to 1.000000
+/8s1/seq7/scale/high 100.000000
+/8s1/seq7/scale/low 0.000000
+/8s1/seq7/values/raw 0.684127 0.723810 0.763492 0.723810 0.763492 0.763492 0.723810 0.803175
+# 
+/8s1/seq8/loop-length 8
+/8s1/seq8/data/active 1
+/8s1/seq8/data/bypass 0
+/8s1/seq8/offset 0.000000
+/8s1/seq8/round-to 1.000000
+/8s1/seq8/scale/high 127.000000
+/8s1/seq8/scale/low 0.000000
+/8s1/seq8/values/raw 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+# 
+/a-chroma/notes 62.000000 63.000000 67.000000 69.000000 72.000000
+/a-chroma/constrain-mode tones
+/a-chroma/data/active 1
+/a-chroma/data/bypass 0
+/a-chroma/mode random
+/a-chroma/probabilities 0.548781 0.670732 0.451219 0.329268 0.060976
+/a-chroma/root 62
+/a-chroma/scale insen
+# 
+/an2/notes 1.000000 2.000000 3.000000 4.000000 5.000000 10.000000
+/an2/constrain-mode drums
+/an2/data/active 1
+/an2/data/bypass 0
+/an2/mode probability
+/an2/probabilities 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+/an2/root 60
+/an2/scale custom
+# 
+/chroma/bank 1
+/chroma/channel 1
+/chroma/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/chroma/data/active 1
+/chroma/midi-device "from Max 1"
+/chroma/sendCCforPgm 0
+# 
+/cues/active-cue none
+/cues/active-namespace none
+/cues/recall-type 0
+# 
+/e-chroma/trigs 5
+/e-chroma/steps 22
+/e-chroma/rotate 0
+# 
+/e-chroma/comp_loop/data/active 1
+/e-chroma/comp_loop/data/bypass 0
+/e-chroma/comp_loop/steps 22
+/e-chroma/data/active 1
+/e-chroma/data/bypass 0
+# 
+/e1/trigs 10
+/e1/steps 11
+/e1/rotate 1227
+# 
+/e1/comp_loop/data/active 1
+/e1/comp_loop/data/bypass 0
+/e1/comp_loop/steps 11
+/e1/data/active 1
+/e1/data/bypass 0
+# 
+/e2/trigs 2
+/e2/steps 7
+/e2/rotate 2277
+# 
+/e2/comp_loop/data/active 1
+/e2/comp_loop/data/bypass 0
+/e2/comp_loop/steps 7
+/e2/data/active 1
+/e2/data/bypass 0
+# 
+/func-clock/active 0
+/func-clock/bpm 90.000000
+/func-clock/data/active 1
+/func-clock/division 2
+# 
+# 
+/func1/comp_loop/data/active 1
+/func1/comp_loop/data/bypass 0
+/func1/comp_loop/steps 10000
+/func1/data/active 1
+/func1/data/bypass 0
+/func1/function "ease 2"
+/func1/invert 0
+/func1/scale/high 90.000000
+/func1/scale/low 90.023114
+/func1/steps 10000
+# 
+/g2/control 1
+/g2/data/active 1
+/g2/data/bypass 0
+/g2/offset 0
+# 
+/link1/data/active 1
+/link1/running 1
+/link1/subdivision 1/128
+/link1/tempo 90.023114
+# 
+/mn-chroma/data/active 1
+/mn-chroma/data/bypass 0
+/mn-chroma/duration 100
+/mn-chroma/pitch 21
+/mn-chroma/pitch+ -24
+/mn-chroma/send-note-off 1
+/mn-chroma/trigger-on-bang-only 0
+/mn-chroma/vel+ 0
+/mn-chroma/velocity 57
+# 
+/out1/bank 1
+/out1/channel 10
+/out1/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/out1/data/active 1
+/out1/midi-device "mio4 Tracker (DIN4)"
+/out1/sendCCforPgm 0
+# 
+/rt1/count 4
+/rt1/data/active 1
+/rt1/data/bypass 1
+# 
+/rt1/makenote/data/active 1
+/rt1/makenote/data/bypass 0
+/rt1/makenote/duration 72
+/rt1/makenote/pitch 57
+/rt1/makenote/pitch+ 0
+/rt1/makenote/send-note-off 1
+/rt1/makenote/trigger-on-bang-only 0
+/rt1/makenote/vel+ 0
+/rt1/makenote/velocity 82
+/rt1/mod-vel 1
+/rt1/rate 6.000000
+/rt1/velocity 18
+# 
+# 
+/retrig-func/comp_loop/data/active 1
+/retrig-func/comp_loop/data/bypass 0
+/retrig-func/comp_loop/steps 1024
+/retrig-func/data/active 1
+/retrig-func/data/bypass 0
+/retrig-func/function "ease 12"
+/retrig-func/invert 1
+/retrig-func/scale/high 16.000000
+/retrig-func/scale/low 2.000000
+/retrig-func/steps 1024
+# 
+/rt-gate/control 0
+/rt-gate/data/active 1
+/rt-gate/data/bypass 0
+/rt-gate/offset 0
+# 
+/rt-mn/data/active 1
+/rt-mn/data/bypass 0
+/rt-mn/duration 20
+/rt-mn/pitch 52
+/rt-mn/pitch+ 0
+/rt-mn/send-note-off 1
+/rt-mn/trigger-on-bang-only 0
+/rt-mn/vel+ 0
+/rt-mn/velocity 60
+# 
+# 
+/sine/comp_loop/data/active 1
+/sine/comp_loop/data/bypass 0
+/sine/comp_loop/steps 2048
+/sine/data/active 0
+/sine/data/bypass 0
+/sine/function sine
+/sine/invert 0
+/sine/scale/high 90.100000
+/sine/scale/low 89.900000
+/sine/steps 2048
+# 
+# ###########################################
+
