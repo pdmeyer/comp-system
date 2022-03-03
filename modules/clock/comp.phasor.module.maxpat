@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "int sets transport state, float sets tempo",
+					"id" : "obj-10",
+					"index" : 1,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6.0, 78.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "none",
 					"bgmode" : 0,
 					"border" : 0,
@@ -63,11 +76,11 @@
 				"box" : 				{
 					"comment" : "transport",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.5, 140.0, 30.0, 30.0 ]
+					"patching_rect" : [ 71.0, 159.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -75,11 +88,11 @@
 				"box" : 				{
 					"comment" : "signal",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 140.0, 30.0, 30.0 ]
+					"patching_rect" : [ 6.0, 159.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -87,22 +100,23 @@
 				"box" : 				{
 					"comment" : "song time + signature",
 					"id" : "obj-48",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 140.0, 30.0, 30.0 ]
+					"patching_rect" : [ 136.0, 159.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 10.0, 100.0, 130.0, 22.0 ],
+					"outlettype" : [ "signal", "int", "" ],
+					"patching_rect" : [ 6.0, 119.0, 149.0, 22.0 ],
 					"text" : "comp.phasor.model #1"
 				}
 
@@ -129,47 +143,14 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "comp.phasor.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/clock",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
 , 			{
-				"name" : "comp.phasor.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/clock",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
