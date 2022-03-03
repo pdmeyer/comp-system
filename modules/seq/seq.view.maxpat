@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 1,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 458.0, 104.0, 1031.0, 884.0 ],
+		"rect" : [ 34.0, 87.0, 677.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -115,8 +115,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -541,8 +541,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -952,8 +952,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1171,32 +1171,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"border" : 0,
-					"cols" : 5,
-					"colwidth" : 295,
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"grid" : 0,
-					"hcellcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 0.501960784313725 ],
-					"hscroll" : 0,
-					"id" : "obj-55",
-					"just" : 1,
-					"maxclass" : "jit.cellblock",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 82.633333333333269, 394.0, 291.300000000000011, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 65.0, 295.300000000000011, 20.0 ],
-					"rows" : 1,
-					"vscroll" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "newobj",
@@ -1348,8 +1322,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1537,8 +1511,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1756,7 +1730,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.5, 21.5, 292.0, 45.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 5,
+					"size" : 8,
 					"slidercolor" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"spacing" : 3,
 					"thickness" : 1
@@ -1905,8 +1879,8 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"border" : 0,
-					"cols" : 7,
-					"colwidth" : 295,
+					"cols" : 8,
+					"colwidth" : 36,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -1922,7 +1896,34 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 159.850000000000023, 455.0, 291.300000000000011, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 65.0, 295.300000000000011, 20.0 ],
+					"presentation_rect" : [ 0.5, 68.0, 295.300000000000011, 20.0 ],
+					"rowheight" : 15,
+					"rows" : 1,
+					"vscroll" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"border" : 0,
+					"cols" : 8,
+					"colwidth" : 36,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"grid" : 0,
+					"hcellcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 0.501960784313725 ],
+					"hscroll" : 0,
+					"id" : "obj-55",
+					"just" : 1,
+					"maxclass" : "jit.cellblock",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "list", "", "", "" ],
+					"patching_rect" : [ 84.5, 394.0, 291.300000000000011, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.5, 66.0, 295.300000000000011, 20.0 ],
 					"rows" : 1,
 					"vscroll" : 0
 				}
@@ -2151,6 +2152,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
+					"order" : 1,
+					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"order" : 0,
 					"source" : [ "obj-38", 1 ]
 				}
 
@@ -2322,20 +2332,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.init.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
@@ -2349,9 +2345,9 @@
 , 			{
 				"name" : "defaultM4L",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 10.0 ],
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"fontsize" : [ 10.0 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
