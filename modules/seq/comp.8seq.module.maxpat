@@ -46,7 +46,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.000000000000057, 229.0, 30.0, 30.0 ]
+					"patching_rect" : [ 263.000000000000057, 251.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.571428571428612, 229.0, 30.0, 30.0 ]
+					"patching_rect" : [ 226.571428571428612, 251.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.142857142857167, 229.0, 30.0, 30.0 ]
+					"patching_rect" : [ 190.142857142857167, 251.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 153.714285714285722, 229.0, 30.0, 30.0 ]
+					"patching_rect" : [ 153.714285714285722, 251.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -115,7 +115,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.285714285714292, 229.0, 30.0, 30.0 ]
+					"patching_rect" : [ 117.285714285714292, 251.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -127,7 +127,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 80.857142857142861, 229.0, 30.0, 30.0 ]
+					"patching_rect" : [ 80.857142857142861, 251.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.428571428571431, 229.0, 30.0, 30.0 ]
+					"patching_rect" : [ 44.428571428571431, 251.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -151,7 +151,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 229.0, 30.0, 30.0 ]
+					"patching_rect" : [ 8.0, 251.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -211,7 +211,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 8.0, 186.0, 274.0, 22.0 ],
+					"patching_rect" : [ 8.0, 208.0, 274.0, 22.0 ],
 					"text" : "comp.8seq.model #1"
 				}
 
