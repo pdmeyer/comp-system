@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 744.0, 662.0 ],
+		"rect" : [ 59.0, 104.0, 697.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,59 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 96.0, 154.0, 36.0, 18.0 ],
+					"text" : "noise",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 331.0, 520.0, 50.0, 22.0 ],
+					"text" : "82 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "game-of-life" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "comp.gol.module.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "jit_matrix" ],
+					"patching_rect" : [ 3.0, 131.0, 300.0, 175.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 284.0, 294.0, 50.0, 22.0 ]
+					"patching_rect" : [ 592.0, 171.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -66,7 +112,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 3.0, 321.0, 300.0, 105.0 ],
+					"patching_rect" : [ 311.0, 195.0, 300.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -87,7 +133,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 3.0, 638.0, 150.0, 70.0 ],
+					"patching_rect" : [ 171.0, 518.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -100,7 +146,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3.0, 532.0, 50.0, 22.0 ]
+					"patching_rect" : [ 171.0, 387.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -112,7 +158,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 143.5, 532.0, 50.0, 22.0 ]
+					"patching_rect" : [ 311.5, 401.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -132,7 +178,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 143.5, 449.0, 150.0, 70.0 ],
+					"patching_rect" : [ 311.5, 329.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -153,7 +199,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 559.0, 300.0, 70.0 ],
+					"patching_rect" : [ 171.0, 427.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -176,17 +222,6 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 158.0, 8.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 358.0, 182.0, 193.0, 134.0 ]
 				}
 
 			}
@@ -224,61 +259,26 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"args" : [ "gol1" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "comp.gol.module.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "jit_matrix" ],
-					"patching_rect" : [ 8.0, 123.0, 300.0, 175.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"order" : 1,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
+					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-17", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 1 ],
+					"order" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
+					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -341,7 +341,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-3", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
 					"order" : 0,
 					"source" : [ "obj-3", 4 ]
 				}
@@ -349,9 +357,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-19", 0 ],
 					"order" : 1,
-					"source" : [ "obj-3", 4 ]
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"order" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -368,27 +384,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "comp.gol.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/stepseq",
-				"patcherrelativepath" : "../../modules/stepseq",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comp.gol.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/stepseq",
-				"patcherrelativepath" : "../../modules/stepseq",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comp.gol.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/stepseq",
-				"patcherrelativepath" : "../../modules/stepseq",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "comp.phasor.module.maxpat",
 				"bootpath" : "~/Projects/comp-system/modules/clock",
 				"patcherrelativepath" : "../../modules/clock",
@@ -536,15 +531,28 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "comp.gol.module.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/stepseq",
+				"patcherrelativepath" : "../../modules/stepseq",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comp.gol.model.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/stepseq",
+				"patcherrelativepath" : "../../modules/stepseq",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comp.gol.view.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/stepseq",
+				"patcherrelativepath" : "../../modules/stepseq",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -552,7 +560,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.init.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -568,11 +576,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.send.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -580,7 +588,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
  ],
@@ -588,8 +604,8 @@
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
