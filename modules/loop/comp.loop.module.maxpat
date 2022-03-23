@@ -40,13 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 89.666666666666671, 94.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "loop length in steps",
 					"id" : "obj-1",
 					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 196.0, 30.0, 30.0 ]
+					"patching_rect" : [ 63.333333333333343, 196.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -58,7 +71,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 82.0, 196.0, 30.0, 30.0 ]
+					"patching_rect" : [ 116.0, 196.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -82,7 +95,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 10.666666666666671, 151.0, 126.0, 22.0 ],
+					"patching_rect" : [ 10.666666666666671, 151.0, 177.0, 22.0 ],
 					"text" : "comp.loop.model #1"
 				}
 
@@ -96,7 +109,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 91.0, 30.0, 30.0 ]
+					"patching_rect" : [ 10.666666666666671, 94.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -126,6 +139,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-4", 0 ]

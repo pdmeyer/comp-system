@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -61,8 +61,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -373,7 +373,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 239.0, 55.0, 56.0, 22.0 ],
+					"patching_rect" : [ 321.0, 55.0, 56.0, 22.0 ],
 					"text" : "j.in steps"
 				}
 
@@ -382,7 +382,7 @@
 				"box" : 				{
 					"comment" : "to j.model",
 					"id" : "obj-12",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -427,8 +427,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -625,7 +625,7 @@
 				"box" : 				{
 					"comment" : "number of steps in the loop",
 					"id" : "obj-15",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -662,7 +662,7 @@
 				"box" : 				{
 					"comment" : "model dumpout",
 					"id" : "obj-21",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -693,7 +693,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 239.0, 112.5, 319.0, 35.0 ],
+					"patching_rect" : [ 321.0, 112.5, 319.0, 35.0 ],
 					"text" : "j.parameter steps @type integer @range 1 64 @clipmode low @description \"number of steps in the loop\""
 				}
 
@@ -767,7 +767,7 @@
 				"box" : 				{
 					"comment" : "count of completed loops",
 					"id" : "obj-11",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -827,12 +827,12 @@
 				"box" : 				{
 					"comment" : "loop length in steps",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 239.0, 18.0, 30.0, 30.0 ]
+					"patching_rect" : [ 321.0, 18.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -840,11 +840,11 @@
 				"box" : 				{
 					"comment" : "input clock signal",
 					"id" : "obj-49",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 18.0, 18.0, 30.0, 30.0 ]
 				}
 
@@ -853,7 +853,7 @@
 				"box" : 				{
 					"comment" : "current loop position",
 					"id" : "obj-48",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -872,8 +872,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1088,7 +1088,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 117.0, 244.0, 85.0, 22.0 ],
+					"patching_rect" : [ 117.0, 242.0, 85.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1381,7 +1381,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 2 ],
-					"midpoints" : [ 248.5, 237.25, 192.5, 237.25 ],
+					"midpoints" : [ 248.5, 236.25, 192.5, 236.25 ],
 					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
@@ -1409,7 +1409,33 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
