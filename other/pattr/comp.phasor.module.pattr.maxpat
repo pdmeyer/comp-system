@@ -41,6 +41,26 @@
 		"globalpatchername" : "u321000611[1][1]",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 246.0, 80.0, 109.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 469, 452, 1173, 754 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"storage_rect" : [ 583, 87, 1034, 215 ]
+					}
+,
+					"text" : "pattrstorage #1",
+					"varname" : "phas2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
