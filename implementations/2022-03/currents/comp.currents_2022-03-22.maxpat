@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 986.0, 679.0 ],
+		"rect" : [ 34.0, 79.0, 989.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,8 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"showontab" : 1,
+		"showrootpatcherontab" : 0,
+		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -49,14 +50,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+						"rect" : [ 0.0, 26.0, 989.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -85,7 +86,6 @@
 						"subpatcher_template" : "",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "out2" ],
@@ -96,6 +96,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-37",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.midiout.module.maxpat",
 									"numinlets" : 7,
@@ -117,6 +118,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-36",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.midiout.module.maxpat",
 									"numinlets" : 7,
@@ -138,6 +140,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-33",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.makenote.module.maxpat",
 									"numinlets" : 3,
@@ -171,6 +174,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-30",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.gate.module.maxpat",
 									"numinlets" : 2,
@@ -192,6 +196,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-24",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.gate.module.maxpat",
 									"numinlets" : 2,
@@ -225,6 +230,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-21",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.eucl.module.maxpat",
 									"numinlets" : 4,
@@ -246,6 +252,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-20",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.anote.module.maxpat",
 									"numinlets" : 2,
@@ -319,6 +326,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-12",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.markn.module.maxpat",
 									"numinlets" : 2,
@@ -341,8 +349,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -657,14 +665,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 986.0, 653.0 ],
+						"rect" : [ 0.0, 26.0, 989.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -695,6 +703,54 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 78.0, 49.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 186.5, 26.0, 29.5, 22.0 ],
+									"text" : "40."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 155.0, 49.0, 108.0, 22.0 ],
+									"text" : "j.send clock/tempo"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 155.0, 26.0, 29.5, 22.0 ],
+									"text" : "90."
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-43",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -714,6 +770,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-29",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.midiout.module.maxpat",
 									"numinlets" : 7,
@@ -735,6 +792,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-28",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.makenote.module.maxpat",
 									"numinlets" : 3,
@@ -768,6 +826,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-21",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.anote.module.maxpat",
 									"numinlets" : 2,
@@ -789,6 +848,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-20",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.eucl.module.maxpat",
 									"numinlets" : 4,
@@ -811,8 +871,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -880,6 +940,7 @@
 													"enablevscroll" : 0,
 													"id" : "obj-6",
 													"lockeddragscroll" : 0,
+													"lockedsize" : 0,
 													"maxclass" : "bpatcher",
 													"name" : "comp.gate.module.maxpat",
 													"numinlets" : 2,
@@ -983,6 +1044,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
+									"order" : 1,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"order" : 0,
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -1022,11 +1092,24 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
  ]
 					}
 ,
 					"patching_rect" : [ 120.0, 14.0, 121.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1048,14 +1131,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 986.0, 653.0 ],
+						"rect" : [ 0.0, 26.0, 989.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1095,6 +1178,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-4",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.cue.view.storage.maxpat",
 									"numinlets" : 1,
@@ -1117,6 +1201,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-3",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.cue.view.recall.maxpat",
 									"numinlets" : 1,
@@ -1167,14 +1252,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 986.0, 653.0 ],
+						"rect" : [ 34.0, 105.0, 989.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1250,6 +1335,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-22",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.loop.module.maxpat",
 									"numinlets" : 2,
@@ -1271,6 +1357,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-21",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"numinlets" : 2,
 									"numoutlets" : 0,
@@ -1279,8 +1366,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1333,6 +1420,18 @@
 													"presentation_rect" : [ 4.0, 55.0, 291.0, 13.0 ],
 													"rows" : 1,
 													"saved_attribute_attributes" : 													{
+														"bordercolor" : 														{
+															"expression" : ""
+														}
+,
+														"bgstepcolor" : 														{
+															"expression" : ""
+														}
+,
+														"stepcolor" : 														{
+															"expression" : ""
+														}
+,
 														"valueof" : 														{
 															"parameter_invisible" : 1,
 															"parameter_longname" : "live.grid[17]",
@@ -1445,6 +1544,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-16",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"numinlets" : 2,
 									"numoutlets" : 0,
@@ -1453,8 +1553,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1507,6 +1607,18 @@
 													"presentation_rect" : [ 4.0, 55.0, 291.0, 13.0 ],
 													"rows" : 1,
 													"saved_attribute_attributes" : 													{
+														"bordercolor" : 														{
+															"expression" : ""
+														}
+,
+														"bgstepcolor" : 														{
+															"expression" : ""
+														}
+,
+														"stepcolor" : 														{
+															"expression" : ""
+														}
+,
 														"valueof" : 														{
 															"parameter_invisible" : 1,
 															"parameter_longname" : "live.grid[12]",
@@ -1619,6 +1731,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-15",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"numinlets" : 2,
 									"numoutlets" : 0,
@@ -1627,8 +1740,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1681,6 +1794,18 @@
 													"presentation_rect" : [ 4.0, 55.0, 291.0, 13.0 ],
 													"rows" : 1,
 													"saved_attribute_attributes" : 													{
+														"bordercolor" : 														{
+															"expression" : ""
+														}
+,
+														"bgstepcolor" : 														{
+															"expression" : ""
+														}
+,
+														"stepcolor" : 														{
+															"expression" : ""
+														}
+,
 														"valueof" : 														{
 															"parameter_invisible" : 1,
 															"parameter_longname" : "live.grid[15]",
@@ -1793,6 +1918,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-12",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.loop.module.maxpat",
 									"numinlets" : 2,
@@ -1814,6 +1940,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-11",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.loop.module.maxpat",
 									"numinlets" : 2,
@@ -1835,6 +1962,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-8",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.loop.module.maxpat",
 									"numinlets" : 2,
@@ -1879,6 +2007,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-2",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.div.module.maxpat",
 									"numinlets" : 3,
@@ -1900,6 +2029,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-1",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "comp.phasor.module.maxpat",
 									"numinlets" : 1,
@@ -2009,16 +2139,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"order" : 0,
-									"source" : [ "obj-23", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"order" : 2,
+									"order" : 0,
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -2082,9 +2204,9 @@
 , 							{
 								"name" : "defaultM4L",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-									"fontsize" : [ 10.0 ]
+									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2194,238 +2316,238 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "comp.phasor.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/clock",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/clock",
 				"patcherrelativepath" : "../../../modules/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.phasor.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/clock",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/clock",
 				"patcherrelativepath" : "../../../modules/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.phasor.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/clock",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/clock",
 				"patcherrelativepath" : "../../../modules/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.div.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/clock",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/clock",
 				"patcherrelativepath" : "../../../modules/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.div.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/clock",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/clock",
 				"patcherrelativepath" : "../../../modules/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.div.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/clock",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/clock",
 				"patcherrelativepath" : "../../../modules/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.loop.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/loop",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/loop",
 				"patcherrelativepath" : "../../../modules/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.loop.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/loop",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/loop",
 				"patcherrelativepath" : "../../../modules/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.loop.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/loop",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/loop",
 				"patcherrelativepath" : "../../../modules/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.cue.model.maxpat",
-				"bootpath" : "~/Projects/2d-video-manipulations-jamoma/modules/cue",
+				"bootpath" : "~/Dropbox/Projects/Max/2d-video-manipulations-jamoma/modules/cue",
 				"patcherrelativepath" : "../../../../2d-video-manipulations-jamoma/modules/cue",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.cue.view.recall.maxpat",
-				"bootpath" : "~/Projects/2d-video-manipulations-jamoma/modules/cue",
+				"bootpath" : "~/Dropbox/Projects/Max/2d-video-manipulations-jamoma/modules/cue",
 				"patcherrelativepath" : "../../../../2d-video-manipulations-jamoma/modules/cue",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "handle-cue-menu.maxpat",
-				"bootpath" : "~/Projects/2d-video-manipulations-jamoma/modules/cue",
+				"bootpath" : "~/Dropbox/Projects/Max/2d-video-manipulations-jamoma/modules/cue",
 				"patcherrelativepath" : "../../../../2d-video-manipulations-jamoma/modules/cue",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.cue.view.storage.maxpat",
-				"bootpath" : "~/Projects/2d-video-manipulations-jamoma/modules/cue",
+				"bootpath" : "~/Dropbox/Projects/Max/2d-video-manipulations-jamoma/modules/cue",
 				"patcherrelativepath" : "../../../../2d-video-manipulations-jamoma/modules/cue",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue-storage.js",
-				"bootpath" : "~/Projects/2d-video-manipulations-jamoma/modules/cue",
+				"bootpath" : "~/Dropbox/Projects/Max/2d-video-manipulations-jamoma/modules/cue",
 				"patcherrelativepath" : "../../../../2d-video-manipulations-jamoma/modules/cue",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.gate.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/switch-gate",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/switch-gate",
 				"patcherrelativepath" : "../../../modules/switch-gate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.gate.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/switch-gate",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/switch-gate",
 				"patcherrelativepath" : "../../../modules/switch-gate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.gate.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/switch-gate",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/switch-gate",
 				"patcherrelativepath" : "../../../modules/switch-gate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.eucl.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/eucl",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/eucl",
 				"patcherrelativepath" : "../../../modules/eucl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.eucl.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/eucl",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/eucl",
 				"patcherrelativepath" : "../../../modules/eucl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.eucl.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/eucl",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/eucl",
 				"patcherrelativepath" : "../../../modules/eucl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.anote.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/anote",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/anote",
 				"patcherrelativepath" : "../../../modules/anote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.anote.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/anote",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/anote",
 				"patcherrelativepath" : "../../../modules/anote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "anote-scales_v2.js",
-				"bootpath" : "~/Projects/comp-system/modules/anote",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/anote",
 				"patcherrelativepath" : "../../../modules/anote",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.anote.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/anote",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/anote",
 				"patcherrelativepath" : "../../../modules/anote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.makenote.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/makenote",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/makenote",
 				"patcherrelativepath" : "../../../modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.makenote.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/makenote",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/makenote",
 				"patcherrelativepath" : "../../../modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.makenote.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/makenote",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/makenote",
 				"patcherrelativepath" : "../../../modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.midiout.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/midi",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/midi",
 				"patcherrelativepath" : "../../../modules/midi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.midiout.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/midi",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/midi",
 				"patcherrelativepath" : "../../../modules/midi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pgm-cc-msg.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/midi",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/midi",
 				"patcherrelativepath" : "../../../modules/midi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.midiout.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/midi",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/midi",
 				"patcherrelativepath" : "../../../modules/midi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.markn.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/random",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/random",
 				"patcherrelativepath" : "../../../modules/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.markn.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/random",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/random",
 				"patcherrelativepath" : "../../../modules/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.markn.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/random",
+				"bootpath" : "~/Dropbox/Projects/Max/comp-system/modules/random",
 				"patcherrelativepath" : "../../../modules/random",
 				"type" : "JSON",
 				"implicit" : 1
