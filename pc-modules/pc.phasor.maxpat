@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 580.0, 171.0, 596.0, 538.0 ],
+		"rect" : [ 153.0, 163.0, 596.0, 538.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,53 +41,25 @@
 		"globalpatchername" : "u321000611[1][1]",
 		"boxes" : [ 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.83921568627451, 0.423529411764706, 0.023529411764706, 1.0 ],
-					"id" : "obj-1",
-					"maxclass" : "live.button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 169.5, 33.0, 15.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 79.0, 4.0, 15.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"varname" : "live.button"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.83921568627451, 0.423529411764706, 0.023529411764706, 1.0 ],
 					"id" : "obj-93",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 58.0, 78.0, 142.0, 22.0 ],
-					"text" : "p.modcontrol #1-pattr"
+					"patching_rect" : [ 58.0, 50.0, 114.0, 22.0 ],
+					"text" : "p.modcontrol #1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "pc.phasor.presets.json",
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.0, 29.5, 109.0, 22.0 ],
+					"patching_rect" : [ 153.0, 78.5, 217.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 87, 439, 352 ],
 						"parameter_enable" : 0,
@@ -95,8 +67,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage #1",
-					"varname" : "#1"
+					"text" : "pattrstorage #1-pattr @savemode 0 ",
+					"varname" : "phas1-pattr"
 				}
 
 			}
@@ -188,13 +160,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
+					"midpoints" : [ 162.5, 109.5, 187.0, 109.5, 187.0, 39.0, 67.5, 39.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -230,7 +196,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
-					"midpoints" : [ 67.5, 197.0, 43.5, 197.0, 43.5, 67.0, 67.5, 67.0 ],
+					"midpoints" : [ 67.5, 197.0, 43.5, 197.0, 43.5, 41.0, 67.5, 41.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -238,7 +204,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 190.5, 106.0, 196.0, 106.0, 196.0, 22.0, 67.5, 22.0 ],
 					"source" : [ "obj-93", 2 ]
 				}
 
