@@ -2,34 +2,38 @@ autowatch = 1;
 inlets = 1; 
 outlets = 2;
 
-var p = this.patcher;
+var tp = this.patcher;
+var module;
+var composition;
 var rect;
-var pp;
+
+function loadbang() {
+    if(tp.name.substring(0,3) != "pc.") module = tp.parentpatcher;
+    else module = tp;
+    composition = module.parentpatcher;
+    setrect();
+}
 
 function name(somename) {
-  var b = this.patcher.box;
+  var b = module.box;
   if (b) {
     b.varname = somename;
-	outlet(0, b.varname);
-    outlet(1, "bang");
+	outlet(0, "name", b.varname);
+    outlet(0, "bang");
+	outlet(1, "name", b.varname);
+	outlet(1, "patchname", p.name);
   }
 };
 
 function size(w, h) {
-  if(!rect) getrect();
-  p.box.rect = [rect[0], rect[1], rect[0]+w+1, rect[1]+h+1];
-}
-
-function getrect() {
-  rect = p.box.rect;
-}
-
-function getparent() {
-  pp = p.parentpatcher;
-}
+    module.box.rect = [rect[0], rect[1], rect[0]+w+1, rect[1]+h+1];
+    setrect();
+};
 
 function send(param) {
-  if(!rect) getrect();
-  if(!pp) getparent();
-	pp.newdefault(rect[0],rect[3]+5,"pattr", "@bindto", param, "@invisible", 1);
+  composition.newdefault(rect[0],rect[3]+5,"pattr", "@bindto", param, "@invisible", 1);
+};
+
+function setrect() {
+    rect = module.box.rect;
 }

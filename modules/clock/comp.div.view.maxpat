@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 1,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1246.0, 281.0, 640.0, 480.0 ],
+		"rect" : [ 186.0, 171.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 174.428571428571416, 58.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 181.0, 54.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 149.0, 3.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -381,7 +381,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.5, 55.0, 148.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.785714285714278, 0.0, 152.0, 21.0 ],
+					"presentation_rect" : [ -0.785714285714278, 0.0, 169.0, 21.0 ],
 					"proportion" : 0.5
 				}
 
