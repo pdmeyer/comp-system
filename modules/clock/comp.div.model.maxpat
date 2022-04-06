@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 272.0, 199.0, 299.0, 215.0 ],
+		"rect" : [ 549.0, 114.0, 299.0, 215.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"comment" : "64",
 					"id" : "obj-32",
 					"ignoreclick" : 1,
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -68,7 +68,7 @@
 				"box" : 				{
 					"comment" : "48",
 					"id" : "obj-31",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -80,7 +80,7 @@
 				"box" : 				{
 					"comment" : "32",
 					"id" : "obj-30",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -92,7 +92,7 @@
 				"box" : 				{
 					"comment" : "16",
 					"id" : "obj-29",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -104,7 +104,7 @@
 				"box" : 				{
 					"comment" : "8",
 					"id" : "obj-28",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -116,7 +116,7 @@
 				"box" : 				{
 					"comment" : "4",
 					"id" : "obj-27",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -128,7 +128,7 @@
 				"box" : 				{
 					"comment" : "2",
 					"id" : "obj-26",
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -140,7 +140,7 @@
 				"box" : 				{
 					"comment" : "128",
 					"id" : "obj-24",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -152,7 +152,7 @@
 				"box" : 				{
 					"comment" : "1",
 					"id" : "obj-11",
-					"index" : 9,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -176,7 +176,7 @@
 				"box" : 				{
 					"comment" : "messages from live",
 					"id" : "obj-4",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -189,11 +189,11 @@
 				"box" : 				{
 					"comment" : "transport",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 59.166666666666686, 18.0, 30.0, 30.0 ]
 				}
 
@@ -202,11 +202,11 @@
 				"box" : 				{
 					"comment" : "signal",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.166666666666686, 18.0, 30.0, 30.0 ]
 				}
 
@@ -432,8 +432,8 @@
 						"styles" : [ 							{
 								"name" : "dark_bg",
 								"default" : 								{
-									"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -476,7 +476,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 336.0, 87.0, 910.0, 679.0 ],
+						"rect" : [ 159.0, 87.0, 504.0, 655.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -504,7 +504,6 @@
 						"style" : "",
 						"subpatcher_template" : "dark-bg",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -791,7 +790,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.5, 8.999999442699433, 30.0, 30.0 ]
 								}
 
@@ -1000,8 +999,8 @@
 						"styles" : [ 							{
 								"name" : "dark_bg",
 								"default" : 								{
-									"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1126,11 +1125,21 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
