@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 110.0, 995.0, 656.0 ],
+		"rect" : [ 34.0, 168.0, 551.0, 555.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,9 +37,56 @@
 		"tags" : "",
 		"style" : "dark_bg",
 		"subpatcher_template" : "dark-bg",
+		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas",
+		"globalpatchername" : "phas[1]",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 262.5, 252.0, 108.0, 24.0 ],
+					"text" : "like j.parameter",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 435.5, 356.0, 105.0, 24.0 ],
+					"text" : "like j.message ",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 184.5, 356.0, 249.0, 22.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr jumpto @type float32 @default_active 0",
+					"varname" : "jumpto"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.83921568627451, 0.423529411764706, 0.023529411764706, 1.0 ],
 					"id" : "obj-5",
@@ -54,20 +101,6 @@
 					}
 ,
 					"text" : "js model-utility.js #1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.5, 355.0, 91.0, 22.0 ],
-					"text" : "r  #1::jumpto",
-					"varname" : "jumpto"
 				}
 
 			}
@@ -161,7 +194,7 @@
 				"box" : 				{
 					"comment" : "int sets transport state, float sets tempo",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -210,7 +243,7 @@
 				"box" : 				{
 					"comment" : "transport",
 					"id" : "obj-47",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -222,7 +255,7 @@
 				"box" : 				{
 					"comment" : "signal",
 					"id" : "obj-31",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -234,7 +267,7 @@
 				"box" : 				{
 					"comment" : "song time + signature",
 					"id" : "obj-48",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -261,7 +294,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.5, 389.0, 125.0, 22.0 ],
+					"patching_rect" : [ 184.5, 387.0, 125.0, 22.0 ],
 					"text" : "current_song_time $1"
 				}
 
@@ -329,6 +362,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -383,13 +423,6 @@
 					"destination" : [ "obj-6", 1 ],
 					"order" : 1,
 					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -485,6 +518,15 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "model-utility.js",
+				"bootpath" : "~/Projects/comp-system/other/pattr",
+				"patcherrelativepath" : "../other/pattr",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{

@@ -1,7 +1,30 @@
 {
 	"pattrstorage" : 	{
-		"name" : "phas1",
+		"name" : "phas1-presets",
 		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "90bpm_4",
+				"data" : 				{
+					"phas1_m::running" : [ 0 ],
+					"phas1_m::tempo" : [ 90.0 ],
+					"phas1_m::quantum" : [ 4 ],
+					"phas1_m::jumpto" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "110bpm_4",
+				"data" : 				{
+					"phas1_m::running" : [ 0 ],
+					"phas1_m::tempo" : [ 110.0 ],
+					"phas1_m::quantum" : [ 4 ],
+					"phas1_m::jumpto" : [ 0.0 ]
+				}
+
+			}
 
 		}
 

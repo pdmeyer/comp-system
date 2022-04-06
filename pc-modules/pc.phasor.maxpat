@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 153.0, 163.0, 596.0, 538.0 ],
+		"rect" : [ 34.0, 87.0, 781.0, 600.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,8 +37,9 @@
 		"tags" : "",
 		"style" : "dark_bg",
 		"subpatcher_template" : "dark-bg",
+		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "u321000611[1][1]",
+		"globalpatchername" : "u321000611[1][1][1]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"color" : [ 0.83921568627451, 0.423529411764706, 0.023529411764706, 1.0 ],
@@ -46,7 +47,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 58.0, 50.0, 114.0, 22.0 ],
 					"text" : "p.modcontrol #1"
 				}
@@ -54,21 +55,26 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 					{
+						"phas5_m::jumpto" : 0
+					}
+,
+					"autorestore" : "pc.phasor.presets.json",
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 153.0, 78.5, 217.0, 22.0 ],
+					"patching_rect" : [ 153.0, 81.0, 233.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 439, 352 ],
+						"client_rect" : [ 4, 87, 358, 215 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 87, 1034, 215 ]
 					}
 ,
-					"text" : "pattrstorage #1-pattr @savemode 0 ",
-					"varname" : "phas1-pattr"
+					"text" : "pattrstorage #1-presets @savemode 0",
+					"varname" : "phas5-presets"
 				}
 
 			}
@@ -152,6 +158,7 @@
 					"patching_rect" : [ 58.0, 111.0, 145.0, 76.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 145.0, 76.0 ],
+					"varname" : "pc.phasor.view",
 					"viewvisibility" : 1
 				}
 
@@ -160,7 +167,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
-					"midpoints" : [ 162.5, 109.5, 187.0, 109.5, 187.0, 39.0, 67.5, 39.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
