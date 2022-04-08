@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 417.0, 107.0, 616.0, 659.0 ],
+		"rect" : [ 283.0, 100.0, 616.0, 659.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -242,8 +242,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 31.0, 353.0, 147.0, 22.0 ],
-					"text" : "routepass patchname nae"
+					"patching_rect" : [ 31.0, 353.0, 157.0, 22.0 ],
+					"text" : "routepass patchname name"
 				}
 
 			}
@@ -753,7 +753,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 31.0, 311.0, 138.0, 22.0 ],
+					"patching_rect" : [ 31.0, 311.0, 152.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "module-utility.js",
 						"parameter_enable" : 0
@@ -1687,7 +1687,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 489.0, 58.0, 20.0 ],
+					"patching_rect" : [ 94.0, 490.0, 58.0, 20.0 ],
 					"text" : "to view"
 				}
 
@@ -1754,7 +1754,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-11",
-					"items" : [ "Presets:", ",", "high-medium-low" ],
+					"items" : "Presets:",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1887,7 +1887,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 95.0, 454.0, 30.0, 30.0 ]
+					"patching_rect" : [ 100.0, 455.0, 30.0, 30.0 ]
 				}
 
 			}

@@ -38,28 +38,53 @@ function bang() {
             connectedObjects[item.srcoutlet] = item.dstobject;
         })
 
-        view = connectedObjects[0];
-        model = connectedObjects[1]; 
-        pattrstorage = connectedObjects[2];
+        if(connectedObjects[0]) view = connectedObjects[0];
+        if(connectedObjects[1]) model = connectedObjects[1]; 
+        if(connectedObjects[2]) pattrstorage = connectedObjects[2];
         
-        //set varnames of module, and model (for pattr addressing)
-        module.box.varname = moduleName;
-        model.varname = moduleName+"_m";
+        //set varnames of module and model (for pattr addressing)
+        var svn = new Task(setvarnames);
+        svn.schedule(100);
+        // setvarnames();
 
         //set module rectangle dimensions to match dimensions of view rectangle
-        var w = view.rect[2] - view.rect[0];
-        var h = view.rect[3] - view.rect[1];
-        var m = module.box.rect;
-        module.box.rect = [m[0], m[1], m[0] + w, m[1] + h];
+        var sdm = new Task(setdimensions);
+        sdm.schedule(200);
+        // setdimensions();
 
-        outlet(0, "name", moduleName);
-        outlet(0, "patchname", module.name);
+        //send module name and patch name from outlet
+        var sdt = new Task(senddata);
+        sdt.schedule(300);
+        // senddata();
 
     }
     else {
         post("error: module-utility.js is not inside a p.modcontrol abstraction. it's inside "+tp.name+"\n")
     }
 }
+
+function setvarnames() {
+    if(module) module.box.varname = moduleName;
+    if(model) model.varname = moduleName+"_m";
+    arguments.callee.task.freepeer();
+}
+
+function setdimensions () {
+    if(view) {
+        var w = view.rect[2] - view.rect[0];
+        var h = view.rect[3] - view.rect[1];
+        var m = module.box.rect;
+        module.box.rect = [m[0], m[1], m[0] + w, m[1] + h];
+    }
+    arguments.callee.task.freepeer();
+}
+
+function senddata() {
+    outlet(0, "name", moduleName);
+    outlet(0, "patchname", module.name);
+    arguments.callee.task.freepeer();
+}
+
 
 /*
     create a "remote control" pattr object in the composition patch 
