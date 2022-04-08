@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,16 +46,16 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 12.5, 37.0, 29.0 ],
+					"patching_rect" : [ 199.0, 12.5, 39.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 199.0, 15.5, 67.0, 18.0 ],
-					"text" : "output mode",
-					"textjustification" : 0
+					"text" : "output mode"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"id" : "obj-34",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -96,6 +96,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "number of steps in the loop",
 					"id" : "obj-29",
 					"maxclass" : "incdec",
 					"numinlets" : 1,
@@ -110,6 +111,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "number of steps to rotate the loop",
 					"id" : "obj-28",
 					"maxclass" : "incdec",
 					"numinlets" : 1,
@@ -124,6 +126,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "number of trigs to create",
 					"id" : "obj-19",
 					"maxclass" : "incdec",
 					"numinlets" : 1,
@@ -163,7 +166,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.toggle[6]",
+							"parameter_longname" : "live.toggle[10]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
@@ -227,8 +230,10 @@
 				"box" : 				{
 					"bgstepcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
+					"columns" : 27,
 					"direction" : 0,
 					"id" : "obj-32",
+					"ignoreclick" : 1,
 					"matrixmode" : 1,
 					"maxclass" : "live.grid",
 					"numinlets" : 2,
@@ -240,9 +245,21 @@
 					"presentation_rect" : [ 4.0, 54.0, 291.0, 13.0 ],
 					"rows" : 1,
 					"saved_attribute_attributes" : 					{
+						"stepcolor" : 						{
+							"expression" : ""
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgstepcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.grid[6]",
+							"parameter_longname" : "live.grid[7]",
 							"parameter_shortname" : "live.grid",
 							"parameter_type" : 3
 						}
@@ -269,6 +286,7 @@
 			}
 , 			{
 				"box" : 				{
+					"columns" : 27,
 					"direction" : 0,
 					"id" : "obj-8",
 					"matrixmode" : 1,
@@ -282,9 +300,13 @@
 					"presentation_rect" : [ 4.0, 54.0, 291.0, 13.0 ],
 					"rows" : 1,
 					"saved_attribute_attributes" : 					{
+						"stepcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.grid[5]",
+							"parameter_longname" : "live.grid[2]",
 							"parameter_shortname" : "live.grid",
 							"parameter_type" : 3
 						}
@@ -490,8 +512,6 @@
 					"fontsize" : 10.0,
 					"id" : "obj-14",
 					"maxclass" : "number",
-					"maximum" : 64,
-					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -550,7 +570,7 @@
 					"patching_rect" : [ 9.0, 334.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/eucl1"
+					"text" : "/e1"
 				}
 
 			}
@@ -788,9 +808,9 @@
 		"styles" : [ 			{
 				"name" : "defaultM4L",
 				"default" : 				{
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
