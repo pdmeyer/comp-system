@@ -40,6 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-6",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "pc.cues.model.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 326.0, 272.0, 146.0, 127.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -59,7 +79,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 111.0, 287.0, 96.0, 22.0 ],
 					"text" : "pc.stages.model",
-					"varname" : "pc.stages.model"
+					"varname" : "0_m"
 				}
 
 			}
@@ -98,42 +118,7 @@
 						"8s3::8s3_m.8::output" : 0,
 						"8s3::8s3_m.8::values/scaled" : 0,
 						"8s3::8s3_m.8::pos/input" : 0,
-						"8s3::8s3_m.8::pos/actual" : 0,
-						"8s3::8s1_m.1::output" : 0,
-						"8s3::8s1_m.1::values/scaled" : 0,
-						"8s3::8s1_m.1::pos/input" : 0,
-						"8s3::8s1_m.1::pos/actual" : 0,
-						"8s3::8s1_m.2::output" : 0,
-						"8s3::8s1_m.2::values/scaled" : 0,
-						"8s3::8s1_m.2::pos/input" : 0,
-						"8s3::8s1_m.2::pos/actual" : 0,
-						"8s3::8s1_m.3::output" : 0,
-						"8s3::8s1_m.3::values/scaled" : 0,
-						"8s3::8s1_m.3::pos/input" : 0,
-						"8s3::8s1_m.3::pos/actual" : 0,
-						"8s3::8s1_m.4::output" : 0,
-						"8s3::8s1_m.4::values/scaled" : 0,
-						"8s3::8s1_m.4::pos/input" : 0,
-						"8s3::8s1_m.4::pos/actual" : 0,
-						"8s3::8s1_m.5::output" : 0,
-						"8s3::8s1_m.5::values/scaled" : 0,
-						"8s3::8s1_m.5::pos/input" : 0,
-						"8s3::8s1_m.5::pos/actual" : 0,
-						"8s3::8s1_m.6::output" : 0,
-						"8s3::8s1_m.6::values/scaled" : 0,
-						"8s3::8s1_m.6::pos/input" : 0,
-						"8s3::8s1_m.6::pos/actual" : 0,
-						"8s3::8s1_m.7::output" : 0,
-						"8s3::8s1_m.7::values/scaled" : 0,
-						"8s3::8s1_m.7::pos/input" : 0,
-						"8s3::8s1_m.7::pos/actual" : 0,
-						"8s3::8s1_m.8::output" : 0,
-						"8s3::8s1_m.8::values/scaled" : 0,
-						"8s3::8s1_m.8::pos/input" : 0,
-						"8s3::8s1_m.8::pos/actual" : 0,
-						"pc.stages.model::current-step/value" : 0,
-						"pc.stages.model::current-step/step" : 0,
-						"pc.stages.model::reset" : 0
+						"8s3::8s3_m.8::pos/actual" : 0
 					}
 ,
 					"id" : "obj-1",
@@ -141,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 465.0, 263.0, 135.0, 22.0 ],
+					"patching_rect" : [ 326.0, 405.0, 135.0, 22.0 ],
 					"priority" : 					{
 						"8s3::8s3_m.1::loop-length" : -1,
 						"8s3::8s3_m.2::loop-length" : -1,
@@ -151,22 +136,14 @@
 						"8s3::8s3_m.6::loop-length" : -1,
 						"8s3::8s3_m.7::loop-length" : -1,
 						"8s3::8s3_m.8::loop-length" : -1,
-						"8s3::8s1_m.1::loop-length" : -1,
-						"8s3::8s1_m.2::loop-length" : -1,
-						"8s3::8s1_m.3::loop-length" : -1,
-						"8s3::8s1_m.4::loop-length" : -1,
-						"8s3::8s1_m.5::loop-length" : -1,
-						"8s3::8s1_m.6::loop-length" : -1,
-						"8s3::8s1_m.7::loop-length" : -1,
-						"8s3::8s1_m.8::loop-length" : -1,
-						"pc.stages.model::count" : 1
+						"0_m::count" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 4, 87, 358, 215 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 87, 1034, 215 ]
 					}
 ,
 					"text" : "pattrstorage @greedy 1",
@@ -315,6 +292,14 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 335.5, 437.0, 315.5, 437.0, 315.5, 261.0, 335.5, 261.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -416,6 +401,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -603,13 +595,27 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "pc.cues.model.maxpat",
+				"bootpath" : "~/Projects/comp-system/pc-modules",
+				"patcherrelativepath" : "../pc-modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cues.js",
+				"bootpath" : "~/Projects/comp-system/pc-modules",
+				"patcherrelativepath" : "../pc-modules",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 ,
 				"parentstyle" : "",

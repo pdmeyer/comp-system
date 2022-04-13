@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 283.0, 100.0, 616.0, 659.0 ],
+		"rect" : [ 283.0, 100.0, 727.0, 582.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -818,8 +818,8 @@
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 3,
-					"outlettype" : [ "clear", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "clear", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -860,18 +860,6 @@
 						"subpatcher_template" : "dark-bg",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
-								"box" : 								{
-									"comment" : "pattrstorage",
-									"id" : "obj-87",
-									"index" : 3,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 486.5, 525.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-81",
 									"maxclass" : "newobj",
@@ -1219,7 +1207,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "bang" ],
-									"patching_rect" : [ 501.0, 113.0, 84.0, 49.0 ],
+									"patching_rect" : [ 501.0, 113.0, 85.0, 49.0 ],
 									"text" : "dialog @label \"Preset name:\""
 								}
 
@@ -1777,7 +1765,7 @@
 					"patching_rect" : [ 31.0, 455.0, 52.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.5, 185.21484375, 24.0 ],
-					"text" : "name",
+					"text" : "8s3",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1899,7 +1887,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 314.023809523809348, 455.0, 30.0, 30.0 ]
+					"patching_rect" : [ 422.547619047618696, 407.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2191,8 +2179,8 @@
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
