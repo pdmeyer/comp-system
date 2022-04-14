@@ -55,7 +55,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 247.0, 151.0, 300.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 141.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 301.0, 135.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -64,7 +64,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -76,7 +76,7 @@
 				"box" : 				{
 					"comment" : "subdivision etc",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -89,7 +89,7 @@
 				"box" : 				{
 					"comment" : "transport",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -102,7 +102,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -118,7 +118,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 43.0, 190.0, 113.0, 22.0 ],
+					"patching_rect" : [ 43.0, 190.0, 141.0, 22.0 ],
 					"text" : "pc.stages.model #1",
 					"varname" : "#1_m"
 				}
@@ -131,10 +131,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 122.357421875, 213.0, 22.0 ],
+					"patching_rect" : [ 323.0, 122.357421875, 242.0, 22.0 ],
 					"priority" : 					{
-						"pc.stages.model::count" : 1,
-						"#1_m::count" : 1
+						"stages1_m::count" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -156,7 +155,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 247.0, 91.357421875, 95.0, 22.0 ],
+					"patching_rect" : [ 247.0, 91.357421875, 123.0, 22.0 ],
 					"text" : "p.modcontrol #1"
 				}
 
@@ -227,75 +226,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-8::obj-10" : [ "live.button[15]", "live.button", 0 ],
-			"obj-8::obj-31" : [ "live.grid[1]", "live.grid", 0 ],
-			"obj-8::obj-84" : [ "live.tab", "live.tab", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "p.modcontrol.maxpat",
-				"bootpath" : "~/Projects/comp-system/pc-modules/utils",
-				"patcherrelativepath" : "./utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "module-utility.js",
-				"bootpath" : "~/Projects/comp-system/pc-modules/utils",
-				"patcherrelativepath" : "./utils",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pc.stages.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/pc-modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pc.div.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/pc-modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "model-utility.js",
-				"bootpath" : "~/Projects/comp-system/pc-modules/utils",
-				"patcherrelativepath" : "./utils",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pc.stages.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/pc-modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p.remote.maxpat",
-				"bootpath" : "~/Projects/comp-system/pc-modules/utils",
-				"patcherrelativepath" : "./utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p.viewcontrol.maxpat",
-				"bootpath" : "~/Projects/comp-system/pc-modules/utils",
-				"patcherrelativepath" : "./utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
