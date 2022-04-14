@@ -166,7 +166,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.toggle[10]",
+							"parameter_longname" : "live.toggle[12]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
@@ -230,7 +230,7 @@
 				"box" : 				{
 					"bgstepcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
-					"columns" : 27,
+					"columns" : 21,
 					"direction" : 0,
 					"id" : "obj-32",
 					"ignoreclick" : 1,
@@ -249,17 +249,17 @@
 							"expression" : ""
 						}
 ,
-						"bordercolor" : 						{
+						"bgstepcolor" : 						{
 							"expression" : ""
 						}
 ,
-						"bgstepcolor" : 						{
+						"bordercolor" : 						{
 							"expression" : ""
 						}
 ,
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.grid[7]",
+							"parameter_longname" : "live.grid[4]",
 							"parameter_shortname" : "live.grid",
 							"parameter_type" : 3
 						}
@@ -286,9 +286,10 @@
 			}
 , 			{
 				"box" : 				{
-					"columns" : 27,
+					"columns" : 21,
 					"direction" : 0,
 					"id" : "obj-8",
+					"ignoreclick" : 1,
 					"matrixmode" : 1,
 					"maxclass" : "live.grid",
 					"numinlets" : 2,
@@ -306,7 +307,7 @@
 ,
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.grid[2]",
+							"parameter_longname" : "live.grid[3]",
 							"parameter_shortname" : "live.grid",
 							"parameter_type" : 3
 						}
@@ -418,7 +419,7 @@
 					"id" : "obj-7",
 					"maxclass" : "number",
 					"maximum" : 64,
-					"minimum" : 1,
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -570,7 +571,7 @@
 					"patching_rect" : [ 9.0, 334.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/e1"
+					"text" : "/e1.2"
 				}
 
 			}
@@ -808,9 +809,9 @@
 		"styles" : [ 			{
 				"name" : "defaultM4L",
 				"default" : 				{
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

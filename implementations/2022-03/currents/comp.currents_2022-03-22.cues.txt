@@ -2,46 +2,41 @@
 - description "something about this cue"
 # ###########################################
 # 
-/clock/quantum 4
-/clock/running 0
-/clock/tempo 40.000000
+/clock1/quantum 4
+/clock1/running 0
+/clock1/tempo 90.000000
 # 
-/clockdiv/enabled 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000
+/clockdiv/enabled 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000
+# 
+/comp_prob/data/active 1
+/comp_prob/output-mode "Clock Value"
+/comp_prob/probabilities 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/comp_prob/steps 8
 # 
 /currents-cues/active-cue demo
 /currents-cues/active-namespace none
 /currents-cues/recall-type 0
 # 
-/euclid/trigs 9
+/euclid/trigs 1
 /euclid/steps 16
 /euclid/rotate 0
 /euclid/data/active 1
 /euclid/data/bypass 0
 /euclid/output-mode "Step ID"
 # 
-/euclid1/trigs 9
+/euclid1/trigs 7
 /euclid1/steps 16
 /euclid1/rotate 0
 /euclid1/data/active 1
 /euclid1/data/bypass 0
-/euclid1/output-mode "Step Bool"
+/euclid1/output-mode "Step ID"
 # 
-/g1/control 0
-/g1/data/active 1
-/g1/data/bypass 0
-/g1/offset 0
-# 
-/g2/control 0
-/g2/data/active 1
-/g2/data/bypass 0
-/g2/offset 0
-# 
-/gate3/control 0
+/gate3/control 1
 /gate3/data/active 1
 /gate3/data/bypass 0
 /gate3/offset 0
 # 
-/gate4/control 2
+/gate4/control 1
 /gate4/data/active 1
 /gate4/data/bypass 0
 /gate4/offset 0
@@ -49,7 +44,7 @@
 /makenote/data/active 1
 /makenote/data/bypass 0
 /makenote/duration 100
-/makenote/pitch 63
+/makenote/pitch 60
 /makenote/pitch+ 0
 /makenote/send-note-off 1
 /makenote/vel+ 0
@@ -58,7 +53,7 @@
 /makenote1/data/active 1
 /makenote1/data/bypass 0
 /makenote1/duration 100
-/makenote1/pitch 68
+/makenote1/pitch 50
 /makenote1/pitch+ 0
 /makenote1/send-note-off 1
 /makenote1/vel+ 0
@@ -69,16 +64,18 @@
 # 
 /markov/loop/data/active 1
 /markov/loop/data/bypass 0
+/markov/loop/direction 0
+/markov/loop/offset 0
 /markov/loop/steps 16
-/markov/mode clock
-/markov/order 3
+/markov/mode gate
+/markov/order 1
 /markov/training-data 1.000000 1.000000 0.000000 1.000000 1.000000 1.000000 0.000000 1.000000 0.000000
 # 
 /midiout/bank 1
 /midiout/channel 1
 /midiout/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
 /midiout/data/active 1
-/midiout/midi-device "from Max 1"
+/midiout/midi-device none
 /midiout/sendCCforPgm 0
 # 
 /out1/bank 1
@@ -97,39 +94,233 @@
 # 
 /pattern/data/active 1
 /pattern/data/bypass 0
+/pattern/direction 0
+/pattern/offset 0
 /pattern/steps 16
 # 
-/scale/notes 60.000000 62.000000 63.000000 65.000000 67.000000 68.000000 70.000000
+/pr-mo/bank 1
+/pr-mo/channel 1
+/pr-mo/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/pr-mo/data/active 1
+/pr-mo/midi-device "from Max 1"
+/pr-mo/sendCCforPgm 0
+# 
+/pr-rt/count 12
+/pr-rt/data/active 1
+/pr-rt/data/bypass 1
+# 
+/pr-rt/makenote/data/active 1
+/pr-rt/makenote/data/bypass 0
+/pr-rt/makenote/duration 100
+/pr-rt/makenote/pitch 61
+/pr-rt/makenote/pitch+ 0
+/pr-rt/makenote/send-note-off 1
+/pr-rt/makenote/vel+ 0
+/pr-rt/makenote/velocity 1
+/pr-rt/mod-vel 1
+/pr-rt/rate 2.000000
+/pr-rt/velocity 1
+# 
+/pr-seq/loop-length 7
+/pr-seq/data/active 1
+/pr-seq/data/bypass 0
+/pr-seq/offset 0.000000
+/pr-seq/round-to 1.000000
+/pr-seq/scale/high 127.000000
+/pr-seq/scale/low 0.000000
+/pr-seq/values/raw 0.322222 0.277778 0.411111 0.588889 0.722222 0.655556 0.477778
+# 
+/probability/data/active 1
+/probability/output-mode "Accum. Trig"
+/probability/probabilities 0.625000
+/probability/steps 1
+# 
+/rt-probability/data/active 1
+/rt-probability/output-mode "Step Bool"
+/rt-probability/probabilities 0.229167
+/rt-probability/steps 1
+# 
+/scale/notes 60.000000 61.000000 62.000000 63.000000 64.000000 65.000000 66.000000 67.000000 68.000000 69.000000 70.000000 71.000000
 /scale/constrain-mode tones
 /scale/data/active 1
 /scale/data/bypass 0
-/scale/mode probability
-/scale/probabilities 0.085366 0.085366 1.000000 0.000000 0.378049 0.000000 0.000000
+/scale/mode none
+/scale/probabilities 0.000000
 /scale/root 60
-/scale/scales/select minor
+/scale/scales/select all
 /scale/scales/dict "all : 0 1 2 3 4 5 6 7 8 9 10 11 major : 0 2 5 4 7 9 11 minor : 0 2 3 5 7 8 10 dorian : 0 2 3 5 7 9 10 mixolydian2 : 0 4 5 7 9 10 lydian : 0 2 4 6 7 11 9 phrygian : 0 1 3 5 7 8 10 locrian : 0 1 3 5 6 8 10 whole_tone : 0 2 4 6 8 10 half_whole_diminished : 0 1 3 4 6 7 9 10 whole_half_diminshed : 0 2 3 5 6 8 9 11 minor_blues : 0 3 5 6 7 10 minor_pentatonic : 0 3 5 7 10 major_pentatonic : 0 2 4 7 9 harmonic_minor : 0 2 3 5 7 8 11 harmonic_major : 0 2 4 5 7 8 11 dorian_4 : 0 2 3 6 7 9 10 phrygian_dominant : 0 1 4 5 7 8 10 melodic_minor : 0 2 3 5 7 9 11 lydian_augmented : 0 2 4 6 8 9 11 lydian_dominant : 0 2 4 6 7 9 10 super_locrian : 0 1 3 4 6 8 10 8-tone_spanish : 0 1 3 4 5 6 8 10 bhairav : 0 1 4 5 7 8 11 hungarian_minor : 0 2 3 6 7 8 11 hirajoshi : 0 2 3 7 8 insen : 0 1 5 7 10 iwato : 0 1 5 6 10 kumoi : 0 2 3 7 9 pelog_selisir : 0 1 3 7 8 pelog_tembung : 0 1 5 7 8 messiaen_3 : 0 2 3 4 6 7 8 10 11 messiaen_4 : 0 1 2 5 6 7 8 11 messiaen_5 : 0 1 5 6 7 11 messiaen_6 : 0 2 4 5 6 8 10 11 messiaen_7 : 0 1 2 3 5 6 7 8 9 11"
 # 
-/scale1/notes 60.000000 62.000000 63.000000 65.000000 67.000000 68.000000 70.000000
+/scale1/notes 48.000000 50.000000 51.000000 55.000000 56.000000
 /scale1/constrain-mode tones
 /scale1/data/active 1
 /scale1/data/bypass 0
-/scale1/mode probability
-/scale1/probabilities 0.000000 0.670732 0.524390 0.256098 0.548781 0.621951 0.000000
-/scale1/root 60
-/scale1/scales/select minor
+/scale1/mode random
+/scale1/probabilities 0.000000
+/scale1/root 48
+/scale1/scales/select hirajoshi
 /scale1/scales/dict "all : 0 1 2 3 4 5 6 7 8 9 10 11 major : 0 2 5 4 7 9 11 minor : 0 2 3 5 7 8 10 dorian : 0 2 3 5 7 9 10 mixolydian2 : 0 4 5 7 9 10 lydian : 0 2 4 6 7 11 9 phrygian : 0 1 3 5 7 8 10 locrian : 0 1 3 5 6 8 10 whole_tone : 0 2 4 6 8 10 half_whole_diminished : 0 1 3 4 6 7 9 10 whole_half_diminshed : 0 2 3 5 6 8 9 11 minor_blues : 0 3 5 6 7 10 minor_pentatonic : 0 3 5 7 10 major_pentatonic : 0 2 4 7 9 harmonic_minor : 0 2 3 5 7 8 11 harmonic_major : 0 2 4 5 7 8 11 dorian_4 : 0 2 3 6 7 9 10 phrygian_dominant : 0 1 4 5 7 8 10 melodic_minor : 0 2 3 5 7 9 11 lydian_augmented : 0 2 4 6 8 9 11 lydian_dominant : 0 2 4 6 7 9 10 super_locrian : 0 1 3 4 6 8 10 8-tone_spanish : 0 1 3 4 5 6 8 10 bhairav : 0 1 4 5 7 8 11 hungarian_minor : 0 2 3 6 7 8 11 hirajoshi : 0 2 3 7 8 insen : 0 1 5 7 10 iwato : 0 1 5 6 10 kumoi : 0 2 3 7 9 pelog_selisir : 0 1 3 7 8 pelog_tembung : 0 1 5 7 8 messiaen_3 : 0 2 3 4 6 7 8 10 11 messiaen_4 : 0 1 2 5 6 7 8 11 messiaen_5 : 0 1 5 6 7 11 messiaen_6 : 0 2 4 5 6 8 10 11 messiaen_7 : 0 1 2 3 5 6 7 8 9 11"
+# 
+/tr-eucl/trigs 1
+/tr-eucl/steps 8
+/tr-eucl/rotate 0
+/tr-eucl/data/active 1
+/tr-eucl/data/bypass 0
+/tr-eucl/output-mode "Accum. Trig"
+# 
+/tr-loop/data/active 1
+/tr-loop/data/bypass 0
+/tr-loop/direction 0
+/tr-loop/offset 0
+/tr-loop/steps 1
+# 
+/tr-mn/data/active 1
+/tr-mn/data/bypass 0
+/tr-mn/duration 100
+/tr-mn/pitch 38
+/tr-mn/pitch+ 0
+/tr-mn/send-note-off 1
+/tr-mn/vel+ 0
+/tr-mn/velocity 100
+# 
+/tr-out/bank 1
+/tr-out/channel 3
+/tr-out/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/tr-out/data/active 1
+/tr-out/midi-device "from Max 1"
+/tr-out/sendCCforPgm 0
+# 
+/tr-seq/loop-length 8
+/tr-seq/data/active 1
+/tr-seq/data/bypass 0
+/tr-seq/offset 0.000000
+/tr-seq/round-to 1.000000
+/tr-seq/scale/high 66.000000
+/tr-seq/scale/low 36.000000
+/tr-seq/values/raw 0.077778 0.211111 0.388889 0.455556 0.566667 0.700000 0.788889 0.588889
 # 
 /track1/data/active 1
 /track1/data/bypass 0
-/track1/steps 5
+/track1/direction 0
+/track1/offset 0
+/track1/steps 16
 # 
 /track2/data/active 1
 /track2/data/bypass 0
-/track2/steps 7
+/track2/direction 0
+/track2/offset 0
+/track2/steps 16
 # 
 /track3/data/active 1
 /track3/data/bypass 0
-/track3/steps 9
+/track3/direction 0
+/track3/offset 0
+/track3/steps 16
+# 
+/pr-gate/control 1
+/pr-gate/data/active 1
+/pr-gate/data/bypass 0
+/pr-gate/offset 0
+# 
+/pr-rand/mode drunk
+/pr-rand/range/max 7
+/pr-rand/range/min 0
+# 
+/markov-1/data/active 1
+/markov-1/learn 0
+# 
+/markov-1/loop/data/active 1
+/markov-1/loop/data/bypass 0
+/markov-1/loop/direction 0
+/markov-1/loop/offset 0
+/markov-1/loop/steps 10
+/markov-1/mode clock
+/markov-1/order 3
+/markov-1/training-data 1.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 0.000000 1.000000 1.000000 1.000000 0.000000 1.000000 1.000000 1.000000 0.000000
+# 
+/markov-mn/data/active 1
+/markov-mn/data/bypass 0
+/markov-mn/duration 100
+/markov-mn/pitch 50
+/markov-mn/pitch+ 0
+/markov-mn/send-note-off 1
+/markov-mn/vel+ 0
+/markov-mn/velocity 100
+# 
+/markov-mo/bank 1
+/markov-mo/channel 3
+/markov-mo/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/markov-mo/data/active 1
+/markov-mo/midi-device "from Max 1"
+/markov-mo/sendCCforPgm 0
+# 
+/markov-seq/loop-length 8
+/markov-seq/data/active 1
+/markov-seq/data/bypass 0
+/markov-seq/offset 0.000000
+/markov-seq/round-to 1.000000
+/markov-seq/scale/high 66.000000
+/markov-seq/scale/low 36.000000
+/markov-seq/values/raw 0.211111 0.388889 0.477778 0.722222 0.455556 0.344444 0.211111 0.366667
+# 
+/comp_switch/control 1
+/comp_switch/data/active 1
+/comp_switch/data/bypass 0
+/comp_switch/offset 0
+# 
+/keyboard/channel-filter 0
+/keyboard/midi-device 0.000000
+# 
+/mod-clock/quantum 4
+/mod-clock/running 1
+/mod-clock/tempo 87.508125
+# 
+/mod-div/enabled 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000
+# 
+/mod-eucl/trigs 4
+/mod-eucl/steps 11
+/mod-eucl/rotate 0
+/mod-eucl/data/active 1
+/mod-eucl/data/bypass 0
+/mod-eucl/output-mode "Step ID"
+# 
+# 
+/mod-func/comp_loop/data/active 1
+/mod-func/comp_loop/data/bypass 0
+/mod-func/comp_loop/direction 0
+/mod-func/comp_loop/offset 0
+/mod-func/comp_loop/steps 1024
+/mod-func/data/active 1
+/mod-func/data/bypass 0
+/mod-func/function sine
+/mod-func/invert 0
+/mod-func/scale/high 95.000000
+/mod-func/scale/low 85.000000
+/mod-func/steps 1024
+# 
+/mod-mn/data/active 1
+/mod-mn/data/bypass 0
+/mod-mn/duration 100
+/mod-mn/pitch 50
+/mod-mn/pitch+ 0
+/mod-mn/send-note-off 1
+/mod-mn/vel+ 0
+/mod-mn/velocity 100
+# 
+/mod-mo/bank 1
+/mod-mo/channel 3
+/mod-mo/channel-filter 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+/mod-mo/data/active 1
+/mod-mo/midi-device "from Max 1"
+/mod-mo/sendCCforPgm 0
+# 
+/mod-seq/loop-length 8
+/mod-seq/data/active 1
+/mod-seq/data/bypass 0
+/mod-seq/offset 0.000000
+/mod-seq/round-to 1.000000
+/mod-seq/scale/high 66.000000
+/mod-seq/scale/low 36.000000
+/mod-seq/values/raw 0.322222 0.477778 0.588889 0.633333 0.700000 0.544444 0.388889 0.388889
 # 
 # ###########################################
 
