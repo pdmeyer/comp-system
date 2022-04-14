@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 210.0, 411.0, 877.0, 670.0 ],
+		"rect" : [ 153.0, 87.0, 877.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -115,7 +115,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 8.0,
 					"id" : "obj-11",
-					"items" : "<empty>",
+					"items" : [ "center", ",", "input/extras", ",", "input/note", ",", "loaded-file", ",", "message", ",", "output/note", ",", "output/xbend", ",", "scala-files", ",", "scale-info", ",", "tune", ",", "xbend-range" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -138,6 +138,7 @@
 					"patching_rect" : [ 650.166666666666742, 196.5, 38.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 2.0, 131.0, 19.0 ],
+					"text" : "sc1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -176,8 +177,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 204.0, 223.5, 115.0, 22.0 ],
-					"text" : "p.remote intput/note"
+					"patching_rect" : [ 204.0, 223.5, 112.0, 22.0 ],
+					"text" : "p.remote input/note"
 				}
 
 			}
