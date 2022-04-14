@@ -56,7 +56,7 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"phas5_m::jumpto" : 0
+						"phas1_m::jumpto" : 0
 					}
 ,
 					"autorestore" : "pc.phasor.presets.json",
@@ -67,14 +67,14 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 153.0, 81.0, 233.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 358, 215 ],
+						"client_rect" : [ 4, 87, 445, 384 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 87, 1034, 215 ]
 					}
 ,
 					"text" : "pattrstorage #1-presets @savemode 0",
-					"varname" : "phas5-presets"
+					"varname" : "phas1-presets"
 				}
 
 			}

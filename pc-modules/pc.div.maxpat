@@ -234,14 +234,14 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 137.0, 188.0, 229.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 4, 87, 445, 384 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 87, 1034, 215 ]
 					}
 ,
 					"text" : "pattrstorage #1-presets @savemode 0",
-					"varname" : "div21-presets"
+					"varname" : "div1-presets"
 				}
 
 			}
