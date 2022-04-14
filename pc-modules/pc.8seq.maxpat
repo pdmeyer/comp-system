@@ -212,17 +212,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 864.0, 89.0, 22.0 ],
-					"text" : "s #1-fromview"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ 8 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1709,38 +1698,6 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"8s1_m.1::output" : 0,
-						"8s1_m.1::values/scaled" : 0,
-						"8s1_m.1::pos/input" : 0,
-						"8s1_m.1::pos/actual" : 0,
-						"8s1_m.2::output" : 0,
-						"8s1_m.2::values/scaled" : 0,
-						"8s1_m.2::pos/input" : 0,
-						"8s1_m.2::pos/actual" : 0,
-						"8s1_m.3::output" : 0,
-						"8s1_m.3::values/scaled" : 0,
-						"8s1_m.3::pos/input" : 0,
-						"8s1_m.3::pos/actual" : 0,
-						"8s1_m.4::output" : 0,
-						"8s1_m.4::values/scaled" : 0,
-						"8s1_m.4::pos/input" : 0,
-						"8s1_m.4::pos/actual" : 0,
-						"8s1_m.5::output" : 0,
-						"8s1_m.5::values/scaled" : 0,
-						"8s1_m.5::pos/input" : 0,
-						"8s1_m.5::pos/actual" : 0,
-						"8s1_m.6::output" : 0,
-						"8s1_m.6::values/scaled" : 0,
-						"8s1_m.6::pos/input" : 0,
-						"8s1_m.6::pos/actual" : 0,
-						"8s1_m.7::output" : 0,
-						"8s1_m.7::values/scaled" : 0,
-						"8s1_m.7::pos/input" : 0,
-						"8s1_m.7::pos/actual" : 0,
-						"8s1_m.8::output" : 0,
-						"8s1_m.8::values/scaled" : 0,
-						"8s1_m.8::pos/input" : 0,
-						"8s1_m.8::pos/actual" : 0,
 						"8s3_m.1::output" : 0,
 						"8s3_m.1::values/scaled" : 0,
 						"8s3_m.1::pos/input" : 0,
@@ -1772,7 +1729,39 @@
 						"8s3_m.8::output" : 0,
 						"8s3_m.8::values/scaled" : 0,
 						"8s3_m.8::pos/input" : 0,
-						"8s3_m.8::pos/actual" : 0
+						"8s3_m.8::pos/actual" : 0,
+						"8s4_m.1::output" : 0,
+						"8s4_m.1::values/scaled" : 0,
+						"8s4_m.1::pos/input" : 0,
+						"8s4_m.1::pos/actual" : 0,
+						"8s4_m.2::output" : 0,
+						"8s4_m.2::values/scaled" : 0,
+						"8s4_m.2::pos/input" : 0,
+						"8s4_m.2::pos/actual" : 0,
+						"8s4_m.3::output" : 0,
+						"8s4_m.3::values/scaled" : 0,
+						"8s4_m.3::pos/input" : 0,
+						"8s4_m.3::pos/actual" : 0,
+						"8s4_m.4::output" : 0,
+						"8s4_m.4::values/scaled" : 0,
+						"8s4_m.4::pos/input" : 0,
+						"8s4_m.4::pos/actual" : 0,
+						"8s4_m.5::output" : 0,
+						"8s4_m.5::values/scaled" : 0,
+						"8s4_m.5::pos/input" : 0,
+						"8s4_m.5::pos/actual" : 0,
+						"8s4_m.6::output" : 0,
+						"8s4_m.6::values/scaled" : 0,
+						"8s4_m.6::pos/input" : 0,
+						"8s4_m.6::pos/actual" : 0,
+						"8s4_m.7::output" : 0,
+						"8s4_m.7::values/scaled" : 0,
+						"8s4_m.7::pos/input" : 0,
+						"8s4_m.7::pos/actual" : 0,
+						"8s4_m.8::output" : 0,
+						"8s4_m.8::values/scaled" : 0,
+						"8s4_m.8::pos/input" : 0,
+						"8s4_m.8::pos/actual" : 0
 					}
 ,
 					"id" : "obj-5",
@@ -1782,14 +1771,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 157.0, 219.0, 22.0 ],
 					"priority" : 					{
-						"8s1_m.1::loop-length" : -1,
-						"8s1_m.2::loop-length" : -1,
-						"8s1_m.3::loop-length" : -1,
-						"8s1_m.4::loop-length" : -1,
-						"8s1_m.5::loop-length" : -1,
-						"8s1_m.6::loop-length" : -1,
-						"8s1_m.7::loop-length" : -1,
-						"8s1_m.8::loop-length" : -1,
 						"8s3_m.1::loop-length" : -1,
 						"8s3_m.2::loop-length" : -1,
 						"8s3_m.3::loop-length" : -1,
@@ -1797,14 +1778,22 @@
 						"8s3_m.5::loop-length" : -1,
 						"8s3_m.6::loop-length" : -1,
 						"8s3_m.7::loop-length" : -1,
-						"8s3_m.8::loop-length" : -1
+						"8s3_m.8::loop-length" : -1,
+						"8s4_m.1::loop-length" : -1,
+						"8s4_m.2::loop-length" : -1,
+						"8s4_m.3::loop-length" : -1,
+						"8s4_m.4::loop-length" : -1,
+						"8s4_m.5::loop-length" : -1,
+						"8s4_m.6::loop-length" : -1,
+						"8s4_m.7::loop-length" : -1,
+						"8s4_m.8::loop-length" : -1
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 4, 87, 445, 384 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 87, 1034, 215 ]
 					}
 ,
 					"text" : "pattrstorage #1-presets @savemode 0",
@@ -1858,7 +1847,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 49.0, 192.0, 145.0, 22.0 ],
 					"text" : "poly~ pc.seq.model 8 #1",
-					"varname" : "8s3_m"
+					"varname" : "8s4_m"
 				}
 
 			}
@@ -2235,8 +2224,8 @@
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2245,9 +2234,9 @@
 , 			{
 				"name" : "defaultM4L",
 				"default" : 				{
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
