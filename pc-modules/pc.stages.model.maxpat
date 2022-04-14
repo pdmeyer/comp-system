@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 256.0, 87.0, 748.0, 679.0 ],
+		"rect" : [ 256.0, 87.0, 462.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -418,7 +418,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 294.999990000000025, 5.000001999999967, 50.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "stage modes",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1939,7 +1938,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "subdivision etc",
 					"id" : "obj-10",
 					"index" : 3,
 					"maxclass" : "inlet",
@@ -1952,13 +1951,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "transport",
 					"id" : "obj-9",
 					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 67.166666666666671, 17.0, 30.0, 30.0 ]
 				}
 
@@ -2045,7 +2044,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.166666666666671, 17.0, 30.0, 30.0 ]
 				}
 
@@ -2372,8 +2371,8 @@
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 ,
 				"parentstyle" : "",

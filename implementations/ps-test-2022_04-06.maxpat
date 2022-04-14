@@ -40,6 +40,50 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "stages1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-32",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "pc.stages.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 374.0, 423.0, 300.0, 141.0 ],
+					"varname" : "stages1",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "sc1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-25",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "pc.scala.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 403.0, 278.0, 300.0, 70.0 ],
+					"varname" : "sc1",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -69,18 +113,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 436.5, 316.0, 20.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.5, 469.0, 50.0, 22.0 ]
+					"patching_rect" : [ 455.5, 88.0, 20.0, 24.0 ]
 				}
 
 			}
@@ -92,7 +125,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 384.5, 316.0, 50.0, 22.0 ]
+					"patching_rect" : [ 403.5, 88.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -112,20 +145,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 384.0, 347.0, 301.0, 110.0 ],
+					"patching_rect" : [ 403.0, 133.0, 301.0, 110.0 ],
 					"varname" : "an2",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 381.0, 438.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -147,27 +169,6 @@
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 50.0, 223.0, 293.0, 110.0 ],
 					"varname" : "8s4",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "sc2" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-16",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "comp.scala.module.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 384.5, 497.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -263,20 +264,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 1 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"source" : [ "obj-16", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 2 ],
 					"order" : 0,
 					"source" : [ "obj-2", 2 ]
@@ -325,16 +312,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"order" : 1,
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 1 ],
-					"order" : 0,
+					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -365,15 +343,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 2 ],
-					"order" : 0,
-					"source" : [ "obj-3", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"order" : 1,
 					"source" : [ "obj-3", 5 ]
 				}
 
@@ -405,7 +374,11 @@
 			"obj-18::obj-4::obj-2" : [ "live.button[7]", "live.button", 0 ],
 			"obj-18::obj-56" : [ "live.tab[3]", "live.tab", 0 ],
 			"obj-22::obj-3::obj-2" : [ "live.button[19]", "live.button", 0 ],
+			"obj-25::obj-3::obj-10" : [ "live.button[20]", "live.button", 0 ],
 			"obj-2::obj-6::obj-2" : [ "live.button[6]", "live.button", 0 ],
+			"obj-32::obj-8::obj-10" : [ "live.button[21]", "live.button", 0 ],
+			"obj-32::obj-8::obj-31" : [ "live.grid[1]", "live.grid", 0 ],
+			"obj-32::obj-8::obj-84" : [ "live.tab", "live.tab", 0 ],
 			"obj-3::obj-3::obj-1" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-3::obj-3::obj-12" : [ "live.toggle[8]", "live.toggle", 0 ],
 			"obj-3::obj-3::obj-15" : [ "live.button[4]", "live.button", 0 ],
@@ -447,6 +420,10 @@
 ,
 				"obj-18::obj-42::obj-2" : 				{
 					"parameter_longname" : "live.button[18]"
+				}
+,
+				"obj-32::obj-8::obj-10" : 				{
+					"parameter_longname" : "live.button[21]"
 				}
 
 			}
@@ -553,62 +530,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "comp.scala.module.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/scala",
-				"patcherrelativepath" : "../modules/scala",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comp.scala.model.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/scala",
-				"patcherrelativepath" : "../modules/scala",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "th.scala.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/scala/th.scala-main/patchers",
-				"patcherrelativepath" : "../modules/scala/th.scala-main/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "th.scala.js",
-				"bootpath" : "~/Projects/comp-system/modules/scala/th.scala-main/code",
-				"patcherrelativepath" : "../modules/scala/th.scala-main/code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "th.stof.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/scala/th.scala-main/patchers",
-				"patcherrelativepath" : "../modules/scala/th.scala-main/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "th.ftomb.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/scala/th.scala-main/patchers",
-				"patcherrelativepath" : "../modules/scala/th.scala-main/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comp.scala.view.maxpat",
-				"bootpath" : "~/Projects/comp-system/modules/scala",
-				"patcherrelativepath" : "../modules/scala",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "th.sslider.js",
-				"bootpath" : "~/Projects/comp-system/modules/scala/th.scala-main/code",
-				"patcherrelativepath" : "../modules/scala/th.scala-main/code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "pc.8seq.maxpat",
 				"bootpath" : "~/Projects/comp-system/pc-modules",
 				"patcherrelativepath" : "../pc-modules",
@@ -665,48 +586,74 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
+				"name" : "pc.scala.maxpat",
+				"bootpath" : "~/Projects/comp-system/pc-modules",
+				"patcherrelativepath" : "../pc-modules",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
+				"name" : "pc.scala.view.maxpat",
+				"bootpath" : "~/Projects/comp-system/pc-modules",
+				"patcherrelativepath" : "../pc-modules",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "j.init.mxo",
-				"type" : "iLaX"
+				"name" : "th.sslider.js",
+				"bootpath" : "~/Projects/comp-system/modules/scala/th.scala-main/code",
+				"patcherrelativepath" : "../modules/scala/th.scala-main/code",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
+				"name" : "pc.scala.model.maxpat",
+				"bootpath" : "~/Projects/comp-system/pc-modules",
+				"patcherrelativepath" : "../pc-modules",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
+				"name" : "th.scala.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/scala/th.scala-main/patchers",
+				"patcherrelativepath" : "../modules/scala/th.scala-main/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "j.in.mxo",
-				"type" : "iLaX"
+				"name" : "th.scala.js",
+				"bootpath" : "~/Projects/comp-system/modules/scala/th.scala-main/code",
+				"patcherrelativepath" : "../modules/scala/th.scala-main/code",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
+				"name" : "th.stof.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/scala/th.scala-main/patchers",
+				"patcherrelativepath" : "../modules/scala/th.scala-main/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
+				"name" : "th.ftomb.maxpat",
+				"bootpath" : "~/Projects/comp-system/modules/scala/th.scala-main/patchers",
+				"patcherrelativepath" : "../modules/scala/th.scala-main/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
+				"name" : "pc.stages.maxpat",
+				"bootpath" : "~/Projects/comp-system/pc-modules",
+				"patcherrelativepath" : "../pc-modules",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
+				"name" : "pc.stages.view.maxpat",
+				"bootpath" : "~/Projects/comp-system/pc-modules",
+				"patcherrelativepath" : "../pc-modules",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
