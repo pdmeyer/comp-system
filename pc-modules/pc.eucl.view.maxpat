@@ -55,7 +55,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -80,7 +80,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -231,7 +231,7 @@
 				"box" : 				{
 					"bgstepcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
-					"columns" : 27,
+					"columns" : 8,
 					"direction" : 0,
 					"id" : "obj-32",
 					"ignoreclick" : 1,
@@ -241,7 +241,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 97.666666666666671, 308.5, 303.0, 17.0 ],
+					"patching_rect" : [ 97.666666666666671, 315.5, 303.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 63.0, 291.0, 13.0 ],
 					"rows" : 1,
@@ -275,7 +275,7 @@
 			}
 , 			{
 				"box" : 				{
-					"columns" : 27,
+					"columns" : 8,
 					"direction" : 0,
 					"id" : "obj-8",
 					"matrixmode" : 1,
@@ -514,7 +514,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[20]",
+							"parameter_longname" : "live.button[22]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -538,7 +538,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 8.0,
 					"id" : "obj-11",
-					"items" : "<empty>",
+					"items" : [ "bypass", ",", "enable", ",", "out/accum-trig", ",", "out/step-id", ",", "out/step-value", ",", "out/trig-id", ",", "output-mode", ",", "pos/input", ",", "pos/step", ",", "rotate", ",", "step_togs", ",", "steps", ",", "trigs" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -561,6 +561,7 @@
 					"patching_rect" : [ 218.833333333333428, 491.5, 38.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.75, 107.0, 19.0 ],
+					"text" : "e1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -837,37 +838,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10" : [ "live.button[20]", "live.button", 0 ],
-			"obj-32" : [ "live.grid[7]", "live.grid", 0 ],
-			"obj-8" : [ "live.grid[2]", "live.grid", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "p.remote.maxpat",
-				"bootpath" : "~/Projects/comp-system/pc-modules/utils",
-				"patcherrelativepath" : "./utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p.viewcontrol.maxpat",
-				"bootpath" : "~/Projects/comp-system/pc-modules/utils",
-				"patcherrelativepath" : "./utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "defaultM4L",
 				"default" : 				{
