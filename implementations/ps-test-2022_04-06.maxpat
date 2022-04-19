@@ -40,6 +40,39 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "e1" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-34",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "pc.eucl.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 5,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "", "int", "", "int" ],
+					"patching_rect" : [ 417.0, 280.0, 299.0, 77.0 ],
+					"varname" : "e1",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 228.0, 53.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "stages1" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -54,7 +87,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 374.0, 423.0, 300.0, 141.0 ],
+					"patching_rect" : [ 149.625, 365.0, 293.0, 135.0 ],
 					"varname" : "stages1",
 					"viewvisibility" : 1
 				}
@@ -76,7 +109,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 403.0, 278.0, 300.0, 70.0 ],
+					"patching_rect" : [ 389.0, 166.0, 300.0, 70.0 ],
 					"varname" : "sc1",
 					"viewvisibility" : 1
 				}
@@ -113,7 +146,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 455.5, 88.0, 20.0, 24.0 ]
+					"patching_rect" : [ 441.0, 11.0, 20.0, 24.0 ]
 				}
 
 			}
@@ -125,7 +158,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 403.5, 88.0, 50.0, 22.0 ]
+					"patching_rect" : [ 389.0, 11.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -145,7 +178,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 403.0, 133.0, 301.0, 110.0 ],
+					"patching_rect" : [ 389.0, 50.0, 300.0, 110.0 ],
 					"varname" : "an2",
 					"viewvisibility" : 1
 				}
@@ -167,7 +200,7 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 50.0, 223.0, 293.0, 110.0 ],
+					"patching_rect" : [ 50.625, 217.0, 293.0, 110.0 ],
 					"varname" : "8s4",
 					"viewvisibility" : 1
 				}
@@ -289,7 +322,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 2 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -307,6 +340,14 @@
 					"destination" : [ "obj-3", 0 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 2 ]
 				}
 
 			}
@@ -379,6 +420,9 @@
 			"obj-32::obj-8::obj-10" : [ "live.button[21]", "live.button", 0 ],
 			"obj-32::obj-8::obj-31" : [ "live.grid[1]", "live.grid", 0 ],
 			"obj-32::obj-8::obj-84" : [ "live.tab", "live.tab", 0 ],
+			"obj-34::obj-9::obj-10" : [ "live.button[22]", "live.button", 0 ],
+			"obj-34::obj-9::obj-32" : [ "live.grid[7]", "live.grid", 0 ],
+			"obj-34::obj-9::obj-8" : [ "live.grid[2]", "live.grid", 0 ],
 			"obj-3::obj-3::obj-1" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-3::obj-3::obj-12" : [ "live.toggle[8]", "live.toggle", 0 ],
 			"obj-3::obj-3::obj-15" : [ "live.button[4]", "live.button", 0 ],
@@ -424,6 +468,10 @@
 ,
 				"obj-32::obj-8::obj-10" : 				{
 					"parameter_longname" : "live.button[21]"
+				}
+,
+				"obj-34::obj-9::obj-10" : 				{
+					"parameter_longname" : "live.button[22]"
 				}
 
 			}
@@ -654,6 +702,31 @@
 				"patcherrelativepath" : "../pc-modules",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "pc.eucl.maxpat",
+				"bootpath" : "~/Projects/comp-system/pc-modules",
+				"patcherrelativepath" : "../pc-modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pc.eucl.model.maxpat",
+				"bootpath" : "~/Projects/comp-system/pc-modules",
+				"patcherrelativepath" : "../pc-modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pc.eucl.view.maxpat",
+				"bootpath" : "~/Projects/comp-system/pc-modules",
+				"patcherrelativepath" : "../pc-modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
