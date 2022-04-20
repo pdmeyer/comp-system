@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 768.0, 178.0, 656.0, 665.0 ],
+		"rect" : [ 34.0, 79.0, 880.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 74.5, 515.0, 34.0, 22.0 ],
+					"patching_rect" : [ 85.5, 469.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 292.899999999999977, 461.0, 29.5, 22.0 ],
+					"patching_rect" : [ 27.0, 381.0, 29.5, 22.0 ],
 					"text" : "t i 0"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 74.5, 488.0, 29.5, 22.0 ],
+					"patching_rect" : [ 85.5, 442.0, 34.0, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 76.0, 539.0, 44.0, 22.0 ],
+					"patching_rect" : [ 87.0, 493.0, 44.0, 22.0 ],
 					"text" : "accum"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 155.5, 511.0, 34.0, 22.0 ],
+					"patching_rect" : [ 202.5, 447.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -105,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 292.899999999999977, 438.0, 40.0, 22.0 ],
+					"patching_rect" : [ 27.0, 357.0, 40.0, 22.0 ],
 					"text" : "zl.sub"
 				}
 
@@ -117,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 34.0, 461.0, 140.5, 22.0 ],
+					"patching_rect" : [ 27.0, 408.5, 194.5, 22.0 ],
 					"text" : "gate 4"
 				}
 
@@ -125,11 +125,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 292.899999999999977, 406.5, 260.0, 22.0 ],
+					"patching_rect" : [ 27.0, 313.0, 150.0, 35.0 ],
 					"text" : "\"Clock Value\" \"Accum. Trig\" \"Step Bool\" Trigger"
 				}
 
@@ -138,11 +139,12 @@
 				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-8",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 292.899999999999977, 360.0, 337.0, 22.0 ],
+					"patching_rect" : [ 27.0, 254.5, 150.5, 49.0 ],
 					"text" : "j.parameter output-mode @type string @default \"Clock Value\""
 				}
 
@@ -155,7 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 60.5, 605.0, 47.0, 22.0 ],
+					"patching_rect" : [ 119.0, 546.0, 47.0, 22.0 ],
 					"text" : "j.model"
 				}
 
@@ -168,7 +170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 76.0, 274.0, 191.0, 22.0 ],
+					"patching_rect" : [ 307.399999999999977, 268.0, 191.0, 22.0 ],
 					"text" : "j.return current-step @type integer"
 				}
 
@@ -181,7 +183,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 649.0, 30.0, 30.0 ]
+					"patching_rect" : [ 87.0, 546.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -192,7 +194,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 539.0, 32.0, 22.0 ],
+					"patching_rect" : [ 27.0, 447.0, 48.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -204,7 +206,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 155.5, 424.0, 39.0, 22.0 ],
+					"patching_rect" : [ 202.5, 353.0, 39.0, 22.0 ],
 					"text" : "/ 100."
 				}
 
@@ -216,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 155.5, 456.0, 29.5, 22.0 ],
+					"patching_rect" : [ 202.5, 377.0, 52.5, 22.0 ],
 					"text" : "< 0."
 				}
 
@@ -228,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 155.5, 366.0, 29.5, 22.0 ],
+					"patching_rect" : [ 202.5, 295.0, 52.5, 22.0 ],
 					"text" : "t b f"
 				}
 
@@ -240,7 +242,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 155.5, 397.0, 73.0, 22.0 ],
+					"patching_rect" : [ 202.5, 326.0, 73.0, 22.0 ],
 					"text" : "random 100"
 				}
 
@@ -252,7 +254,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 19.0, 244.0, 155.5, 22.0 ],
+					"patching_rect" : [ 56.0, 207.0, 165.5, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -264,7 +266,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 155.5, 315.0, 29.5, 22.0 ],
+					"patching_rect" : [ 202.5, 244.0, 29.5, 22.0 ],
 					"text" : "- 1"
 				}
 
@@ -276,7 +278,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 155.5, 339.0, 100.0, 22.0 ],
+					"patching_rect" : [ 202.5, 268.0, 100.0, 22.0 ],
 					"text" : "zl.lookup"
 				}
 
@@ -324,7 +326,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 19.0, 107.0, 40.0, 22.0 ],
+					"patching_rect" : [ 19.0, 107.0, 56.0, 22.0 ],
 					"text" : "split 0"
 				}
 
@@ -333,11 +335,12 @@
 				"box" : 				{
 					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
 					"id" : "obj-4",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 105.5, 180.0, 437.0, 22.0 ],
+					"patching_rect" : [ 283.5, 207.0, 168.0, 49.0 ],
 					"text" : "j.parameter probabilities @type array @range 0. 1. @default 1. 1. 1. 1. 1. 1. 1. 1."
 				}
 
@@ -441,7 +444,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-18", 1 ]
 				}
 
@@ -456,7 +459,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-18", 1 ]
 				}
 
