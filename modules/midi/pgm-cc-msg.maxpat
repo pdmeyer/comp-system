@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 481.0, 92.0, 765.0, 650.0 ],
+		"rect" : [ 756.0, 196.0, 765.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,32 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-6",
+					"index" : 3,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 168.5, 34.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 95.0, 34.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -83,34 +109,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 196.747839868068695, 145.431679248809814, 207.0, 87.0 ],
 					"text" : "TO CHANGE NORD DRUM PGM:\n\nsend CC 32 (bank LSB) with bank number as \nvalue, CC 0 (bank MSB) with value 0, then program [program number]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
-					"id" : "obj-27",
-					"linecount" : 3,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 168.5, 88.5, 301.0, 49.0 ],
-					"text" : "j.parameter bank @type integer @range 1 128 @clipmode both @description \"bank number when sendCCforPgm is true\" @default 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
-					"id" : "obj-23",
-					"linecount" : 3,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 95.0, 34.0, 321.0, 49.0 ],
-					"text" : "j.parameter sendCCforPgm @type boolean @description \"if true, send a bank selection CC before the program change message\" @default 0"
 				}
 
 			}
@@ -266,6 +264,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -275,20 +280,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -352,6 +343,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
