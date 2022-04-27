@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "int", "int" ],
+					"patching_rect" : [ 173.0, 9.0, 83.0, 22.0 ],
+					"text" : "live.thisdevice"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-224",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1139.423728571033507, 259.989924997091293, 75.0, 22.0 ],
+					"patching_rect" : [ 1139.423728571033507, 275.989924997091293, 75.0, 22.0 ],
 					"text" : "\"Control Off\""
 				}
 
@@ -57,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1104.700003445148468, 229.145737302127827, 128.0, 22.0 ],
+					"patching_rect" : [ 1104.700003445148468, 245.145737302127827, 128.0, 22.0 ],
 					"text" : "\"Control Off (Inactive)\""
 				}
 
@@ -69,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1104.700003445148468, 292.208529949188232, 118.0, 22.0 ],
+					"patching_rect" : [ 1104.700003445148468, 308.208529949188232, 118.0, 22.0 ],
 					"text" : "prepend bgstepcolor"
 				}
 
@@ -81,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 995.700003445148468, 256.589937150735864, 75.0, 22.0 ],
+					"patching_rect" : [ 995.700003445148468, 272.589937150735864, 75.0, 22.0 ],
 					"text" : "\"Control On\""
 				}
 
@@ -93,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 965.700003445148695, 229.145737302127827, 128.0, 22.0 ],
+					"patching_rect" : [ 965.700003445148695, 245.145737302127827, 128.0, 22.0 ],
 					"text" : "\"Control On (Inactive)\""
 				}
 
@@ -105,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 965.700003445148695, 292.208529949188232, 105.0, 22.0 ],
+					"patching_rect" : [ 965.700003445148695, 308.208529949188232, 105.0, 22.0 ],
 					"text" : "prepend stepcolor"
 				}
 
@@ -117,7 +129,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 885.700003445148468, 121.0, 89.0, 22.0 ],
+					"patching_rect" : [ 885.700003445148468, 137.0, 89.0, 22.0 ],
 					"text" : "prepend bindto"
 				}
 
@@ -129,7 +141,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 885.700003445148468, 87.0, 239.0, 22.0 ],
+					"patching_rect" : [ 885.700003445148468, 103.0, 239.0, 22.0 ],
 					"text" : "combine parent::eucl. 1 ::mute @triggers -1"
 				}
 
@@ -141,7 +153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "clear" ],
-					"patching_rect" : [ 898.200003445148468, 292.208529949188232, 41.0, 22.0 ],
+					"patching_rect" : [ 898.200003445148468, 308.208529949188232, 41.0, 22.0 ],
 					"text" : "t clear"
 				}
 
@@ -153,7 +165,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 885.700003445148468, 183.555813532892216, 44.0, 22.0 ],
+					"patching_rect" : [ 885.700003445148468, 199.555813532892216, 44.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -166,14 +178,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 885.700003445148468, 152.437209260288228, 248.0, 22.0 ],
-					"restore" : [ 0 ],
+					"patching_rect" : [ 885.700003445148468, 168.437209260288228, 101.0, 22.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto parent::eucl::mute @invisible 1",
+					"text" : "pattr @invisible 1",
 					"varname" : "u915004818[2]"
 				}
 
@@ -185,7 +197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.500000834465027, 121.0, 89.0, 22.0 ],
+					"patching_rect" : [ 628.500000834465027, 137.0, 89.0, 22.0 ],
 					"text" : "prepend bindto"
 				}
 
@@ -197,7 +209,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 628.500000834465027, 87.0, 241.0, 22.0 ],
+					"patching_rect" : [ 628.500000834465027, 103.0, 241.0, 22.0 ],
 					"text" : "combine parent::eucl. 1 ::steps @triggers -1"
 				}
 
@@ -209,7 +221,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 173.0, 48.0, 47.0, 22.0 ],
+					"patching_rect" : [ 173.0, 64.0, 47.0, 22.0 ],
 					"text" : "zl.nth 1"
 				}
 
@@ -221,7 +233,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.700003445148468, 121.0, 89.0, 22.0 ],
+					"patching_rect" : [ 344.700003445148468, 137.0, 89.0, 22.0 ],
 					"text" : "prepend bindto"
 				}
 
@@ -233,7 +245,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 344.700003445148468, 87.0, 258.0, 22.0 ],
+					"patching_rect" : [ 344.700003445148468, 103.0, 258.0, 22.0 ],
 					"text" : "combine parent::eucl. 1 ::pos/step @triggers -1"
 				}
 
@@ -245,7 +257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 121.0, 89.0, 22.0 ],
+					"patching_rect" : [ 50.0, 137.0, 89.0, 22.0 ],
 					"text" : "prepend bindto"
 				}
 
@@ -257,7 +269,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 50.0, 91.0, 265.0, 22.0 ],
+					"patching_rect" : [ 50.0, 107.0, 265.0, 22.0 ],
 					"text" : "combine parent::eucl. 1 ::step_togs @triggers -1"
 				}
 
@@ -269,7 +281,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 173.0, 11.0, 72.0, 22.0 ],
+					"patching_rect" : [ 173.0, 36.0, 72.0, 22.0 ],
 					"text" : "patcherargs"
 				}
 
@@ -281,7 +293,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 292.208529949188232, 49.0, 22.0 ],
+					"patching_rect" : [ 50.0, 308.208529949188232, 49.0, 22.0 ],
 					"text" : "$1 1 $2"
 				}
 
@@ -293,7 +305,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 50.0, 207.555813532892216, 66.0, 22.0 ],
+					"patching_rect" : [ 50.0, 223.555813532892216, 66.0, 22.0 ],
 					"text" : "listfunnel 1"
 				}
 
@@ -305,7 +317,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "clear" ],
-					"patching_rect" : [ 50.0, 179.255814564052571, 47.0, 22.0 ],
+					"patching_rect" : [ 50.0, 195.255814564052571, 47.0, 22.0 ],
 					"text" : "t l clear"
 				}
 
@@ -317,7 +329,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 344.700003445148468, 183.555813532892216, 29.5, 22.0 ],
+					"patching_rect" : [ 344.700003445148468, 199.555813532892216, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -330,14 +342,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 344.700003445148468, 152.437209260288228, 267.0, 22.0 ],
+					"patching_rect" : [ 344.700003445148468, 168.437209260288228, 101.0, 22.0 ],
 					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto parent::eucl::pos/step @invisible 1",
+					"text" : "pattr @invisible 1",
 					"varname" : "u915004818[1]"
 				}
 
@@ -349,7 +361,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.700003445148468, 292.208529949188232, 111.0, 22.0 ],
+					"patching_rect" : [ 344.700003445148468, 308.208529949188232, 111.0, 22.0 ],
 					"text" : "clear, setcell $1 1 1"
 				}
 
@@ -361,7 +373,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.500000834465027, 292.208529949188232, 70.0, 22.0 ],
+					"patching_rect" : [ 628.500000834465027, 308.208529949188232, 70.0, 22.0 ],
 					"text" : "columns $1"
 				}
 
@@ -374,14 +386,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 628.500000834465027, 152.437209260288228, 222.0, 22.0 ],
-					"restore" : [ 8 ],
+					"patching_rect" : [ 628.500000834465027, 174.437209260288228, 101.0, 22.0 ],
+					"restore" : [ 11 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto parent::steps @invisible 1",
+					"text" : "pattr @invisible 1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "u915004818"
 				}
@@ -395,14 +407,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 50.0, 152.437209260288228, 274.0, 22.0 ],
+					"patching_rect" : [ 50.0, 168.437209260288228, 101.0, 22.0 ],
 					"restore" : [ 1, 0, 0, 0, 0, 0, 0, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto parent::eucl::step_togs @invisible 1",
+					"text" : "pattr @invisible 1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "u682014383"
 				}
@@ -416,7 +428,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 375.000013381500253, 30.0, 30.0 ]
+					"patching_rect" : [ 50.0, 391.000013381500253, 30.0, 30.0 ]
 				}
 
 			}
@@ -428,7 +440,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.700003445148468, 375.000013381500253, 30.0, 30.0 ]
+					"patching_rect" : [ 344.700003445148468, 391.000013381500253, 30.0, 30.0 ]
 				}
 
 			}
@@ -703,12 +715,19 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

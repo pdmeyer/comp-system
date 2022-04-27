@@ -225,14 +225,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 24.0, 321.554268896579742, 258.0, 22.0 ],
+					"patching_rect" : [ 24.0, 321.554268896579742, 101.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr @bindto parent::eucl.1::mute @invisible 1",
+					"text" : "pattr @invisible 1",
 					"varname" : "u188006051"
 				}
 
