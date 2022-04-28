@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 281.0, 180.153491372602502, 47.0, 22.0 ],
+					"patching_rect" : [ 301.0, 180.153491372602502, 47.0, 22.0 ],
 					"text" : "zl.nth 1"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 281.0, 152.306982775007327, 72.0, 22.0 ],
+					"patching_rect" : [ 301.0, 152.306982775007327, 72.0, 22.0 ],
 					"text" : "patcherargs"
 				}
 
@@ -118,8 +118,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 227.0, 211.5, 127.0, 35.0 ],
-					"text" : "combine parent::eucl. 1 ::mute @triggers -1"
+					"patching_rect" : [ 227.0, 211.5, 167.0, 35.0 ],
+					"text" : "combine parent::parent::eucl. 1 ::mute @triggers -1"
 				}
 
 			}
@@ -419,7 +419,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }
