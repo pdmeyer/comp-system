@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 153.0, 357.0, 534.0 ],
+		"rect" : [ 34.0, 102.0, 812.0, 664.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,18 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "subdiv phasor",
-					"id" : "obj-3",
-					"index" : 2,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 216.5, 233.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -61,14 +49,15 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "pcs.div.view.maxpat",
+					"name" : "pcs.matrix.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 86.0, 270.0, 53.0 ],
+					"patching_rect" : [ 19.0, 86.0, 139.0, 90.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 269.0, 53.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 139.0, 90.0 ],
+					"varname" : "pcs.div.view",
 					"viewvisibility" : 1
 				}
 
@@ -81,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.5, 233.0, 30.0, 30.0 ]
+					"patching_rect" : [ 64.5, 271.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -93,8 +82,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 83.666666666666686, 157.0, 30.0, 30.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 83.666666666666686, 195.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -103,22 +92,26 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 64.5, 199.0, 171.0, 22.0 ],
-					"text" : "pcs.div.model #1",
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 64.5, 237.0, 129.0, 22.0 ],
+					"text" : "pcs.matrix.model #1",
 					"varname" : "#1_m"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"active" : 					{
+						"mtx1_m::inputs" : 0
+					}
+,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 55.0, 222.0, 22.0 ],
+					"patching_rect" : [ 110.0, 55.0, 226.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 87, 445, 384 ],
 						"parameter_enable" : 0,
@@ -127,7 +120,7 @@
 					}
 ,
 					"text" : "pattrstorage #1-presets @savemode 0",
-					"varname" : "div2-presets"
+					"varname" : "#1-presets"
 				}
 
 			}
@@ -176,15 +169,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 119.5, 84.0, 162.0, 84.0, 162.0, 12.0, 28.5, 12.0 ],
+					"midpoints" : [ 119.5, 82.0, 162.0, 82.0, 162.0, 12.0, 28.5, 12.0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-4", 1 ]
 				}
 
 			}
@@ -198,7 +184,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 28.5, 149.0, 9.5, 149.0, 9.5, 12.0, 28.5, 12.0 ],
+					"midpoints" : [ 28.5, 192.0, 9.5, 192.0, 9.5, 12.0, 28.5, 12.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
