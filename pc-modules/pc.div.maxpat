@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -61,7 +61,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 188.73794871794874, 292.0, 30.0, 30.0 ]
 				}
 
@@ -74,7 +74,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.666666666666686, 292.0, 30.0, 30.0 ]
 				}
 
@@ -197,7 +197,7 @@
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 91.5, 337.0, 213.47589743589748, 22.0 ],
 					"text" : "pc.div.model #1",
-					"varname" : "#1_m"
+					"varname" : "div1_m"
 				}
 
 			}
@@ -210,6 +210,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "pc.div.view.maxpat",
 					"numinlets" : 1,
@@ -234,10 +235,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 137.0, 188.0, 229.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 445, 384 ],
+						"client_rect" : [ 534, 298, 1279, 875 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1034, 215 ]
+						"storage_rect" : [ 583, 87, 1081, 651 ]
 					}
 ,
 					"text" : "pattrstorage #1-presets @savemode 0",
@@ -383,8 +384,8 @@
 		"styles" : [ 			{
 				"name" : "dark_bg",
 				"default" : 				{
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+					"clearcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
