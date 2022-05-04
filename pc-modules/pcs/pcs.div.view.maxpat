@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 393.0, 97.0, 483.0, 517.0 ],
+		"rect" : [ 454.0, 151.0, 483.0, 517.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,9 +42,8 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 10.0,
-					"format" : 6,
 					"id" : "obj-44",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"minimum" : 1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -60,9 +59,8 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 10.0,
-					"format" : 6,
 					"id" : "obj-39",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"minimum" : 1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -78,9 +76,8 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 10.0,
-					"format" : 6,
 					"id" : "obj-36",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"minimum" : 1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -96,9 +93,8 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 10.0,
-					"format" : 6,
 					"id" : "obj-35",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"minimum" : 1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -114,9 +110,8 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 10.0,
-					"format" : 6,
 					"id" : "obj-34",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"minimum" : 1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -132,9 +127,8 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 10.0,
-					"format" : 6,
 					"id" : "obj-32",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"minimum" : 1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -150,9 +144,8 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 10.0,
-					"format" : 6,
 					"id" : "obj-29",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"minimum" : 1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -168,9 +161,8 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 10.0,
-					"format" : 6,
 					"id" : "obj-28",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"minimum" : 1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -399,7 +391,7 @@
 					"patching_rect" : [ 138.666666666666799, 105.5, 38.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 2.5, 133.108695652173907, 19.0 ],
-					"text" : "div2",
+					"text" : "div",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
