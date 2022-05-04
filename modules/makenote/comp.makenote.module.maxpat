@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -48,13 +48,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "comp.makenote.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1.0, -1.0, 300.0, 70.0 ],
+					"patching_rect" : [ -1.0, -1.0, 153.0, 75.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -67,7 +68,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 174.0, 30.0, 30.0 ]
+					"patching_rect" : [ 12.0, 160.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -80,7 +81,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 103.0, 30.0, 30.0 ]
+					"patching_rect" : [ 150.0, 89.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -93,7 +94,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.0, 103.0, 30.0, 30.0 ]
+					"patching_rect" : [ 81.0, 89.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -106,7 +107,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 103.0, 30.0, 30.0 ]
+					"patching_rect" : [ 12.0, 89.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -118,7 +119,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 145.0, 157.0, 22.0 ],
+					"patching_rect" : [ 12.0, 131.0, 157.0, 22.0 ],
 					"text" : "comp.makenote.model #1"
 				}
 

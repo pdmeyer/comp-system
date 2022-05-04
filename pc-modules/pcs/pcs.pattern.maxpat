@@ -40,13 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "mc signal: trig index",
-					"id" : "obj-7",
+					"comment" : "mc signal: accum. trigs",
+					"id" : "obj-67",
+					"index" : 1,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 8.0, 250.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "dictionary: pattern content",
+					"id" : "obj-64",
+					"index" : 3,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 133.778594076633453, 250.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "mc signal: accum. steps",
+					"id" : "obj-68",
 					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.0, 199.400390625, 30.0, 30.0 ]
+					"patching_rect" : [ 71.0, 250.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -55,8 +79,8 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "multichannelsignal", "multichannelsignal", "dictionary" ],
 					"patching_rect" : [ 8.0, 166.0, 145.0, 22.0 ],
 					"text" : "pcs.pattern.model #1",
 					"varname" : "pattern_m"
@@ -83,18 +107,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 299.0, 179.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "mc signal: triggers",
-					"id" : "obj-5",
-					"index" : 1,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 199.400390625, 30.0, 30.0 ]
 				}
 
 			}
@@ -150,10 +162,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 407, 87, 971, 460 ],
+						"client_rect" : [ 4, 87, 445, 384 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 87, 1034, 215 ]
 					}
 ,
 					"text" : "pattrstorage #1-presets @savemode 0",
@@ -219,14 +231,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-6", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-68", 0 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
