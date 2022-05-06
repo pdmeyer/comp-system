@@ -1,0 +1,228 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u589004568",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"div3::div3-presets" : [ -1 ],
+					"div3::div3_m::subdivisions.1" : [ 64 ],
+					"div3::div3_m::subdivisions.2" : [ 32 ],
+					"div3::div3_m::subdivisions.3" : [ 16 ],
+					"div3::div3_m::subdivisions.4" : [ 8 ],
+					"div3::div3_m::subdivisions.5" : [ 4 ],
+					"div3::div3_m::subdivisions.6" : [ 2 ],
+					"div3::div3_m::subdivisions.7" : [ 1 ],
+					"div3::div3_m::subdivisions.8" : [ 1 ],
+					"pattern::pattern-presets" : [ -1 ],
+					"pattern::pattern_m::seq.1::sequence" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"pattern::pattern_m::seq.1::steps" : [ 8 ],
+					"pattern::pattern_m::seq.1::solomute" : [ 0 ],
+					"pattern::pattern_m::seq.1::mute" : [ 0 ],
+					"pattern::pattern_m::seq.1::solo" : [ 0 ],
+					"pattern::pattern_m::seq.2::sequence" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"pattern::pattern_m::seq.2::steps" : [ 8 ],
+					"pattern::pattern_m::seq.2::solomute" : [ 0 ],
+					"pattern::pattern_m::seq.2::mute" : [ 0 ],
+					"pattern::pattern_m::seq.2::solo" : [ 0 ],
+					"pattern::pattern_m::seq.3::sequence" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"pattern::pattern_m::seq.3::steps" : [ 8 ],
+					"pattern::pattern_m::seq.3::solomute" : [ 0 ],
+					"pattern::pattern_m::seq.3::mute" : [ 0 ],
+					"pattern::pattern_m::seq.3::solo" : [ 0 ],
+					"pattern::pattern_m::seq.4::sequence" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"pattern::pattern_m::seq.4::steps" : [ 8 ],
+					"pattern::pattern_m::seq.4::solomute" : [ 0 ],
+					"pattern::pattern_m::seq.4::mute" : [ 0 ],
+					"pattern::pattern_m::seq.4::solo" : [ 0 ],
+					"pattern::pattern_m::seq.5::sequence" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"pattern::pattern_m::seq.5::steps" : [ 8 ],
+					"pattern::pattern_m::seq.5::solomute" : [ 0 ],
+					"pattern::pattern_m::seq.5::mute" : [ 0 ],
+					"pattern::pattern_m::seq.5::solo" : [ 0 ],
+					"pattern::pattern_m::seq.6::sequence" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"pattern::pattern_m::seq.6::steps" : [ 8 ],
+					"pattern::pattern_m::seq.6::solomute" : [ 0 ],
+					"pattern::pattern_m::seq.6::mute" : [ 0 ],
+					"pattern::pattern_m::seq.6::solo" : [ 0 ],
+					"pattern::pattern_m::seq.7::sequence" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"pattern::pattern_m::seq.7::steps" : [ 8 ],
+					"pattern::pattern_m::seq.7::solomute" : [ 0 ],
+					"pattern::pattern_m::seq.7::mute" : [ 0 ],
+					"pattern::pattern_m::seq.7::solo" : [ 0 ],
+					"pattern::pattern_m::seq.8::sequence" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+					"pattern::pattern_m::seq.8::steps" : [ 8 ],
+					"pattern::pattern_m::seq.8::solomute" : [ 0 ],
+					"pattern::pattern_m::seq.8::mute" : [ 0 ],
+					"pattern::pattern_m::seq.8::solo" : [ 0 ],
+					"8seq::8seq-presets" : [ -1 ],
+					"8seq::8seq_m::seq.1::sequence/scaled" : [ 77.0 ],
+					"8seq::8seq_m::seq.1::steps" : [ 1.0 ],
+					"8seq::8seq_m::seq.1::scale/hi" : [ 127.0 ],
+					"8seq::8seq_m::seq.1::scale/lo" : [ 1.0 ],
+					"8seq::8seq_m::seq.1::round" : [ 1.0 ],
+					"8seq::8seq_m::seq.1::offset" : [ 0.0 ],
+					"8seq::8seq_m::seq.1::sequence/raw" : [ 0.6 ],
+					"8seq::8seq_m::seq.2::sequence/scaled" : [ 104.0 ],
+					"8seq::8seq_m::seq.2::steps" : [ 1.0 ],
+					"8seq::8seq_m::seq.2::scale/hi" : [ 127.0 ],
+					"8seq::8seq_m::seq.2::scale/lo" : [ 1.0 ],
+					"8seq::8seq_m::seq.2::round" : [ 1.0 ],
+					"8seq::8seq_m::seq.2::offset" : [ 0.0 ],
+					"8seq::8seq_m::seq.2::sequence/raw" : [ 0.82 ],
+					"8seq::8seq_m::seq.3::sequence/scaled" : [ 0 ],
+					"8seq::8seq_m::seq.3::steps" : [ 8 ],
+					"8seq::8seq_m::seq.3::scale/hi" : [ 127.0 ],
+					"8seq::8seq_m::seq.3::scale/lo" : [ 1.0 ],
+					"8seq::8seq_m::seq.3::round" : [ 1.0 ],
+					"8seq::8seq_m::seq.3::offset" : [ 0.0 ],
+					"8seq::8seq_m::seq.3::sequence/raw" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"8seq::8seq_m::seq.4::sequence/scaled" : [ 0 ],
+					"8seq::8seq_m::seq.4::steps" : [ 8 ],
+					"8seq::8seq_m::seq.4::scale/hi" : [ 127.0 ],
+					"8seq::8seq_m::seq.4::scale/lo" : [ 1.0 ],
+					"8seq::8seq_m::seq.4::round" : [ 1.0 ],
+					"8seq::8seq_m::seq.4::offset" : [ 0.0 ],
+					"8seq::8seq_m::seq.4::sequence/raw" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"8seq::8seq_m::seq.5::sequence/scaled" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
+					"8seq::8seq_m::seq.5::steps" : [ 8 ],
+					"8seq::8seq_m::seq.5::scale/hi" : [ 127.0 ],
+					"8seq::8seq_m::seq.5::scale/lo" : [ 1.0 ],
+					"8seq::8seq_m::seq.5::round" : [ 1.0 ],
+					"8seq::8seq_m::seq.5::offset" : [ 0.0 ],
+					"8seq::8seq_m::seq.5::sequence/raw" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"8seq::8seq_m::seq.6::sequence/scaled" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
+					"8seq::8seq_m::seq.6::steps" : [ 8 ],
+					"8seq::8seq_m::seq.6::scale/hi" : [ 127.0 ],
+					"8seq::8seq_m::seq.6::scale/lo" : [ 1.0 ],
+					"8seq::8seq_m::seq.6::round" : [ 1.0 ],
+					"8seq::8seq_m::seq.6::offset" : [ 0.0 ],
+					"8seq::8seq_m::seq.6::sequence/raw" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"8seq::8seq_m::seq.7::sequence/scaled" : [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
+					"8seq::8seq_m::seq.7::steps" : [ 8 ],
+					"8seq::8seq_m::seq.7::scale/hi" : [ 127.0 ],
+					"8seq::8seq_m::seq.7::scale/lo" : [ 1.0 ],
+					"8seq::8seq_m::seq.7::round" : [ 1.0 ],
+					"8seq::8seq_m::seq.7::offset" : [ 0.0 ],
+					"8seq::8seq_m::seq.7::sequence/raw" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"8seq::8seq_m::seq.8::sequence/scaled" : [ 0.0, 1.0, 2.0 ],
+					"8seq::8seq_m::seq.8::steps" : [ 3.0 ],
+					"8seq::8seq_m::seq.8::scale/hi" : [ 3.0 ],
+					"8seq::8seq_m::seq.8::scale/lo" : [ 0.0 ],
+					"8seq::8seq_m::seq.8::round" : [ 1.0 ],
+					"8seq::8seq_m::seq.8::offset" : [ 0.0 ],
+					"8seq::8seq_m::seq.8::sequence/raw" : [ 0.0, 0.246153807640076, 0.592307665348053 ],
+					"bar::bar-presets" : [ -1 ],
+					"bar::bar_m::running" : [ 1 ],
+					"bar::bar_m::tempo" : [ 120.0 ],
+					"bar::bar_m::quantum" : [ 4 ],
+					"bar::bar_m::jumpto" : [ 0.0 ],
+					"mtx2::mtx2-presets" : [ -1 ],
+					"mtx2::mtx2_m::routing" : [ 						{
+							"numins" : 8,
+							"numouts" : 8,
+							"exclusive" : 0,
+							"offset" : 0,
+							"enablegain" : 1,
+							"ramptime" : 0.0,
+							"connections" : [ 								{
+									"in" : 0,
+									"out" : 0,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 1,
+									"out" : 1,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 2,
+									"out" : 2,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 3,
+									"out" : 3,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 4,
+									"out" : 4,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 5,
+									"out" : 5,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 6,
+									"out" : 6,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 7,
+									"out" : 7,
+									"gain" : 1.0
+								}
+ ]
+						}
+ ],
+					"mtx2::mtx2_m::routing-msg" : [ "set", 7, 7, 1.0 ],
+					"mtx2::mtx2_m::initial-routing" : [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7 ],
+					"mtx::mtx-presets" : [ -1 ],
+					"mtx::mtx_m::routing" : [ 						{
+							"numins" : 8,
+							"numouts" : 8,
+							"exclusive" : 0,
+							"offset" : 0,
+							"enablegain" : 1,
+							"ramptime" : 0.0,
+							"connections" : [ 								{
+									"in" : 0,
+									"out" : 0,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 1,
+									"out" : 1,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 2,
+									"out" : 2,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 3,
+									"out" : 3,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 4,
+									"out" : 4,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 5,
+									"out" : 5,
+									"gain" : 1.0
+								}
+, 								{
+									"in" : 6,
+									"out" : 6,
+									"gain" : 1.0
+								}
+ ]
+						}
+ ],
+					"mtx::mtx_m::routing-msg" : [ "set", 6, 6, 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
