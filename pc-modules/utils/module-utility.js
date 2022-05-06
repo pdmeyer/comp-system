@@ -66,6 +66,7 @@ function bang() {
 function setvarnames() {
     if(module) module.box.varname = moduleName;
     if(model) model.varname = "model";
+    if(module.box.varnamd != moduleName) moduleName = module.box.varname;
     arguments.callee.task.freepeer();
 }
 
