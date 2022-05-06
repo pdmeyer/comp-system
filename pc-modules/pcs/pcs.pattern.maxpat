@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 55.0, 131.0, 539.0, 635.0 ],
+		"rect" : [ 55.0, 131.0, 558.0, 635.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -83,7 +83,7 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal", "dictionary" ],
 					"patching_rect" : [ 8.0, 166.0, 145.0, 22.0 ],
 					"text" : "pcs.pattern.model #1",
-					"varname" : "pattern_m"
+					"varname" : "model"
 				}
 
 			}
@@ -126,14 +126,14 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"pattern_m::seq.1::solomute" : 0,
-						"pattern_m::seq.2::solomute" : 0,
-						"pattern_m::seq.3::solomute" : 0,
-						"pattern_m::seq.4::solomute" : 0,
-						"pattern_m::seq.5::solomute" : 0,
-						"pattern_m::seq.6::solomute" : 0,
-						"pattern_m::seq.7::solomute" : 0,
-						"pattern_m::seq.8::solomute" : 0
+						"model::seq.1::solomute" : 0,
+						"model::seq.2::solomute" : 0,
+						"model::seq.3::solomute" : 0,
+						"model::seq.4::solomute" : 0,
+						"model::seq.5::solomute" : 0,
+						"model::seq.6::solomute" : 0,
+						"model::seq.7::solomute" : 0,
+						"model::seq.8::solomute" : 0
 					}
 ,
 					"id" : "obj-3",
@@ -143,29 +143,29 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 295.0, 70.400390625, 237.0, 22.0 ],
 					"priority" : 					{
-						"pattern_m::seq.1::mute" : 1,
-						"pattern_m::seq.1::solo" : 1,
-						"pattern_m::seq.2::mute" : 1,
-						"pattern_m::seq.2::solo" : 1,
-						"pattern_m::seq.3::mute" : 1,
-						"pattern_m::seq.3::solo" : 1,
-						"pattern_m::seq.4::mute" : 1,
-						"pattern_m::seq.4::solo" : 1,
-						"pattern_m::seq.5::mute" : 1,
-						"pattern_m::seq.5::solo" : 1,
-						"pattern_m::seq.6::mute" : 1,
-						"pattern_m::seq.6::solo" : 1,
-						"pattern_m::seq.7::mute" : 1,
-						"pattern_m::seq.7::solo" : 1,
-						"pattern_m::seq.8::mute" : 1,
-						"pattern_m::seq.8::solo" : 1
+						"model::seq.1::mute" : 1,
+						"model::seq.1::solo" : 1,
+						"model::seq.2::mute" : 1,
+						"model::seq.2::solo" : 1,
+						"model::seq.3::mute" : 1,
+						"model::seq.3::solo" : 1,
+						"model::seq.4::mute" : 1,
+						"model::seq.4::solo" : 1,
+						"model::seq.5::mute" : 1,
+						"model::seq.5::solo" : 1,
+						"model::seq.6::mute" : 1,
+						"model::seq.6::solo" : 1,
+						"model::seq.7::mute" : 1,
+						"model::seq.7::solo" : 1,
+						"model::seq.8::mute" : 1,
+						"model::seq.8::solo" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 87, 445, 384 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1034, 215 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage #1-presets @savemode 0",
