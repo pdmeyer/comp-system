@@ -65,7 +65,7 @@ function bang() {
 
 function setvarnames() {
     if(module) module.box.varname = moduleName;
-    if(model) model.varname = moduleName+"_m";
+    if(model) model.varname = "model";
     arguments.callee.task.freepeer();
 }
 
@@ -92,7 +92,7 @@ function senddata() {
 */
 function send(param) {
     if(!composition) loadbang();
-    address = moduleName+"::"+moduleName+"_m::"+param;
+    address = moduleName+"::model::"+param;
     composition.newdefault(module.box.rect[0],module.box.rect[3]+5,"pattr", "@bindto", address, "@invisible", 1);
 };
 
