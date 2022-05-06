@@ -129,7 +129,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 50.0, 287.25, 165.537735849056588, 22.0 ],
+					"patching_rect" : [ 50.0, 282.25, 165.537735849056588, 22.0 ],
 					"text" : "spray 8 1"
 				}
 
@@ -226,7 +226,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 137.0, 18.0, 30.0, 30.0 ]
 				}
 
@@ -239,7 +239,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 99.0, 18.0, 30.0, 30.0 ]
 				}
 
