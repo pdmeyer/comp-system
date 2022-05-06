@@ -119,21 +119,21 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal", "dictionary" ],
 					"patching_rect" : [ 24.0, 133.0, 122.0, 22.0 ],
 					"text" : "pcs.8seq.model #1",
-					"varname" : "8seq_m"
+					"varname" : "model"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"8seq_m::seq.1::sequence/scaled" : 0,
-						"8seq_m::seq.2::sequence/scaled" : 0,
-						"8seq_m::seq.3::sequence/scaled" : 0,
-						"8seq_m::seq.4::sequence/scaled" : 0,
-						"8seq_m::seq.5::sequence/scaled" : 0,
-						"8seq_m::seq.6::sequence/scaled" : 0,
-						"8seq_m::seq.7::sequence/scaled" : 0,
-						"8seq_m::seq.8::sequence/scaled" : 0
+						"model::seq.1::sequence/scaled" : 0,
+						"model::seq.2::sequence/scaled" : 0,
+						"model::seq.3::sequence/scaled" : 0,
+						"model::seq.4::sequence/scaled" : 0,
+						"model::seq.5::sequence/scaled" : 0,
+						"model::seq.6::sequence/scaled" : 0,
+						"model::seq.7::sequence/scaled" : 0,
+						"model::seq.8::sequence/scaled" : 0
 					}
 ,
 					"id" : "obj-2",
@@ -143,21 +143,21 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 270.0, 56.357421875, 226.0, 22.0 ],
 					"priority" : 					{
-						"8seq_m::seq.1::sequence/raw" : 1,
-						"8seq_m::seq.2::sequence/raw" : 1,
-						"8seq_m::seq.3::sequence/raw" : 1,
-						"8seq_m::seq.4::sequence/raw" : 1,
-						"8seq_m::seq.5::sequence/raw" : 1,
-						"8seq_m::seq.6::sequence/raw" : 1,
-						"8seq_m::seq.7::sequence/raw" : 1,
-						"8seq_m::seq.8::sequence/raw" : 1
+						"model::seq.1::sequence/raw" : 1,
+						"model::seq.2::sequence/raw" : 1,
+						"model::seq.3::sequence/raw" : 1,
+						"model::seq.4::sequence/raw" : 1,
+						"model::seq.5::sequence/raw" : 1,
+						"model::seq.6::sequence/raw" : 1,
+						"model::seq.7::sequence/raw" : 1,
+						"model::seq.8::sequence/raw" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 445, 384 ],
+						"client_rect" : [ 534, 298, 1279, 875 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1034, 215 ]
+						"storage_rect" : [ 583, 87, 1081, 651 ]
 					}
 ,
 					"text" : "pattrstorage #1-presets @savemode 0",
