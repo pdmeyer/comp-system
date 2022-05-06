@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 514.0, 87.0, 795.0, 662.0 ],
+		"rect" : [ 451.0, 87.0, 795.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -108,6 +108,7 @@
 						"style" : "",
 						"subpatcher_template" : "dark-bg",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-21",
@@ -187,7 +188,7 @@
 									"numinlets" : 8,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 309.250000000000057, 389.0, 114.0, 22.0 ],
+									"patching_rect" : [ 309.250000000000057, 388.0, 114.0, 22.0 ],
 									"text" : "mcs.sig~ @chans 8"
 								}
 
@@ -199,7 +200,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 309.250000000000057, 336.0, 114.0, 22.0 ],
+									"patching_rect" : [ 309.250000000000057, 335.0, 114.0, 22.0 ],
 									"text" : "join @triggers 1"
 								}
 
