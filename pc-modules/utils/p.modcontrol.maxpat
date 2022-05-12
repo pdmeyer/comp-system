@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 322.0, 201.0, 641.0, 405.0 ],
+		"rect" : [ 320.0, 124.0, 588.0, 378.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,32 @@
 		"subpatcher_template" : "dark-bg",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "live.button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 400.547619047618696, 18.0, 15.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 167.547619047618696, 3.5, 15.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_longname" : "live.button",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.button",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "live.button"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
@@ -1834,8 +1860,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 31.0, 455.0, 58.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.5, 185.21484375, 24.0 ],
-					"text" : "pattern",
+					"presentation_rect" : [ 1.0, 1.5, 163.21484375, 24.0 ],
+					"text" : "1e1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2076,6 +2102,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 2 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
