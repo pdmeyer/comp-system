@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "multichannelsignal", "", "" ],
-					"patching_rect" : [ 83.166666666666615, 218.0, 118.0, 22.0 ],
+					"patching_rect" : [ 83.166666666666615, 207.0, 118.0, 22.0 ],
 					"text" : "mc.what~ @chans 8"
 				}
 
@@ -702,8 +702,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "multichannelsignal", "multichannelsignal", "dictionary" ],
-					"patching_rect" : [ 15.749999999999943, 191.0, 130.0, 22.0 ],
-					"text" : "mc.pattern~ @chans 8"
+					"patching_rect" : [ 15.749999999999943, 176.0, 205.0, 22.0 ],
+					"text" : "mc.pattern~ @chans 8 @individual 1"
 				}
 
 			}
@@ -754,7 +754,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 126.749999999999943, 261.0, 30.0, 30.0 ]
+					"patching_rect" : [ 201.749999999999943, 246.0, 30.0, 30.0 ]
 				}
 
 			}
