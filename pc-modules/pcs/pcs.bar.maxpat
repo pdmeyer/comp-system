@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 781.0, 600.0 ],
+		"rect" : [ 34.0, 111.0, 1175.0, 655.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,8 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"asdf_m::jumpto" : 0
+						"b1_m::jumpto" : 0,
+						"model::jumpto" : 0
 					}
 ,
 					"autorestore" : "pc.phasor.presets.json",
@@ -74,7 +75,7 @@
 					}
 ,
 					"text" : "pattrstorage #1-presets @savemode 0",
-					"varname" : "asdf-presets"
+					"varname" : "b1-presets"
 				}
 
 			}
@@ -135,8 +136,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "int", "" ],
 					"patching_rect" : [ 11.5, 212.5, 177.0, 22.0 ],
-					"text" : "pc.phasor.model #1",
-					"varname" : "#1_m"
+					"text" : "pcs.bar.model #1",
+					"varname" : "b1_m"
 				}
 
 			}
